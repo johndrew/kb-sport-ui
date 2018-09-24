@@ -1,0 +1,12 @@
+.rankingDemoScreen__container {
+  width: 50%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.rankingDemoScreen__detailsContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  grid-column-gap: 10px;
+}

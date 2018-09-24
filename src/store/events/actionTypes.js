@@ -1,1 +1,2 @@
+export const LIFTER_DATA_ADDED = 'events.LIFTER_DATA_ADDED';
 export const RANKING_RETRIEVED = 'events.RANKING_RETRIEVED';
