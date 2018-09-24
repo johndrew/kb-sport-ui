@@ -11,9 +11,7 @@ const tmpGetRanking = async ({ gender } = {}) => {
 
 class RankingService {
   async getRanking(params) {
-    console.log('------------------------------------');
-    console.log(params);
-    console.log('------------------------------------');
+    console.info('REQUEST', params);
     return tmpGetRanking(params);
   }
 }

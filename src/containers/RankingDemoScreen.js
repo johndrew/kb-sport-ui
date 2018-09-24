@@ -3,7 +3,12 @@ import { connect } from 'react-redux';
 import * as eventsSelectors from '../store/events/reducer';
 import * as eventsActions from '../store/events/actions';
 import './RankingDemoScreen.css';
-import Input from '../components/Input';
+import Repetitions from '../components/Repetitions';
+import WeightClass from '../components/WeightClass';
+import Duration from '../components/Duration';
+import KettlebellWeight from '../components/KettlebellWeight';
+import Gender from '../components/Gender';
+import EventType from '../components/EventType';
 
 class RankingDemoScreen extends Component {
   componentDidMount() {
@@ -19,28 +24,28 @@ class RankingDemoScreen extends Component {
               className="rankingDemoScreen__header--lifterDetails">
               Enter Lifter Details
           </h3>
-            <Input
+            <Gender
               label="Gender"
-              inputChanged={this.handleInput.bind(this, 'gender')} />
-            <Input
+              optionChanged={this.handleInput.bind(this, 'gender')} />
+            <WeightClass
               label="WeightClass"
-              inputChanged={this.handleInput.bind(this, 'weightCategory')} />
+              optionChanged={this.handleInput.bind(this, 'weightCategory')} />
           </div>
           <div className="rankingDemoScreen__lifterResultsContainer">
             <h3
               className="rankingDemoScreen__header--lifterDetails">
               Enter Lifter Results
           </h3>
-            <Input
+            <KettlebellWeight
               label="KettlebellWeight"
-              inputChanged={this.handleInput.bind(this, 'kettlebellWeight')} />
-            <Input
+              optionChanged={this.handleInput.bind(this, 'kettlebellWeight')} />
+            <EventType
               label="Event"
-              inputChanged={this.handleInput.bind(this, 'eventType')} />
-            <Input
+              optionChanged={this.handleInput.bind(this, 'eventType')} />
+            <Duration
               label="Duration"
-              inputChanged={this.handleInput.bind(this, 'duration')} />
-            <Input
+              optionChanged={this.handleInput.bind(this, 'duration')} />
+            <Repetitions
               label="Total Repetitions"
               inputChanged={this.handleInput.bind(this, 'repetitions')} />
           </div>

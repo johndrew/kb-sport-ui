@@ -7,10 +7,6 @@ export function setLifterData(field, value) {
     const data = {
       [field]: value,
     };
-    console.log('------------------------------------');
-    console.log(data);
-    console.log('------------------------------------');
-
     dispatch({ type: types.LIFTER_DATA_ADDED, data });
   };
 }
