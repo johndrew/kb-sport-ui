@@ -11,10 +11,6 @@ import Gender from '../components/Gender';
 import EventType from '../components/EventType';
 
 class RankingDemoScreen extends Component {
-  componentDidMount() {
-    this.props.dispatch(eventsActions.getRanking());
-  }
-
   render() {
     return (
       <div className="rankingDemoScreen__container">
@@ -55,8 +51,15 @@ class RankingDemoScreen extends Component {
           onClick={this.getRanking.bind(this)}>
           Get Ranking
           </button>
+
+        {this.props.loading &&
+          <p>Loading ...</p>
+        }
         {this.props.ranking && 
-          <p>Ranking {this.props.ranking}</p>
+          <p className="rankingDemoScreen__ranking">Ranking {this.props.ranking}</p>
+        }
+        {this.props.rankingRequestError &&
+          <p className="rankingDemoScreen__errorMessage">{this.props.rankingRequestError}</p>
         }
       </div>
     );
@@ -74,6 +77,8 @@ class RankingDemoScreen extends Component {
 function mapStateToProps(state) {
   return {
     ranking: eventsSelectors.getRanking(state),
+    rankingRequestError: eventsSelectors.getRankingError(state),
+    loading: eventsSelectors.hasRankingRequestBeenMade(state),
   };
 }
 

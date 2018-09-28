@@ -15,11 +15,17 @@ export function getRanking() {
   return async (dispatch, getState) => {
     try {
       const params = eventSelectors.getLifterParams(getState()).toJS();
+
+      dispatch({ type: types.RANKING_REQUEST_STARTED });
       const ranking = await rankingService.getRanking(params);
 
-      dispatch({ type: types.RANKING_RETRIEVED, ranking });
+      if (ranking !== null) {
+        dispatch({ type: types.RANKING_RETRIEVED, ranking });
+      } else {
+        dispatch({ type: types.RANKING_NOT_FOUND });
+      }
     } catch (e) {
-      throw new Error('Could not get ranking');
+      dispatch({ type: types.RANKING_RETRIEVE_ERROR });
     }
   };
 }
