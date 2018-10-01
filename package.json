@@ -57,8 +57,7 @@
     "whatwg-fetch": "2.0.3"
   },
   "scripts": {
-    "copyAssets": "cp node_modules/getmdl-select/getmdl-select.min.js public/getmdl-select.min.js",
-    "start": "yarn copyAssets && node scripts/start.js",
+    "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
     "flow": "flow",
