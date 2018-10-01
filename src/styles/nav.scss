@@ -1,0 +1,26 @@
+@import './_variables.scss';
+
+// Navbar Base Styles
+
+.navbar {
+  float: left;
+  width: 100%;
+}
+
+.navbar:before,
+.navbar:after {
+  content: " ";
+  display: table;
+}
+
+.navbar__container {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  float: left;
+  width: 100%; 
+  @media #{$medium} {
+      width: auto;
+  }
+}

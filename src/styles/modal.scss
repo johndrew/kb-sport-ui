@@ -1,0 +1,42 @@
+@import './_variables.scss';
+@import './button.scss';
+
+// Modal Base Styles
+
+// this hides the mobile-menu options for the modal menu
+.modal .navbar__container.mobile {
+    display: none;
+}
+
+.modal__container {
+	margin-top: 100px;
+}
+
+// this is the overlay for the modal
+.modal__overlay {
+	color: blue;
+	background:rgba(255,255,255,0.94);
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index: 10;
+	margin-top: 0;
+
+	@media #{$medium} {
+		position: fixed;
+	}
+}
+
+.modal__anchor {
+	position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+	padding-right: 15px;
+
+	@media #{$medium} {
+		float: left;
+		width: 16.66666667%;
+	}
+}

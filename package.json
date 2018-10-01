@@ -4,7 +4,9 @@
   "private": true,
   "devDependencies": {
     "flow-bin": "^0.81.0",
-    "flow-typed": "^2.5.1"
+    "flow-typed": "^2.5.1",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0"
   },
   "dependencies": {
     "autoprefixer": "7.1.6",
@@ -29,6 +31,7 @@
     "extract-text-webpack-plugin": "3.0.2",
     "file-loader": "1.1.5",
     "fs-extra": "3.0.1",
+    "getmdl-select": "^2.0.1",
     "html-webpack-plugin": "2.29.0",
     "immutable": "^3.8.2",
     "jest": "20.0.4",
@@ -55,7 +58,8 @@
     "whatwg-fetch": "2.0.3"
   },
   "scripts": {
-    "start": "node scripts/start.js",
+    "copyAssets": "cp node_modules/getmdl-select/getmdl-select.min.js public/getmdl-select.min.js",
+    "start": "yarn copyAssets && node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
     "flow": "flow",

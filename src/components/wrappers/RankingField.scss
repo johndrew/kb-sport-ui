@@ -1,0 +1,8 @@
+@import '../../styles/deckTheBellsVariables.scss';
+
+.rankingField__container {
+  height: 50px;
+  label {
+    color: $darkGray;
+  }
+}

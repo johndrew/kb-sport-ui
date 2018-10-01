@@ -1,0 +1,8 @@
+@import '../../styles/deckTheBellsVariables.scss';
+
+.banner__container {
+  display: grid;
+  justify-content: center;
+  background-color: $red;
+  color: $white;
+}

@@ -1,0 +1,31 @@
+@import './_variables.scss';
+
+// Radio Base Styles
+
+.radio {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.radio label {
+  min-height: 20px;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.radio input[type="radio"] {
+  position: absolute;
+  margin-left: -20px;
+  margin-top: 4px \9;
+}
+
+.radio[disabled] {
+  cursor: not-allowed;
+}
+
+.radio[disabled] label {
+  cursor: not-allowed;
+}

@@ -1,0 +1,21 @@
+@import './grid.scss';
+@import './_variables.scss';
+
+// Anchor Base Styles
+
+.anchor {
+  text-decoration: none;
+}
+.anchor:hover,
+.anchor:focus {
+  text-decoration: underline;
+}
+.anchor:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+  border: 1px solid $color-focus;
+}
+
+.anchor[disabled] {
+  pointer-events: none;
+}

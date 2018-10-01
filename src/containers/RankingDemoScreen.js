@@ -2,24 +2,30 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import * as eventsSelectors from '../store/events/reducer';
 import * as eventsActions from '../store/events/actions';
-import './RankingDemoScreen.css';
-import Repetitions from '../components/Repetitions';
-import WeightClass from '../components/WeightClass';
-import Duration from '../components/Duration';
-import KettlebellWeight from '../components/KettlebellWeight';
-import Gender from '../components/Gender';
-import EventType from '../components/EventType';
+import Repetitions from '../components/rankingFields/Repetitions';
+import WeightClass from '../components/rankingFields/WeightClass';
+import Duration from '../components/rankingFields/Duration';
+import KettlebellWeight from '../components/rankingFields/KettlebellWeight';
+import Gender from '../components/rankingFields/Gender';
+import EventType from '../components/rankingFields/EventType';
+import Button from '../components/buildingBlocks/Button';
+import Banner from '../components/general/Banner';
+import Results from '../components/Results';
+import './RankingDemoScreen.scss';
 
 class RankingDemoScreen extends Component {
   render() {
     return (
       <div className="rankingDemoScreen__container">
+        <Banner>
+          <h1 className="rankingDemoScreen__header">Get Ranking Demo</h1>
+        </Banner>
         <div className="rankingDemoScreen__detailsContainer">
           <div className="rankingDemoScreen__lifterDetailsContainer">
             <h3
               className="rankingDemoScreen__header--lifterDetails">
               Enter Lifter Details
-          </h3>
+            </h3>
             <Gender
               label="Gender"
               optionChanged={this.handleInput.bind(this, 'gender')} />
@@ -31,7 +37,7 @@ class RankingDemoScreen extends Component {
             <h3
               className="rankingDemoScreen__header--lifterDetails">
               Enter Lifter Results
-          </h3>
+            </h3>
             <KettlebellWeight
               label="KettlebellWeight"
               optionChanged={this.handleInput.bind(this, 'kettlebellWeight')} />
@@ -45,22 +51,14 @@ class RankingDemoScreen extends Component {
               label="Total Repetitions"
               inputChanged={this.handleInput.bind(this, 'repetitions')} />
           </div>
+          <Button
+            className="rankingDemoScreen__submit"
+            clickHandler={this.getRanking.bind(this)}
+            label="Get Ranking" />
         </div>
-        <button
-          className="rankingDemoScreen__submit"
-          onClick={this.getRanking.bind(this)}>
-          Get Ranking
-          </button>
-
-        {this.props.loading &&
-          <p>Loading ...</p>
-        }
-        {this.props.ranking && 
-          <p className="rankingDemoScreen__ranking">Ranking {this.props.ranking}</p>
-        }
-        {this.props.rankingRequestError &&
-          <p className="rankingDemoScreen__errorMessage">{this.props.rankingRequestError}</p>
-        }
+        <div className="rankingDemoScreen__resultsContainer">
+          <Results {...this.props} />
+        </div>
       </div>
     );
   }

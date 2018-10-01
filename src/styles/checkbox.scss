@@ -1,0 +1,32 @@
+@import './grid.scss';
+
+// Checkbox Base Styles
+
+.checkbox {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.checkbox label {
+  min-height: 20px;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.checkbox input[type="checkbox"] {
+  position: absolute;
+  margin-left: -20px;
+  margin-top: 4px \9;
+}
+
+.checkbox[disabled] {
+  cursor: not-allowed;
+}
+
+.checkbox[disabled] label {
+  cursor: not-allowed;
+}

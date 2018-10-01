@@ -1,0 +1,13 @@
+@import '../../styles/input.scss';
+@import '../../styles/label.scss';
+@import '../../styles/deckTheBellsVariables.scss';
+
+.input__input {
+  // background-color: $darkGray;
+  border: 1px solid $darkGray;
+  margin: 15px 0px;
+}
+
+.input__label {
+  position: relative;
+}

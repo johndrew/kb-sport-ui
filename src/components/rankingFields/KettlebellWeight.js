@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import Dropdown from './buildingBlocks/Dropdown';
+import Dropdown from '../buildingBlocks/Dropdown';
+import RankingField from '../wrappers/RankingField';
+import '../../styles/label.scss';
 
 export default class KettlebellWeight extends Component {
   get kettlebellWeightTypes() {
@@ -16,12 +18,12 @@ export default class KettlebellWeight extends Component {
 
   render() {
     return (
-      <div className="kettlebellWeight__container">
-        <label>{this.props.label}</label>
+      <RankingField>
         <Dropdown
           options={this.kettlebellWeightTypes}
-          optionChanged={this.handleChange.bind(this)} />
-      </div>
+          optionChanged={this.handleChange.bind(this)}
+          {...this.props} />
+      </RankingField>
     )
   }
 

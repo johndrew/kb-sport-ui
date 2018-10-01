@@ -1,0 +1,29 @@
+@import '../styles/deckTheBellsVariables.scss';
+
+.rankingDemoScreen__container {
+  height: 100%;
+  background-color: $tan;
+}
+
+.rankingDemoScreen__detailsContainer,
+.rankingDemoScreen__resultsContainer {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  grid-column-gap: 10px;
+
+  h3 {
+    color: $darkGray;
+    font-size: 22px;
+    margin: 10px 0px;
+  }
+}
+
+.rankingDemoScreen__header {
+  color: $darkGray;
+  font-size: 42px;
+}
+
+.rankingDemoScreen__submit {
+  margin: 20px 0px;
+}

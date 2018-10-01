@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import Input from './buildingBlocks/Input';
+import Input from '../buildingBlocks/Input';
+import RankingField from '../wrappers/RankingField';
 
 export default class WeightClass extends Component {
   render() {
     return (
-      <div className="weightClass__container">
+      <RankingField>
         <Input label={this.props.label} inputChanged={this.handleChange.bind(this)} />
-      </div>
+      </RankingField>
     )
   }
 

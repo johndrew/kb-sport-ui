@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-// import './App.css';
+import './App.scss';
 import RankingDemoScreen from './containers/RankingDemoScreen';
 
 class App extends Component {

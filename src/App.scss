@@ -1,0 +1,12 @@
+@import './styles/html_elements.scss';
+
+html,
+body,
+#root,
+.App__container {
+  height: 100%;
+}
+
+html {
+  overflow: hidden;
+}

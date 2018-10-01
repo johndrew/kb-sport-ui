@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import Dropdown from './buildingBlocks/Dropdown';
+import Dropdown from '../buildingBlocks/Dropdown';
+import RankingField from '../wrappers/RankingField';
+import '../../styles/label.scss';
 
 export default class WeightClass extends Component {
   get weightClassTypes() {
@@ -22,10 +24,12 @@ export default class WeightClass extends Component {
 
   render() {
     return (
-      <div className="weightClass__container">
-        <label>{this.props.label}</label>
-        <Dropdown options={this.weightClassTypes} optionChanged={this.props.optionChanged} />
-      </div>
+      <RankingField>
+        <Dropdown
+          options={this.weightClassTypes}
+          optionChanged={this.props.optionChanged}
+          {...this.props} />
+      </RankingField>
     )
   }
 }

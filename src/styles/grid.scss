@@ -1,0 +1,81 @@
+@import './_variables.scss';
+
+// ALL Application Grid Base Styles
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @media #{$medium} {
+    width: 750px;
+  }
+  @media #{$large} {
+      width: 970px;
+    }
+  @media #{$xlarge} {
+    width: 1170px;
+  }
+}
+
+.container:before,
+.row:before {
+    content: " ";
+    display: table;
+}
+
+.container:after,
+.row:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.center-element {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+
+.row:after {
+  clear: both;
+}
+
+.container:before,
+.container:after {
+	content: " ";
+	display: table;
+}
+
+.container:after {
+	clear: both;
+}
+
+.col__container {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
