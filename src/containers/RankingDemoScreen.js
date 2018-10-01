@@ -51,13 +51,13 @@ class RankingDemoScreen extends Component {
               label="Total Repetitions"
               inputChanged={this.handleInput.bind(this, 'repetitions')} />
           </div>
+        </div>
+        <div className="rankingDemoScreen__resultsContainer">
           <Button
             className="rankingDemoScreen__submit"
             clickHandler={this.getRanking.bind(this)}
             label="Get Ranking" />
-        </div>
-        <div className="rankingDemoScreen__resultsContainer">
-          <Results {...this.props} />
+          <Results className="rankingDemoScreen__result" {...this.props} />
         </div>
       </div>
     );

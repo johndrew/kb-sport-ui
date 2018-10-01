@@ -1,1 +1,22 @@
 @import '../../styles/select.scss';
+@import '../../styles/deckTheBellsVariables.scss';
+
+.dropdown__container {
+  position: relative;
+}
+
+.dropdown__select {
+  background-color: transparent;
+  border: none;
+  border-bottom: solid 1px $black;
+  width: 100%;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.dropdown__downIcon {
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  background-color: $tan;
+}

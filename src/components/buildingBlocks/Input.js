@@ -4,17 +4,17 @@ import './Input.scss';
 export default class Input extends Component {
   render() {
     return (
-      <div className={`input__container--${this.props.label}`}>
-        <label
-          className="mdl-textfield__label input__label">
-          {/* className={`label input__label--${this.props.label}`}> */}
-          {this.props.label}
-          </label>
+      <div className={`mdl-textfield mdl-js-textfield mdl-textfield--floating-label input__container--${this.props.label}`}>
         <input
+          id={this.props.label}
           className={`mdl-textfield__input input__input input__input--${this.props.label}`}
-          // className={`input__input--${this.props.label} input`}
           type="text"
           onChange={this.handleChange.bind(this)} />
+        <label
+          className="mdl-textfield__label input__label"
+          for={this.props.label}>
+          {this.props.label}
+        </label>
       </div>
     )
   }
