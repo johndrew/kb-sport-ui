@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "flow-bin": "^0.81.0",
-    "flow-typed": "^2.5.1"
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0"
   },
   "dependencies": {
     "autoprefixer": "7.1.6",

@@ -1,0 +1,10 @@
+@import 'common.scss';
+
+.app__container {
+  background-color: $backgroundPrimary;
+  height: 80%;
+}
+
+.app__footer {
+  background-color: $backgroundSecondary;
+}

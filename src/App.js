@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-// import './App.css';
-import RankingDemoScreen from './containers/RankingDemoScreen';
+import './App.scss';
 
 class App extends Component {
   render() {
     return (
-      <div className="App__container">
-        <RankingDemoScreen />
+      <div className="app__container">
+        <div className="app__content"></div>
+        <div className="app__footer"></div>
       </div>
     );
   }
