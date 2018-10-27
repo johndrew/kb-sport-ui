@@ -7,8 +7,13 @@
 .app__title {
   text-align: center;
   color: $textPrimary;
-  padding: 21px;
+  margin-top: 0px;
+  padding-top: 21px;
   text-decoration: underline;
+
+  @media (min-width: $large) {
+    font-size: $titleLarge;
+  }
 }
 
 .app__content {

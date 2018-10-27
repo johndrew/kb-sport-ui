@@ -1,0 +1,10 @@
+@import '../../../common.scss';
+
+.icon__container {
+    @media (min-width: $large) {
+        border: 2px solid $tan;
+        width: 300px;
+        height: 300px;
+        border-radius: 0px 30px;
+    }
+}
