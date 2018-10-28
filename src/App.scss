@@ -1,5 +1,10 @@
 @import 'common.scss';
 
+.app__container,
+.app__content {
+  width: 100%;
+}
+
 .app__container {
   height: 100%;
 }

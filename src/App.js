@@ -1,15 +1,20 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import './App.scss';
-import Icon from './components/presentational/Icon/Icon';
+// import Icon from './components/presentational/Icon/Icon';
+import EventsScreen from './containers/EventsScreen/EventsScreen';
 
-class App extends Component {
+export default class App extends Component {
+// class App extends Component {
+
   render() {
+
     return (
       <div className="app__container">
         <div className="app__content">
           <h1 className="app__title">Deck the Bells</h1>
-          <Icon />
+          {/* <Icon /> */}
+          <EventsScreen />
         </div>
         <div className="app__footer"></div>
       </div>
@@ -17,8 +22,9 @@ class App extends Component {
   }
 }
 
-function mapStateToProps(state) {
-  return {};
-}
+// function mapStateToProps(state) {
 
-export default connect(mapStateToProps)(App);
+//   return {};
+// }
+
+// export default connect(mapStateToProps)(App);

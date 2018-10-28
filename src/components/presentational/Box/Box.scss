@@ -1,0 +1,11 @@
+@import '../../../common.scss';
+
+$dimension: 200px;
+
+.box__container {
+    width: $dimension;
+    height: $dimension;
+    background-color: $darkGray;
+    position: relative;
+    color: $tan;
+}

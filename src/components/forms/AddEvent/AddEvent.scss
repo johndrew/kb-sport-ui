@@ -1,0 +1,23 @@
+@import '../../../common.scss';
+
+.addEvent__container {
+    display: grid;
+    width: 50%;
+    margin: 30% auto 0px auto;
+}
+
+.addEvent__dropdownContainer {
+    display: grid;
+    grid-template-columns: 25% auto;
+}
+
+.addEvent__closeButton {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.addEvent__label,
+.addEvent__closeButton {
+    color: $tan;
+}
