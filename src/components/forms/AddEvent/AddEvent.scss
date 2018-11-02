@@ -11,13 +11,6 @@
     grid-template-columns: 25% auto;
 }
 
-.addEvent__closeButton {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-}
-
-.addEvent__label,
-.addEvent__closeButton {
+.addEvent__label{
     color: $tan;
 }

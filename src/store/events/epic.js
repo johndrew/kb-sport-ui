@@ -1,5 +1,5 @@
 import { ajax } from 'rxjs/ajax';
-import { map, mergeMap } from 'rxjs/operators';
+import { map, mergeMap, switchMap } from 'rxjs/operators';
 import { timer } from 'rxjs';
 import { ofType } from 'redux-observable';
 import * as types from './actionTypes';
@@ -14,10 +14,14 @@ export function fetchEvents(action$, state$) {
 
   return action$.pipe(
     ofType(types.FETCH_EVENTS),
-    mergeMap(action =>
-      ajax.getJSON(URL).pipe(
-        map(response => fetchEventsFulfilled(response))
+    switchMap(params => {
+      return timer(0, 1000).pipe(
+        mergeMap(action =>
+          ajax.getJSON(URL).pipe(
+            map(response => fetchEventsFulfilled(response))
+          )
+        )
       )
-    )
+    })
   );
 }

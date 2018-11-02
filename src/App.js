@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
 import './App.scss';
 // import Icon from './components/presentational/Icon/Icon';
 import EventsScreen from './containers/EventsScreen/EventsScreen';
 
 export default class App extends Component {
-// class App extends Component {
 
   render() {
 
@@ -21,10 +19,3 @@ export default class App extends Component {
     );
   }
 }
-
-// function mapStateToProps(state) {
-
-//   return {};
-// }
-
-// export default connect(mapStateToProps)(App);

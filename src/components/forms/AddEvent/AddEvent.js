@@ -23,11 +23,6 @@ export default class AddEvent extends Component {
 
         return (
             <div className="addEvent__container">
-                <span
-                    className="addEvent__closeButton"
-                    onClick={this.close}>
-                    X
-                </span>
                 <div className="addEvent__dropdownContainer">
                     <label className="addEvent__label">Event Type:</label>
                     <select
@@ -81,6 +76,6 @@ export default class AddEvent extends Component {
     addEvent() {
 
         eventsService.addEvent(this.state.type, this.state.duration);
-        this.props.closeModal();
+        this.close();
     }
 }

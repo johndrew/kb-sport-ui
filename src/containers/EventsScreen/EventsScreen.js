@@ -22,11 +22,6 @@ class EventsScreen extends Component {
     this.closeModal = this.closeModal.bind(this);
   }
 
-  componentDidMount() {
-
-    this.props.dispatch(eventActions.fetchEvents());
-  }
-
   render() {
 
     const events = this.props.events.map(event => <EventBox key={event.get('eventId')} event={event} />);
@@ -40,12 +35,18 @@ class EventsScreen extends Component {
             addClicked={this.openModal}/>
         </BoxCollection>
         <ModalWrapper
-          open={this.state.modalOpen}>
+          open={this.state.modalOpen}
+          closeModal={this.closeModal}>
           <AddEvent
-            closeModal={this.closeModal} />
+            closeModal={this.closeModal}/>
         </ModalWrapper>
       </div>
     );
+  }
+
+  componentDidMount() {
+
+    this.props.dispatch(eventActions.fetchEvents());
   }
 
   openModal() {

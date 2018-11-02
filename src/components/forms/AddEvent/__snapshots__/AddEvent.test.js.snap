@@ -90,11 +90,6 @@ ReactWrapper {
                   <div
                                     class="addEvent__container"
                   >
-                                    <span
-                                                      class="addEvent__closeButton"
-                                    >
-                                                      X
-                                    </span>
                                     <div
                                                       class="addEvent__dropdownContainer"
                                     >
@@ -264,11 +259,6 @@ ReactWrapper {
                 <div
                                 class="addEvent__container"
                 >
-                                <span
-                                                class="addEvent__closeButton"
-                                >
-                                                X
-                                </span>
                                 <div
                                                 class="addEvent__dropdownContainer"
                                 >
@@ -444,7 +434,358 @@ ReactWrapper {
             "actualDuration": 0,
             "actualStartTime": -1,
             "alternate": null,
-            "child": null,
+            "child": FiberNode {
+              "_debugID": 55,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
+                "lineNumber": 27,
+              },
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": null,
+              "childExpirationTime": 0,
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": "Event Type:",
+                "className": "addEvent__label",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": "Event Type:",
+                "className": "addEvent__label",
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": FiberNode {
+                "_debugID": 56,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
+                  "lineNumber": 28,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugID": 57,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
+                    "lineNumber": 31,
+                  },
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": "Select",
+                    "className": "addEvent__typeOption",
+                    "value": "",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": "Select",
+                    "className": "addEvent__typeOption",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": FiberNode {
+                    "_debugID": 58,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": Object {
+                      "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
+                      "lineNumber": 32,
+                    },
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 1,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": "Jerk",
+                      "className": "addEvent__typeOption",
+                      "value": "Jerk",
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": "Jerk",
+                      "className": "addEvent__typeOption",
+                      "value": "Jerk",
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": FiberNode {
+                      "_debugID": 59,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": Object {
+                        "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
+                        "lineNumber": 33,
+                      },
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": null,
+                      "child": null,
+                      "childExpirationTime": 0,
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstContextDependency": null,
+                      "firstEffect": null,
+                      "index": 2,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": "Long Cycle",
+                        "className": "addEvent__typeOption",
+                        "value": "Long Cycle",
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "children": "Long Cycle",
+                        "className": "addEvent__typeOption",
+                        "value": "Long Cycle",
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "selfBaseDuration": 0,
+                      "sibling": FiberNode {
+                        "_debugID": 60,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": [Circular],
+                        "_debugSource": Object {
+                          "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
+                          "lineNumber": 34,
+                        },
+                        "actualDuration": 0,
+                        "actualStartTime": -1,
+                        "alternate": null,
+                        "child": null,
+                        "childExpirationTime": 0,
+                        "effectTag": 0,
+                        "expirationTime": 0,
+                        "firstContextDependency": null,
+                        "firstEffect": null,
+                        "index": 3,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": Object {
+                          "children": "Snatch",
+                          "className": "addEvent__typeOption",
+                          "value": "Snatch",
+                        },
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": Object {
+                          "children": "Snatch",
+                          "className": "addEvent__typeOption",
+                          "value": "Snatch",
+                        },
+                        "ref": null,
+                        "return": [Circular],
+                        "selfBaseDuration": 0,
+                        "sibling": null,
+                        "stateNode": <option
+                          class="addEvent__typeOption"
+                          value="Snatch"
+>
+                          Snatch
+</option>,
+                        "tag": 7,
+                        "treeBaseDuration": 0,
+                        "type": "option",
+                        "updateQueue": null,
+                      },
+                      "stateNode": <option
+                        class="addEvent__typeOption"
+                        value="Long Cycle"
+>
+                        Long Cycle
+</option>,
+                      "tag": 7,
+                      "treeBaseDuration": 0,
+                      "type": "option",
+                      "updateQueue": null,
+                    },
+                    "stateNode": <option
+                      class="addEvent__typeOption"
+                      value="Jerk"
+>
+                      Jerk
+</option>,
+                    "tag": 7,
+                    "treeBaseDuration": 0,
+                    "type": "option",
+                    "updateQueue": null,
+                  },
+                  "stateNode": <option
+                    class="addEvent__typeOption"
+                    value=""
+>
+                    Select
+</option>,
+                  "tag": 7,
+                  "treeBaseDuration": 0,
+                  "type": "option",
+                  "updateQueue": null,
+                },
+                "childExpirationTime": 0,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 1,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": Array [
+                    <option
+                      className="addEvent__typeOption"
+                      value=""
+>
+                      Select
+</option>,
+                    <option
+                      className="addEvent__typeOption"
+                      value="Jerk"
+>
+                      Jerk
+</option>,
+                    <option
+                      className="addEvent__typeOption"
+                      value="Long Cycle"
+>
+                      Long Cycle
+</option>,
+                    <option
+                      className="addEvent__typeOption"
+                      value="Snatch"
+>
+                      Snatch
+</option>,
+                  ],
+                  "className": "addEvent__typeDropdown",
+                  "onChange": [Function],
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": Array [
+                    <option
+                      className="addEvent__typeOption"
+                      value=""
+>
+                      Select
+</option>,
+                    <option
+                      className="addEvent__typeOption"
+                      value="Jerk"
+>
+                      Jerk
+</option>,
+                    <option
+                      className="addEvent__typeOption"
+                      value="Long Cycle"
+>
+                      Long Cycle
+</option>,
+                    <option
+                      className="addEvent__typeOption"
+                      value="Snatch"
+>
+                      Snatch
+</option>,
+                  ],
+                  "className": "addEvent__typeDropdown",
+                  "onChange": [Function],
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": <select
+                  class="addEvent__typeDropdown"
+>
+                  <option
+                                    class="addEvent__typeOption"
+                                    value=""
+                  >
+                                    Select
+                  </option>
+                  <option
+                                    class="addEvent__typeOption"
+                                    value="Jerk"
+                  >
+                                    Jerk
+                  </option>
+                  <option
+                                    class="addEvent__typeOption"
+                                    value="Long Cycle"
+                  >
+                                    Long Cycle
+                  </option>
+                  <option
+                                    class="addEvent__typeOption"
+                                    value="Snatch"
+                  >
+                                    Snatch
+                  </option>
+</select>,
+                "tag": 7,
+                "treeBaseDuration": 0,
+                "type": "select",
+                "updateQueue": null,
+              },
+              "stateNode": <label
+                class="addEvent__label"
+>
+                Event Type:
+</label>,
+              "tag": 7,
+              "treeBaseDuration": 0,
+              "type": "label",
+              "updateQueue": null,
+            },
             "childExpirationTime": 0,
             "effectTag": 0,
             "expirationTime": 0,
@@ -454,17 +795,85 @@ ReactWrapper {
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
-              "children": "X",
-              "className": "addEvent__closeButton",
-              "onClick": [Function],
+              "children": Array [
+                <label
+                  className="addEvent__label"
+>
+                  Event Type:
+</label>,
+                <select
+                  className="addEvent__typeDropdown"
+                  onChange={[Function]}
+>
+                  <option
+                                    className="addEvent__typeOption"
+                                    value=""
+                  >
+                                    Select
+                  </option>
+                  <option
+                                    className="addEvent__typeOption"
+                                    value="Jerk"
+                  >
+                                    Jerk
+                  </option>
+                  <option
+                                    className="addEvent__typeOption"
+                                    value="Long Cycle"
+                  >
+                                    Long Cycle
+                  </option>
+                  <option
+                                    className="addEvent__typeOption"
+                                    value="Snatch"
+                  >
+                                    Snatch
+                  </option>
+</select>,
+              ],
+              "className": "addEvent__dropdownContainer",
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
-              "children": "X",
-              "className": "addEvent__closeButton",
-              "onClick": [Function],
+              "children": Array [
+                <label
+                  className="addEvent__label"
+>
+                  Event Type:
+</label>,
+                <select
+                  className="addEvent__typeDropdown"
+                  onChange={[Function]}
+>
+                  <option
+                                    className="addEvent__typeOption"
+                                    value=""
+                  >
+                                    Select
+                  </option>
+                  <option
+                                    className="addEvent__typeOption"
+                                    value="Jerk"
+                  >
+                                    Jerk
+                  </option>
+                  <option
+                                    className="addEvent__typeOption"
+                                    value="Long Cycle"
+                  >
+                                    Long Cycle
+                  </option>
+                  <option
+                                    className="addEvent__typeOption"
+                                    value="Snatch"
+                  >
+                                    Snatch
+                  </option>
+</select>,
+              ],
+              "className": "addEvent__dropdownContainer",
             },
             "ref": null,
             "return": [Circular],
@@ -475,18 +884,18 @@ ReactWrapper {
               "_debugOwner": [Circular],
               "_debugSource": Object {
                 "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                "lineNumber": 31,
+                "lineNumber": 37,
               },
               "actualDuration": 0,
               "actualStartTime": -1,
               "alternate": null,
               "child": FiberNode {
-                "_debugID": 56,
+                "_debugID": 61,
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
                   "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                  "lineNumber": 32,
+                  "lineNumber": 38,
                 },
                 "actualDuration": 0,
                 "actualStartTime": -1,
@@ -501,37 +910,37 @@ ReactWrapper {
                 "key": null,
                 "lastEffect": null,
                 "memoizedProps": Object {
-                  "children": "Event Type:",
+                  "children": "Event Duration:",
                   "className": "addEvent__label",
                 },
                 "memoizedState": null,
                 "mode": 0,
                 "nextEffect": null,
                 "pendingProps": Object {
-                  "children": "Event Type:",
+                  "children": "Event Duration:",
                   "className": "addEvent__label",
                 },
                 "ref": null,
                 "return": [Circular],
                 "selfBaseDuration": 0,
                 "sibling": FiberNode {
-                  "_debugID": 57,
+                  "_debugID": 62,
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
                     "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                    "lineNumber": 33,
+                    "lineNumber": 39,
                   },
                   "actualDuration": 0,
                   "actualStartTime": -1,
                   "alternate": null,
                   "child": FiberNode {
-                    "_debugID": 58,
+                    "_debugID": 63,
                     "_debugIsCurrentlyTiming": false,
                     "_debugOwner": [Circular],
                     "_debugSource": Object {
                       "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                      "lineNumber": 36,
+                      "lineNumber": 42,
                     },
                     "actualDuration": 0,
                     "actualStartTime": -1,
@@ -562,12 +971,12 @@ ReactWrapper {
                     "return": [Circular],
                     "selfBaseDuration": 0,
                     "sibling": FiberNode {
-                      "_debugID": 59,
+                      "_debugID": 64,
                       "_debugIsCurrentlyTiming": false,
                       "_debugOwner": [Circular],
                       "_debugSource": Object {
                         "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                        "lineNumber": 37,
+                        "lineNumber": 43,
                       },
                       "actualDuration": 0,
                       "actualStartTime": -1,
@@ -582,28 +991,28 @@ ReactWrapper {
                       "key": null,
                       "lastEffect": null,
                       "memoizedProps": Object {
-                        "children": "Jerk",
+                        "children": "5 Minutes",
                         "className": "addEvent__typeOption",
-                        "value": "Jerk",
+                        "value": "5min",
                       },
                       "memoizedState": null,
                       "mode": 0,
                       "nextEffect": null,
                       "pendingProps": Object {
-                        "children": "Jerk",
+                        "children": "5 Minutes",
                         "className": "addEvent__typeOption",
-                        "value": "Jerk",
+                        "value": "5min",
                       },
                       "ref": null,
                       "return": [Circular],
                       "selfBaseDuration": 0,
                       "sibling": FiberNode {
-                        "_debugID": 60,
+                        "_debugID": 65,
                         "_debugIsCurrentlyTiming": false,
                         "_debugOwner": [Circular],
                         "_debugSource": Object {
                           "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                          "lineNumber": 38,
+                          "lineNumber": 44,
                         },
                         "actualDuration": 0,
                         "actualStartTime": -1,
@@ -618,74 +1027,27 @@ ReactWrapper {
                         "key": null,
                         "lastEffect": null,
                         "memoizedProps": Object {
-                          "children": "Long Cycle",
+                          "children": "10 Minutes",
                           "className": "addEvent__typeOption",
-                          "value": "Long Cycle",
+                          "value": "10min",
                         },
                         "memoizedState": null,
                         "mode": 0,
                         "nextEffect": null,
                         "pendingProps": Object {
-                          "children": "Long Cycle",
+                          "children": "10 Minutes",
                           "className": "addEvent__typeOption",
-                          "value": "Long Cycle",
+                          "value": "10min",
                         },
                         "ref": null,
                         "return": [Circular],
                         "selfBaseDuration": 0,
-                        "sibling": FiberNode {
-                          "_debugID": 61,
-                          "_debugIsCurrentlyTiming": false,
-                          "_debugOwner": [Circular],
-                          "_debugSource": Object {
-                            "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                            "lineNumber": 39,
-                          },
-                          "actualDuration": 0,
-                          "actualStartTime": -1,
-                          "alternate": null,
-                          "child": null,
-                          "childExpirationTime": 0,
-                          "effectTag": 0,
-                          "expirationTime": 0,
-                          "firstContextDependency": null,
-                          "firstEffect": null,
-                          "index": 3,
-                          "key": null,
-                          "lastEffect": null,
-                          "memoizedProps": Object {
-                            "children": "Snatch",
-                            "className": "addEvent__typeOption",
-                            "value": "Snatch",
-                          },
-                          "memoizedState": null,
-                          "mode": 0,
-                          "nextEffect": null,
-                          "pendingProps": Object {
-                            "children": "Snatch",
-                            "className": "addEvent__typeOption",
-                            "value": "Snatch",
-                          },
-                          "ref": null,
-                          "return": [Circular],
-                          "selfBaseDuration": 0,
-                          "sibling": null,
-                          "stateNode": <option
-                            class="addEvent__typeOption"
-                            value="Snatch"
->
-                            Snatch
-</option>,
-                          "tag": 7,
-                          "treeBaseDuration": 0,
-                          "type": "option",
-                          "updateQueue": null,
-                        },
+                        "sibling": null,
                         "stateNode": <option
                           class="addEvent__typeOption"
-                          value="Long Cycle"
+                          value="10min"
 >
-                          Long Cycle
+                          10 Minutes
 </option>,
                         "tag": 7,
                         "treeBaseDuration": 0,
@@ -694,9 +1056,9 @@ ReactWrapper {
                       },
                       "stateNode": <option
                         class="addEvent__typeOption"
-                        value="Jerk"
+                        value="5min"
 >
-                        Jerk
+                        5 Minutes
 </option>,
                       "tag": 7,
                       "treeBaseDuration": 0,
@@ -732,24 +1094,18 @@ ReactWrapper {
 </option>,
                       <option
                         className="addEvent__typeOption"
-                        value="Jerk"
+                        value="5min"
 >
-                        Jerk
+                        5 Minutes
 </option>,
                       <option
                         className="addEvent__typeOption"
-                        value="Long Cycle"
+                        value="10min"
 >
-                        Long Cycle
-</option>,
-                      <option
-                        className="addEvent__typeOption"
-                        value="Snatch"
->
-                        Snatch
+                        10 Minutes
 </option>,
                     ],
-                    "className": "addEvent__typeDropdown",
+                    "className": "addEvent__durationDropdown",
                     "onChange": [Function],
                   },
                   "memoizedState": null,
@@ -765,24 +1121,18 @@ ReactWrapper {
 </option>,
                       <option
                         className="addEvent__typeOption"
-                        value="Jerk"
+                        value="5min"
 >
-                        Jerk
+                        5 Minutes
 </option>,
                       <option
                         className="addEvent__typeOption"
-                        value="Long Cycle"
+                        value="10min"
 >
-                        Long Cycle
-</option>,
-                      <option
-                        className="addEvent__typeOption"
-                        value="Snatch"
->
-                        Snatch
+                        10 Minutes
 </option>,
                     ],
-                    "className": "addEvent__typeDropdown",
+                    "className": "addEvent__durationDropdown",
                     "onChange": [Function],
                   },
                   "ref": null,
@@ -790,7 +1140,7 @@ ReactWrapper {
                   "selfBaseDuration": 0,
                   "sibling": null,
                   "stateNode": <select
-                    class="addEvent__typeDropdown"
+                    class="addEvent__durationDropdown"
 >
                     <option
                                         class="addEvent__typeOption"
@@ -800,21 +1150,15 @@ ReactWrapper {
                     </option>
                     <option
                                         class="addEvent__typeOption"
-                                        value="Jerk"
+                                        value="5min"
                     >
-                                        Jerk
+                                        5 Minutes
                     </option>
                     <option
                                         class="addEvent__typeOption"
-                                        value="Long Cycle"
+                                        value="10min"
                     >
-                                        Long Cycle
-                    </option>
-                    <option
-                                        class="addEvent__typeOption"
-                                        value="Snatch"
-                    >
-                                        Snatch
+                                        10 Minutes
                     </option>
 </select>,
                   "tag": 7,
@@ -825,7 +1169,7 @@ ReactWrapper {
                 "stateNode": <label
                   class="addEvent__label"
 >
-                  Event Type:
+                  Event Duration:
 </label>,
                 "tag": 7,
                 "treeBaseDuration": 0,
@@ -845,10 +1189,10 @@ ReactWrapper {
                   <label
                     className="addEvent__label"
 >
-                    Event Type:
+                    Event Duration:
 </label>,
                   <select
-                    className="addEvent__typeDropdown"
+                    className="addEvent__durationDropdown"
                     onChange={[Function]}
 >
                     <option
@@ -859,21 +1203,15 @@ ReactWrapper {
                     </option>
                     <option
                                         className="addEvent__typeOption"
-                                        value="Jerk"
+                                        value="5min"
                     >
-                                        Jerk
+                                        5 Minutes
                     </option>
                     <option
                                         className="addEvent__typeOption"
-                                        value="Long Cycle"
+                                        value="10min"
                     >
-                                        Long Cycle
-                    </option>
-                    <option
-                                        className="addEvent__typeOption"
-                                        value="Snatch"
-                    >
-                                        Snatch
+                                        10 Minutes
                     </option>
 </select>,
                 ],
@@ -887,10 +1225,10 @@ ReactWrapper {
                   <label
                     className="addEvent__label"
 >
-                    Event Type:
+                    Event Duration:
 </label>,
                   <select
-                    className="addEvent__typeDropdown"
+                    className="addEvent__durationDropdown"
                     onChange={[Function]}
 >
                     <option
@@ -901,21 +1239,15 @@ ReactWrapper {
                     </option>
                     <option
                                         className="addEvent__typeOption"
-                                        value="Jerk"
+                                        value="5min"
                     >
-                                        Jerk
+                                        5 Minutes
                     </option>
                     <option
                                         className="addEvent__typeOption"
-                                        value="Long Cycle"
+                                        value="10min"
                     >
-                                        Long Cycle
-                    </option>
-                    <option
-                                        className="addEvent__typeOption"
-                                        value="Snatch"
-                    >
-                                        Snatch
+                                        10 Minutes
                     </option>
 </select>,
                 ],
@@ -930,18 +1262,18 @@ ReactWrapper {
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
                   "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                  "lineNumber": 42,
+                  "lineNumber": 47,
                 },
                 "actualDuration": 0,
                 "actualStartTime": -1,
                 "alternate": null,
                 "child": FiberNode {
-                  "_debugID": 62,
+                  "_debugID": 66,
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
                     "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                    "lineNumber": 43,
+                    "lineNumber": 48,
                   },
                   "actualDuration": 0,
                   "actualStartTime": -1,
@@ -956,270 +1288,26 @@ ReactWrapper {
                   "key": null,
                   "lastEffect": null,
                   "memoizedProps": Object {
-                    "children": "Event Duration:",
-                    "className": "addEvent__label",
+                    "children": "Add Event",
+                    "onClick": [Function],
                   },
                   "memoizedState": null,
                   "mode": 0,
                   "nextEffect": null,
                   "pendingProps": Object {
-                    "children": "Event Duration:",
-                    "className": "addEvent__label",
+                    "children": "Add Event",
+                    "onClick": [Function],
                   },
                   "ref": null,
                   "return": [Circular],
                   "selfBaseDuration": 0,
-                  "sibling": FiberNode {
-                    "_debugID": 63,
-                    "_debugIsCurrentlyTiming": false,
-                    "_debugOwner": [Circular],
-                    "_debugSource": Object {
-                      "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                      "lineNumber": 44,
-                    },
-                    "actualDuration": 0,
-                    "actualStartTime": -1,
-                    "alternate": null,
-                    "child": FiberNode {
-                      "_debugID": 64,
-                      "_debugIsCurrentlyTiming": false,
-                      "_debugOwner": [Circular],
-                      "_debugSource": Object {
-                        "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                        "lineNumber": 47,
-                      },
-                      "actualDuration": 0,
-                      "actualStartTime": -1,
-                      "alternate": null,
-                      "child": null,
-                      "childExpirationTime": 0,
-                      "effectTag": 0,
-                      "expirationTime": 0,
-                      "firstContextDependency": null,
-                      "firstEffect": null,
-                      "index": 0,
-                      "key": null,
-                      "lastEffect": null,
-                      "memoizedProps": Object {
-                        "children": "Select",
-                        "className": "addEvent__typeOption",
-                        "value": "",
-                      },
-                      "memoizedState": null,
-                      "mode": 0,
-                      "nextEffect": null,
-                      "pendingProps": Object {
-                        "children": "Select",
-                        "className": "addEvent__typeOption",
-                        "value": "",
-                      },
-                      "ref": null,
-                      "return": [Circular],
-                      "selfBaseDuration": 0,
-                      "sibling": FiberNode {
-                        "_debugID": 65,
-                        "_debugIsCurrentlyTiming": false,
-                        "_debugOwner": [Circular],
-                        "_debugSource": Object {
-                          "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                          "lineNumber": 48,
-                        },
-                        "actualDuration": 0,
-                        "actualStartTime": -1,
-                        "alternate": null,
-                        "child": null,
-                        "childExpirationTime": 0,
-                        "effectTag": 0,
-                        "expirationTime": 0,
-                        "firstContextDependency": null,
-                        "firstEffect": null,
-                        "index": 1,
-                        "key": null,
-                        "lastEffect": null,
-                        "memoizedProps": Object {
-                          "children": "5 Minutes",
-                          "className": "addEvent__typeOption",
-                          "value": "5min",
-                        },
-                        "memoizedState": null,
-                        "mode": 0,
-                        "nextEffect": null,
-                        "pendingProps": Object {
-                          "children": "5 Minutes",
-                          "className": "addEvent__typeOption",
-                          "value": "5min",
-                        },
-                        "ref": null,
-                        "return": [Circular],
-                        "selfBaseDuration": 0,
-                        "sibling": FiberNode {
-                          "_debugID": 66,
-                          "_debugIsCurrentlyTiming": false,
-                          "_debugOwner": [Circular],
-                          "_debugSource": Object {
-                            "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                            "lineNumber": 49,
-                          },
-                          "actualDuration": 0,
-                          "actualStartTime": -1,
-                          "alternate": null,
-                          "child": null,
-                          "childExpirationTime": 0,
-                          "effectTag": 0,
-                          "expirationTime": 0,
-                          "firstContextDependency": null,
-                          "firstEffect": null,
-                          "index": 2,
-                          "key": null,
-                          "lastEffect": null,
-                          "memoizedProps": Object {
-                            "children": "10 Minutes",
-                            "className": "addEvent__typeOption",
-                            "value": "10min",
-                          },
-                          "memoizedState": null,
-                          "mode": 0,
-                          "nextEffect": null,
-                          "pendingProps": Object {
-                            "children": "10 Minutes",
-                            "className": "addEvent__typeOption",
-                            "value": "10min",
-                          },
-                          "ref": null,
-                          "return": [Circular],
-                          "selfBaseDuration": 0,
-                          "sibling": null,
-                          "stateNode": <option
-                            class="addEvent__typeOption"
-                            value="10min"
->
-                            10 Minutes
-</option>,
-                          "tag": 7,
-                          "treeBaseDuration": 0,
-                          "type": "option",
-                          "updateQueue": null,
-                        },
-                        "stateNode": <option
-                          class="addEvent__typeOption"
-                          value="5min"
->
-                          5 Minutes
-</option>,
-                        "tag": 7,
-                        "treeBaseDuration": 0,
-                        "type": "option",
-                        "updateQueue": null,
-                      },
-                      "stateNode": <option
-                        class="addEvent__typeOption"
-                        value=""
->
-                        Select
-</option>,
-                      "tag": 7,
-                      "treeBaseDuration": 0,
-                      "type": "option",
-                      "updateQueue": null,
-                    },
-                    "childExpirationTime": 0,
-                    "effectTag": 0,
-                    "expirationTime": 0,
-                    "firstContextDependency": null,
-                    "firstEffect": null,
-                    "index": 1,
-                    "key": null,
-                    "lastEffect": null,
-                    "memoizedProps": Object {
-                      "children": Array [
-                        <option
-                          className="addEvent__typeOption"
-                          value=""
->
-                          Select
-</option>,
-                        <option
-                          className="addEvent__typeOption"
-                          value="5min"
->
-                          5 Minutes
-</option>,
-                        <option
-                          className="addEvent__typeOption"
-                          value="10min"
->
-                          10 Minutes
-</option>,
-                      ],
-                      "className": "addEvent__durationDropdown",
-                      "onChange": [Function],
-                    },
-                    "memoizedState": null,
-                    "mode": 0,
-                    "nextEffect": null,
-                    "pendingProps": Object {
-                      "children": Array [
-                        <option
-                          className="addEvent__typeOption"
-                          value=""
->
-                          Select
-</option>,
-                        <option
-                          className="addEvent__typeOption"
-                          value="5min"
->
-                          5 Minutes
-</option>,
-                        <option
-                          className="addEvent__typeOption"
-                          value="10min"
->
-                          10 Minutes
-</option>,
-                      ],
-                      "className": "addEvent__durationDropdown",
-                      "onChange": [Function],
-                    },
-                    "ref": null,
-                    "return": [Circular],
-                    "selfBaseDuration": 0,
-                    "sibling": null,
-                    "stateNode": <select
-                      class="addEvent__durationDropdown"
->
-                      <option
-                                            class="addEvent__typeOption"
-                                            value=""
-                      >
-                                            Select
-                      </option>
-                      <option
-                                            class="addEvent__typeOption"
-                                            value="5min"
-                      >
-                                            5 Minutes
-                      </option>
-                      <option
-                                            class="addEvent__typeOption"
-                                            value="10min"
-                      >
-                                            10 Minutes
-                      </option>
-</select>,
-                    "tag": 7,
-                    "treeBaseDuration": 0,
-                    "type": "select",
-                    "updateQueue": null,
-                  },
-                  "stateNode": <label
-                    class="addEvent__label"
->
-                    Event Duration:
-</label>,
+                  "sibling": null,
+                  "stateNode": <button>
+                    Add Event
+</button>,
                   "tag": 7,
                   "treeBaseDuration": 0,
-                  "type": "label",
+                  "type": "button",
                   "updateQueue": null,
                 },
                 "childExpirationTime": 0,
@@ -1231,204 +1319,34 @@ ReactWrapper {
                 "key": null,
                 "lastEffect": null,
                 "memoizedProps": Object {
-                  "children": Array [
-                    <label
-                      className="addEvent__label"
+                  "children": <button
+                    onClick={[Function]}
 >
-                      Event Duration:
-</label>,
-                    <select
-                      className="addEvent__durationDropdown"
-                      onChange={[Function]}
->
-                      <option
-                                            className="addEvent__typeOption"
-                                            value=""
-                      >
-                                            Select
-                      </option>
-                      <option
-                                            className="addEvent__typeOption"
-                                            value="5min"
-                      >
-                                            5 Minutes
-                      </option>
-                      <option
-                                            className="addEvent__typeOption"
-                                            value="10min"
-                      >
-                                            10 Minutes
-                      </option>
-</select>,
-                  ],
-                  "className": "addEvent__dropdownContainer",
+                    Add Event
+</button>,
+                  "className": "addEvent__buttonContainer",
                 },
                 "memoizedState": null,
                 "mode": 0,
                 "nextEffect": null,
                 "pendingProps": Object {
-                  "children": Array [
-                    <label
-                      className="addEvent__label"
+                  "children": <button
+                    onClick={[Function]}
 >
-                      Event Duration:
-</label>,
-                    <select
-                      className="addEvent__durationDropdown"
-                      onChange={[Function]}
->
-                      <option
-                                            className="addEvent__typeOption"
-                                            value=""
-                      >
-                                            Select
-                      </option>
-                      <option
-                                            className="addEvent__typeOption"
-                                            value="5min"
-                      >
-                                            5 Minutes
-                      </option>
-                      <option
-                                            className="addEvent__typeOption"
-                                            value="10min"
-                      >
-                                            10 Minutes
-                      </option>
-</select>,
-                  ],
-                  "className": "addEvent__dropdownContainer",
+                    Add Event
+</button>,
+                  "className": "addEvent__buttonContainer",
                 },
                 "ref": null,
                 "return": [Circular],
                 "selfBaseDuration": 0,
-                "sibling": FiberNode {
-                  "_debugID": 55,
-                  "_debugIsCurrentlyTiming": false,
-                  "_debugOwner": [Circular],
-                  "_debugSource": Object {
-                    "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                    "lineNumber": 52,
-                  },
-                  "actualDuration": 0,
-                  "actualStartTime": -1,
-                  "alternate": null,
-                  "child": FiberNode {
-                    "_debugID": 67,
-                    "_debugIsCurrentlyTiming": false,
-                    "_debugOwner": [Circular],
-                    "_debugSource": Object {
-                      "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                      "lineNumber": 53,
-                    },
-                    "actualDuration": 0,
-                    "actualStartTime": -1,
-                    "alternate": null,
-                    "child": null,
-                    "childExpirationTime": 0,
-                    "effectTag": 0,
-                    "expirationTime": 0,
-                    "firstContextDependency": null,
-                    "firstEffect": null,
-                    "index": 0,
-                    "key": null,
-                    "lastEffect": null,
-                    "memoizedProps": Object {
-                      "children": "Add Event",
-                      "onClick": [Function],
-                    },
-                    "memoizedState": null,
-                    "mode": 0,
-                    "nextEffect": null,
-                    "pendingProps": Object {
-                      "children": "Add Event",
-                      "onClick": [Function],
-                    },
-                    "ref": null,
-                    "return": [Circular],
-                    "selfBaseDuration": 0,
-                    "sibling": null,
-                    "stateNode": <button>
-                      Add Event
-</button>,
-                    "tag": 7,
-                    "treeBaseDuration": 0,
-                    "type": "button",
-                    "updateQueue": null,
-                  },
-                  "childExpirationTime": 0,
-                  "effectTag": 0,
-                  "expirationTime": 0,
-                  "firstContextDependency": null,
-                  "firstEffect": null,
-                  "index": 3,
-                  "key": null,
-                  "lastEffect": null,
-                  "memoizedProps": Object {
-                    "children": <button
-                      onClick={[Function]}
->
-                      Add Event
-</button>,
-                    "className": "addEvent__buttonContainer",
-                  },
-                  "memoizedState": null,
-                  "mode": 0,
-                  "nextEffect": null,
-                  "pendingProps": Object {
-                    "children": <button
-                      onClick={[Function]}
->
-                      Add Event
-</button>,
-                    "className": "addEvent__buttonContainer",
-                  },
-                  "ref": null,
-                  "return": [Circular],
-                  "selfBaseDuration": 0,
-                  "sibling": null,
-                  "stateNode": <div
-                    class="addEvent__buttonContainer"
->
-                    <button>
-                                        Add Event
-                    </button>
-</div>,
-                  "tag": 7,
-                  "treeBaseDuration": 0,
-                  "type": "div",
-                  "updateQueue": null,
-                },
+                "sibling": null,
                 "stateNode": <div
-                  class="addEvent__dropdownContainer"
+                  class="addEvent__buttonContainer"
 >
-                  <label
-                                    class="addEvent__label"
-                  >
-                                    Event Duration:
-                  </label>
-                  <select
-                                    class="addEvent__durationDropdown"
-                  >
-                                    <option
-                                                      class="addEvent__typeOption"
-                                                      value=""
-                                    >
-                                                      Select
-                                    </option>
-                                    <option
-                                                      class="addEvent__typeOption"
-                                                      value="5min"
-                                    >
-                                                      5 Minutes
-                                    </option>
-                                    <option
-                                                      class="addEvent__typeOption"
-                                                      value="10min"
-                                    >
-                                                      10 Minutes
-                                    </option>
-                  </select>
+                  <button>
+                                    Add Event
+                  </button>
 </div>,
                 "tag": 7,
                 "treeBaseDuration": 0,
@@ -1441,10 +1359,10 @@ ReactWrapper {
                 <label
                                 class="addEvent__label"
                 >
-                                Event Type:
+                                Event Duration:
                 </label>
                 <select
-                                class="addEvent__typeDropdown"
+                                class="addEvent__durationDropdown"
                 >
                                 <option
                                                 class="addEvent__typeOption"
@@ -1454,21 +1372,15 @@ ReactWrapper {
                                 </option>
                                 <option
                                                 class="addEvent__typeOption"
-                                                value="Jerk"
+                                                value="5min"
                                 >
-                                                Jerk
+                                                5 Minutes
                                 </option>
                                 <option
                                                 class="addEvent__typeOption"
-                                                value="Long Cycle"
+                                                value="10min"
                                 >
-                                                Long Cycle
-                                </option>
-                                <option
-                                                class="addEvent__typeOption"
-                                                value="Snatch"
-                                >
-                                                Snatch
+                                                10 Minutes
                                 </option>
                 </select>
 </div>,
@@ -1477,14 +1389,46 @@ ReactWrapper {
               "type": "div",
               "updateQueue": null,
             },
-            "stateNode": <span
-              class="addEvent__closeButton"
+            "stateNode": <div
+              class="addEvent__dropdownContainer"
 >
-              X
-</span>,
+              <label
+                            class="addEvent__label"
+              >
+                            Event Type:
+              </label>
+              <select
+                            class="addEvent__typeDropdown"
+              >
+                            <option
+                                          class="addEvent__typeOption"
+                                          value=""
+                            >
+                                          Select
+                            </option>
+                            <option
+                                          class="addEvent__typeOption"
+                                          value="Jerk"
+                            >
+                                          Jerk
+                            </option>
+                            <option
+                                          class="addEvent__typeOption"
+                                          value="Long Cycle"
+                            >
+                                          Long Cycle
+                            </option>
+                            <option
+                                          class="addEvent__typeOption"
+                                          value="Snatch"
+                            >
+                                          Snatch
+                            </option>
+              </select>
+</div>,
             "tag": 7,
             "treeBaseDuration": 0,
-            "type": "span",
+            "type": "div",
             "updateQueue": null,
           },
           "childExpirationTime": 0,
@@ -1497,12 +1441,6 @@ ReactWrapper {
           "lastEffect": null,
           "memoizedProps": Object {
             "children": Array [
-              <span
-                className="addEvent__closeButton"
-                onClick={[Function]}
->
-                X
-</span>,
               <div
                 className="addEvent__dropdownContainer"
 >
@@ -1590,12 +1528,6 @@ ReactWrapper {
           "nextEffect": null,
           "pendingProps": Object {
             "children": Array [
-              <span
-                className="addEvent__closeButton"
-                onClick={[Function]}
->
-                X
-</span>,
               <div
                 className="addEvent__dropdownContainer"
 >
@@ -1685,11 +1617,6 @@ ReactWrapper {
           "stateNode": <div
             class="addEvent__container"
 >
-            <span
-                        class="addEvent__closeButton"
-            >
-                        X
-            </span>
             <div
                         class="addEvent__dropdownContainer"
             >
@@ -1861,11 +1788,6 @@ ReactWrapper {
                   <div
                                     class="addEvent__container"
                   >
-                                    <span
-                                                      class="addEvent__closeButton"
-                                    >
-                                                      X
-                                    </span>
                                     <div
                                                       class="addEvent__dropdownContainer"
                                     >
@@ -2035,11 +1957,6 @@ ReactWrapper {
                 <div
                                 class="addEvent__container"
                 >
-                                <span
-                                                class="addEvent__closeButton"
-                                >
-                                                X
-                                </span>
                                 <div
                                                 class="addEvent__dropdownContainer"
                                 >
@@ -2224,11 +2141,6 @@ ReactWrapper {
       "instance": <div
         class="addEvent__container"
 >
-        <span
-                class="addEvent__closeButton"
-        >
-                X
-        </span>
         <div
                 class="addEvent__dropdownContainer"
         >
@@ -2309,12 +2221,6 @@ ReactWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <span
-            className="addEvent__closeButton"
-            onClick={[Function]}
->
-            X
-</span>,
           <div
             className="addEvent__dropdownContainer"
 >
@@ -2399,25 +2305,6 @@ ReactWrapper {
       },
       "ref": null,
       "rendered": Array [
-        Object {
-          "instance": <span
-            class="addEvent__closeButton"
->
-            X
-</span>,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "X",
-            "className": "addEvent__closeButton",
-            "onClick": [Function],
-          },
-          "ref": null,
-          "rendered": Array [
-            "X",
-          ],
-          "type": "span",
-        },
         Object {
           "instance": <div
             class="addEvent__dropdownContainer"
@@ -2993,11 +2880,6 @@ ReactWrapper {
                     <div
                                         class="addEvent__container"
                     >
-                                        <span
-                                                            class="addEvent__closeButton"
-                                        >
-                                                            X
-                                        </span>
                                         <div
                                                             class="addEvent__dropdownContainer"
                                         >
@@ -3167,11 +3049,6 @@ ReactWrapper {
                   <div
                                     class="addEvent__container"
                   >
-                                    <span
-                                                      class="addEvent__closeButton"
-                                    >
-                                                      X
-                                    </span>
                                     <div
                                                       class="addEvent__dropdownContainer"
                                     >
@@ -3347,7 +3224,358 @@ ReactWrapper {
               "actualDuration": 0,
               "actualStartTime": -1,
               "alternate": null,
-              "child": null,
+              "child": FiberNode {
+                "_debugID": 55,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
+                  "lineNumber": 27,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "Event Type:",
+                  "className": "addEvent__label",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "Event Type:",
+                  "className": "addEvent__label",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": FiberNode {
+                  "_debugID": 56,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
+                    "lineNumber": 28,
+                  },
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": FiberNode {
+                    "_debugID": 57,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": Object {
+                      "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
+                      "lineNumber": 31,
+                    },
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": "Select",
+                      "className": "addEvent__typeOption",
+                      "value": "",
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": "Select",
+                      "className": "addEvent__typeOption",
+                      "value": "",
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": FiberNode {
+                      "_debugID": 58,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": Object {
+                        "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
+                        "lineNumber": 32,
+                      },
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": null,
+                      "child": null,
+                      "childExpirationTime": 0,
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstContextDependency": null,
+                      "firstEffect": null,
+                      "index": 1,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": "Jerk",
+                        "className": "addEvent__typeOption",
+                        "value": "Jerk",
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "children": "Jerk",
+                        "className": "addEvent__typeOption",
+                        "value": "Jerk",
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "selfBaseDuration": 0,
+                      "sibling": FiberNode {
+                        "_debugID": 59,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": [Circular],
+                        "_debugSource": Object {
+                          "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
+                          "lineNumber": 33,
+                        },
+                        "actualDuration": 0,
+                        "actualStartTime": -1,
+                        "alternate": null,
+                        "child": null,
+                        "childExpirationTime": 0,
+                        "effectTag": 0,
+                        "expirationTime": 0,
+                        "firstContextDependency": null,
+                        "firstEffect": null,
+                        "index": 2,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": Object {
+                          "children": "Long Cycle",
+                          "className": "addEvent__typeOption",
+                          "value": "Long Cycle",
+                        },
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": Object {
+                          "children": "Long Cycle",
+                          "className": "addEvent__typeOption",
+                          "value": "Long Cycle",
+                        },
+                        "ref": null,
+                        "return": [Circular],
+                        "selfBaseDuration": 0,
+                        "sibling": FiberNode {
+                          "_debugID": 60,
+                          "_debugIsCurrentlyTiming": false,
+                          "_debugOwner": [Circular],
+                          "_debugSource": Object {
+                            "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
+                            "lineNumber": 34,
+                          },
+                          "actualDuration": 0,
+                          "actualStartTime": -1,
+                          "alternate": null,
+                          "child": null,
+                          "childExpirationTime": 0,
+                          "effectTag": 0,
+                          "expirationTime": 0,
+                          "firstContextDependency": null,
+                          "firstEffect": null,
+                          "index": 3,
+                          "key": null,
+                          "lastEffect": null,
+                          "memoizedProps": Object {
+                            "children": "Snatch",
+                            "className": "addEvent__typeOption",
+                            "value": "Snatch",
+                          },
+                          "memoizedState": null,
+                          "mode": 0,
+                          "nextEffect": null,
+                          "pendingProps": Object {
+                            "children": "Snatch",
+                            "className": "addEvent__typeOption",
+                            "value": "Snatch",
+                          },
+                          "ref": null,
+                          "return": [Circular],
+                          "selfBaseDuration": 0,
+                          "sibling": null,
+                          "stateNode": <option
+                            class="addEvent__typeOption"
+                            value="Snatch"
+>
+                            Snatch
+</option>,
+                          "tag": 7,
+                          "treeBaseDuration": 0,
+                          "type": "option",
+                          "updateQueue": null,
+                        },
+                        "stateNode": <option
+                          class="addEvent__typeOption"
+                          value="Long Cycle"
+>
+                          Long Cycle
+</option>,
+                        "tag": 7,
+                        "treeBaseDuration": 0,
+                        "type": "option",
+                        "updateQueue": null,
+                      },
+                      "stateNode": <option
+                        class="addEvent__typeOption"
+                        value="Jerk"
+>
+                        Jerk
+</option>,
+                      "tag": 7,
+                      "treeBaseDuration": 0,
+                      "type": "option",
+                      "updateQueue": null,
+                    },
+                    "stateNode": <option
+                      class="addEvent__typeOption"
+                      value=""
+>
+                      Select
+</option>,
+                    "tag": 7,
+                    "treeBaseDuration": 0,
+                    "type": "option",
+                    "updateQueue": null,
+                  },
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 1,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": Array [
+                      <option
+                        className="addEvent__typeOption"
+                        value=""
+>
+                        Select
+</option>,
+                      <option
+                        className="addEvent__typeOption"
+                        value="Jerk"
+>
+                        Jerk
+</option>,
+                      <option
+                        className="addEvent__typeOption"
+                        value="Long Cycle"
+>
+                        Long Cycle
+</option>,
+                      <option
+                        className="addEvent__typeOption"
+                        value="Snatch"
+>
+                        Snatch
+</option>,
+                    ],
+                    "className": "addEvent__typeDropdown",
+                    "onChange": [Function],
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": Array [
+                      <option
+                        className="addEvent__typeOption"
+                        value=""
+>
+                        Select
+</option>,
+                      <option
+                        className="addEvent__typeOption"
+                        value="Jerk"
+>
+                        Jerk
+</option>,
+                      <option
+                        className="addEvent__typeOption"
+                        value="Long Cycle"
+>
+                        Long Cycle
+</option>,
+                      <option
+                        className="addEvent__typeOption"
+                        value="Snatch"
+>
+                        Snatch
+</option>,
+                    ],
+                    "className": "addEvent__typeDropdown",
+                    "onChange": [Function],
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": <select
+                    class="addEvent__typeDropdown"
+>
+                    <option
+                                        class="addEvent__typeOption"
+                                        value=""
+                    >
+                                        Select
+                    </option>
+                    <option
+                                        class="addEvent__typeOption"
+                                        value="Jerk"
+                    >
+                                        Jerk
+                    </option>
+                    <option
+                                        class="addEvent__typeOption"
+                                        value="Long Cycle"
+                    >
+                                        Long Cycle
+                    </option>
+                    <option
+                                        class="addEvent__typeOption"
+                                        value="Snatch"
+                    >
+                                        Snatch
+                    </option>
+</select>,
+                  "tag": 7,
+                  "treeBaseDuration": 0,
+                  "type": "select",
+                  "updateQueue": null,
+                },
+                "stateNode": <label
+                  class="addEvent__label"
+>
+                  Event Type:
+</label>,
+                "tag": 7,
+                "treeBaseDuration": 0,
+                "type": "label",
+                "updateQueue": null,
+              },
               "childExpirationTime": 0,
               "effectTag": 0,
               "expirationTime": 0,
@@ -3357,17 +3585,85 @@ ReactWrapper {
               "key": null,
               "lastEffect": null,
               "memoizedProps": Object {
-                "children": "X",
-                "className": "addEvent__closeButton",
-                "onClick": [Function],
+                "children": Array [
+                  <label
+                    className="addEvent__label"
+>
+                    Event Type:
+</label>,
+                  <select
+                    className="addEvent__typeDropdown"
+                    onChange={[Function]}
+>
+                    <option
+                                        className="addEvent__typeOption"
+                                        value=""
+                    >
+                                        Select
+                    </option>
+                    <option
+                                        className="addEvent__typeOption"
+                                        value="Jerk"
+                    >
+                                        Jerk
+                    </option>
+                    <option
+                                        className="addEvent__typeOption"
+                                        value="Long Cycle"
+                    >
+                                        Long Cycle
+                    </option>
+                    <option
+                                        className="addEvent__typeOption"
+                                        value="Snatch"
+                    >
+                                        Snatch
+                    </option>
+</select>,
+                ],
+                "className": "addEvent__dropdownContainer",
               },
               "memoizedState": null,
               "mode": 0,
               "nextEffect": null,
               "pendingProps": Object {
-                "children": "X",
-                "className": "addEvent__closeButton",
-                "onClick": [Function],
+                "children": Array [
+                  <label
+                    className="addEvent__label"
+>
+                    Event Type:
+</label>,
+                  <select
+                    className="addEvent__typeDropdown"
+                    onChange={[Function]}
+>
+                    <option
+                                        className="addEvent__typeOption"
+                                        value=""
+                    >
+                                        Select
+                    </option>
+                    <option
+                                        className="addEvent__typeOption"
+                                        value="Jerk"
+                    >
+                                        Jerk
+                    </option>
+                    <option
+                                        className="addEvent__typeOption"
+                                        value="Long Cycle"
+                    >
+                                        Long Cycle
+                    </option>
+                    <option
+                                        className="addEvent__typeOption"
+                                        value="Snatch"
+                    >
+                                        Snatch
+                    </option>
+</select>,
+                ],
+                "className": "addEvent__dropdownContainer",
               },
               "ref": null,
               "return": [Circular],
@@ -3378,18 +3674,18 @@ ReactWrapper {
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
                   "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                  "lineNumber": 31,
+                  "lineNumber": 37,
                 },
                 "actualDuration": 0,
                 "actualStartTime": -1,
                 "alternate": null,
                 "child": FiberNode {
-                  "_debugID": 56,
+                  "_debugID": 61,
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
                     "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                    "lineNumber": 32,
+                    "lineNumber": 38,
                   },
                   "actualDuration": 0,
                   "actualStartTime": -1,
@@ -3404,37 +3700,37 @@ ReactWrapper {
                   "key": null,
                   "lastEffect": null,
                   "memoizedProps": Object {
-                    "children": "Event Type:",
+                    "children": "Event Duration:",
                     "className": "addEvent__label",
                   },
                   "memoizedState": null,
                   "mode": 0,
                   "nextEffect": null,
                   "pendingProps": Object {
-                    "children": "Event Type:",
+                    "children": "Event Duration:",
                     "className": "addEvent__label",
                   },
                   "ref": null,
                   "return": [Circular],
                   "selfBaseDuration": 0,
                   "sibling": FiberNode {
-                    "_debugID": 57,
+                    "_debugID": 62,
                     "_debugIsCurrentlyTiming": false,
                     "_debugOwner": [Circular],
                     "_debugSource": Object {
                       "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                      "lineNumber": 33,
+                      "lineNumber": 39,
                     },
                     "actualDuration": 0,
                     "actualStartTime": -1,
                     "alternate": null,
                     "child": FiberNode {
-                      "_debugID": 58,
+                      "_debugID": 63,
                       "_debugIsCurrentlyTiming": false,
                       "_debugOwner": [Circular],
                       "_debugSource": Object {
                         "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                        "lineNumber": 36,
+                        "lineNumber": 42,
                       },
                       "actualDuration": 0,
                       "actualStartTime": -1,
@@ -3465,12 +3761,12 @@ ReactWrapper {
                       "return": [Circular],
                       "selfBaseDuration": 0,
                       "sibling": FiberNode {
-                        "_debugID": 59,
+                        "_debugID": 64,
                         "_debugIsCurrentlyTiming": false,
                         "_debugOwner": [Circular],
                         "_debugSource": Object {
                           "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                          "lineNumber": 37,
+                          "lineNumber": 43,
                         },
                         "actualDuration": 0,
                         "actualStartTime": -1,
@@ -3485,28 +3781,28 @@ ReactWrapper {
                         "key": null,
                         "lastEffect": null,
                         "memoizedProps": Object {
-                          "children": "Jerk",
+                          "children": "5 Minutes",
                           "className": "addEvent__typeOption",
-                          "value": "Jerk",
+                          "value": "5min",
                         },
                         "memoizedState": null,
                         "mode": 0,
                         "nextEffect": null,
                         "pendingProps": Object {
-                          "children": "Jerk",
+                          "children": "5 Minutes",
                           "className": "addEvent__typeOption",
-                          "value": "Jerk",
+                          "value": "5min",
                         },
                         "ref": null,
                         "return": [Circular],
                         "selfBaseDuration": 0,
                         "sibling": FiberNode {
-                          "_debugID": 60,
+                          "_debugID": 65,
                           "_debugIsCurrentlyTiming": false,
                           "_debugOwner": [Circular],
                           "_debugSource": Object {
                             "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                            "lineNumber": 38,
+                            "lineNumber": 44,
                           },
                           "actualDuration": 0,
                           "actualStartTime": -1,
@@ -3521,74 +3817,27 @@ ReactWrapper {
                           "key": null,
                           "lastEffect": null,
                           "memoizedProps": Object {
-                            "children": "Long Cycle",
+                            "children": "10 Minutes",
                             "className": "addEvent__typeOption",
-                            "value": "Long Cycle",
+                            "value": "10min",
                           },
                           "memoizedState": null,
                           "mode": 0,
                           "nextEffect": null,
                           "pendingProps": Object {
-                            "children": "Long Cycle",
+                            "children": "10 Minutes",
                             "className": "addEvent__typeOption",
-                            "value": "Long Cycle",
+                            "value": "10min",
                           },
                           "ref": null,
                           "return": [Circular],
                           "selfBaseDuration": 0,
-                          "sibling": FiberNode {
-                            "_debugID": 61,
-                            "_debugIsCurrentlyTiming": false,
-                            "_debugOwner": [Circular],
-                            "_debugSource": Object {
-                              "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                              "lineNumber": 39,
-                            },
-                            "actualDuration": 0,
-                            "actualStartTime": -1,
-                            "alternate": null,
-                            "child": null,
-                            "childExpirationTime": 0,
-                            "effectTag": 0,
-                            "expirationTime": 0,
-                            "firstContextDependency": null,
-                            "firstEffect": null,
-                            "index": 3,
-                            "key": null,
-                            "lastEffect": null,
-                            "memoizedProps": Object {
-                              "children": "Snatch",
-                              "className": "addEvent__typeOption",
-                              "value": "Snatch",
-                            },
-                            "memoizedState": null,
-                            "mode": 0,
-                            "nextEffect": null,
-                            "pendingProps": Object {
-                              "children": "Snatch",
-                              "className": "addEvent__typeOption",
-                              "value": "Snatch",
-                            },
-                            "ref": null,
-                            "return": [Circular],
-                            "selfBaseDuration": 0,
-                            "sibling": null,
-                            "stateNode": <option
-                              class="addEvent__typeOption"
-                              value="Snatch"
->
-                              Snatch
-</option>,
-                            "tag": 7,
-                            "treeBaseDuration": 0,
-                            "type": "option",
-                            "updateQueue": null,
-                          },
+                          "sibling": null,
                           "stateNode": <option
                             class="addEvent__typeOption"
-                            value="Long Cycle"
+                            value="10min"
 >
-                            Long Cycle
+                            10 Minutes
 </option>,
                           "tag": 7,
                           "treeBaseDuration": 0,
@@ -3597,9 +3846,9 @@ ReactWrapper {
                         },
                         "stateNode": <option
                           class="addEvent__typeOption"
-                          value="Jerk"
+                          value="5min"
 >
-                          Jerk
+                          5 Minutes
 </option>,
                         "tag": 7,
                         "treeBaseDuration": 0,
@@ -3635,24 +3884,18 @@ ReactWrapper {
 </option>,
                         <option
                           className="addEvent__typeOption"
-                          value="Jerk"
+                          value="5min"
 >
-                          Jerk
+                          5 Minutes
 </option>,
                         <option
                           className="addEvent__typeOption"
-                          value="Long Cycle"
+                          value="10min"
 >
-                          Long Cycle
-</option>,
-                        <option
-                          className="addEvent__typeOption"
-                          value="Snatch"
->
-                          Snatch
+                          10 Minutes
 </option>,
                       ],
-                      "className": "addEvent__typeDropdown",
+                      "className": "addEvent__durationDropdown",
                       "onChange": [Function],
                     },
                     "memoizedState": null,
@@ -3668,24 +3911,18 @@ ReactWrapper {
 </option>,
                         <option
                           className="addEvent__typeOption"
-                          value="Jerk"
+                          value="5min"
 >
-                          Jerk
+                          5 Minutes
 </option>,
                         <option
                           className="addEvent__typeOption"
-                          value="Long Cycle"
+                          value="10min"
 >
-                          Long Cycle
-</option>,
-                        <option
-                          className="addEvent__typeOption"
-                          value="Snatch"
->
-                          Snatch
+                          10 Minutes
 </option>,
                       ],
-                      "className": "addEvent__typeDropdown",
+                      "className": "addEvent__durationDropdown",
                       "onChange": [Function],
                     },
                     "ref": null,
@@ -3693,7 +3930,7 @@ ReactWrapper {
                     "selfBaseDuration": 0,
                     "sibling": null,
                     "stateNode": <select
-                      class="addEvent__typeDropdown"
+                      class="addEvent__durationDropdown"
 >
                       <option
                                             class="addEvent__typeOption"
@@ -3703,21 +3940,15 @@ ReactWrapper {
                       </option>
                       <option
                                             class="addEvent__typeOption"
-                                            value="Jerk"
+                                            value="5min"
                       >
-                                            Jerk
+                                            5 Minutes
                       </option>
                       <option
                                             class="addEvent__typeOption"
-                                            value="Long Cycle"
+                                            value="10min"
                       >
-                                            Long Cycle
-                      </option>
-                      <option
-                                            class="addEvent__typeOption"
-                                            value="Snatch"
-                      >
-                                            Snatch
+                                            10 Minutes
                       </option>
 </select>,
                     "tag": 7,
@@ -3728,7 +3959,7 @@ ReactWrapper {
                   "stateNode": <label
                     class="addEvent__label"
 >
-                    Event Type:
+                    Event Duration:
 </label>,
                   "tag": 7,
                   "treeBaseDuration": 0,
@@ -3748,10 +3979,10 @@ ReactWrapper {
                     <label
                       className="addEvent__label"
 >
-                      Event Type:
+                      Event Duration:
 </label>,
                     <select
-                      className="addEvent__typeDropdown"
+                      className="addEvent__durationDropdown"
                       onChange={[Function]}
 >
                       <option
@@ -3762,21 +3993,15 @@ ReactWrapper {
                       </option>
                       <option
                                             className="addEvent__typeOption"
-                                            value="Jerk"
+                                            value="5min"
                       >
-                                            Jerk
+                                            5 Minutes
                       </option>
                       <option
                                             className="addEvent__typeOption"
-                                            value="Long Cycle"
+                                            value="10min"
                       >
-                                            Long Cycle
-                      </option>
-                      <option
-                                            className="addEvent__typeOption"
-                                            value="Snatch"
-                      >
-                                            Snatch
+                                            10 Minutes
                       </option>
 </select>,
                   ],
@@ -3790,10 +4015,10 @@ ReactWrapper {
                     <label
                       className="addEvent__label"
 >
-                      Event Type:
+                      Event Duration:
 </label>,
                     <select
-                      className="addEvent__typeDropdown"
+                      className="addEvent__durationDropdown"
                       onChange={[Function]}
 >
                       <option
@@ -3804,21 +4029,15 @@ ReactWrapper {
                       </option>
                       <option
                                             className="addEvent__typeOption"
-                                            value="Jerk"
+                                            value="5min"
                       >
-                                            Jerk
+                                            5 Minutes
                       </option>
                       <option
                                             className="addEvent__typeOption"
-                                            value="Long Cycle"
+                                            value="10min"
                       >
-                                            Long Cycle
-                      </option>
-                      <option
-                                            className="addEvent__typeOption"
-                                            value="Snatch"
-                      >
-                                            Snatch
+                                            10 Minutes
                       </option>
 </select>,
                   ],
@@ -3833,18 +4052,18 @@ ReactWrapper {
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
                     "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                    "lineNumber": 42,
+                    "lineNumber": 47,
                   },
                   "actualDuration": 0,
                   "actualStartTime": -1,
                   "alternate": null,
                   "child": FiberNode {
-                    "_debugID": 62,
+                    "_debugID": 66,
                     "_debugIsCurrentlyTiming": false,
                     "_debugOwner": [Circular],
                     "_debugSource": Object {
                       "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                      "lineNumber": 43,
+                      "lineNumber": 48,
                     },
                     "actualDuration": 0,
                     "actualStartTime": -1,
@@ -3859,270 +4078,26 @@ ReactWrapper {
                     "key": null,
                     "lastEffect": null,
                     "memoizedProps": Object {
-                      "children": "Event Duration:",
-                      "className": "addEvent__label",
+                      "children": "Add Event",
+                      "onClick": [Function],
                     },
                     "memoizedState": null,
                     "mode": 0,
                     "nextEffect": null,
                     "pendingProps": Object {
-                      "children": "Event Duration:",
-                      "className": "addEvent__label",
+                      "children": "Add Event",
+                      "onClick": [Function],
                     },
                     "ref": null,
                     "return": [Circular],
                     "selfBaseDuration": 0,
-                    "sibling": FiberNode {
-                      "_debugID": 63,
-                      "_debugIsCurrentlyTiming": false,
-                      "_debugOwner": [Circular],
-                      "_debugSource": Object {
-                        "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                        "lineNumber": 44,
-                      },
-                      "actualDuration": 0,
-                      "actualStartTime": -1,
-                      "alternate": null,
-                      "child": FiberNode {
-                        "_debugID": 64,
-                        "_debugIsCurrentlyTiming": false,
-                        "_debugOwner": [Circular],
-                        "_debugSource": Object {
-                          "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                          "lineNumber": 47,
-                        },
-                        "actualDuration": 0,
-                        "actualStartTime": -1,
-                        "alternate": null,
-                        "child": null,
-                        "childExpirationTime": 0,
-                        "effectTag": 0,
-                        "expirationTime": 0,
-                        "firstContextDependency": null,
-                        "firstEffect": null,
-                        "index": 0,
-                        "key": null,
-                        "lastEffect": null,
-                        "memoizedProps": Object {
-                          "children": "Select",
-                          "className": "addEvent__typeOption",
-                          "value": "",
-                        },
-                        "memoizedState": null,
-                        "mode": 0,
-                        "nextEffect": null,
-                        "pendingProps": Object {
-                          "children": "Select",
-                          "className": "addEvent__typeOption",
-                          "value": "",
-                        },
-                        "ref": null,
-                        "return": [Circular],
-                        "selfBaseDuration": 0,
-                        "sibling": FiberNode {
-                          "_debugID": 65,
-                          "_debugIsCurrentlyTiming": false,
-                          "_debugOwner": [Circular],
-                          "_debugSource": Object {
-                            "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                            "lineNumber": 48,
-                          },
-                          "actualDuration": 0,
-                          "actualStartTime": -1,
-                          "alternate": null,
-                          "child": null,
-                          "childExpirationTime": 0,
-                          "effectTag": 0,
-                          "expirationTime": 0,
-                          "firstContextDependency": null,
-                          "firstEffect": null,
-                          "index": 1,
-                          "key": null,
-                          "lastEffect": null,
-                          "memoizedProps": Object {
-                            "children": "5 Minutes",
-                            "className": "addEvent__typeOption",
-                            "value": "5min",
-                          },
-                          "memoizedState": null,
-                          "mode": 0,
-                          "nextEffect": null,
-                          "pendingProps": Object {
-                            "children": "5 Minutes",
-                            "className": "addEvent__typeOption",
-                            "value": "5min",
-                          },
-                          "ref": null,
-                          "return": [Circular],
-                          "selfBaseDuration": 0,
-                          "sibling": FiberNode {
-                            "_debugID": 66,
-                            "_debugIsCurrentlyTiming": false,
-                            "_debugOwner": [Circular],
-                            "_debugSource": Object {
-                              "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                              "lineNumber": 49,
-                            },
-                            "actualDuration": 0,
-                            "actualStartTime": -1,
-                            "alternate": null,
-                            "child": null,
-                            "childExpirationTime": 0,
-                            "effectTag": 0,
-                            "expirationTime": 0,
-                            "firstContextDependency": null,
-                            "firstEffect": null,
-                            "index": 2,
-                            "key": null,
-                            "lastEffect": null,
-                            "memoizedProps": Object {
-                              "children": "10 Minutes",
-                              "className": "addEvent__typeOption",
-                              "value": "10min",
-                            },
-                            "memoizedState": null,
-                            "mode": 0,
-                            "nextEffect": null,
-                            "pendingProps": Object {
-                              "children": "10 Minutes",
-                              "className": "addEvent__typeOption",
-                              "value": "10min",
-                            },
-                            "ref": null,
-                            "return": [Circular],
-                            "selfBaseDuration": 0,
-                            "sibling": null,
-                            "stateNode": <option
-                              class="addEvent__typeOption"
-                              value="10min"
->
-                              10 Minutes
-</option>,
-                            "tag": 7,
-                            "treeBaseDuration": 0,
-                            "type": "option",
-                            "updateQueue": null,
-                          },
-                          "stateNode": <option
-                            class="addEvent__typeOption"
-                            value="5min"
->
-                            5 Minutes
-</option>,
-                          "tag": 7,
-                          "treeBaseDuration": 0,
-                          "type": "option",
-                          "updateQueue": null,
-                        },
-                        "stateNode": <option
-                          class="addEvent__typeOption"
-                          value=""
->
-                          Select
-</option>,
-                        "tag": 7,
-                        "treeBaseDuration": 0,
-                        "type": "option",
-                        "updateQueue": null,
-                      },
-                      "childExpirationTime": 0,
-                      "effectTag": 0,
-                      "expirationTime": 0,
-                      "firstContextDependency": null,
-                      "firstEffect": null,
-                      "index": 1,
-                      "key": null,
-                      "lastEffect": null,
-                      "memoizedProps": Object {
-                        "children": Array [
-                          <option
-                            className="addEvent__typeOption"
-                            value=""
->
-                            Select
-</option>,
-                          <option
-                            className="addEvent__typeOption"
-                            value="5min"
->
-                            5 Minutes
-</option>,
-                          <option
-                            className="addEvent__typeOption"
-                            value="10min"
->
-                            10 Minutes
-</option>,
-                        ],
-                        "className": "addEvent__durationDropdown",
-                        "onChange": [Function],
-                      },
-                      "memoizedState": null,
-                      "mode": 0,
-                      "nextEffect": null,
-                      "pendingProps": Object {
-                        "children": Array [
-                          <option
-                            className="addEvent__typeOption"
-                            value=""
->
-                            Select
-</option>,
-                          <option
-                            className="addEvent__typeOption"
-                            value="5min"
->
-                            5 Minutes
-</option>,
-                          <option
-                            className="addEvent__typeOption"
-                            value="10min"
->
-                            10 Minutes
-</option>,
-                        ],
-                        "className": "addEvent__durationDropdown",
-                        "onChange": [Function],
-                      },
-                      "ref": null,
-                      "return": [Circular],
-                      "selfBaseDuration": 0,
-                      "sibling": null,
-                      "stateNode": <select
-                        class="addEvent__durationDropdown"
->
-                        <option
-                                                class="addEvent__typeOption"
-                                                value=""
-                        >
-                                                Select
-                        </option>
-                        <option
-                                                class="addEvent__typeOption"
-                                                value="5min"
-                        >
-                                                5 Minutes
-                        </option>
-                        <option
-                                                class="addEvent__typeOption"
-                                                value="10min"
-                        >
-                                                10 Minutes
-                        </option>
-</select>,
-                      "tag": 7,
-                      "treeBaseDuration": 0,
-                      "type": "select",
-                      "updateQueue": null,
-                    },
-                    "stateNode": <label
-                      class="addEvent__label"
->
-                      Event Duration:
-</label>,
+                    "sibling": null,
+                    "stateNode": <button>
+                      Add Event
+</button>,
                     "tag": 7,
                     "treeBaseDuration": 0,
-                    "type": "label",
+                    "type": "button",
                     "updateQueue": null,
                   },
                   "childExpirationTime": 0,
@@ -4134,204 +4109,34 @@ ReactWrapper {
                   "key": null,
                   "lastEffect": null,
                   "memoizedProps": Object {
-                    "children": Array [
-                      <label
-                        className="addEvent__label"
+                    "children": <button
+                      onClick={[Function]}
 >
-                        Event Duration:
-</label>,
-                      <select
-                        className="addEvent__durationDropdown"
-                        onChange={[Function]}
->
-                        <option
-                                                className="addEvent__typeOption"
-                                                value=""
-                        >
-                                                Select
-                        </option>
-                        <option
-                                                className="addEvent__typeOption"
-                                                value="5min"
-                        >
-                                                5 Minutes
-                        </option>
-                        <option
-                                                className="addEvent__typeOption"
-                                                value="10min"
-                        >
-                                                10 Minutes
-                        </option>
-</select>,
-                    ],
-                    "className": "addEvent__dropdownContainer",
+                      Add Event
+</button>,
+                    "className": "addEvent__buttonContainer",
                   },
                   "memoizedState": null,
                   "mode": 0,
                   "nextEffect": null,
                   "pendingProps": Object {
-                    "children": Array [
-                      <label
-                        className="addEvent__label"
+                    "children": <button
+                      onClick={[Function]}
 >
-                        Event Duration:
-</label>,
-                      <select
-                        className="addEvent__durationDropdown"
-                        onChange={[Function]}
->
-                        <option
-                                                className="addEvent__typeOption"
-                                                value=""
-                        >
-                                                Select
-                        </option>
-                        <option
-                                                className="addEvent__typeOption"
-                                                value="5min"
-                        >
-                                                5 Minutes
-                        </option>
-                        <option
-                                                className="addEvent__typeOption"
-                                                value="10min"
-                        >
-                                                10 Minutes
-                        </option>
-</select>,
-                    ],
-                    "className": "addEvent__dropdownContainer",
+                      Add Event
+</button>,
+                    "className": "addEvent__buttonContainer",
                   },
                   "ref": null,
                   "return": [Circular],
                   "selfBaseDuration": 0,
-                  "sibling": FiberNode {
-                    "_debugID": 55,
-                    "_debugIsCurrentlyTiming": false,
-                    "_debugOwner": [Circular],
-                    "_debugSource": Object {
-                      "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                      "lineNumber": 52,
-                    },
-                    "actualDuration": 0,
-                    "actualStartTime": -1,
-                    "alternate": null,
-                    "child": FiberNode {
-                      "_debugID": 67,
-                      "_debugIsCurrentlyTiming": false,
-                      "_debugOwner": [Circular],
-                      "_debugSource": Object {
-                        "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                        "lineNumber": 53,
-                      },
-                      "actualDuration": 0,
-                      "actualStartTime": -1,
-                      "alternate": null,
-                      "child": null,
-                      "childExpirationTime": 0,
-                      "effectTag": 0,
-                      "expirationTime": 0,
-                      "firstContextDependency": null,
-                      "firstEffect": null,
-                      "index": 0,
-                      "key": null,
-                      "lastEffect": null,
-                      "memoizedProps": Object {
-                        "children": "Add Event",
-                        "onClick": [Function],
-                      },
-                      "memoizedState": null,
-                      "mode": 0,
-                      "nextEffect": null,
-                      "pendingProps": Object {
-                        "children": "Add Event",
-                        "onClick": [Function],
-                      },
-                      "ref": null,
-                      "return": [Circular],
-                      "selfBaseDuration": 0,
-                      "sibling": null,
-                      "stateNode": <button>
-                        Add Event
-</button>,
-                      "tag": 7,
-                      "treeBaseDuration": 0,
-                      "type": "button",
-                      "updateQueue": null,
-                    },
-                    "childExpirationTime": 0,
-                    "effectTag": 0,
-                    "expirationTime": 0,
-                    "firstContextDependency": null,
-                    "firstEffect": null,
-                    "index": 3,
-                    "key": null,
-                    "lastEffect": null,
-                    "memoizedProps": Object {
-                      "children": <button
-                        onClick={[Function]}
->
-                        Add Event
-</button>,
-                      "className": "addEvent__buttonContainer",
-                    },
-                    "memoizedState": null,
-                    "mode": 0,
-                    "nextEffect": null,
-                    "pendingProps": Object {
-                      "children": <button
-                        onClick={[Function]}
->
-                        Add Event
-</button>,
-                      "className": "addEvent__buttonContainer",
-                    },
-                    "ref": null,
-                    "return": [Circular],
-                    "selfBaseDuration": 0,
-                    "sibling": null,
-                    "stateNode": <div
-                      class="addEvent__buttonContainer"
->
-                      <button>
-                                            Add Event
-                      </button>
-</div>,
-                    "tag": 7,
-                    "treeBaseDuration": 0,
-                    "type": "div",
-                    "updateQueue": null,
-                  },
+                  "sibling": null,
                   "stateNode": <div
-                    class="addEvent__dropdownContainer"
+                    class="addEvent__buttonContainer"
 >
-                    <label
-                                        class="addEvent__label"
-                    >
-                                        Event Duration:
-                    </label>
-                    <select
-                                        class="addEvent__durationDropdown"
-                    >
-                                        <option
-                                                            class="addEvent__typeOption"
-                                                            value=""
-                                        >
-                                                            Select
-                                        </option>
-                                        <option
-                                                            class="addEvent__typeOption"
-                                                            value="5min"
-                                        >
-                                                            5 Minutes
-                                        </option>
-                                        <option
-                                                            class="addEvent__typeOption"
-                                                            value="10min"
-                                        >
-                                                            10 Minutes
-                                        </option>
-                    </select>
+                    <button>
+                                        Add Event
+                    </button>
 </div>,
                   "tag": 7,
                   "treeBaseDuration": 0,
@@ -4344,10 +4149,10 @@ ReactWrapper {
                   <label
                                     class="addEvent__label"
                   >
-                                    Event Type:
+                                    Event Duration:
                   </label>
                   <select
-                                    class="addEvent__typeDropdown"
+                                    class="addEvent__durationDropdown"
                   >
                                     <option
                                                       class="addEvent__typeOption"
@@ -4357,21 +4162,15 @@ ReactWrapper {
                                     </option>
                                     <option
                                                       class="addEvent__typeOption"
-                                                      value="Jerk"
+                                                      value="5min"
                                     >
-                                                      Jerk
+                                                      5 Minutes
                                     </option>
                                     <option
                                                       class="addEvent__typeOption"
-                                                      value="Long Cycle"
+                                                      value="10min"
                                     >
-                                                      Long Cycle
-                                    </option>
-                                    <option
-                                                      class="addEvent__typeOption"
-                                                      value="Snatch"
-                                    >
-                                                      Snatch
+                                                      10 Minutes
                                     </option>
                   </select>
 </div>,
@@ -4380,14 +4179,46 @@ ReactWrapper {
                 "type": "div",
                 "updateQueue": null,
               },
-              "stateNode": <span
-                class="addEvent__closeButton"
+              "stateNode": <div
+                class="addEvent__dropdownContainer"
 >
-                X
-</span>,
+                <label
+                                class="addEvent__label"
+                >
+                                Event Type:
+                </label>
+                <select
+                                class="addEvent__typeDropdown"
+                >
+                                <option
+                                                class="addEvent__typeOption"
+                                                value=""
+                                >
+                                                Select
+                                </option>
+                                <option
+                                                class="addEvent__typeOption"
+                                                value="Jerk"
+                                >
+                                                Jerk
+                                </option>
+                                <option
+                                                class="addEvent__typeOption"
+                                                value="Long Cycle"
+                                >
+                                                Long Cycle
+                                </option>
+                                <option
+                                                class="addEvent__typeOption"
+                                                value="Snatch"
+                                >
+                                                Snatch
+                                </option>
+                </select>
+</div>,
               "tag": 7,
               "treeBaseDuration": 0,
-              "type": "span",
+              "type": "div",
               "updateQueue": null,
             },
             "childExpirationTime": 0,
@@ -4400,12 +4231,6 @@ ReactWrapper {
             "lastEffect": null,
             "memoizedProps": Object {
               "children": Array [
-                <span
-                  className="addEvent__closeButton"
-                  onClick={[Function]}
->
-                  X
-</span>,
                 <div
                   className="addEvent__dropdownContainer"
 >
@@ -4493,12 +4318,6 @@ ReactWrapper {
             "nextEffect": null,
             "pendingProps": Object {
               "children": Array [
-                <span
-                  className="addEvent__closeButton"
-                  onClick={[Function]}
->
-                  X
-</span>,
                 <div
                   className="addEvent__dropdownContainer"
 >
@@ -4588,11 +4407,6 @@ ReactWrapper {
             "stateNode": <div
               class="addEvent__container"
 >
-              <span
-                            class="addEvent__closeButton"
-              >
-                            X
-              </span>
               <div
                             class="addEvent__dropdownContainer"
               >
@@ -4764,11 +4578,6 @@ ReactWrapper {
                     <div
                                         class="addEvent__container"
                     >
-                                        <span
-                                                            class="addEvent__closeButton"
-                                        >
-                                                            X
-                                        </span>
                                         <div
                                                             class="addEvent__dropdownContainer"
                                         >
@@ -4938,11 +4747,6 @@ ReactWrapper {
                   <div
                                     class="addEvent__container"
                   >
-                                    <span
-                                                      class="addEvent__closeButton"
-                                    >
-                                                      X
-                                    </span>
                                     <div
                                                       class="addEvent__dropdownContainer"
                                     >
@@ -5127,11 +4931,6 @@ ReactWrapper {
         "instance": <div
           class="addEvent__container"
 >
-          <span
-                    class="addEvent__closeButton"
-          >
-                    X
-          </span>
           <div
                     class="addEvent__dropdownContainer"
           >
@@ -5212,12 +5011,6 @@ ReactWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <span
-              className="addEvent__closeButton"
-              onClick={[Function]}
->
-              X
-</span>,
             <div
               className="addEvent__dropdownContainer"
 >
@@ -5302,25 +5095,6 @@ ReactWrapper {
         },
         "ref": null,
         "rendered": Array [
-          Object {
-            "instance": <span
-              class="addEvent__closeButton"
->
-              X
-</span>,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "X",
-              "className": "addEvent__closeButton",
-              "onClick": [Function],
-            },
-            "ref": null,
-            "rendered": Array [
-              "X",
-            ],
-            "type": "span",
-          },
           Object {
             "instance": <div
               class="addEvent__dropdownContainer"

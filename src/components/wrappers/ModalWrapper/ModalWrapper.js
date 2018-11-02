@@ -9,30 +9,18 @@ const styles = {
 
 export default class ModalWrapper extends Component {
 
-    constructor(args) {
-
-        super(args);
-
-        this.state = {
-            modalOpen: this.props.open != null ? this.props.open : false,
-        };
-    }
-
-    closeModal() {
-
-        this.setState({
-            modalOpen: false,
-        });
-    }
-
     render() {
 
         return (
             <Modal
-                isOpen={this.state.modalOpen || this.props.open}
-                onRequestClose={this.closeModal}
+                isOpen={this.props.open}
                 style={styles}
                 ariaHideApp={false} /** TODO: Remove and make accessible */>
+                <span
+                    className="modalWrapper__closeButton"
+                    onClick={this.props.closeModal}>
+                    X
+                </span>
                 {this.props.children}
             </Modal>
         );
