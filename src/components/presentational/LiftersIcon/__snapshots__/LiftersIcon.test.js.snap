@@ -87,7 +87,14 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  <div />
+                  <div
+                                    class="icon__container liftersIcon__container"
+                  >
+                                    <img
+                                                      src="/lifters_icon.png"
+                                                      alt="lifters"
+                                    />
+                  </div>
 </div>,
                 "context": Object {},
                 "current": [Circular],
@@ -178,7 +185,14 @@ ReactWrapper {
             "sibling": null,
             "stateNode": Object {
               "containerInfo": <div>
-                <div />
+                <div
+                                class="icon__container liftersIcon__container"
+                >
+                                <img
+                                                src="/lifters_icon.png"
+                                                alt="lifters"
+                                />
+                </div>
 </div>,
               "context": Object {},
               "current": [Circular],
@@ -262,33 +276,160 @@ ReactWrapper {
           "_debugOwner": [Circular],
           "_debugSource": Object {
             "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/presentational/LiftersIcon/LiftersIcon.js",
-            "lineNumber": 6,
+            "lineNumber": 10,
           },
           "actualDuration": 0,
           "actualStartTime": -1,
           "alternate": null,
-          "child": null,
+          "child": FiberNode {
+            "_debugID": 52,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": Object {
+              "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/presentational/Icon/Icon.js",
+              "lineNumber": 9,
+            },
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": FiberNode {
+              "_debugID": 53,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/presentational/LiftersIcon/LiftersIcon.js",
+                "lineNumber": 12,
+              },
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": null,
+              "childExpirationTime": 0,
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "alt": "lifters",
+                "src": "/lifters_icon.png",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "alt": "lifters",
+                "src": "/lifters_icon.png",
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": <img
+                src="/lifters_icon.png"
+                alt="lifters"
+/>,
+              "tag": 7,
+              "treeBaseDuration": 0,
+              "type": "img",
+              "updateQueue": null,
+            },
+            "childExpirationTime": 0,
+            "effectTag": 0,
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": <img
+                alt="lifters"
+                src="/lifters_icon.png"
+/>,
+              "className": "icon__container liftersIcon__container",
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "children": <img
+                alt="lifters"
+                src="/lifters_icon.png"
+/>,
+              "className": "icon__container liftersIcon__container",
+            },
+            "ref": null,
+            "return": [Circular],
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": <div
+              class="icon__container liftersIcon__container"
+>
+              <img
+                            src="/lifters_icon.png"
+                            alt="lifters"
+              />
+</div>,
+            "tag": 7,
+            "treeBaseDuration": 0,
+            "type": "div",
+            "updateQueue": null,
+          },
           "childExpirationTime": 0,
-          "effectTag": 0,
+          "effectTag": 1,
           "expirationTime": 0,
           "firstContextDependency": null,
           "firstEffect": null,
           "index": 0,
           "key": null,
           "lastEffect": null,
-          "memoizedProps": Object {},
+          "memoizedProps": Object {
+            "children": <img
+              alt="lifters"
+              src="/lifters_icon.png"
+/>,
+            "className": "liftersIcon__container",
+          },
           "memoizedState": null,
           "mode": 0,
           "nextEffect": null,
-          "pendingProps": Object {},
+          "pendingProps": Object {
+            "children": <img
+              alt="lifters"
+              src="/lifters_icon.png"
+/>,
+            "className": "liftersIcon__container",
+          },
           "ref": null,
           "return": [Circular],
           "selfBaseDuration": 0,
           "sibling": null,
-          "stateNode": <div />,
-          "tag": 7,
+          "stateNode": Icon {
+            "_reactInternalFiber": [Circular],
+            "_reactInternalInstance": Object {},
+            "context": Object {},
+            "props": Object {
+              "children": <img
+                alt="lifters"
+                src="/lifters_icon.png"
+/>,
+              "className": "liftersIcon__container",
+            },
+            "refs": Object {},
+            "state": null,
+            "updater": Object {
+              "enqueueForceUpdate": [Function],
+              "enqueueReplaceState": [Function],
+              "enqueueSetState": [Function],
+              "isMounted": [Function],
+            },
+          },
+          "tag": 2,
           "treeBaseDuration": 0,
-          "type": "div",
+          "type": [Function],
           "updateQueue": null,
         },
         "childExpirationTime": 0,
@@ -375,7 +516,14 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  <div />
+                  <div
+                                    class="icon__container liftersIcon__container"
+                  >
+                                    <img
+                                                      src="/lifters_icon.png"
+                                                      alt="lifters"
+                                    />
+                  </div>
 </div>,
                 "context": Object {},
                 "current": [Circular],
@@ -466,7 +614,14 @@ ReactWrapper {
             "sibling": null,
             "stateNode": Object {
               "containerInfo": <div>
-                <div />
+                <div
+                                class="icon__container liftersIcon__container"
+                >
+                                <img
+                                                src="/lifters_icon.png"
+                                                alt="lifters"
+                                />
+                </div>
 </div>,
               "context": Object {},
               "current": [Circular],
@@ -565,15 +720,1839 @@ ReactWrapper {
     "props": Object {},
     "ref": null,
     "rendered": Object {
-      "instance": <div />,
+      "instance": Icon {
+        "_reactInternalFiber": FiberNode {
+          "_debugID": 51,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": FiberNode {
+            "_debugID": 50,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": FiberNode {
+              "_debugID": 49,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": [Circular],
+              "childExpirationTime": 0,
+              "effectTag": 1,
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {},
+              },
+              "memoizedState": Object {
+                "context": null,
+                "mount": true,
+                "props": Object {},
+              },
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {},
+              },
+              "ref": null,
+              "return": FiberNode {
+                "_debugID": 47,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": FiberNode {
+                  "_debugID": 47,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": [Circular],
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "expirationTime": 1,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": null,
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": null,
+                  "ref": null,
+                  "return": null,
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": Object {
+                    "containerInfo": <div>
+                      <div
+                                            class="icon__container liftersIcon__container"
+                      >
+                                            <img
+                                                                  src="/lifters_icon.png"
+                                                                  alt="lifters"
+                                            />
+                      </div>
+</div>,
+                    "context": Object {},
+                    "current": [Circular],
+                    "didError": false,
+                    "earliestPendingTime": 0,
+                    "earliestSuspendedTime": 0,
+                    "expirationTime": 0,
+                    "finishedWork": null,
+                    "firstBatch": null,
+                    "hydrate": false,
+                    "interactionThreadID": 12,
+                    "latestPendingTime": 0,
+                    "latestPingedTime": 0,
+                    "latestSuspendedTime": 0,
+                    "memoizedInteractions": Set {},
+                    "nextExpirationTimeToWorkOn": 0,
+                    "nextScheduledRoot": null,
+                    "pendingChildren": null,
+                    "pendingCommitExpirationTime": 0,
+                    "pendingContext": null,
+                    "pendingInteractionMap": Map {},
+                    "timeoutHandle": -1,
+                  },
+                  "tag": 5,
+                  "treeBaseDuration": 0,
+                  "type": null,
+                  "updateQueue": Object {
+                    "baseState": null,
+                    "firstCapturedEffect": null,
+                    "firstCapturedUpdate": null,
+                    "firstEffect": null,
+                    "firstUpdate": Object {
+                      "callback": null,
+                      "expirationTime": 1,
+                      "next": null,
+                      "nextEffect": null,
+                      "payload": Object {
+                        "element": <WrapperComponent
+                          Component={[Function]}
+                          context={null}
+                          props={Object {}}
+/>,
+                      },
+                      "tag": 0,
+                    },
+                    "lastCapturedEffect": null,
+                    "lastCapturedUpdate": null,
+                    "lastEffect": null,
+                    "lastUpdate": Object {
+                      "callback": null,
+                      "expirationTime": 1,
+                      "next": null,
+                      "nextEffect": null,
+                      "payload": Object {
+                        "element": <WrapperComponent
+                          Component={[Function]}
+                          context={null}
+                          props={Object {}}
+/>,
+                      },
+                      "tag": 0,
+                    },
+                  },
+                },
+                "child": [Circular],
+                "childExpirationTime": 0,
+                "effectTag": 32,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": [Circular],
+                "index": 0,
+                "key": null,
+                "lastEffect": [Circular],
+                "memoizedProps": null,
+                "memoizedState": Object {
+                  "element": <WrapperComponent
+                    Component={[Function]}
+                    context={null}
+                    props={Object {}}
+/>,
+                },
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": null,
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": Object {
+                  "containerInfo": <div>
+                    <div
+                                        class="icon__container liftersIcon__container"
+                    >
+                                        <img
+                                                            src="/lifters_icon.png"
+                                                            alt="lifters"
+                                        />
+                    </div>
+</div>,
+                  "context": Object {},
+                  "current": [Circular],
+                  "didError": false,
+                  "earliestPendingTime": 0,
+                  "earliestSuspendedTime": 0,
+                  "expirationTime": 0,
+                  "finishedWork": null,
+                  "firstBatch": null,
+                  "hydrate": false,
+                  "interactionThreadID": 12,
+                  "latestPendingTime": 0,
+                  "latestPingedTime": 0,
+                  "latestSuspendedTime": 0,
+                  "memoizedInteractions": Set {},
+                  "nextExpirationTimeToWorkOn": 0,
+                  "nextScheduledRoot": null,
+                  "pendingChildren": null,
+                  "pendingCommitExpirationTime": 0,
+                  "pendingContext": null,
+                  "pendingInteractionMap": Map {},
+                  "timeoutHandle": -1,
+                },
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": null,
+                "updateQueue": Object {
+                  "baseState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={Object {}}
+/>,
+                  },
+                  "firstCapturedEffect": null,
+                  "firstCapturedUpdate": null,
+                  "firstEffect": null,
+                  "firstUpdate": null,
+                  "lastCapturedEffect": null,
+                  "lastCapturedUpdate": null,
+                  "lastEffect": null,
+                  "lastUpdate": null,
+                },
+              },
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": WrapperComponent {
+                "_reactInternalFiber": [Circular],
+                "_reactInternalInstance": Object {},
+                "context": Object {},
+                "props": Object {
+                  "Component": [Function],
+                  "context": null,
+                  "props": Object {},
+                },
+                "refs": Object {},
+                "state": Object {
+                  "context": null,
+                  "mount": true,
+                  "props": Object {},
+                },
+                "updater": Object {
+                  "enqueueForceUpdate": [Function],
+                  "enqueueReplaceState": [Function],
+                  "enqueueSetState": [Function],
+                  "isMounted": [Function],
+                },
+              },
+              "tag": 2,
+              "treeBaseDuration": 0,
+              "type": [Function],
+              "updateQueue": null,
+            },
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": [Circular],
+            "childExpirationTime": 0,
+            "effectTag": 1,
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {},
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {},
+            "ref": null,
+            "return": FiberNode {
+              "_debugID": 49,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": [Circular],
+              "childExpirationTime": 0,
+              "effectTag": 1,
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {},
+              },
+              "memoizedState": Object {
+                "context": null,
+                "mount": true,
+                "props": Object {},
+              },
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {},
+              },
+              "ref": null,
+              "return": FiberNode {
+                "_debugID": 47,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": FiberNode {
+                  "_debugID": 47,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": [Circular],
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "expirationTime": 1,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": null,
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": null,
+                  "ref": null,
+                  "return": null,
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": Object {
+                    "containerInfo": <div>
+                      <div
+                                            class="icon__container liftersIcon__container"
+                      >
+                                            <img
+                                                                  src="/lifters_icon.png"
+                                                                  alt="lifters"
+                                            />
+                      </div>
+</div>,
+                    "context": Object {},
+                    "current": [Circular],
+                    "didError": false,
+                    "earliestPendingTime": 0,
+                    "earliestSuspendedTime": 0,
+                    "expirationTime": 0,
+                    "finishedWork": null,
+                    "firstBatch": null,
+                    "hydrate": false,
+                    "interactionThreadID": 12,
+                    "latestPendingTime": 0,
+                    "latestPingedTime": 0,
+                    "latestSuspendedTime": 0,
+                    "memoizedInteractions": Set {},
+                    "nextExpirationTimeToWorkOn": 0,
+                    "nextScheduledRoot": null,
+                    "pendingChildren": null,
+                    "pendingCommitExpirationTime": 0,
+                    "pendingContext": null,
+                    "pendingInteractionMap": Map {},
+                    "timeoutHandle": -1,
+                  },
+                  "tag": 5,
+                  "treeBaseDuration": 0,
+                  "type": null,
+                  "updateQueue": Object {
+                    "baseState": null,
+                    "firstCapturedEffect": null,
+                    "firstCapturedUpdate": null,
+                    "firstEffect": null,
+                    "firstUpdate": Object {
+                      "callback": null,
+                      "expirationTime": 1,
+                      "next": null,
+                      "nextEffect": null,
+                      "payload": Object {
+                        "element": <WrapperComponent
+                          Component={[Function]}
+                          context={null}
+                          props={Object {}}
+/>,
+                      },
+                      "tag": 0,
+                    },
+                    "lastCapturedEffect": null,
+                    "lastCapturedUpdate": null,
+                    "lastEffect": null,
+                    "lastUpdate": Object {
+                      "callback": null,
+                      "expirationTime": 1,
+                      "next": null,
+                      "nextEffect": null,
+                      "payload": Object {
+                        "element": <WrapperComponent
+                          Component={[Function]}
+                          context={null}
+                          props={Object {}}
+/>,
+                      },
+                      "tag": 0,
+                    },
+                  },
+                },
+                "child": [Circular],
+                "childExpirationTime": 0,
+                "effectTag": 32,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": [Circular],
+                "index": 0,
+                "key": null,
+                "lastEffect": [Circular],
+                "memoizedProps": null,
+                "memoizedState": Object {
+                  "element": <WrapperComponent
+                    Component={[Function]}
+                    context={null}
+                    props={Object {}}
+/>,
+                },
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": null,
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": Object {
+                  "containerInfo": <div>
+                    <div
+                                        class="icon__container liftersIcon__container"
+                    >
+                                        <img
+                                                            src="/lifters_icon.png"
+                                                            alt="lifters"
+                                        />
+                    </div>
+</div>,
+                  "context": Object {},
+                  "current": [Circular],
+                  "didError": false,
+                  "earliestPendingTime": 0,
+                  "earliestSuspendedTime": 0,
+                  "expirationTime": 0,
+                  "finishedWork": null,
+                  "firstBatch": null,
+                  "hydrate": false,
+                  "interactionThreadID": 12,
+                  "latestPendingTime": 0,
+                  "latestPingedTime": 0,
+                  "latestSuspendedTime": 0,
+                  "memoizedInteractions": Set {},
+                  "nextExpirationTimeToWorkOn": 0,
+                  "nextScheduledRoot": null,
+                  "pendingChildren": null,
+                  "pendingCommitExpirationTime": 0,
+                  "pendingContext": null,
+                  "pendingInteractionMap": Map {},
+                  "timeoutHandle": -1,
+                },
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": null,
+                "updateQueue": Object {
+                  "baseState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={Object {}}
+/>,
+                  },
+                  "firstCapturedEffect": null,
+                  "firstCapturedUpdate": null,
+                  "firstEffect": null,
+                  "firstUpdate": null,
+                  "lastCapturedEffect": null,
+                  "lastCapturedUpdate": null,
+                  "lastEffect": null,
+                  "lastUpdate": null,
+                },
+              },
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": WrapperComponent {
+                "_reactInternalFiber": [Circular],
+                "_reactInternalInstance": Object {},
+                "context": Object {},
+                "props": Object {
+                  "Component": [Function],
+                  "context": null,
+                  "props": Object {},
+                },
+                "refs": Object {},
+                "state": Object {
+                  "context": null,
+                  "mount": true,
+                  "props": Object {},
+                },
+                "updater": Object {
+                  "enqueueForceUpdate": [Function],
+                  "enqueueReplaceState": [Function],
+                  "enqueueSetState": [Function],
+                  "isMounted": [Function],
+                },
+              },
+              "tag": 2,
+              "treeBaseDuration": 0,
+              "type": [Function],
+              "updateQueue": null,
+            },
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": LiftersIcon {
+              "_reactInternalFiber": [Circular],
+              "_reactInternalInstance": Object {},
+              "context": Object {},
+              "props": Object {},
+              "refs": Object {},
+              "state": null,
+              "updater": Object {
+                "enqueueForceUpdate": [Function],
+                "enqueueReplaceState": [Function],
+                "enqueueSetState": [Function],
+                "isMounted": [Function],
+              },
+            },
+            "tag": 2,
+            "treeBaseDuration": 0,
+            "type": [Function],
+            "updateQueue": null,
+          },
+          "_debugSource": Object {
+            "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/presentational/LiftersIcon/LiftersIcon.js",
+            "lineNumber": 10,
+          },
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": FiberNode {
+            "_debugID": 52,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": Object {
+              "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/presentational/Icon/Icon.js",
+              "lineNumber": 9,
+            },
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": FiberNode {
+              "_debugID": 53,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": FiberNode {
+                "_debugID": 50,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": FiberNode {
+                  "_debugID": 49,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": [Circular],
+                  "childExpirationTime": 0,
+                  "effectTag": 1,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "Component": [Function],
+                    "context": null,
+                    "props": Object {},
+                  },
+                  "memoizedState": Object {
+                    "context": null,
+                    "mount": true,
+                    "props": Object {},
+                  },
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "Component": [Function],
+                    "context": null,
+                    "props": Object {},
+                  },
+                  "ref": null,
+                  "return": FiberNode {
+                    "_debugID": 47,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": null,
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": FiberNode {
+                      "_debugID": 47,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": null,
+                      "_debugSource": null,
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": [Circular],
+                      "child": null,
+                      "childExpirationTime": 0,
+                      "effectTag": 0,
+                      "expirationTime": 1,
+                      "firstContextDependency": null,
+                      "firstEffect": null,
+                      "index": 0,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": null,
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": null,
+                      "ref": null,
+                      "return": null,
+                      "selfBaseDuration": 0,
+                      "sibling": null,
+                      "stateNode": Object {
+                        "containerInfo": <div>
+                          <div
+                                                    class="icon__container liftersIcon__container"
+                          >
+                                                    <img
+                                                                              src="/lifters_icon.png"
+                                                                              alt="lifters"
+                                                    />
+                          </div>
+</div>,
+                        "context": Object {},
+                        "current": [Circular],
+                        "didError": false,
+                        "earliestPendingTime": 0,
+                        "earliestSuspendedTime": 0,
+                        "expirationTime": 0,
+                        "finishedWork": null,
+                        "firstBatch": null,
+                        "hydrate": false,
+                        "interactionThreadID": 12,
+                        "latestPendingTime": 0,
+                        "latestPingedTime": 0,
+                        "latestSuspendedTime": 0,
+                        "memoizedInteractions": Set {},
+                        "nextExpirationTimeToWorkOn": 0,
+                        "nextScheduledRoot": null,
+                        "pendingChildren": null,
+                        "pendingCommitExpirationTime": 0,
+                        "pendingContext": null,
+                        "pendingInteractionMap": Map {},
+                        "timeoutHandle": -1,
+                      },
+                      "tag": 5,
+                      "treeBaseDuration": 0,
+                      "type": null,
+                      "updateQueue": Object {
+                        "baseState": null,
+                        "firstCapturedEffect": null,
+                        "firstCapturedUpdate": null,
+                        "firstEffect": null,
+                        "firstUpdate": Object {
+                          "callback": null,
+                          "expirationTime": 1,
+                          "next": null,
+                          "nextEffect": null,
+                          "payload": Object {
+                            "element": <WrapperComponent
+                              Component={[Function]}
+                              context={null}
+                              props={Object {}}
+/>,
+                          },
+                          "tag": 0,
+                        },
+                        "lastCapturedEffect": null,
+                        "lastCapturedUpdate": null,
+                        "lastEffect": null,
+                        "lastUpdate": Object {
+                          "callback": null,
+                          "expirationTime": 1,
+                          "next": null,
+                          "nextEffect": null,
+                          "payload": Object {
+                            "element": <WrapperComponent
+                              Component={[Function]}
+                              context={null}
+                              props={Object {}}
+/>,
+                          },
+                          "tag": 0,
+                        },
+                      },
+                    },
+                    "child": [Circular],
+                    "childExpirationTime": 0,
+                    "effectTag": 32,
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": [Circular],
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": [Circular],
+                    "memoizedProps": null,
+                    "memoizedState": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={Object {}}
+/>,
+                    },
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": null,
+                    "ref": null,
+                    "return": null,
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": Object {
+                      "containerInfo": <div>
+                        <div
+                                                class="icon__container liftersIcon__container"
+                        >
+                                                <img
+                                                                        src="/lifters_icon.png"
+                                                                        alt="lifters"
+                                                />
+                        </div>
+</div>,
+                      "context": Object {},
+                      "current": [Circular],
+                      "didError": false,
+                      "earliestPendingTime": 0,
+                      "earliestSuspendedTime": 0,
+                      "expirationTime": 0,
+                      "finishedWork": null,
+                      "firstBatch": null,
+                      "hydrate": false,
+                      "interactionThreadID": 12,
+                      "latestPendingTime": 0,
+                      "latestPingedTime": 0,
+                      "latestSuspendedTime": 0,
+                      "memoizedInteractions": Set {},
+                      "nextExpirationTimeToWorkOn": 0,
+                      "nextScheduledRoot": null,
+                      "pendingChildren": null,
+                      "pendingCommitExpirationTime": 0,
+                      "pendingContext": null,
+                      "pendingInteractionMap": Map {},
+                      "timeoutHandle": -1,
+                    },
+                    "tag": 5,
+                    "treeBaseDuration": 0,
+                    "type": null,
+                    "updateQueue": Object {
+                      "baseState": Object {
+                        "element": <WrapperComponent
+                          Component={[Function]}
+                          context={null}
+                          props={Object {}}
+/>,
+                      },
+                      "firstCapturedEffect": null,
+                      "firstCapturedUpdate": null,
+                      "firstEffect": null,
+                      "firstUpdate": null,
+                      "lastCapturedEffect": null,
+                      "lastCapturedUpdate": null,
+                      "lastEffect": null,
+                      "lastUpdate": null,
+                    },
+                  },
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": WrapperComponent {
+                    "_reactInternalFiber": [Circular],
+                    "_reactInternalInstance": Object {},
+                    "context": Object {},
+                    "props": Object {
+                      "Component": [Function],
+                      "context": null,
+                      "props": Object {},
+                    },
+                    "refs": Object {},
+                    "state": Object {
+                      "context": null,
+                      "mount": true,
+                      "props": Object {},
+                    },
+                    "updater": Object {
+                      "enqueueForceUpdate": [Function],
+                      "enqueueReplaceState": [Function],
+                      "enqueueSetState": [Function],
+                      "isMounted": [Function],
+                    },
+                  },
+                  "tag": 2,
+                  "treeBaseDuration": 0,
+                  "type": [Function],
+                  "updateQueue": null,
+                },
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": [Circular],
+                "childExpirationTime": 0,
+                "effectTag": 1,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {},
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {},
+                "ref": null,
+                "return": FiberNode {
+                  "_debugID": 49,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": [Circular],
+                  "childExpirationTime": 0,
+                  "effectTag": 1,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "Component": [Function],
+                    "context": null,
+                    "props": Object {},
+                  },
+                  "memoizedState": Object {
+                    "context": null,
+                    "mount": true,
+                    "props": Object {},
+                  },
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "Component": [Function],
+                    "context": null,
+                    "props": Object {},
+                  },
+                  "ref": null,
+                  "return": FiberNode {
+                    "_debugID": 47,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": null,
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": FiberNode {
+                      "_debugID": 47,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": null,
+                      "_debugSource": null,
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": [Circular],
+                      "child": null,
+                      "childExpirationTime": 0,
+                      "effectTag": 0,
+                      "expirationTime": 1,
+                      "firstContextDependency": null,
+                      "firstEffect": null,
+                      "index": 0,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": null,
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": null,
+                      "ref": null,
+                      "return": null,
+                      "selfBaseDuration": 0,
+                      "sibling": null,
+                      "stateNode": Object {
+                        "containerInfo": <div>
+                          <div
+                                                    class="icon__container liftersIcon__container"
+                          >
+                                                    <img
+                                                                              src="/lifters_icon.png"
+                                                                              alt="lifters"
+                                                    />
+                          </div>
+</div>,
+                        "context": Object {},
+                        "current": [Circular],
+                        "didError": false,
+                        "earliestPendingTime": 0,
+                        "earliestSuspendedTime": 0,
+                        "expirationTime": 0,
+                        "finishedWork": null,
+                        "firstBatch": null,
+                        "hydrate": false,
+                        "interactionThreadID": 12,
+                        "latestPendingTime": 0,
+                        "latestPingedTime": 0,
+                        "latestSuspendedTime": 0,
+                        "memoizedInteractions": Set {},
+                        "nextExpirationTimeToWorkOn": 0,
+                        "nextScheduledRoot": null,
+                        "pendingChildren": null,
+                        "pendingCommitExpirationTime": 0,
+                        "pendingContext": null,
+                        "pendingInteractionMap": Map {},
+                        "timeoutHandle": -1,
+                      },
+                      "tag": 5,
+                      "treeBaseDuration": 0,
+                      "type": null,
+                      "updateQueue": Object {
+                        "baseState": null,
+                        "firstCapturedEffect": null,
+                        "firstCapturedUpdate": null,
+                        "firstEffect": null,
+                        "firstUpdate": Object {
+                          "callback": null,
+                          "expirationTime": 1,
+                          "next": null,
+                          "nextEffect": null,
+                          "payload": Object {
+                            "element": <WrapperComponent
+                              Component={[Function]}
+                              context={null}
+                              props={Object {}}
+/>,
+                          },
+                          "tag": 0,
+                        },
+                        "lastCapturedEffect": null,
+                        "lastCapturedUpdate": null,
+                        "lastEffect": null,
+                        "lastUpdate": Object {
+                          "callback": null,
+                          "expirationTime": 1,
+                          "next": null,
+                          "nextEffect": null,
+                          "payload": Object {
+                            "element": <WrapperComponent
+                              Component={[Function]}
+                              context={null}
+                              props={Object {}}
+/>,
+                          },
+                          "tag": 0,
+                        },
+                      },
+                    },
+                    "child": [Circular],
+                    "childExpirationTime": 0,
+                    "effectTag": 32,
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": [Circular],
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": [Circular],
+                    "memoizedProps": null,
+                    "memoizedState": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={Object {}}
+/>,
+                    },
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": null,
+                    "ref": null,
+                    "return": null,
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": Object {
+                      "containerInfo": <div>
+                        <div
+                                                class="icon__container liftersIcon__container"
+                        >
+                                                <img
+                                                                        src="/lifters_icon.png"
+                                                                        alt="lifters"
+                                                />
+                        </div>
+</div>,
+                      "context": Object {},
+                      "current": [Circular],
+                      "didError": false,
+                      "earliestPendingTime": 0,
+                      "earliestSuspendedTime": 0,
+                      "expirationTime": 0,
+                      "finishedWork": null,
+                      "firstBatch": null,
+                      "hydrate": false,
+                      "interactionThreadID": 12,
+                      "latestPendingTime": 0,
+                      "latestPingedTime": 0,
+                      "latestSuspendedTime": 0,
+                      "memoizedInteractions": Set {},
+                      "nextExpirationTimeToWorkOn": 0,
+                      "nextScheduledRoot": null,
+                      "pendingChildren": null,
+                      "pendingCommitExpirationTime": 0,
+                      "pendingContext": null,
+                      "pendingInteractionMap": Map {},
+                      "timeoutHandle": -1,
+                    },
+                    "tag": 5,
+                    "treeBaseDuration": 0,
+                    "type": null,
+                    "updateQueue": Object {
+                      "baseState": Object {
+                        "element": <WrapperComponent
+                          Component={[Function]}
+                          context={null}
+                          props={Object {}}
+/>,
+                      },
+                      "firstCapturedEffect": null,
+                      "firstCapturedUpdate": null,
+                      "firstEffect": null,
+                      "firstUpdate": null,
+                      "lastCapturedEffect": null,
+                      "lastCapturedUpdate": null,
+                      "lastEffect": null,
+                      "lastUpdate": null,
+                    },
+                  },
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": WrapperComponent {
+                    "_reactInternalFiber": [Circular],
+                    "_reactInternalInstance": Object {},
+                    "context": Object {},
+                    "props": Object {
+                      "Component": [Function],
+                      "context": null,
+                      "props": Object {},
+                    },
+                    "refs": Object {},
+                    "state": Object {
+                      "context": null,
+                      "mount": true,
+                      "props": Object {},
+                    },
+                    "updater": Object {
+                      "enqueueForceUpdate": [Function],
+                      "enqueueReplaceState": [Function],
+                      "enqueueSetState": [Function],
+                      "isMounted": [Function],
+                    },
+                  },
+                  "tag": 2,
+                  "treeBaseDuration": 0,
+                  "type": [Function],
+                  "updateQueue": null,
+                },
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": LiftersIcon {
+                  "_reactInternalFiber": [Circular],
+                  "_reactInternalInstance": Object {},
+                  "context": Object {},
+                  "props": Object {},
+                  "refs": Object {},
+                  "state": null,
+                  "updater": Object {
+                    "enqueueForceUpdate": [Function],
+                    "enqueueReplaceState": [Function],
+                    "enqueueSetState": [Function],
+                    "isMounted": [Function],
+                  },
+                },
+                "tag": 2,
+                "treeBaseDuration": 0,
+                "type": [Function],
+                "updateQueue": null,
+              },
+              "_debugSource": Object {
+                "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/presentational/LiftersIcon/LiftersIcon.js",
+                "lineNumber": 12,
+              },
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": null,
+              "childExpirationTime": 0,
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "alt": "lifters",
+                "src": "/lifters_icon.png",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "alt": "lifters",
+                "src": "/lifters_icon.png",
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": <img
+                src="/lifters_icon.png"
+                alt="lifters"
+/>,
+              "tag": 7,
+              "treeBaseDuration": 0,
+              "type": "img",
+              "updateQueue": null,
+            },
+            "childExpirationTime": 0,
+            "effectTag": 0,
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": <img
+                alt="lifters"
+                src="/lifters_icon.png"
+/>,
+              "className": "icon__container liftersIcon__container",
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "children": <img
+                alt="lifters"
+                src="/lifters_icon.png"
+/>,
+              "className": "icon__container liftersIcon__container",
+            },
+            "ref": null,
+            "return": [Circular],
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": <div
+              class="icon__container liftersIcon__container"
+>
+              <img
+                            src="/lifters_icon.png"
+                            alt="lifters"
+              />
+</div>,
+            "tag": 7,
+            "treeBaseDuration": 0,
+            "type": "div",
+            "updateQueue": null,
+          },
+          "childExpirationTime": 0,
+          "effectTag": 1,
+          "expirationTime": 0,
+          "firstContextDependency": null,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "children": <img
+              alt="lifters"
+              src="/lifters_icon.png"
+/>,
+            "className": "liftersIcon__container",
+          },
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "children": <img
+              alt="lifters"
+              src="/lifters_icon.png"
+/>,
+            "className": "liftersIcon__container",
+          },
+          "ref": null,
+          "return": FiberNode {
+            "_debugID": 50,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": FiberNode {
+              "_debugID": 49,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": [Circular],
+              "childExpirationTime": 0,
+              "effectTag": 1,
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {},
+              },
+              "memoizedState": Object {
+                "context": null,
+                "mount": true,
+                "props": Object {},
+              },
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {},
+              },
+              "ref": null,
+              "return": FiberNode {
+                "_debugID": 47,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": FiberNode {
+                  "_debugID": 47,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": [Circular],
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "expirationTime": 1,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": null,
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": null,
+                  "ref": null,
+                  "return": null,
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": Object {
+                    "containerInfo": <div>
+                      <div
+                                            class="icon__container liftersIcon__container"
+                      >
+                                            <img
+                                                                  src="/lifters_icon.png"
+                                                                  alt="lifters"
+                                            />
+                      </div>
+</div>,
+                    "context": Object {},
+                    "current": [Circular],
+                    "didError": false,
+                    "earliestPendingTime": 0,
+                    "earliestSuspendedTime": 0,
+                    "expirationTime": 0,
+                    "finishedWork": null,
+                    "firstBatch": null,
+                    "hydrate": false,
+                    "interactionThreadID": 12,
+                    "latestPendingTime": 0,
+                    "latestPingedTime": 0,
+                    "latestSuspendedTime": 0,
+                    "memoizedInteractions": Set {},
+                    "nextExpirationTimeToWorkOn": 0,
+                    "nextScheduledRoot": null,
+                    "pendingChildren": null,
+                    "pendingCommitExpirationTime": 0,
+                    "pendingContext": null,
+                    "pendingInteractionMap": Map {},
+                    "timeoutHandle": -1,
+                  },
+                  "tag": 5,
+                  "treeBaseDuration": 0,
+                  "type": null,
+                  "updateQueue": Object {
+                    "baseState": null,
+                    "firstCapturedEffect": null,
+                    "firstCapturedUpdate": null,
+                    "firstEffect": null,
+                    "firstUpdate": Object {
+                      "callback": null,
+                      "expirationTime": 1,
+                      "next": null,
+                      "nextEffect": null,
+                      "payload": Object {
+                        "element": <WrapperComponent
+                          Component={[Function]}
+                          context={null}
+                          props={Object {}}
+/>,
+                      },
+                      "tag": 0,
+                    },
+                    "lastCapturedEffect": null,
+                    "lastCapturedUpdate": null,
+                    "lastEffect": null,
+                    "lastUpdate": Object {
+                      "callback": null,
+                      "expirationTime": 1,
+                      "next": null,
+                      "nextEffect": null,
+                      "payload": Object {
+                        "element": <WrapperComponent
+                          Component={[Function]}
+                          context={null}
+                          props={Object {}}
+/>,
+                      },
+                      "tag": 0,
+                    },
+                  },
+                },
+                "child": [Circular],
+                "childExpirationTime": 0,
+                "effectTag": 32,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": [Circular],
+                "index": 0,
+                "key": null,
+                "lastEffect": [Circular],
+                "memoizedProps": null,
+                "memoizedState": Object {
+                  "element": <WrapperComponent
+                    Component={[Function]}
+                    context={null}
+                    props={Object {}}
+/>,
+                },
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": null,
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": Object {
+                  "containerInfo": <div>
+                    <div
+                                        class="icon__container liftersIcon__container"
+                    >
+                                        <img
+                                                            src="/lifters_icon.png"
+                                                            alt="lifters"
+                                        />
+                    </div>
+</div>,
+                  "context": Object {},
+                  "current": [Circular],
+                  "didError": false,
+                  "earliestPendingTime": 0,
+                  "earliestSuspendedTime": 0,
+                  "expirationTime": 0,
+                  "finishedWork": null,
+                  "firstBatch": null,
+                  "hydrate": false,
+                  "interactionThreadID": 12,
+                  "latestPendingTime": 0,
+                  "latestPingedTime": 0,
+                  "latestSuspendedTime": 0,
+                  "memoizedInteractions": Set {},
+                  "nextExpirationTimeToWorkOn": 0,
+                  "nextScheduledRoot": null,
+                  "pendingChildren": null,
+                  "pendingCommitExpirationTime": 0,
+                  "pendingContext": null,
+                  "pendingInteractionMap": Map {},
+                  "timeoutHandle": -1,
+                },
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": null,
+                "updateQueue": Object {
+                  "baseState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={Object {}}
+/>,
+                  },
+                  "firstCapturedEffect": null,
+                  "firstCapturedUpdate": null,
+                  "firstEffect": null,
+                  "firstUpdate": null,
+                  "lastCapturedEffect": null,
+                  "lastCapturedUpdate": null,
+                  "lastEffect": null,
+                  "lastUpdate": null,
+                },
+              },
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": WrapperComponent {
+                "_reactInternalFiber": [Circular],
+                "_reactInternalInstance": Object {},
+                "context": Object {},
+                "props": Object {
+                  "Component": [Function],
+                  "context": null,
+                  "props": Object {},
+                },
+                "refs": Object {},
+                "state": Object {
+                  "context": null,
+                  "mount": true,
+                  "props": Object {},
+                },
+                "updater": Object {
+                  "enqueueForceUpdate": [Function],
+                  "enqueueReplaceState": [Function],
+                  "enqueueSetState": [Function],
+                  "isMounted": [Function],
+                },
+              },
+              "tag": 2,
+              "treeBaseDuration": 0,
+              "type": [Function],
+              "updateQueue": null,
+            },
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": [Circular],
+            "childExpirationTime": 0,
+            "effectTag": 1,
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {},
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {},
+            "ref": null,
+            "return": FiberNode {
+              "_debugID": 49,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": [Circular],
+              "childExpirationTime": 0,
+              "effectTag": 1,
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {},
+              },
+              "memoizedState": Object {
+                "context": null,
+                "mount": true,
+                "props": Object {},
+              },
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {},
+              },
+              "ref": null,
+              "return": FiberNode {
+                "_debugID": 47,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": FiberNode {
+                  "_debugID": 47,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": [Circular],
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "expirationTime": 1,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": null,
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": null,
+                  "ref": null,
+                  "return": null,
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": Object {
+                    "containerInfo": <div>
+                      <div
+                                            class="icon__container liftersIcon__container"
+                      >
+                                            <img
+                                                                  src="/lifters_icon.png"
+                                                                  alt="lifters"
+                                            />
+                      </div>
+</div>,
+                    "context": Object {},
+                    "current": [Circular],
+                    "didError": false,
+                    "earliestPendingTime": 0,
+                    "earliestSuspendedTime": 0,
+                    "expirationTime": 0,
+                    "finishedWork": null,
+                    "firstBatch": null,
+                    "hydrate": false,
+                    "interactionThreadID": 12,
+                    "latestPendingTime": 0,
+                    "latestPingedTime": 0,
+                    "latestSuspendedTime": 0,
+                    "memoizedInteractions": Set {},
+                    "nextExpirationTimeToWorkOn": 0,
+                    "nextScheduledRoot": null,
+                    "pendingChildren": null,
+                    "pendingCommitExpirationTime": 0,
+                    "pendingContext": null,
+                    "pendingInteractionMap": Map {},
+                    "timeoutHandle": -1,
+                  },
+                  "tag": 5,
+                  "treeBaseDuration": 0,
+                  "type": null,
+                  "updateQueue": Object {
+                    "baseState": null,
+                    "firstCapturedEffect": null,
+                    "firstCapturedUpdate": null,
+                    "firstEffect": null,
+                    "firstUpdate": Object {
+                      "callback": null,
+                      "expirationTime": 1,
+                      "next": null,
+                      "nextEffect": null,
+                      "payload": Object {
+                        "element": <WrapperComponent
+                          Component={[Function]}
+                          context={null}
+                          props={Object {}}
+/>,
+                      },
+                      "tag": 0,
+                    },
+                    "lastCapturedEffect": null,
+                    "lastCapturedUpdate": null,
+                    "lastEffect": null,
+                    "lastUpdate": Object {
+                      "callback": null,
+                      "expirationTime": 1,
+                      "next": null,
+                      "nextEffect": null,
+                      "payload": Object {
+                        "element": <WrapperComponent
+                          Component={[Function]}
+                          context={null}
+                          props={Object {}}
+/>,
+                      },
+                      "tag": 0,
+                    },
+                  },
+                },
+                "child": [Circular],
+                "childExpirationTime": 0,
+                "effectTag": 32,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": [Circular],
+                "index": 0,
+                "key": null,
+                "lastEffect": [Circular],
+                "memoizedProps": null,
+                "memoizedState": Object {
+                  "element": <WrapperComponent
+                    Component={[Function]}
+                    context={null}
+                    props={Object {}}
+/>,
+                },
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": null,
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": Object {
+                  "containerInfo": <div>
+                    <div
+                                        class="icon__container liftersIcon__container"
+                    >
+                                        <img
+                                                            src="/lifters_icon.png"
+                                                            alt="lifters"
+                                        />
+                    </div>
+</div>,
+                  "context": Object {},
+                  "current": [Circular],
+                  "didError": false,
+                  "earliestPendingTime": 0,
+                  "earliestSuspendedTime": 0,
+                  "expirationTime": 0,
+                  "finishedWork": null,
+                  "firstBatch": null,
+                  "hydrate": false,
+                  "interactionThreadID": 12,
+                  "latestPendingTime": 0,
+                  "latestPingedTime": 0,
+                  "latestSuspendedTime": 0,
+                  "memoizedInteractions": Set {},
+                  "nextExpirationTimeToWorkOn": 0,
+                  "nextScheduledRoot": null,
+                  "pendingChildren": null,
+                  "pendingCommitExpirationTime": 0,
+                  "pendingContext": null,
+                  "pendingInteractionMap": Map {},
+                  "timeoutHandle": -1,
+                },
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": null,
+                "updateQueue": Object {
+                  "baseState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={Object {}}
+/>,
+                  },
+                  "firstCapturedEffect": null,
+                  "firstCapturedUpdate": null,
+                  "firstEffect": null,
+                  "firstUpdate": null,
+                  "lastCapturedEffect": null,
+                  "lastCapturedUpdate": null,
+                  "lastEffect": null,
+                  "lastUpdate": null,
+                },
+              },
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": WrapperComponent {
+                "_reactInternalFiber": [Circular],
+                "_reactInternalInstance": Object {},
+                "context": Object {},
+                "props": Object {
+                  "Component": [Function],
+                  "context": null,
+                  "props": Object {},
+                },
+                "refs": Object {},
+                "state": Object {
+                  "context": null,
+                  "mount": true,
+                  "props": Object {},
+                },
+                "updater": Object {
+                  "enqueueForceUpdate": [Function],
+                  "enqueueReplaceState": [Function],
+                  "enqueueSetState": [Function],
+                  "isMounted": [Function],
+                },
+              },
+              "tag": 2,
+              "treeBaseDuration": 0,
+              "type": [Function],
+              "updateQueue": null,
+            },
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": LiftersIcon {
+              "_reactInternalFiber": [Circular],
+              "_reactInternalInstance": Object {},
+              "context": Object {},
+              "props": Object {},
+              "refs": Object {},
+              "state": null,
+              "updater": Object {
+                "enqueueForceUpdate": [Function],
+                "enqueueReplaceState": [Function],
+                "enqueueSetState": [Function],
+                "isMounted": [Function],
+              },
+            },
+            "tag": 2,
+            "treeBaseDuration": 0,
+            "type": [Function],
+            "updateQueue": null,
+          },
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": [Circular],
+          "tag": 2,
+          "treeBaseDuration": 0,
+          "type": [Function],
+          "updateQueue": null,
+        },
+        "_reactInternalInstance": Object {},
+        "context": Object {},
+        "props": Object {
+          "children": <img
+            alt="lifters"
+            src="/lifters_icon.png"
+/>,
+          "className": "liftersIcon__container",
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+        },
+      },
       "key": undefined,
-      "nodeType": "host",
-      "props": Object {},
+      "nodeType": "class",
+      "props": Object {
+        "children": <img
+          alt="lifters"
+          src="/lifters_icon.png"
+/>,
+        "className": "liftersIcon__container",
+      },
       "ref": null,
-      "rendered": Array [
-        undefined,
-      ],
-      "type": "div",
+      "rendered": Object {
+        "instance": <div
+          class="icon__container liftersIcon__container"
+>
+          <img
+                    src="/lifters_icon.png"
+                    alt="lifters"
+          />
+</div>,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <img
+            alt="lifters"
+            src="/lifters_icon.png"
+/>,
+          "className": "icon__container liftersIcon__container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": <img
+              src="/lifters_icon.png"
+              alt="lifters"
+/>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "lifters",
+              "src": "/lifters_icon.png",
+            },
+            "ref": null,
+            "rendered": Array [
+              undefined,
+            ],
+            "type": "img",
+          },
+        ],
+        "type": "div",
+      },
+      "type": [Function],
     },
     "type": [Function],
   },
@@ -653,7 +2632,14 @@ ReactWrapper {
                 "sibling": null,
                 "stateNode": Object {
                   "containerInfo": <div>
-                    <div />
+                    <div
+                                        class="icon__container liftersIcon__container"
+                    >
+                                        <img
+                                                            src="/lifters_icon.png"
+                                                            alt="lifters"
+                                        />
+                    </div>
 </div>,
                   "context": Object {},
                   "current": [Circular],
@@ -744,7 +2730,14 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  <div />
+                  <div
+                                    class="icon__container liftersIcon__container"
+                  >
+                                    <img
+                                                      src="/lifters_icon.png"
+                                                      alt="lifters"
+                                    />
+                  </div>
 </div>,
                 "context": Object {},
                 "current": [Circular],
@@ -828,33 +2821,160 @@ ReactWrapper {
             "_debugOwner": [Circular],
             "_debugSource": Object {
               "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/presentational/LiftersIcon/LiftersIcon.js",
-              "lineNumber": 6,
+              "lineNumber": 10,
             },
             "actualDuration": 0,
             "actualStartTime": -1,
             "alternate": null,
-            "child": null,
+            "child": FiberNode {
+              "_debugID": 52,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/presentational/Icon/Icon.js",
+                "lineNumber": 9,
+              },
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": FiberNode {
+                "_debugID": 53,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/presentational/LiftersIcon/LiftersIcon.js",
+                  "lineNumber": 12,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "alt": "lifters",
+                  "src": "/lifters_icon.png",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "alt": "lifters",
+                  "src": "/lifters_icon.png",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": <img
+                  src="/lifters_icon.png"
+                  alt="lifters"
+/>,
+                "tag": 7,
+                "treeBaseDuration": 0,
+                "type": "img",
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": <img
+                  alt="lifters"
+                  src="/lifters_icon.png"
+/>,
+                "className": "icon__container liftersIcon__container",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": <img
+                  alt="lifters"
+                  src="/lifters_icon.png"
+/>,
+                "className": "icon__container liftersIcon__container",
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": <div
+                class="icon__container liftersIcon__container"
+>
+                <img
+                                src="/lifters_icon.png"
+                                alt="lifters"
+                />
+</div>,
+              "tag": 7,
+              "treeBaseDuration": 0,
+              "type": "div",
+              "updateQueue": null,
+            },
             "childExpirationTime": 0,
-            "effectTag": 0,
+            "effectTag": 1,
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": null,
             "index": 0,
             "key": null,
             "lastEffect": null,
-            "memoizedProps": Object {},
+            "memoizedProps": Object {
+              "children": <img
+                alt="lifters"
+                src="/lifters_icon.png"
+/>,
+              "className": "liftersIcon__container",
+            },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
-            "pendingProps": Object {},
+            "pendingProps": Object {
+              "children": <img
+                alt="lifters"
+                src="/lifters_icon.png"
+/>,
+              "className": "liftersIcon__container",
+            },
             "ref": null,
             "return": [Circular],
             "selfBaseDuration": 0,
             "sibling": null,
-            "stateNode": <div />,
-            "tag": 7,
+            "stateNode": Icon {
+              "_reactInternalFiber": [Circular],
+              "_reactInternalInstance": Object {},
+              "context": Object {},
+              "props": Object {
+                "children": <img
+                  alt="lifters"
+                  src="/lifters_icon.png"
+/>,
+                "className": "liftersIcon__container",
+              },
+              "refs": Object {},
+              "state": null,
+              "updater": Object {
+                "enqueueForceUpdate": [Function],
+                "enqueueReplaceState": [Function],
+                "enqueueSetState": [Function],
+                "isMounted": [Function],
+              },
+            },
+            "tag": 2,
             "treeBaseDuration": 0,
-            "type": "div",
+            "type": [Function],
             "updateQueue": null,
           },
           "childExpirationTime": 0,
@@ -941,7 +3061,14 @@ ReactWrapper {
                 "sibling": null,
                 "stateNode": Object {
                   "containerInfo": <div>
-                    <div />
+                    <div
+                                        class="icon__container liftersIcon__container"
+                    >
+                                        <img
+                                                            src="/lifters_icon.png"
+                                                            alt="lifters"
+                                        />
+                    </div>
 </div>,
                   "context": Object {},
                   "current": [Circular],
@@ -1032,7 +3159,14 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  <div />
+                  <div
+                                    class="icon__container liftersIcon__container"
+                  >
+                                    <img
+                                                      src="/lifters_icon.png"
+                                                      alt="lifters"
+                                    />
+                  </div>
 </div>,
                 "context": Object {},
                 "current": [Circular],
@@ -1131,15 +3265,1839 @@ ReactWrapper {
       "props": Object {},
       "ref": null,
       "rendered": Object {
-        "instance": <div />,
+        "instance": Icon {
+          "_reactInternalFiber": FiberNode {
+            "_debugID": 51,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": FiberNode {
+              "_debugID": 50,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": FiberNode {
+                "_debugID": 49,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": [Circular],
+                "childExpirationTime": 0,
+                "effectTag": 1,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "Component": [Function],
+                  "context": null,
+                  "props": Object {},
+                },
+                "memoizedState": Object {
+                  "context": null,
+                  "mount": true,
+                  "props": Object {},
+                },
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "Component": [Function],
+                  "context": null,
+                  "props": Object {},
+                },
+                "ref": null,
+                "return": FiberNode {
+                  "_debugID": 47,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": FiberNode {
+                    "_debugID": 47,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": null,
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": [Circular],
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "effectTag": 0,
+                    "expirationTime": 1,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": null,
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": null,
+                    "ref": null,
+                    "return": null,
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": Object {
+                      "containerInfo": <div>
+                        <div
+                                                class="icon__container liftersIcon__container"
+                        >
+                                                <img
+                                                                        src="/lifters_icon.png"
+                                                                        alt="lifters"
+                                                />
+                        </div>
+</div>,
+                      "context": Object {},
+                      "current": [Circular],
+                      "didError": false,
+                      "earliestPendingTime": 0,
+                      "earliestSuspendedTime": 0,
+                      "expirationTime": 0,
+                      "finishedWork": null,
+                      "firstBatch": null,
+                      "hydrate": false,
+                      "interactionThreadID": 12,
+                      "latestPendingTime": 0,
+                      "latestPingedTime": 0,
+                      "latestSuspendedTime": 0,
+                      "memoizedInteractions": Set {},
+                      "nextExpirationTimeToWorkOn": 0,
+                      "nextScheduledRoot": null,
+                      "pendingChildren": null,
+                      "pendingCommitExpirationTime": 0,
+                      "pendingContext": null,
+                      "pendingInteractionMap": Map {},
+                      "timeoutHandle": -1,
+                    },
+                    "tag": 5,
+                    "treeBaseDuration": 0,
+                    "type": null,
+                    "updateQueue": Object {
+                      "baseState": null,
+                      "firstCapturedEffect": null,
+                      "firstCapturedUpdate": null,
+                      "firstEffect": null,
+                      "firstUpdate": Object {
+                        "callback": null,
+                        "expirationTime": 1,
+                        "next": null,
+                        "nextEffect": null,
+                        "payload": Object {
+                          "element": <WrapperComponent
+                            Component={[Function]}
+                            context={null}
+                            props={Object {}}
+/>,
+                        },
+                        "tag": 0,
+                      },
+                      "lastCapturedEffect": null,
+                      "lastCapturedUpdate": null,
+                      "lastEffect": null,
+                      "lastUpdate": Object {
+                        "callback": null,
+                        "expirationTime": 1,
+                        "next": null,
+                        "nextEffect": null,
+                        "payload": Object {
+                          "element": <WrapperComponent
+                            Component={[Function]}
+                            context={null}
+                            props={Object {}}
+/>,
+                        },
+                        "tag": 0,
+                      },
+                    },
+                  },
+                  "child": [Circular],
+                  "childExpirationTime": 0,
+                  "effectTag": 32,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": [Circular],
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": [Circular],
+                  "memoizedProps": null,
+                  "memoizedState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={Object {}}
+/>,
+                  },
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": null,
+                  "ref": null,
+                  "return": null,
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": Object {
+                    "containerInfo": <div>
+                      <div
+                                            class="icon__container liftersIcon__container"
+                      >
+                                            <img
+                                                                  src="/lifters_icon.png"
+                                                                  alt="lifters"
+                                            />
+                      </div>
+</div>,
+                    "context": Object {},
+                    "current": [Circular],
+                    "didError": false,
+                    "earliestPendingTime": 0,
+                    "earliestSuspendedTime": 0,
+                    "expirationTime": 0,
+                    "finishedWork": null,
+                    "firstBatch": null,
+                    "hydrate": false,
+                    "interactionThreadID": 12,
+                    "latestPendingTime": 0,
+                    "latestPingedTime": 0,
+                    "latestSuspendedTime": 0,
+                    "memoizedInteractions": Set {},
+                    "nextExpirationTimeToWorkOn": 0,
+                    "nextScheduledRoot": null,
+                    "pendingChildren": null,
+                    "pendingCommitExpirationTime": 0,
+                    "pendingContext": null,
+                    "pendingInteractionMap": Map {},
+                    "timeoutHandle": -1,
+                  },
+                  "tag": 5,
+                  "treeBaseDuration": 0,
+                  "type": null,
+                  "updateQueue": Object {
+                    "baseState": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={Object {}}
+/>,
+                    },
+                    "firstCapturedEffect": null,
+                    "firstCapturedUpdate": null,
+                    "firstEffect": null,
+                    "firstUpdate": null,
+                    "lastCapturedEffect": null,
+                    "lastCapturedUpdate": null,
+                    "lastEffect": null,
+                    "lastUpdate": null,
+                  },
+                },
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": WrapperComponent {
+                  "_reactInternalFiber": [Circular],
+                  "_reactInternalInstance": Object {},
+                  "context": Object {},
+                  "props": Object {
+                    "Component": [Function],
+                    "context": null,
+                    "props": Object {},
+                  },
+                  "refs": Object {},
+                  "state": Object {
+                    "context": null,
+                    "mount": true,
+                    "props": Object {},
+                  },
+                  "updater": Object {
+                    "enqueueForceUpdate": [Function],
+                    "enqueueReplaceState": [Function],
+                    "enqueueSetState": [Function],
+                    "isMounted": [Function],
+                  },
+                },
+                "tag": 2,
+                "treeBaseDuration": 0,
+                "type": [Function],
+                "updateQueue": null,
+              },
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": [Circular],
+              "childExpirationTime": 0,
+              "effectTag": 1,
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {},
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {},
+              "ref": null,
+              "return": FiberNode {
+                "_debugID": 49,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": [Circular],
+                "childExpirationTime": 0,
+                "effectTag": 1,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "Component": [Function],
+                  "context": null,
+                  "props": Object {},
+                },
+                "memoizedState": Object {
+                  "context": null,
+                  "mount": true,
+                  "props": Object {},
+                },
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "Component": [Function],
+                  "context": null,
+                  "props": Object {},
+                },
+                "ref": null,
+                "return": FiberNode {
+                  "_debugID": 47,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": FiberNode {
+                    "_debugID": 47,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": null,
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": [Circular],
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "effectTag": 0,
+                    "expirationTime": 1,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": null,
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": null,
+                    "ref": null,
+                    "return": null,
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": Object {
+                      "containerInfo": <div>
+                        <div
+                                                class="icon__container liftersIcon__container"
+                        >
+                                                <img
+                                                                        src="/lifters_icon.png"
+                                                                        alt="lifters"
+                                                />
+                        </div>
+</div>,
+                      "context": Object {},
+                      "current": [Circular],
+                      "didError": false,
+                      "earliestPendingTime": 0,
+                      "earliestSuspendedTime": 0,
+                      "expirationTime": 0,
+                      "finishedWork": null,
+                      "firstBatch": null,
+                      "hydrate": false,
+                      "interactionThreadID": 12,
+                      "latestPendingTime": 0,
+                      "latestPingedTime": 0,
+                      "latestSuspendedTime": 0,
+                      "memoizedInteractions": Set {},
+                      "nextExpirationTimeToWorkOn": 0,
+                      "nextScheduledRoot": null,
+                      "pendingChildren": null,
+                      "pendingCommitExpirationTime": 0,
+                      "pendingContext": null,
+                      "pendingInteractionMap": Map {},
+                      "timeoutHandle": -1,
+                    },
+                    "tag": 5,
+                    "treeBaseDuration": 0,
+                    "type": null,
+                    "updateQueue": Object {
+                      "baseState": null,
+                      "firstCapturedEffect": null,
+                      "firstCapturedUpdate": null,
+                      "firstEffect": null,
+                      "firstUpdate": Object {
+                        "callback": null,
+                        "expirationTime": 1,
+                        "next": null,
+                        "nextEffect": null,
+                        "payload": Object {
+                          "element": <WrapperComponent
+                            Component={[Function]}
+                            context={null}
+                            props={Object {}}
+/>,
+                        },
+                        "tag": 0,
+                      },
+                      "lastCapturedEffect": null,
+                      "lastCapturedUpdate": null,
+                      "lastEffect": null,
+                      "lastUpdate": Object {
+                        "callback": null,
+                        "expirationTime": 1,
+                        "next": null,
+                        "nextEffect": null,
+                        "payload": Object {
+                          "element": <WrapperComponent
+                            Component={[Function]}
+                            context={null}
+                            props={Object {}}
+/>,
+                        },
+                        "tag": 0,
+                      },
+                    },
+                  },
+                  "child": [Circular],
+                  "childExpirationTime": 0,
+                  "effectTag": 32,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": [Circular],
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": [Circular],
+                  "memoizedProps": null,
+                  "memoizedState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={Object {}}
+/>,
+                  },
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": null,
+                  "ref": null,
+                  "return": null,
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": Object {
+                    "containerInfo": <div>
+                      <div
+                                            class="icon__container liftersIcon__container"
+                      >
+                                            <img
+                                                                  src="/lifters_icon.png"
+                                                                  alt="lifters"
+                                            />
+                      </div>
+</div>,
+                    "context": Object {},
+                    "current": [Circular],
+                    "didError": false,
+                    "earliestPendingTime": 0,
+                    "earliestSuspendedTime": 0,
+                    "expirationTime": 0,
+                    "finishedWork": null,
+                    "firstBatch": null,
+                    "hydrate": false,
+                    "interactionThreadID": 12,
+                    "latestPendingTime": 0,
+                    "latestPingedTime": 0,
+                    "latestSuspendedTime": 0,
+                    "memoizedInteractions": Set {},
+                    "nextExpirationTimeToWorkOn": 0,
+                    "nextScheduledRoot": null,
+                    "pendingChildren": null,
+                    "pendingCommitExpirationTime": 0,
+                    "pendingContext": null,
+                    "pendingInteractionMap": Map {},
+                    "timeoutHandle": -1,
+                  },
+                  "tag": 5,
+                  "treeBaseDuration": 0,
+                  "type": null,
+                  "updateQueue": Object {
+                    "baseState": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={Object {}}
+/>,
+                    },
+                    "firstCapturedEffect": null,
+                    "firstCapturedUpdate": null,
+                    "firstEffect": null,
+                    "firstUpdate": null,
+                    "lastCapturedEffect": null,
+                    "lastCapturedUpdate": null,
+                    "lastEffect": null,
+                    "lastUpdate": null,
+                  },
+                },
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": WrapperComponent {
+                  "_reactInternalFiber": [Circular],
+                  "_reactInternalInstance": Object {},
+                  "context": Object {},
+                  "props": Object {
+                    "Component": [Function],
+                    "context": null,
+                    "props": Object {},
+                  },
+                  "refs": Object {},
+                  "state": Object {
+                    "context": null,
+                    "mount": true,
+                    "props": Object {},
+                  },
+                  "updater": Object {
+                    "enqueueForceUpdate": [Function],
+                    "enqueueReplaceState": [Function],
+                    "enqueueSetState": [Function],
+                    "isMounted": [Function],
+                  },
+                },
+                "tag": 2,
+                "treeBaseDuration": 0,
+                "type": [Function],
+                "updateQueue": null,
+              },
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": LiftersIcon {
+                "_reactInternalFiber": [Circular],
+                "_reactInternalInstance": Object {},
+                "context": Object {},
+                "props": Object {},
+                "refs": Object {},
+                "state": null,
+                "updater": Object {
+                  "enqueueForceUpdate": [Function],
+                  "enqueueReplaceState": [Function],
+                  "enqueueSetState": [Function],
+                  "isMounted": [Function],
+                },
+              },
+              "tag": 2,
+              "treeBaseDuration": 0,
+              "type": [Function],
+              "updateQueue": null,
+            },
+            "_debugSource": Object {
+              "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/presentational/LiftersIcon/LiftersIcon.js",
+              "lineNumber": 10,
+            },
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": FiberNode {
+              "_debugID": 52,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/presentational/Icon/Icon.js",
+                "lineNumber": 9,
+              },
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": FiberNode {
+                "_debugID": 53,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": FiberNode {
+                  "_debugID": 50,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": FiberNode {
+                    "_debugID": 49,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": null,
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": [Circular],
+                    "childExpirationTime": 0,
+                    "effectTag": 1,
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "Component": [Function],
+                      "context": null,
+                      "props": Object {},
+                    },
+                    "memoizedState": Object {
+                      "context": null,
+                      "mount": true,
+                      "props": Object {},
+                    },
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "Component": [Function],
+                      "context": null,
+                      "props": Object {},
+                    },
+                    "ref": null,
+                    "return": FiberNode {
+                      "_debugID": 47,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": null,
+                      "_debugSource": null,
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": FiberNode {
+                        "_debugID": 47,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": null,
+                        "_debugSource": null,
+                        "actualDuration": 0,
+                        "actualStartTime": -1,
+                        "alternate": [Circular],
+                        "child": null,
+                        "childExpirationTime": 0,
+                        "effectTag": 0,
+                        "expirationTime": 1,
+                        "firstContextDependency": null,
+                        "firstEffect": null,
+                        "index": 0,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": null,
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": null,
+                        "ref": null,
+                        "return": null,
+                        "selfBaseDuration": 0,
+                        "sibling": null,
+                        "stateNode": Object {
+                          "containerInfo": <div>
+                            <div
+                                                        class="icon__container liftersIcon__container"
+                            >
+                                                        <img
+                                                                                    src="/lifters_icon.png"
+                                                                                    alt="lifters"
+                                                        />
+                            </div>
+</div>,
+                          "context": Object {},
+                          "current": [Circular],
+                          "didError": false,
+                          "earliestPendingTime": 0,
+                          "earliestSuspendedTime": 0,
+                          "expirationTime": 0,
+                          "finishedWork": null,
+                          "firstBatch": null,
+                          "hydrate": false,
+                          "interactionThreadID": 12,
+                          "latestPendingTime": 0,
+                          "latestPingedTime": 0,
+                          "latestSuspendedTime": 0,
+                          "memoizedInteractions": Set {},
+                          "nextExpirationTimeToWorkOn": 0,
+                          "nextScheduledRoot": null,
+                          "pendingChildren": null,
+                          "pendingCommitExpirationTime": 0,
+                          "pendingContext": null,
+                          "pendingInteractionMap": Map {},
+                          "timeoutHandle": -1,
+                        },
+                        "tag": 5,
+                        "treeBaseDuration": 0,
+                        "type": null,
+                        "updateQueue": Object {
+                          "baseState": null,
+                          "firstCapturedEffect": null,
+                          "firstCapturedUpdate": null,
+                          "firstEffect": null,
+                          "firstUpdate": Object {
+                            "callback": null,
+                            "expirationTime": 1,
+                            "next": null,
+                            "nextEffect": null,
+                            "payload": Object {
+                              "element": <WrapperComponent
+                                Component={[Function]}
+                                context={null}
+                                props={Object {}}
+/>,
+                            },
+                            "tag": 0,
+                          },
+                          "lastCapturedEffect": null,
+                          "lastCapturedUpdate": null,
+                          "lastEffect": null,
+                          "lastUpdate": Object {
+                            "callback": null,
+                            "expirationTime": 1,
+                            "next": null,
+                            "nextEffect": null,
+                            "payload": Object {
+                              "element": <WrapperComponent
+                                Component={[Function]}
+                                context={null}
+                                props={Object {}}
+/>,
+                            },
+                            "tag": 0,
+                          },
+                        },
+                      },
+                      "child": [Circular],
+                      "childExpirationTime": 0,
+                      "effectTag": 32,
+                      "expirationTime": 0,
+                      "firstContextDependency": null,
+                      "firstEffect": [Circular],
+                      "index": 0,
+                      "key": null,
+                      "lastEffect": [Circular],
+                      "memoizedProps": null,
+                      "memoizedState": Object {
+                        "element": <WrapperComponent
+                          Component={[Function]}
+                          context={null}
+                          props={Object {}}
+/>,
+                      },
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": null,
+                      "ref": null,
+                      "return": null,
+                      "selfBaseDuration": 0,
+                      "sibling": null,
+                      "stateNode": Object {
+                        "containerInfo": <div>
+                          <div
+                                                    class="icon__container liftersIcon__container"
+                          >
+                                                    <img
+                                                                              src="/lifters_icon.png"
+                                                                              alt="lifters"
+                                                    />
+                          </div>
+</div>,
+                        "context": Object {},
+                        "current": [Circular],
+                        "didError": false,
+                        "earliestPendingTime": 0,
+                        "earliestSuspendedTime": 0,
+                        "expirationTime": 0,
+                        "finishedWork": null,
+                        "firstBatch": null,
+                        "hydrate": false,
+                        "interactionThreadID": 12,
+                        "latestPendingTime": 0,
+                        "latestPingedTime": 0,
+                        "latestSuspendedTime": 0,
+                        "memoizedInteractions": Set {},
+                        "nextExpirationTimeToWorkOn": 0,
+                        "nextScheduledRoot": null,
+                        "pendingChildren": null,
+                        "pendingCommitExpirationTime": 0,
+                        "pendingContext": null,
+                        "pendingInteractionMap": Map {},
+                        "timeoutHandle": -1,
+                      },
+                      "tag": 5,
+                      "treeBaseDuration": 0,
+                      "type": null,
+                      "updateQueue": Object {
+                        "baseState": Object {
+                          "element": <WrapperComponent
+                            Component={[Function]}
+                            context={null}
+                            props={Object {}}
+/>,
+                        },
+                        "firstCapturedEffect": null,
+                        "firstCapturedUpdate": null,
+                        "firstEffect": null,
+                        "firstUpdate": null,
+                        "lastCapturedEffect": null,
+                        "lastCapturedUpdate": null,
+                        "lastEffect": null,
+                        "lastUpdate": null,
+                      },
+                    },
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": WrapperComponent {
+                      "_reactInternalFiber": [Circular],
+                      "_reactInternalInstance": Object {},
+                      "context": Object {},
+                      "props": Object {
+                        "Component": [Function],
+                        "context": null,
+                        "props": Object {},
+                      },
+                      "refs": Object {},
+                      "state": Object {
+                        "context": null,
+                        "mount": true,
+                        "props": Object {},
+                      },
+                      "updater": Object {
+                        "enqueueForceUpdate": [Function],
+                        "enqueueReplaceState": [Function],
+                        "enqueueSetState": [Function],
+                        "isMounted": [Function],
+                      },
+                    },
+                    "tag": 2,
+                    "treeBaseDuration": 0,
+                    "type": [Function],
+                    "updateQueue": null,
+                  },
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": [Circular],
+                  "childExpirationTime": 0,
+                  "effectTag": 1,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {},
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {},
+                  "ref": null,
+                  "return": FiberNode {
+                    "_debugID": 49,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": null,
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": [Circular],
+                    "childExpirationTime": 0,
+                    "effectTag": 1,
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "Component": [Function],
+                      "context": null,
+                      "props": Object {},
+                    },
+                    "memoizedState": Object {
+                      "context": null,
+                      "mount": true,
+                      "props": Object {},
+                    },
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "Component": [Function],
+                      "context": null,
+                      "props": Object {},
+                    },
+                    "ref": null,
+                    "return": FiberNode {
+                      "_debugID": 47,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": null,
+                      "_debugSource": null,
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": FiberNode {
+                        "_debugID": 47,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": null,
+                        "_debugSource": null,
+                        "actualDuration": 0,
+                        "actualStartTime": -1,
+                        "alternate": [Circular],
+                        "child": null,
+                        "childExpirationTime": 0,
+                        "effectTag": 0,
+                        "expirationTime": 1,
+                        "firstContextDependency": null,
+                        "firstEffect": null,
+                        "index": 0,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": null,
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": null,
+                        "ref": null,
+                        "return": null,
+                        "selfBaseDuration": 0,
+                        "sibling": null,
+                        "stateNode": Object {
+                          "containerInfo": <div>
+                            <div
+                                                        class="icon__container liftersIcon__container"
+                            >
+                                                        <img
+                                                                                    src="/lifters_icon.png"
+                                                                                    alt="lifters"
+                                                        />
+                            </div>
+</div>,
+                          "context": Object {},
+                          "current": [Circular],
+                          "didError": false,
+                          "earliestPendingTime": 0,
+                          "earliestSuspendedTime": 0,
+                          "expirationTime": 0,
+                          "finishedWork": null,
+                          "firstBatch": null,
+                          "hydrate": false,
+                          "interactionThreadID": 12,
+                          "latestPendingTime": 0,
+                          "latestPingedTime": 0,
+                          "latestSuspendedTime": 0,
+                          "memoizedInteractions": Set {},
+                          "nextExpirationTimeToWorkOn": 0,
+                          "nextScheduledRoot": null,
+                          "pendingChildren": null,
+                          "pendingCommitExpirationTime": 0,
+                          "pendingContext": null,
+                          "pendingInteractionMap": Map {},
+                          "timeoutHandle": -1,
+                        },
+                        "tag": 5,
+                        "treeBaseDuration": 0,
+                        "type": null,
+                        "updateQueue": Object {
+                          "baseState": null,
+                          "firstCapturedEffect": null,
+                          "firstCapturedUpdate": null,
+                          "firstEffect": null,
+                          "firstUpdate": Object {
+                            "callback": null,
+                            "expirationTime": 1,
+                            "next": null,
+                            "nextEffect": null,
+                            "payload": Object {
+                              "element": <WrapperComponent
+                                Component={[Function]}
+                                context={null}
+                                props={Object {}}
+/>,
+                            },
+                            "tag": 0,
+                          },
+                          "lastCapturedEffect": null,
+                          "lastCapturedUpdate": null,
+                          "lastEffect": null,
+                          "lastUpdate": Object {
+                            "callback": null,
+                            "expirationTime": 1,
+                            "next": null,
+                            "nextEffect": null,
+                            "payload": Object {
+                              "element": <WrapperComponent
+                                Component={[Function]}
+                                context={null}
+                                props={Object {}}
+/>,
+                            },
+                            "tag": 0,
+                          },
+                        },
+                      },
+                      "child": [Circular],
+                      "childExpirationTime": 0,
+                      "effectTag": 32,
+                      "expirationTime": 0,
+                      "firstContextDependency": null,
+                      "firstEffect": [Circular],
+                      "index": 0,
+                      "key": null,
+                      "lastEffect": [Circular],
+                      "memoizedProps": null,
+                      "memoizedState": Object {
+                        "element": <WrapperComponent
+                          Component={[Function]}
+                          context={null}
+                          props={Object {}}
+/>,
+                      },
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": null,
+                      "ref": null,
+                      "return": null,
+                      "selfBaseDuration": 0,
+                      "sibling": null,
+                      "stateNode": Object {
+                        "containerInfo": <div>
+                          <div
+                                                    class="icon__container liftersIcon__container"
+                          >
+                                                    <img
+                                                                              src="/lifters_icon.png"
+                                                                              alt="lifters"
+                                                    />
+                          </div>
+</div>,
+                        "context": Object {},
+                        "current": [Circular],
+                        "didError": false,
+                        "earliestPendingTime": 0,
+                        "earliestSuspendedTime": 0,
+                        "expirationTime": 0,
+                        "finishedWork": null,
+                        "firstBatch": null,
+                        "hydrate": false,
+                        "interactionThreadID": 12,
+                        "latestPendingTime": 0,
+                        "latestPingedTime": 0,
+                        "latestSuspendedTime": 0,
+                        "memoizedInteractions": Set {},
+                        "nextExpirationTimeToWorkOn": 0,
+                        "nextScheduledRoot": null,
+                        "pendingChildren": null,
+                        "pendingCommitExpirationTime": 0,
+                        "pendingContext": null,
+                        "pendingInteractionMap": Map {},
+                        "timeoutHandle": -1,
+                      },
+                      "tag": 5,
+                      "treeBaseDuration": 0,
+                      "type": null,
+                      "updateQueue": Object {
+                        "baseState": Object {
+                          "element": <WrapperComponent
+                            Component={[Function]}
+                            context={null}
+                            props={Object {}}
+/>,
+                        },
+                        "firstCapturedEffect": null,
+                        "firstCapturedUpdate": null,
+                        "firstEffect": null,
+                        "firstUpdate": null,
+                        "lastCapturedEffect": null,
+                        "lastCapturedUpdate": null,
+                        "lastEffect": null,
+                        "lastUpdate": null,
+                      },
+                    },
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": WrapperComponent {
+                      "_reactInternalFiber": [Circular],
+                      "_reactInternalInstance": Object {},
+                      "context": Object {},
+                      "props": Object {
+                        "Component": [Function],
+                        "context": null,
+                        "props": Object {},
+                      },
+                      "refs": Object {},
+                      "state": Object {
+                        "context": null,
+                        "mount": true,
+                        "props": Object {},
+                      },
+                      "updater": Object {
+                        "enqueueForceUpdate": [Function],
+                        "enqueueReplaceState": [Function],
+                        "enqueueSetState": [Function],
+                        "isMounted": [Function],
+                      },
+                    },
+                    "tag": 2,
+                    "treeBaseDuration": 0,
+                    "type": [Function],
+                    "updateQueue": null,
+                  },
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": LiftersIcon {
+                    "_reactInternalFiber": [Circular],
+                    "_reactInternalInstance": Object {},
+                    "context": Object {},
+                    "props": Object {},
+                    "refs": Object {},
+                    "state": null,
+                    "updater": Object {
+                      "enqueueForceUpdate": [Function],
+                      "enqueueReplaceState": [Function],
+                      "enqueueSetState": [Function],
+                      "isMounted": [Function],
+                    },
+                  },
+                  "tag": 2,
+                  "treeBaseDuration": 0,
+                  "type": [Function],
+                  "updateQueue": null,
+                },
+                "_debugSource": Object {
+                  "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/presentational/LiftersIcon/LiftersIcon.js",
+                  "lineNumber": 12,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "alt": "lifters",
+                  "src": "/lifters_icon.png",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "alt": "lifters",
+                  "src": "/lifters_icon.png",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": <img
+                  src="/lifters_icon.png"
+                  alt="lifters"
+/>,
+                "tag": 7,
+                "treeBaseDuration": 0,
+                "type": "img",
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": <img
+                  alt="lifters"
+                  src="/lifters_icon.png"
+/>,
+                "className": "icon__container liftersIcon__container",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": <img
+                  alt="lifters"
+                  src="/lifters_icon.png"
+/>,
+                "className": "icon__container liftersIcon__container",
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": <div
+                class="icon__container liftersIcon__container"
+>
+                <img
+                                src="/lifters_icon.png"
+                                alt="lifters"
+                />
+</div>,
+              "tag": 7,
+              "treeBaseDuration": 0,
+              "type": "div",
+              "updateQueue": null,
+            },
+            "childExpirationTime": 0,
+            "effectTag": 1,
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": <img
+                alt="lifters"
+                src="/lifters_icon.png"
+/>,
+              "className": "liftersIcon__container",
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "children": <img
+                alt="lifters"
+                src="/lifters_icon.png"
+/>,
+              "className": "liftersIcon__container",
+            },
+            "ref": null,
+            "return": FiberNode {
+              "_debugID": 50,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": FiberNode {
+                "_debugID": 49,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": [Circular],
+                "childExpirationTime": 0,
+                "effectTag": 1,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "Component": [Function],
+                  "context": null,
+                  "props": Object {},
+                },
+                "memoizedState": Object {
+                  "context": null,
+                  "mount": true,
+                  "props": Object {},
+                },
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "Component": [Function],
+                  "context": null,
+                  "props": Object {},
+                },
+                "ref": null,
+                "return": FiberNode {
+                  "_debugID": 47,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": FiberNode {
+                    "_debugID": 47,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": null,
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": [Circular],
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "effectTag": 0,
+                    "expirationTime": 1,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": null,
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": null,
+                    "ref": null,
+                    "return": null,
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": Object {
+                      "containerInfo": <div>
+                        <div
+                                                class="icon__container liftersIcon__container"
+                        >
+                                                <img
+                                                                        src="/lifters_icon.png"
+                                                                        alt="lifters"
+                                                />
+                        </div>
+</div>,
+                      "context": Object {},
+                      "current": [Circular],
+                      "didError": false,
+                      "earliestPendingTime": 0,
+                      "earliestSuspendedTime": 0,
+                      "expirationTime": 0,
+                      "finishedWork": null,
+                      "firstBatch": null,
+                      "hydrate": false,
+                      "interactionThreadID": 12,
+                      "latestPendingTime": 0,
+                      "latestPingedTime": 0,
+                      "latestSuspendedTime": 0,
+                      "memoizedInteractions": Set {},
+                      "nextExpirationTimeToWorkOn": 0,
+                      "nextScheduledRoot": null,
+                      "pendingChildren": null,
+                      "pendingCommitExpirationTime": 0,
+                      "pendingContext": null,
+                      "pendingInteractionMap": Map {},
+                      "timeoutHandle": -1,
+                    },
+                    "tag": 5,
+                    "treeBaseDuration": 0,
+                    "type": null,
+                    "updateQueue": Object {
+                      "baseState": null,
+                      "firstCapturedEffect": null,
+                      "firstCapturedUpdate": null,
+                      "firstEffect": null,
+                      "firstUpdate": Object {
+                        "callback": null,
+                        "expirationTime": 1,
+                        "next": null,
+                        "nextEffect": null,
+                        "payload": Object {
+                          "element": <WrapperComponent
+                            Component={[Function]}
+                            context={null}
+                            props={Object {}}
+/>,
+                        },
+                        "tag": 0,
+                      },
+                      "lastCapturedEffect": null,
+                      "lastCapturedUpdate": null,
+                      "lastEffect": null,
+                      "lastUpdate": Object {
+                        "callback": null,
+                        "expirationTime": 1,
+                        "next": null,
+                        "nextEffect": null,
+                        "payload": Object {
+                          "element": <WrapperComponent
+                            Component={[Function]}
+                            context={null}
+                            props={Object {}}
+/>,
+                        },
+                        "tag": 0,
+                      },
+                    },
+                  },
+                  "child": [Circular],
+                  "childExpirationTime": 0,
+                  "effectTag": 32,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": [Circular],
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": [Circular],
+                  "memoizedProps": null,
+                  "memoizedState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={Object {}}
+/>,
+                  },
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": null,
+                  "ref": null,
+                  "return": null,
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": Object {
+                    "containerInfo": <div>
+                      <div
+                                            class="icon__container liftersIcon__container"
+                      >
+                                            <img
+                                                                  src="/lifters_icon.png"
+                                                                  alt="lifters"
+                                            />
+                      </div>
+</div>,
+                    "context": Object {},
+                    "current": [Circular],
+                    "didError": false,
+                    "earliestPendingTime": 0,
+                    "earliestSuspendedTime": 0,
+                    "expirationTime": 0,
+                    "finishedWork": null,
+                    "firstBatch": null,
+                    "hydrate": false,
+                    "interactionThreadID": 12,
+                    "latestPendingTime": 0,
+                    "latestPingedTime": 0,
+                    "latestSuspendedTime": 0,
+                    "memoizedInteractions": Set {},
+                    "nextExpirationTimeToWorkOn": 0,
+                    "nextScheduledRoot": null,
+                    "pendingChildren": null,
+                    "pendingCommitExpirationTime": 0,
+                    "pendingContext": null,
+                    "pendingInteractionMap": Map {},
+                    "timeoutHandle": -1,
+                  },
+                  "tag": 5,
+                  "treeBaseDuration": 0,
+                  "type": null,
+                  "updateQueue": Object {
+                    "baseState": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={Object {}}
+/>,
+                    },
+                    "firstCapturedEffect": null,
+                    "firstCapturedUpdate": null,
+                    "firstEffect": null,
+                    "firstUpdate": null,
+                    "lastCapturedEffect": null,
+                    "lastCapturedUpdate": null,
+                    "lastEffect": null,
+                    "lastUpdate": null,
+                  },
+                },
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": WrapperComponent {
+                  "_reactInternalFiber": [Circular],
+                  "_reactInternalInstance": Object {},
+                  "context": Object {},
+                  "props": Object {
+                    "Component": [Function],
+                    "context": null,
+                    "props": Object {},
+                  },
+                  "refs": Object {},
+                  "state": Object {
+                    "context": null,
+                    "mount": true,
+                    "props": Object {},
+                  },
+                  "updater": Object {
+                    "enqueueForceUpdate": [Function],
+                    "enqueueReplaceState": [Function],
+                    "enqueueSetState": [Function],
+                    "isMounted": [Function],
+                  },
+                },
+                "tag": 2,
+                "treeBaseDuration": 0,
+                "type": [Function],
+                "updateQueue": null,
+              },
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": [Circular],
+              "childExpirationTime": 0,
+              "effectTag": 1,
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {},
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {},
+              "ref": null,
+              "return": FiberNode {
+                "_debugID": 49,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": [Circular],
+                "childExpirationTime": 0,
+                "effectTag": 1,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "Component": [Function],
+                  "context": null,
+                  "props": Object {},
+                },
+                "memoizedState": Object {
+                  "context": null,
+                  "mount": true,
+                  "props": Object {},
+                },
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "Component": [Function],
+                  "context": null,
+                  "props": Object {},
+                },
+                "ref": null,
+                "return": FiberNode {
+                  "_debugID": 47,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": FiberNode {
+                    "_debugID": 47,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": null,
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": [Circular],
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "effectTag": 0,
+                    "expirationTime": 1,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": null,
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": null,
+                    "ref": null,
+                    "return": null,
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": Object {
+                      "containerInfo": <div>
+                        <div
+                                                class="icon__container liftersIcon__container"
+                        >
+                                                <img
+                                                                        src="/lifters_icon.png"
+                                                                        alt="lifters"
+                                                />
+                        </div>
+</div>,
+                      "context": Object {},
+                      "current": [Circular],
+                      "didError": false,
+                      "earliestPendingTime": 0,
+                      "earliestSuspendedTime": 0,
+                      "expirationTime": 0,
+                      "finishedWork": null,
+                      "firstBatch": null,
+                      "hydrate": false,
+                      "interactionThreadID": 12,
+                      "latestPendingTime": 0,
+                      "latestPingedTime": 0,
+                      "latestSuspendedTime": 0,
+                      "memoizedInteractions": Set {},
+                      "nextExpirationTimeToWorkOn": 0,
+                      "nextScheduledRoot": null,
+                      "pendingChildren": null,
+                      "pendingCommitExpirationTime": 0,
+                      "pendingContext": null,
+                      "pendingInteractionMap": Map {},
+                      "timeoutHandle": -1,
+                    },
+                    "tag": 5,
+                    "treeBaseDuration": 0,
+                    "type": null,
+                    "updateQueue": Object {
+                      "baseState": null,
+                      "firstCapturedEffect": null,
+                      "firstCapturedUpdate": null,
+                      "firstEffect": null,
+                      "firstUpdate": Object {
+                        "callback": null,
+                        "expirationTime": 1,
+                        "next": null,
+                        "nextEffect": null,
+                        "payload": Object {
+                          "element": <WrapperComponent
+                            Component={[Function]}
+                            context={null}
+                            props={Object {}}
+/>,
+                        },
+                        "tag": 0,
+                      },
+                      "lastCapturedEffect": null,
+                      "lastCapturedUpdate": null,
+                      "lastEffect": null,
+                      "lastUpdate": Object {
+                        "callback": null,
+                        "expirationTime": 1,
+                        "next": null,
+                        "nextEffect": null,
+                        "payload": Object {
+                          "element": <WrapperComponent
+                            Component={[Function]}
+                            context={null}
+                            props={Object {}}
+/>,
+                        },
+                        "tag": 0,
+                      },
+                    },
+                  },
+                  "child": [Circular],
+                  "childExpirationTime": 0,
+                  "effectTag": 32,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": [Circular],
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": [Circular],
+                  "memoizedProps": null,
+                  "memoizedState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={Object {}}
+/>,
+                  },
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": null,
+                  "ref": null,
+                  "return": null,
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": Object {
+                    "containerInfo": <div>
+                      <div
+                                            class="icon__container liftersIcon__container"
+                      >
+                                            <img
+                                                                  src="/lifters_icon.png"
+                                                                  alt="lifters"
+                                            />
+                      </div>
+</div>,
+                    "context": Object {},
+                    "current": [Circular],
+                    "didError": false,
+                    "earliestPendingTime": 0,
+                    "earliestSuspendedTime": 0,
+                    "expirationTime": 0,
+                    "finishedWork": null,
+                    "firstBatch": null,
+                    "hydrate": false,
+                    "interactionThreadID": 12,
+                    "latestPendingTime": 0,
+                    "latestPingedTime": 0,
+                    "latestSuspendedTime": 0,
+                    "memoizedInteractions": Set {},
+                    "nextExpirationTimeToWorkOn": 0,
+                    "nextScheduledRoot": null,
+                    "pendingChildren": null,
+                    "pendingCommitExpirationTime": 0,
+                    "pendingContext": null,
+                    "pendingInteractionMap": Map {},
+                    "timeoutHandle": -1,
+                  },
+                  "tag": 5,
+                  "treeBaseDuration": 0,
+                  "type": null,
+                  "updateQueue": Object {
+                    "baseState": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={Object {}}
+/>,
+                    },
+                    "firstCapturedEffect": null,
+                    "firstCapturedUpdate": null,
+                    "firstEffect": null,
+                    "firstUpdate": null,
+                    "lastCapturedEffect": null,
+                    "lastCapturedUpdate": null,
+                    "lastEffect": null,
+                    "lastUpdate": null,
+                  },
+                },
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": WrapperComponent {
+                  "_reactInternalFiber": [Circular],
+                  "_reactInternalInstance": Object {},
+                  "context": Object {},
+                  "props": Object {
+                    "Component": [Function],
+                    "context": null,
+                    "props": Object {},
+                  },
+                  "refs": Object {},
+                  "state": Object {
+                    "context": null,
+                    "mount": true,
+                    "props": Object {},
+                  },
+                  "updater": Object {
+                    "enqueueForceUpdate": [Function],
+                    "enqueueReplaceState": [Function],
+                    "enqueueSetState": [Function],
+                    "isMounted": [Function],
+                  },
+                },
+                "tag": 2,
+                "treeBaseDuration": 0,
+                "type": [Function],
+                "updateQueue": null,
+              },
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": LiftersIcon {
+                "_reactInternalFiber": [Circular],
+                "_reactInternalInstance": Object {},
+                "context": Object {},
+                "props": Object {},
+                "refs": Object {},
+                "state": null,
+                "updater": Object {
+                  "enqueueForceUpdate": [Function],
+                  "enqueueReplaceState": [Function],
+                  "enqueueSetState": [Function],
+                  "isMounted": [Function],
+                },
+              },
+              "tag": 2,
+              "treeBaseDuration": 0,
+              "type": [Function],
+              "updateQueue": null,
+            },
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": [Circular],
+            "tag": 2,
+            "treeBaseDuration": 0,
+            "type": [Function],
+            "updateQueue": null,
+          },
+          "_reactInternalInstance": Object {},
+          "context": Object {},
+          "props": Object {
+            "children": <img
+              alt="lifters"
+              src="/lifters_icon.png"
+/>,
+            "className": "liftersIcon__container",
+          },
+          "refs": Object {},
+          "state": null,
+          "updater": Object {
+            "enqueueForceUpdate": [Function],
+            "enqueueReplaceState": [Function],
+            "enqueueSetState": [Function],
+            "isMounted": [Function],
+          },
+        },
         "key": undefined,
-        "nodeType": "host",
-        "props": Object {},
+        "nodeType": "class",
+        "props": Object {
+          "children": <img
+            alt="lifters"
+            src="/lifters_icon.png"
+/>,
+          "className": "liftersIcon__container",
+        },
         "ref": null,
-        "rendered": Array [
-          undefined,
-        ],
-        "type": "div",
+        "rendered": Object {
+          "instance": <div
+            class="icon__container liftersIcon__container"
+>
+            <img
+                        src="/lifters_icon.png"
+                        alt="lifters"
+            />
+</div>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <img
+              alt="lifters"
+              src="/lifters_icon.png"
+/>,
+            "className": "icon__container liftersIcon__container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <img
+                src="/lifters_icon.png"
+                alt="lifters"
+/>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "lifters",
+                "src": "/lifters_icon.png",
+              },
+              "ref": null,
+              "rendered": Array [
+                undefined,
+              ],
+              "type": "img",
+            },
+          ],
+          "type": "div",
+        },
+        "type": [Function],
       },
       "type": [Function],
     },

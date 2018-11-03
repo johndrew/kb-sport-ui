@@ -88,7 +88,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                                    class="icon__container"
+                                    class="icon__container undefined"
                   />
 </div>,
                 "context": Object {},
@@ -181,7 +181,7 @@ ReactWrapper {
             "stateNode": Object {
               "containerInfo": <div>
                 <div
-                                class="icon__container"
+                                class="icon__container undefined"
                 />
 </div>,
               "context": Object {},
@@ -266,7 +266,7 @@ ReactWrapper {
           "_debugOwner": [Circular],
           "_debugSource": Object {
             "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/presentational/Icon/Icon.js",
-            "lineNumber": 7,
+            "lineNumber": 9,
           },
           "actualDuration": 0,
           "actualStartTime": -1,
@@ -282,21 +282,21 @@ ReactWrapper {
           "lastEffect": null,
           "memoizedProps": Object {
             "children": undefined,
-            "className": "icon__container",
+            "className": "icon__container undefined",
           },
           "memoizedState": null,
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
             "children": undefined,
-            "className": "icon__container",
+            "className": "icon__container undefined",
           },
           "ref": null,
           "return": [Circular],
           "selfBaseDuration": 0,
           "sibling": null,
           "stateNode": <div
-            class="icon__container"
+            class="icon__container undefined"
 />,
           "tag": 7,
           "treeBaseDuration": 0,
@@ -388,7 +388,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                                    class="icon__container"
+                                    class="icon__container undefined"
                   />
 </div>,
                 "context": Object {},
@@ -481,7 +481,7 @@ ReactWrapper {
             "stateNode": Object {
               "containerInfo": <div>
                 <div
-                                class="icon__container"
+                                class="icon__container undefined"
                 />
 </div>,
               "context": Object {},
@@ -582,13 +582,13 @@ ReactWrapper {
     "ref": null,
     "rendered": Object {
       "instance": <div
-        class="icon__container"
+        class="icon__container undefined"
 />,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
         "children": undefined,
-        "className": "icon__container",
+        "className": "icon__container undefined",
       },
       "ref": null,
       "rendered": Array [
@@ -675,7 +675,7 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <div
-                                        class="icon__container"
+                                        class="icon__container undefined"
                     />
 </div>,
                   "context": Object {},
@@ -768,7 +768,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                                    class="icon__container"
+                                    class="icon__container undefined"
                   />
 </div>,
                 "context": Object {},
@@ -853,7 +853,7 @@ ReactWrapper {
             "_debugOwner": [Circular],
             "_debugSource": Object {
               "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/presentational/Icon/Icon.js",
-              "lineNumber": 7,
+              "lineNumber": 9,
             },
             "actualDuration": 0,
             "actualStartTime": -1,
@@ -869,21 +869,21 @@ ReactWrapper {
             "lastEffect": null,
             "memoizedProps": Object {
               "children": undefined,
-              "className": "icon__container",
+              "className": "icon__container undefined",
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
               "children": undefined,
-              "className": "icon__container",
+              "className": "icon__container undefined",
             },
             "ref": null,
             "return": [Circular],
             "selfBaseDuration": 0,
             "sibling": null,
             "stateNode": <div
-              class="icon__container"
+              class="icon__container undefined"
 />,
             "tag": 7,
             "treeBaseDuration": 0,
@@ -975,7 +975,7 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <div
-                                        class="icon__container"
+                                        class="icon__container undefined"
                     />
 </div>,
                   "context": Object {},
@@ -1068,7 +1068,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                                    class="icon__container"
+                                    class="icon__container undefined"
                   />
 </div>,
                 "context": Object {},
@@ -1169,13 +1169,13 @@ ReactWrapper {
       "ref": null,
       "rendered": Object {
         "instance": <div
-          class="icon__container"
+          class="icon__container undefined"
 />,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
           "children": undefined,
-          "className": "icon__container",
+          "className": "icon__container undefined",
         },
         "ref": null,
         "rendered": Array [

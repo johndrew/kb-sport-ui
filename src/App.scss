@@ -15,6 +15,10 @@
   margin-top: 0px;
   padding-top: 21px;
   text-decoration: underline;
+  a {
+    color: inherit;
+    cursor: auto;
+  }
 
   @media (min-width: $large) {
     font-size: $titleLarge;

@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/DeleteEvent/DeleteEvent.test.js renders correctly 1`] = `
+exports[`/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/containers/LiftersScreen/LiftersScreen.test.js renders correctly 1`] = `
 ReactWrapper {
-  Symbol(enzyme.__unrendered__): <DeleteEvent />,
+  Symbol(enzyme.__unrendered__): <LiftersScreen />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -13,7 +13,7 @@ ReactWrapper {
   },
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__node__): Object {
-    "instance": DeleteEvent {
+    "instance": LiftersScreen {
       "_reactInternalFiber": FiberNode {
         "_debugID": 50,
         "_debugIsCurrentlyTiming": false,
@@ -87,12 +87,8 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  <div
-                                    class="deleteEvent__container"
-                  >
-                                    <button>
-                                                      Delete Event
-                                    </button>
+                  <div>
+                                    lifters
                   </div>
 </div>,
                 "context": Object {},
@@ -184,12 +180,8 @@ ReactWrapper {
             "sibling": null,
             "stateNode": Object {
               "containerInfo": <div>
-                <div
-                                class="deleteEvent__container"
-                >
-                                <button>
-                                                Delete Event
-                                </button>
+                <div>
+                                lifters
                 </div>
 </div>,
               "context": Object {},
@@ -273,55 +265,13 @@ ReactWrapper {
           "_debugIsCurrentlyTiming": false,
           "_debugOwner": [Circular],
           "_debugSource": Object {
-            "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/DeleteEvent/DeleteEvent.js",
-            "lineNumber": 17,
+            "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/containers/LiftersScreen/LiftersScreen.js",
+            "lineNumber": 6,
           },
           "actualDuration": 0,
           "actualStartTime": -1,
           "alternate": null,
-          "child": FiberNode {
-            "_debugID": 52,
-            "_debugIsCurrentlyTiming": false,
-            "_debugOwner": [Circular],
-            "_debugSource": Object {
-              "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/DeleteEvent/DeleteEvent.js",
-              "lineNumber": 18,
-            },
-            "actualDuration": 0,
-            "actualStartTime": -1,
-            "alternate": null,
-            "child": null,
-            "childExpirationTime": 0,
-            "effectTag": 0,
-            "expirationTime": 0,
-            "firstContextDependency": null,
-            "firstEffect": null,
-            "index": 0,
-            "key": null,
-            "lastEffect": null,
-            "memoizedProps": Object {
-              "children": "Delete Event",
-              "onClick": [Function],
-            },
-            "memoizedState": null,
-            "mode": 0,
-            "nextEffect": null,
-            "pendingProps": Object {
-              "children": "Delete Event",
-              "onClick": [Function],
-            },
-            "ref": null,
-            "return": [Circular],
-            "selfBaseDuration": 0,
-            "sibling": null,
-            "stateNode": <button>
-              Delete Event
-</button>,
-            "tag": 7,
-            "treeBaseDuration": 0,
-            "type": "button",
-            "updateQueue": null,
-          },
+          "child": null,
           "childExpirationTime": 0,
           "effectTag": 0,
           "expirationTime": 0,
@@ -331,34 +281,20 @@ ReactWrapper {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
-            "children": <button
-              onClick={[Function]}
->
-              Delete Event
-</button>,
-            "className": "deleteEvent__container",
+            "children": "lifters",
           },
           "memoizedState": null,
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
-            "children": <button
-              onClick={[Function]}
->
-              Delete Event
-</button>,
-            "className": "deleteEvent__container",
+            "children": "lifters",
           },
           "ref": null,
           "return": [Circular],
           "selfBaseDuration": 0,
           "sibling": null,
-          "stateNode": <div
-            class="deleteEvent__container"
->
-            <button>
-                        Delete Event
-            </button>
+          "stateNode": <div>
+            lifters
 </div>,
           "tag": 7,
           "treeBaseDuration": 0,
@@ -449,12 +385,8 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  <div
-                                    class="deleteEvent__container"
-                  >
-                                    <button>
-                                                      Delete Event
-                                    </button>
+                  <div>
+                                    lifters
                   </div>
 </div>,
                 "context": Object {},
@@ -546,12 +478,8 @@ ReactWrapper {
             "sibling": null,
             "stateNode": Object {
               "containerInfo": <div>
-                <div
-                                class="deleteEvent__container"
-                >
-                                <button>
-                                                Delete Event
-                                </button>
+                <div>
+                                lifters
                 </div>
 </div>,
               "context": Object {},
@@ -636,7 +564,6 @@ ReactWrapper {
       },
       "_reactInternalInstance": Object {},
       "context": Object {},
-      "handleDelete": [Function],
       "props": Object {},
       "refs": Object {},
       "state": null,
@@ -652,41 +579,17 @@ ReactWrapper {
     "props": Object {},
     "ref": null,
     "rendered": Object {
-      "instance": <div
-        class="deleteEvent__container"
->
-        <button>
-                Delete Event
-        </button>
+      "instance": <div>
+        lifters
 </div>,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <button
-          onClick={[Function]}
->
-          Delete Event
-</button>,
-        "className": "deleteEvent__container",
+        "children": "lifters",
       },
       "ref": null,
       "rendered": Array [
-        Object {
-          "instance": <button>
-            Delete Event
-</button>,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Delete Event",
-            "onClick": [Function],
-          },
-          "ref": null,
-          "rendered": Array [
-            "Delete Event",
-          ],
-          "type": "button",
-        },
+        "lifters",
       ],
       "type": "div",
     },
@@ -694,7 +597,7 @@ ReactWrapper {
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
-      "instance": DeleteEvent {
+      "instance": LiftersScreen {
         "_reactInternalFiber": FiberNode {
           "_debugID": 50,
           "_debugIsCurrentlyTiming": false,
@@ -768,12 +671,8 @@ ReactWrapper {
                 "sibling": null,
                 "stateNode": Object {
                   "containerInfo": <div>
-                    <div
-                                        class="deleteEvent__container"
-                    >
-                                        <button>
-                                                            Delete Event
-                                        </button>
+                    <div>
+                                        lifters
                     </div>
 </div>,
                   "context": Object {},
@@ -865,12 +764,8 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  <div
-                                    class="deleteEvent__container"
-                  >
-                                    <button>
-                                                      Delete Event
-                                    </button>
+                  <div>
+                                    lifters
                   </div>
 </div>,
                 "context": Object {},
@@ -954,55 +849,13 @@ ReactWrapper {
             "_debugIsCurrentlyTiming": false,
             "_debugOwner": [Circular],
             "_debugSource": Object {
-              "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/DeleteEvent/DeleteEvent.js",
-              "lineNumber": 17,
+              "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/containers/LiftersScreen/LiftersScreen.js",
+              "lineNumber": 6,
             },
             "actualDuration": 0,
             "actualStartTime": -1,
             "alternate": null,
-            "child": FiberNode {
-              "_debugID": 52,
-              "_debugIsCurrentlyTiming": false,
-              "_debugOwner": [Circular],
-              "_debugSource": Object {
-                "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/DeleteEvent/DeleteEvent.js",
-                "lineNumber": 18,
-              },
-              "actualDuration": 0,
-              "actualStartTime": -1,
-              "alternate": null,
-              "child": null,
-              "childExpirationTime": 0,
-              "effectTag": 0,
-              "expirationTime": 0,
-              "firstContextDependency": null,
-              "firstEffect": null,
-              "index": 0,
-              "key": null,
-              "lastEffect": null,
-              "memoizedProps": Object {
-                "children": "Delete Event",
-                "onClick": [Function],
-              },
-              "memoizedState": null,
-              "mode": 0,
-              "nextEffect": null,
-              "pendingProps": Object {
-                "children": "Delete Event",
-                "onClick": [Function],
-              },
-              "ref": null,
-              "return": [Circular],
-              "selfBaseDuration": 0,
-              "sibling": null,
-              "stateNode": <button>
-                Delete Event
-</button>,
-              "tag": 7,
-              "treeBaseDuration": 0,
-              "type": "button",
-              "updateQueue": null,
-            },
+            "child": null,
             "childExpirationTime": 0,
             "effectTag": 0,
             "expirationTime": 0,
@@ -1012,34 +865,20 @@ ReactWrapper {
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
-              "children": <button
-                onClick={[Function]}
->
-                Delete Event
-</button>,
-              "className": "deleteEvent__container",
+              "children": "lifters",
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
-              "children": <button
-                onClick={[Function]}
->
-                Delete Event
-</button>,
-              "className": "deleteEvent__container",
+              "children": "lifters",
             },
             "ref": null,
             "return": [Circular],
             "selfBaseDuration": 0,
             "sibling": null,
-            "stateNode": <div
-              class="deleteEvent__container"
->
-              <button>
-                            Delete Event
-              </button>
+            "stateNode": <div>
+              lifters
 </div>,
             "tag": 7,
             "treeBaseDuration": 0,
@@ -1130,12 +969,8 @@ ReactWrapper {
                 "sibling": null,
                 "stateNode": Object {
                   "containerInfo": <div>
-                    <div
-                                        class="deleteEvent__container"
-                    >
-                                        <button>
-                                                            Delete Event
-                                        </button>
+                    <div>
+                                        lifters
                     </div>
 </div>,
                   "context": Object {},
@@ -1227,12 +1062,8 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  <div
-                                    class="deleteEvent__container"
-                  >
-                                    <button>
-                                                      Delete Event
-                                    </button>
+                  <div>
+                                    lifters
                   </div>
 </div>,
                 "context": Object {},
@@ -1317,7 +1148,6 @@ ReactWrapper {
         },
         "_reactInternalInstance": Object {},
         "context": Object {},
-        "handleDelete": [Function],
         "props": Object {},
         "refs": Object {},
         "state": null,
@@ -1333,41 +1163,17 @@ ReactWrapper {
       "props": Object {},
       "ref": null,
       "rendered": Object {
-        "instance": <div
-          class="deleteEvent__container"
->
-          <button>
-                    Delete Event
-          </button>
+        "instance": <div>
+          lifters
 </div>,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <button
-            onClick={[Function]}
->
-            Delete Event
-</button>,
-          "className": "deleteEvent__container",
+          "children": "lifters",
         },
         "ref": null,
         "rendered": Array [
-          Object {
-            "instance": <button>
-              Delete Event
-</button>,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Delete Event",
-              "onClick": [Function],
-            },
-            "ref": null,
-            "rendered": Array [
-              "Delete Event",
-            ],
-            "type": "button",
-          },
+          "lifters",
         ],
         "type": "div",
       },

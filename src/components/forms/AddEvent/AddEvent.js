@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { toast } from 'react-toastify';
 import eventsService from '../../../services/eventsService';
 import './AddEvent.scss';
 
@@ -75,7 +76,8 @@ export default class AddEvent extends Component {
 
     addEvent() {
 
-        eventsService.addEvent(this.state.type, this.state.duration);
+        eventsService.addEvent(this.state.type, this.state.duration)
+            .catch(err => toast(err.message));
         this.close();
     }
 }

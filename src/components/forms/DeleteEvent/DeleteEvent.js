@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import eventsService from '../../../services/eventsService';
+import { toast } from 'react-toastify';
 
 export default class DeleteEvent extends Component {
 
@@ -24,7 +25,8 @@ export default class DeleteEvent extends Component {
 
     handleDelete() {
 
-        eventsService.deleteEvent(this.props.eventId);
+        eventsService.deleteEvent(this.props.eventId)
+            .catch(err => toast(err.message));
         this.props.closeModal();
     }
 }
