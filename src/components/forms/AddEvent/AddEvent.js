@@ -17,7 +17,6 @@ export default class AddEvent extends Component {
         this.handleTypeChange = this.handleTypeChange.bind(this);
         this.handleDurationChange = this.handleDurationChange.bind(this);
         this.addEvent = this.addEvent.bind(this);
-        this.close = this.close.bind(this);
     }
 
     render() {
@@ -69,15 +68,11 @@ export default class AddEvent extends Component {
         });
     }
 
-    close() {
-        
-        this.props.closeModal();
-    }
-
     addEvent() {
 
         eventsService.addEvent(this.state.type, this.state.duration)
+            .then(() => toast('Event added successfully'))
             .catch(err => toast(err.message));
-        this.close();
+        this.props.addFinish();
     }
 }

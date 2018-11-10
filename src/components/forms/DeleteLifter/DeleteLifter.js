@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import eventsService from '../../../services/eventsService';
+import liftersService from '../../../services/liftersService';
 import { toast } from 'react-toastify';
 
-export default class DeleteEvent extends Component {
+export default class DeleteLifter extends Component {
 
     constructor(args) {
 
@@ -14,10 +14,10 @@ export default class DeleteEvent extends Component {
     render() {
 
         return (
-            <div className="deleteEvent__container">
+            <div className="deleteLifter__container">
                 <button
                     onClick={this.handleDelete}>
-                    Delete Event
+                    Delete Lifter
                 </button>
             </div>
         );
@@ -25,8 +25,8 @@ export default class DeleteEvent extends Component {
 
     handleDelete() {
 
-        eventsService.deleteEvent(this.props.eventId)
-            .then(() => toast('Successfully deleted event'))
+        liftersService.deleteLifter(this.props.lifterId)
+            .then(() => toast('Successfully deleted lifter'))
             .catch(err => toast(err.message));
         this.props.deleteFinish();
     }

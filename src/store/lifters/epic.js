@@ -3,21 +3,21 @@ import { map, mergeMap, switchMap } from 'rxjs/operators';
 import { timer } from 'rxjs';
 import { ofType } from 'redux-observable';
 import * as types from './actionTypes';
-import { HOST, GET_ALL_PATH } from '../../services/eventsService';
+import { HOST, GET_ALL_PATH } from '../../services/liftersService';
 
 // action creators
-const fetchEventsFulfilled = events => ({ type: types.EVENTS_FETCHED, events });
+const fetchLiftersFulfilled = lifters => ({ type: types.LIFTERS_FETCHED, lifters });
 
 // epic
-export function fetchEvents(action$, state$) {
+export function fetchLifters(action$, state$) {
 
   return action$.pipe(
-    ofType(types.FETCH_EVENTS),
+    ofType(types.FETCH_LIFTERS),
     switchMap(params => {
       return timer(0, 2500).pipe(
         mergeMap(action =>
           ajax.getJSON(`${HOST}${GET_ALL_PATH}`).pipe(
-            map(response => fetchEventsFulfilled(response))
+            map(response => fetchLiftersFulfilled(response))
           )
         )
       )

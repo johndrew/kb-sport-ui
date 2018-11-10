@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import './App.scss';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import EventsScreen from './containers/EventsScreen/EventsScreen';
 import HomeScreen from './containers/HomeScreen/HomeScreen';
 import LiftersScreen from './containers/LiftersScreen/LiftersScreen';

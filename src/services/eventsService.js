@@ -1,16 +1,22 @@
+// TODO: un-export
 export const HOST = 'https://nfg0lrs4g1.execute-api.us-west-2.amazonaws.com';
 export const BASE_PATH = '/dev/events';
+export const GET_ALL_PATH = BASE_PATH;
 export const ADD_PATH = `${BASE_PATH}/event/add`;
 export const getDeletePath = (eventId) => `${BASE_PATH}/event/${eventId}/delete`;
 
 class EventsService {
+
+    getFetch() {
+        return fetch;
+    }
 
     async addEvent(type, duration) {
 
         if (!type) throw new Error('type is required');
         if (!duration) throw new Error('duration is required');
 
-        return fetch(`${HOST}${ADD_PATH}`, {
+        return this.getFetch()(`${HOST}${ADD_PATH}`, {
             method: 'POST',
             mode: 'cors',
             body: JSON.stringify({
@@ -36,7 +42,7 @@ class EventsService {
 
         if (!eventId) throw new Error('eventId is required');
 
-        return fetch(`${HOST}${getDeletePath(eventId)}`, {
+        return this.getFetch()(`${HOST}${getDeletePath(eventId)}`, {
             method: 'GET',
             mode: 'cors',
             headers: {

@@ -1,15 +1,15 @@
-$size: 24px;
+@import '../../../common.scss';
 
 .durationLabel {
     position: absolute;
     top: 0px;
     right: 10px;
-    font-size: $size;
+    font-size: $boxLabel;
 }
 
 .typeLabel {
     position: absolute;
     top: 36%;
     right: 32%;
-    font-size: $size;
+    font-size: $boxLabel;
 }

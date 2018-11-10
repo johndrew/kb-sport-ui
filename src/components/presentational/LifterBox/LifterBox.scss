@@ -1,0 +1,27 @@
+@import '../../../common.scss';
+
+[class^="lifterBox__label"] {
+    font-size: $boxLabel;
+    position: absolute;
+}
+
+.lifterBox__label--gender {
+    right: 10px;
+}
+
+.lifterBox__label--firstName,
+.lifterBox__label--lastName {
+    left: 32%;
+}
+
+.lifterBox__label--firstName {
+    top: 25%;
+}
+
+.lifterBox__label--lastName {
+    top: 40%;
+}
+
+[class^="lifterBox__modalLabel"] {
+    color: $tan;
+}

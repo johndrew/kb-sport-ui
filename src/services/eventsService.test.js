@@ -1,9 +1,4 @@
-import fetchMock from 'fetch-mock';
-import eventsService, {
-    HOST,
-    ADD_PATH,
-    getDeletePath,
-} from './eventsService';
+import eventsService from './eventsService';
 
 describe(__filename, () => {
 
@@ -18,12 +13,12 @@ describe(__filename, () => {
 
             beforeEach(() => {
 
-                fetchMock.mock(`${HOST}${ADD_PATH}`, 200);
+                jest.spyOn(eventsService, 'getFetch').mockImplementation(() => () => Promise.resolve('success'));
             });
 
             afterEach(() => {
 
-                fetchMock.restore();
+                eventsService.getFetch.mockRestore();
             });
 
             it('should successfully add an event', async () => {
@@ -44,18 +39,17 @@ describe(__filename, () => {
                 await expect(eventsService.addEvent(params.type, null)).rejects.toBeTruthy();
             });
 
-            describe.skip('when network call fails', () => {
+            describe('when network call fails', () => {
 
                 beforeEach(() => {
 
-                    // FIXME:
-                    // fetchMock.mock(`${HOST}${ADD_PATH}`, 500);
-                    fetchMock.mock(`${HOST}${ADD_PATH}`, { throw: new Error('Bad kitty') });
+                    jest.spyOn(eventsService, 'getFetch')
+                        .mockImplementation(() => () => Promise.reject(new Error('could not add')));
                 });
 
                 afterEach(() => {
 
-                    fetchMock.restore();
+                    eventsService.getFetch.mockRestore();
                 });
 
                 it('should error when call fails', async () => {
@@ -74,12 +68,12 @@ describe(__filename, () => {
 
             beforeEach(() => {
                 
-                fetchMock.mock(`${HOST}${getDeletePath(eventId)}`, 200);
+                jest.spyOn(eventsService, 'getFetch').mockImplementation(() => () => Promise.resolve('success'));
             });
 
             afterEach(() => {
                 
-                fetchMock.restore();
+                eventsService.getFetch.mockRestore();
             });
 
             it('should delete event', async () => {
@@ -98,11 +92,20 @@ describe(__filename, () => {
             describe('when network call fails', () => {
 
                 beforeEach(() => {
+
+                    jest.spyOn(eventsService, 'getFetch')
+                        .mockImplementation(() => () => Promise.reject(new Error('could not delete')));
+                });
+
+                afterEach(() => {
                     
-                    // fetchMock.mock(`${HOST}${getDeletePath(eventId)}`)
+                    eventsService.getFetch.mockRestore();
                 });
                 
-                it('should error when call fails');
+                it('should error when call fails', async () => {
+                
+                    await expect(eventsService.deleteEvent(eventId)).rejects.toBeTruthy();
+                });
             });
         });
     });

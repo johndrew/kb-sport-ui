@@ -289,7 +289,7 @@ ReactWrapper {
             "_debugOwner": [Circular],
             "_debugSource": Object {
               "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/presentational/Box/Box.js",
-              "lineNumber": 9,
+              "lineNumber": 11,
             },
             "actualDuration": 0,
             "actualStartTime": -1,
@@ -1299,7 +1299,7 @@ ReactWrapper {
             "_debugOwner": [Circular],
             "_debugSource": Object {
               "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/presentational/Box/Box.js",
-              "lineNumber": 9,
+              "lineNumber": 11,
             },
             "actualDuration": 0,
             "actualStartTime": -1,
@@ -2882,7 +2882,7 @@ ReactWrapper {
               "_debugOwner": [Circular],
               "_debugSource": Object {
                 "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/presentational/Box/Box.js",
-                "lineNumber": 9,
+                "lineNumber": 11,
               },
               "actualDuration": 0,
               "actualStartTime": -1,
@@ -3892,7 +3892,7 @@ ReactWrapper {
               "_debugOwner": [Circular],
               "_debugSource": Object {
                 "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/presentational/Box/Box.js",
-                "lineNumber": 9,
+                "lineNumber": 11,
               },
               "actualDuration": 0,
               "actualStartTime": -1,

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import Modal from 'react-modal';
 
 const styles = {
@@ -9,20 +9,49 @@ const styles = {
 
 export default class ModalWrapper extends Component {
 
+    constructor(args) {
+    
+        super(args);
+    
+        this.state = {
+            modalOpen: false,
+        };
+
+        this.openModal = this.openModal.bind(this);
+        this.closeModal = this.closeModal.bind(this);
+    }
+
     render() {
 
         return (
-            <Modal
-                isOpen={this.props.open}
-                style={styles}
-                ariaHideApp={false} /** TODO: Remove and make accessible */>
-                <span
-                    className="modalWrapper__closeButton"
-                    onClick={this.props.closeModal}>
-                    X
-                </span>
-                {this.props.children}
-            </Modal>
+            <Fragment>
+                {this.props.triggerComponent({ open: this.openModal })}
+                <Modal
+                    isOpen={this.state.modalOpen}
+                    style={styles}
+                    ariaHideApp={false} /** TODO: Remove and make accessible */>
+                    <span
+                        className="modalWrapper__closeButton"
+                        onClick={this.closeModal}>
+                        X
+                    </span>
+                    {this.props.children({ close: this.closeModal })}
+                </Modal>
+            </Fragment>
         );
+    }
+
+    openModal() {
+  
+      this.setState({
+        modalOpen: true,
+      });
+    }
+  
+    closeModal() {
+  
+      this.setState({
+        modalOpen: false,
+      });
     }
 }

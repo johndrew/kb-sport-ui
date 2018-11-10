@@ -418,7 +418,7 @@ ReactWrapper {
           "_debugOwner": [Circular],
           "_debugSource": Object {
             "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-            "lineNumber": 26,
+            "lineNumber": 25,
           },
           "actualDuration": 0,
           "actualStartTime": -1,
@@ -429,7 +429,7 @@ ReactWrapper {
             "_debugOwner": [Circular],
             "_debugSource": Object {
               "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-              "lineNumber": 27,
+              "lineNumber": 26,
             },
             "actualDuration": 0,
             "actualStartTime": -1,
@@ -440,7 +440,7 @@ ReactWrapper {
               "_debugOwner": [Circular],
               "_debugSource": Object {
                 "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                "lineNumber": 28,
+                "lineNumber": 27,
               },
               "actualDuration": 0,
               "actualStartTime": -1,
@@ -474,7 +474,7 @@ ReactWrapper {
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
                   "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                  "lineNumber": 29,
+                  "lineNumber": 28,
                 },
                 "actualDuration": 0,
                 "actualStartTime": -1,
@@ -485,7 +485,7 @@ ReactWrapper {
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
                     "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                    "lineNumber": 32,
+                    "lineNumber": 31,
                   },
                   "actualDuration": 0,
                   "actualStartTime": -1,
@@ -521,7 +521,7 @@ ReactWrapper {
                     "_debugOwner": [Circular],
                     "_debugSource": Object {
                       "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                      "lineNumber": 33,
+                      "lineNumber": 32,
                     },
                     "actualDuration": 0,
                     "actualStartTime": -1,
@@ -557,7 +557,7 @@ ReactWrapper {
                       "_debugOwner": [Circular],
                       "_debugSource": Object {
                         "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                        "lineNumber": 34,
+                        "lineNumber": 33,
                       },
                       "actualDuration": 0,
                       "actualStartTime": -1,
@@ -593,7 +593,7 @@ ReactWrapper {
                         "_debugOwner": [Circular],
                         "_debugSource": Object {
                           "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                          "lineNumber": 35,
+                          "lineNumber": 34,
                         },
                         "actualDuration": 0,
                         "actualStartTime": -1,
@@ -884,7 +884,7 @@ ReactWrapper {
               "_debugOwner": [Circular],
               "_debugSource": Object {
                 "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                "lineNumber": 38,
+                "lineNumber": 37,
               },
               "actualDuration": 0,
               "actualStartTime": -1,
@@ -895,7 +895,7 @@ ReactWrapper {
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
                   "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                  "lineNumber": 39,
+                  "lineNumber": 38,
                 },
                 "actualDuration": 0,
                 "actualStartTime": -1,
@@ -929,7 +929,7 @@ ReactWrapper {
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
                     "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                    "lineNumber": 40,
+                    "lineNumber": 39,
                   },
                   "actualDuration": 0,
                   "actualStartTime": -1,
@@ -940,7 +940,7 @@ ReactWrapper {
                     "_debugOwner": [Circular],
                     "_debugSource": Object {
                       "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                      "lineNumber": 43,
+                      "lineNumber": 42,
                     },
                     "actualDuration": 0,
                     "actualStartTime": -1,
@@ -976,7 +976,7 @@ ReactWrapper {
                       "_debugOwner": [Circular],
                       "_debugSource": Object {
                         "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                        "lineNumber": 44,
+                        "lineNumber": 43,
                       },
                       "actualDuration": 0,
                       "actualStartTime": -1,
@@ -1012,7 +1012,7 @@ ReactWrapper {
                         "_debugOwner": [Circular],
                         "_debugSource": Object {
                           "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                          "lineNumber": 45,
+                          "lineNumber": 44,
                         },
                         "actualDuration": 0,
                         "actualStartTime": -1,
@@ -1262,7 +1262,7 @@ ReactWrapper {
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
                   "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                  "lineNumber": 48,
+                  "lineNumber": 47,
                 },
                 "actualDuration": 0,
                 "actualStartTime": -1,
@@ -1273,7 +1273,7 @@ ReactWrapper {
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
                     "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                    "lineNumber": 49,
+                    "lineNumber": 48,
                   },
                   "actualDuration": 0,
                   "actualStartTime": -1,
@@ -2116,7 +2116,6 @@ ReactWrapper {
       },
       "_reactInternalInstance": Object {},
       "addEvent": [Function],
-      "close": [Function],
       "context": Object {},
       "handleDurationChange": [Function],
       "handleTypeChange": [Function],
@@ -3208,7 +3207,7 @@ ReactWrapper {
             "_debugOwner": [Circular],
             "_debugSource": Object {
               "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-              "lineNumber": 26,
+              "lineNumber": 25,
             },
             "actualDuration": 0,
             "actualStartTime": -1,
@@ -3219,7 +3218,7 @@ ReactWrapper {
               "_debugOwner": [Circular],
               "_debugSource": Object {
                 "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                "lineNumber": 27,
+                "lineNumber": 26,
               },
               "actualDuration": 0,
               "actualStartTime": -1,
@@ -3230,7 +3229,7 @@ ReactWrapper {
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
                   "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                  "lineNumber": 28,
+                  "lineNumber": 27,
                 },
                 "actualDuration": 0,
                 "actualStartTime": -1,
@@ -3264,7 +3263,7 @@ ReactWrapper {
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
                     "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                    "lineNumber": 29,
+                    "lineNumber": 28,
                   },
                   "actualDuration": 0,
                   "actualStartTime": -1,
@@ -3275,7 +3274,7 @@ ReactWrapper {
                     "_debugOwner": [Circular],
                     "_debugSource": Object {
                       "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                      "lineNumber": 32,
+                      "lineNumber": 31,
                     },
                     "actualDuration": 0,
                     "actualStartTime": -1,
@@ -3311,7 +3310,7 @@ ReactWrapper {
                       "_debugOwner": [Circular],
                       "_debugSource": Object {
                         "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                        "lineNumber": 33,
+                        "lineNumber": 32,
                       },
                       "actualDuration": 0,
                       "actualStartTime": -1,
@@ -3347,7 +3346,7 @@ ReactWrapper {
                         "_debugOwner": [Circular],
                         "_debugSource": Object {
                           "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                          "lineNumber": 34,
+                          "lineNumber": 33,
                         },
                         "actualDuration": 0,
                         "actualStartTime": -1,
@@ -3383,7 +3382,7 @@ ReactWrapper {
                           "_debugOwner": [Circular],
                           "_debugSource": Object {
                             "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                            "lineNumber": 35,
+                            "lineNumber": 34,
                           },
                           "actualDuration": 0,
                           "actualStartTime": -1,
@@ -3674,7 +3673,7 @@ ReactWrapper {
                 "_debugOwner": [Circular],
                 "_debugSource": Object {
                   "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                  "lineNumber": 38,
+                  "lineNumber": 37,
                 },
                 "actualDuration": 0,
                 "actualStartTime": -1,
@@ -3685,7 +3684,7 @@ ReactWrapper {
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
                     "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                    "lineNumber": 39,
+                    "lineNumber": 38,
                   },
                   "actualDuration": 0,
                   "actualStartTime": -1,
@@ -3719,7 +3718,7 @@ ReactWrapper {
                     "_debugOwner": [Circular],
                     "_debugSource": Object {
                       "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                      "lineNumber": 40,
+                      "lineNumber": 39,
                     },
                     "actualDuration": 0,
                     "actualStartTime": -1,
@@ -3730,7 +3729,7 @@ ReactWrapper {
                       "_debugOwner": [Circular],
                       "_debugSource": Object {
                         "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                        "lineNumber": 43,
+                        "lineNumber": 42,
                       },
                       "actualDuration": 0,
                       "actualStartTime": -1,
@@ -3766,7 +3765,7 @@ ReactWrapper {
                         "_debugOwner": [Circular],
                         "_debugSource": Object {
                           "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                          "lineNumber": 44,
+                          "lineNumber": 43,
                         },
                         "actualDuration": 0,
                         "actualStartTime": -1,
@@ -3802,7 +3801,7 @@ ReactWrapper {
                           "_debugOwner": [Circular],
                           "_debugSource": Object {
                             "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                            "lineNumber": 45,
+                            "lineNumber": 44,
                           },
                           "actualDuration": 0,
                           "actualStartTime": -1,
@@ -4052,7 +4051,7 @@ ReactWrapper {
                   "_debugOwner": [Circular],
                   "_debugSource": Object {
                     "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                    "lineNumber": 48,
+                    "lineNumber": 47,
                   },
                   "actualDuration": 0,
                   "actualStartTime": -1,
@@ -4063,7 +4062,7 @@ ReactWrapper {
                     "_debugOwner": [Circular],
                     "_debugSource": Object {
                       "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddEvent/AddEvent.js",
-                      "lineNumber": 49,
+                      "lineNumber": 48,
                     },
                     "actualDuration": 0,
                     "actualStartTime": -1,
@@ -4906,7 +4905,6 @@ ReactWrapper {
         },
         "_reactInternalInstance": Object {},
         "addEvent": [Function],
-        "close": [Function],
         "context": Object {},
         "handleDurationChange": [Function],
         "handleTypeChange": [Function],

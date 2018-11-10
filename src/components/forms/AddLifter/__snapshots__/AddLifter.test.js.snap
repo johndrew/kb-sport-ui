@@ -1,0 +1,4799 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddLifter/AddLifter.test.js renders correctly 1`] = `
+ReactWrapper {
+  Symbol(enzyme.__unrendered__): <AddLifter />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__node__): Object {
+    "instance": AddLifter {
+      "_reactInternalFiber": FiberNode {
+        "_debugID": 50,
+        "_debugIsCurrentlyTiming": false,
+        "_debugOwner": FiberNode {
+          "_debugID": 49,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": null,
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": [Circular],
+          "childExpirationTime": 0,
+          "effectTag": 1,
+          "expirationTime": 0,
+          "firstContextDependency": null,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {},
+          },
+          "memoizedState": Object {
+            "context": null,
+            "mount": true,
+            "props": Object {},
+          },
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {},
+          },
+          "ref": null,
+          "return": FiberNode {
+            "_debugID": 47,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": FiberNode {
+              "_debugID": 47,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": [Circular],
+              "child": null,
+              "childExpirationTime": 0,
+              "effectTag": 0,
+              "expirationTime": 1,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": null,
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": Object {
+                "containerInfo": <div>
+                  <div
+                                    class="addLifter__container"
+                  >
+                                    <div
+                                                      class="addLifter__inputContainer"
+                                    >
+                                                      <label
+                                                                        class="addLifter__label"
+                                                      >
+                                                                        First Name:
+                                                      </label>
+                                                      <input
+                                                                        type="text"
+                                                      />
+                                    </div>
+                                    <div
+                                                      class="addLifter__inputContainer"
+                                    >
+                                                      <label
+                                                                        class="addLifter__label"
+                                                      >
+                                                                        Last Name:
+                                                      </label>
+                                                      <input
+                                                                        type="text"
+                                                      />
+                                    </div>
+                                    <div
+                                                      class="addLifter__inputContainer"
+                                    >
+                                                      <label
+                                                                        class="addLifter__label"
+                                                      >
+                                                                        Gender:
+                                                      </label>
+                                                      <select
+                                                                        class="addLifter__durationDropdown"
+                                                      >
+                                                                        <option
+                                                                                          class="addLifter__typeOption"
+                                                                                          value=""
+                                                                        >
+                                                                                          Select
+                                                                        </option>
+                                                                        <option
+                                                                                          class="addLifter__typeOption"
+                                                                                          value="women"
+                                                                        >
+                                                                                          Female
+                                                                        </option>
+                                                                        <option
+                                                                                          class="addLifter__typeOption"
+                                                                                          value="men"
+                                                                        >
+                                                                                          Male
+                                                                        </option>
+                                                      </select>
+                                    </div>
+                                    <div
+                                                      class="addLifter__buttonContainer"
+                                    >
+                                                      <button>
+                                                                        Add Lifter
+                                                      </button>
+                                    </div>
+                  </div>
+</div>,
+                "context": Object {},
+                "current": [Circular],
+                "didError": false,
+                "earliestPendingTime": 0,
+                "earliestSuspendedTime": 0,
+                "expirationTime": 0,
+                "finishedWork": null,
+                "firstBatch": null,
+                "hydrate": false,
+                "interactionThreadID": 12,
+                "latestPendingTime": 0,
+                "latestPingedTime": 0,
+                "latestSuspendedTime": 0,
+                "memoizedInteractions": Set {},
+                "nextExpirationTimeToWorkOn": 0,
+                "nextScheduledRoot": null,
+                "pendingChildren": null,
+                "pendingCommitExpirationTime": 0,
+                "pendingContext": null,
+                "pendingInteractionMap": Map {},
+                "timeoutHandle": -1,
+              },
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": null,
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": Object {
+                  "callback": null,
+                  "expirationTime": 1,
+                  "next": null,
+                  "nextEffect": null,
+                  "payload": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={Object {}}
+/>,
+                  },
+                  "tag": 0,
+                },
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": Object {
+                  "callback": null,
+                  "expirationTime": 1,
+                  "next": null,
+                  "nextEffect": null,
+                  "payload": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={Object {}}
+/>,
+                  },
+                  "tag": 0,
+                },
+              },
+            },
+            "child": [Circular],
+            "childExpirationTime": 0,
+            "effectTag": 32,
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": [Circular],
+            "index": 0,
+            "key": null,
+            "lastEffect": [Circular],
+            "memoizedProps": null,
+            "memoizedState": Object {
+              "element": <WrapperComponent
+                Component={[Function]}
+                context={null}
+                props={Object {}}
+/>,
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": null,
+            "ref": null,
+            "return": null,
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": Object {
+              "containerInfo": <div>
+                <div
+                                class="addLifter__container"
+                >
+                                <div
+                                                class="addLifter__inputContainer"
+                                >
+                                                <label
+                                                                class="addLifter__label"
+                                                >
+                                                                First Name:
+                                                </label>
+                                                <input
+                                                                type="text"
+                                                />
+                                </div>
+                                <div
+                                                class="addLifter__inputContainer"
+                                >
+                                                <label
+                                                                class="addLifter__label"
+                                                >
+                                                                Last Name:
+                                                </label>
+                                                <input
+                                                                type="text"
+                                                />
+                                </div>
+                                <div
+                                                class="addLifter__inputContainer"
+                                >
+                                                <label
+                                                                class="addLifter__label"
+                                                >
+                                                                Gender:
+                                                </label>
+                                                <select
+                                                                class="addLifter__durationDropdown"
+                                                >
+                                                                <option
+                                                                                class="addLifter__typeOption"
+                                                                                value=""
+                                                                >
+                                                                                Select
+                                                                </option>
+                                                                <option
+                                                                                class="addLifter__typeOption"
+                                                                                value="women"
+                                                                >
+                                                                                Female
+                                                                </option>
+                                                                <option
+                                                                                class="addLifter__typeOption"
+                                                                                value="men"
+                                                                >
+                                                                                Male
+                                                                </option>
+                                                </select>
+                                </div>
+                                <div
+                                                class="addLifter__buttonContainer"
+                                >
+                                                <button>
+                                                                Add Lifter
+                                                </button>
+                                </div>
+                </div>
+</div>,
+              "context": Object {},
+              "current": [Circular],
+              "didError": false,
+              "earliestPendingTime": 0,
+              "earliestSuspendedTime": 0,
+              "expirationTime": 0,
+              "finishedWork": null,
+              "firstBatch": null,
+              "hydrate": false,
+              "interactionThreadID": 12,
+              "latestPendingTime": 0,
+              "latestPingedTime": 0,
+              "latestSuspendedTime": 0,
+              "memoizedInteractions": Set {},
+              "nextExpirationTimeToWorkOn": 0,
+              "nextScheduledRoot": null,
+              "pendingChildren": null,
+              "pendingCommitExpirationTime": 0,
+              "pendingContext": null,
+              "pendingInteractionMap": Map {},
+              "timeoutHandle": -1,
+            },
+            "tag": 5,
+            "treeBaseDuration": 0,
+            "type": null,
+            "updateQueue": Object {
+              "baseState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={Object {}}
+/>,
+              },
+              "firstCapturedEffect": null,
+              "firstCapturedUpdate": null,
+              "firstEffect": null,
+              "firstUpdate": null,
+              "lastCapturedEffect": null,
+              "lastCapturedUpdate": null,
+              "lastEffect": null,
+              "lastUpdate": null,
+            },
+          },
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": WrapperComponent {
+            "_reactInternalFiber": [Circular],
+            "_reactInternalInstance": Object {},
+            "context": Object {},
+            "props": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {},
+            },
+            "refs": Object {},
+            "state": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {},
+            },
+            "updater": Object {
+              "enqueueForceUpdate": [Function],
+              "enqueueReplaceState": [Function],
+              "enqueueSetState": [Function],
+              "isMounted": [Function],
+            },
+          },
+          "tag": 2,
+          "treeBaseDuration": 0,
+          "type": [Function],
+          "updateQueue": null,
+        },
+        "_debugSource": null,
+        "actualDuration": 0,
+        "actualStartTime": -1,
+        "alternate": null,
+        "child": FiberNode {
+          "_debugID": 51,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": [Circular],
+          "_debugSource": Object {
+            "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddLifter/AddLifter.js",
+            "lineNumber": 27,
+          },
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": FiberNode {
+            "_debugID": 52,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": Object {
+              "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddLifter/AddLifter.js",
+              "lineNumber": 28,
+            },
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": FiberNode {
+              "_debugID": 56,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddLifter/AddLifter.js",
+                "lineNumber": 29,
+              },
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": null,
+              "childExpirationTime": 0,
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": "First Name:",
+                "className": "addLifter__label",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": "First Name:",
+                "className": "addLifter__label",
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": FiberNode {
+                "_debugID": 57,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddLifter/AddLifter.js",
+                  "lineNumber": 30,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 1,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "onChange": [Function],
+                  "type": "text",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "onChange": [Function],
+                  "type": "text",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": <input
+                  type="text"
+/>,
+                "tag": 7,
+                "treeBaseDuration": 0,
+                "type": "input",
+                "updateQueue": null,
+              },
+              "stateNode": <label
+                class="addLifter__label"
+>
+                First Name:
+</label>,
+              "tag": 7,
+              "treeBaseDuration": 0,
+              "type": "label",
+              "updateQueue": null,
+            },
+            "childExpirationTime": 0,
+            "effectTag": 0,
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": Array [
+                <label
+                  className="addLifter__label"
+>
+                  First Name:
+</label>,
+                <input
+                  onChange={[Function]}
+                  type="text"
+/>,
+              ],
+              "className": "addLifter__inputContainer",
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "children": Array [
+                <label
+                  className="addLifter__label"
+>
+                  First Name:
+</label>,
+                <input
+                  onChange={[Function]}
+                  type="text"
+/>,
+              ],
+              "className": "addLifter__inputContainer",
+            },
+            "ref": null,
+            "return": [Circular],
+            "selfBaseDuration": 0,
+            "sibling": FiberNode {
+              "_debugID": 53,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddLifter/AddLifter.js",
+                "lineNumber": 32,
+              },
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": FiberNode {
+                "_debugID": 58,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddLifter/AddLifter.js",
+                  "lineNumber": 33,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "Last Name:",
+                  "className": "addLifter__label",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "Last Name:",
+                  "className": "addLifter__label",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": FiberNode {
+                  "_debugID": 59,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddLifter/AddLifter.js",
+                    "lineNumber": 34,
+                  },
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 1,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "onChange": [Function],
+                    "type": "text",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "onChange": [Function],
+                    "type": "text",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": <input
+                    type="text"
+/>,
+                  "tag": 7,
+                  "treeBaseDuration": 0,
+                  "type": "input",
+                  "updateQueue": null,
+                },
+                "stateNode": <label
+                  class="addLifter__label"
+>
+                  Last Name:
+</label>,
+                "tag": 7,
+                "treeBaseDuration": 0,
+                "type": "label",
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 1,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": Array [
+                  <label
+                    className="addLifter__label"
+>
+                    Last Name:
+</label>,
+                  <input
+                    onChange={[Function]}
+                    type="text"
+/>,
+                ],
+                "className": "addLifter__inputContainer",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": Array [
+                  <label
+                    className="addLifter__label"
+>
+                    Last Name:
+</label>,
+                  <input
+                    onChange={[Function]}
+                    type="text"
+/>,
+                ],
+                "className": "addLifter__inputContainer",
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": FiberNode {
+                "_debugID": 54,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddLifter/AddLifter.js",
+                  "lineNumber": 36,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugID": 60,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddLifter/AddLifter.js",
+                    "lineNumber": 37,
+                  },
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": "Gender:",
+                    "className": "addLifter__label",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": "Gender:",
+                    "className": "addLifter__label",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": FiberNode {
+                    "_debugID": 61,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": Object {
+                      "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddLifter/AddLifter.js",
+                      "lineNumber": 38,
+                    },
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": FiberNode {
+                      "_debugID": 62,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": Object {
+                        "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddLifter/AddLifter.js",
+                        "lineNumber": 41,
+                      },
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": null,
+                      "child": null,
+                      "childExpirationTime": 0,
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstContextDependency": null,
+                      "firstEffect": null,
+                      "index": 0,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": "Select",
+                        "className": "addLifter__typeOption",
+                        "value": "",
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "children": "Select",
+                        "className": "addLifter__typeOption",
+                        "value": "",
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "selfBaseDuration": 0,
+                      "sibling": FiberNode {
+                        "_debugID": 63,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": [Circular],
+                        "_debugSource": Object {
+                          "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddLifter/AddLifter.js",
+                          "lineNumber": 42,
+                        },
+                        "actualDuration": 0,
+                        "actualStartTime": -1,
+                        "alternate": null,
+                        "child": null,
+                        "childExpirationTime": 0,
+                        "effectTag": 0,
+                        "expirationTime": 0,
+                        "firstContextDependency": null,
+                        "firstEffect": null,
+                        "index": 1,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": Object {
+                          "children": "Female",
+                          "className": "addLifter__typeOption",
+                          "value": "women",
+                        },
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": Object {
+                          "children": "Female",
+                          "className": "addLifter__typeOption",
+                          "value": "women",
+                        },
+                        "ref": null,
+                        "return": [Circular],
+                        "selfBaseDuration": 0,
+                        "sibling": FiberNode {
+                          "_debugID": 64,
+                          "_debugIsCurrentlyTiming": false,
+                          "_debugOwner": [Circular],
+                          "_debugSource": Object {
+                            "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddLifter/AddLifter.js",
+                            "lineNumber": 43,
+                          },
+                          "actualDuration": 0,
+                          "actualStartTime": -1,
+                          "alternate": null,
+                          "child": null,
+                          "childExpirationTime": 0,
+                          "effectTag": 0,
+                          "expirationTime": 0,
+                          "firstContextDependency": null,
+                          "firstEffect": null,
+                          "index": 2,
+                          "key": null,
+                          "lastEffect": null,
+                          "memoizedProps": Object {
+                            "children": "Male",
+                            "className": "addLifter__typeOption",
+                            "value": "men",
+                          },
+                          "memoizedState": null,
+                          "mode": 0,
+                          "nextEffect": null,
+                          "pendingProps": Object {
+                            "children": "Male",
+                            "className": "addLifter__typeOption",
+                            "value": "men",
+                          },
+                          "ref": null,
+                          "return": [Circular],
+                          "selfBaseDuration": 0,
+                          "sibling": null,
+                          "stateNode": <option
+                            class="addLifter__typeOption"
+                            value="men"
+>
+                            Male
+</option>,
+                          "tag": 7,
+                          "treeBaseDuration": 0,
+                          "type": "option",
+                          "updateQueue": null,
+                        },
+                        "stateNode": <option
+                          class="addLifter__typeOption"
+                          value="women"
+>
+                          Female
+</option>,
+                        "tag": 7,
+                        "treeBaseDuration": 0,
+                        "type": "option",
+                        "updateQueue": null,
+                      },
+                      "stateNode": <option
+                        class="addLifter__typeOption"
+                        value=""
+>
+                        Select
+</option>,
+                      "tag": 7,
+                      "treeBaseDuration": 0,
+                      "type": "option",
+                      "updateQueue": null,
+                    },
+                    "childExpirationTime": 0,
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 1,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": Array [
+                        <option
+                          className="addLifter__typeOption"
+                          value=""
+>
+                          Select
+</option>,
+                        <option
+                          className="addLifter__typeOption"
+                          value="women"
+>
+                          Female
+</option>,
+                        <option
+                          className="addLifter__typeOption"
+                          value="men"
+>
+                          Male
+</option>,
+                      ],
+                      "className": "addLifter__durationDropdown",
+                      "onChange": [Function],
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": Array [
+                        <option
+                          className="addLifter__typeOption"
+                          value=""
+>
+                          Select
+</option>,
+                        <option
+                          className="addLifter__typeOption"
+                          value="women"
+>
+                          Female
+</option>,
+                        <option
+                          className="addLifter__typeOption"
+                          value="men"
+>
+                          Male
+</option>,
+                      ],
+                      "className": "addLifter__durationDropdown",
+                      "onChange": [Function],
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": <select
+                      class="addLifter__durationDropdown"
+>
+                      <option
+                                            class="addLifter__typeOption"
+                                            value=""
+                      >
+                                            Select
+                      </option>
+                      <option
+                                            class="addLifter__typeOption"
+                                            value="women"
+                      >
+                                            Female
+                      </option>
+                      <option
+                                            class="addLifter__typeOption"
+                                            value="men"
+                      >
+                                            Male
+                      </option>
+</select>,
+                    "tag": 7,
+                    "treeBaseDuration": 0,
+                    "type": "select",
+                    "updateQueue": null,
+                  },
+                  "stateNode": <label
+                    class="addLifter__label"
+>
+                    Gender:
+</label>,
+                  "tag": 7,
+                  "treeBaseDuration": 0,
+                  "type": "label",
+                  "updateQueue": null,
+                },
+                "childExpirationTime": 0,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 2,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": Array [
+                    <label
+                      className="addLifter__label"
+>
+                      Gender:
+</label>,
+                    <select
+                      className="addLifter__durationDropdown"
+                      onChange={[Function]}
+>
+                      <option
+                                            className="addLifter__typeOption"
+                                            value=""
+                      >
+                                            Select
+                      </option>
+                      <option
+                                            className="addLifter__typeOption"
+                                            value="women"
+                      >
+                                            Female
+                      </option>
+                      <option
+                                            className="addLifter__typeOption"
+                                            value="men"
+                      >
+                                            Male
+                      </option>
+</select>,
+                  ],
+                  "className": "addLifter__inputContainer",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": Array [
+                    <label
+                      className="addLifter__label"
+>
+                      Gender:
+</label>,
+                    <select
+                      className="addLifter__durationDropdown"
+                      onChange={[Function]}
+>
+                      <option
+                                            className="addLifter__typeOption"
+                                            value=""
+                      >
+                                            Select
+                      </option>
+                      <option
+                                            className="addLifter__typeOption"
+                                            value="women"
+                      >
+                                            Female
+                      </option>
+                      <option
+                                            className="addLifter__typeOption"
+                                            value="men"
+                      >
+                                            Male
+                      </option>
+</select>,
+                  ],
+                  "className": "addLifter__inputContainer",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": FiberNode {
+                  "_debugID": 55,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddLifter/AddLifter.js",
+                    "lineNumber": 46,
+                  },
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": FiberNode {
+                    "_debugID": 65,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": Object {
+                      "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddLifter/AddLifter.js",
+                      "lineNumber": 47,
+                    },
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": "Add Lifter",
+                      "onClick": [Function],
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": "Add Lifter",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": <button>
+                      Add Lifter
+</button>,
+                    "tag": 7,
+                    "treeBaseDuration": 0,
+                    "type": "button",
+                    "updateQueue": null,
+                  },
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 3,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": <button
+                      onClick={[Function]}
+>
+                      Add Lifter
+</button>,
+                    "className": "addLifter__buttonContainer",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": <button
+                      onClick={[Function]}
+>
+                      Add Lifter
+</button>,
+                    "className": "addLifter__buttonContainer",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": <div
+                    class="addLifter__buttonContainer"
+>
+                    <button>
+                                        Add Lifter
+                    </button>
+</div>,
+                  "tag": 7,
+                  "treeBaseDuration": 0,
+                  "type": "div",
+                  "updateQueue": null,
+                },
+                "stateNode": <div
+                  class="addLifter__inputContainer"
+>
+                  <label
+                                    class="addLifter__label"
+                  >
+                                    Gender:
+                  </label>
+                  <select
+                                    class="addLifter__durationDropdown"
+                  >
+                                    <option
+                                                      class="addLifter__typeOption"
+                                                      value=""
+                                    >
+                                                      Select
+                                    </option>
+                                    <option
+                                                      class="addLifter__typeOption"
+                                                      value="women"
+                                    >
+                                                      Female
+                                    </option>
+                                    <option
+                                                      class="addLifter__typeOption"
+                                                      value="men"
+                                    >
+                                                      Male
+                                    </option>
+                  </select>
+</div>,
+                "tag": 7,
+                "treeBaseDuration": 0,
+                "type": "div",
+                "updateQueue": null,
+              },
+              "stateNode": <div
+                class="addLifter__inputContainer"
+>
+                <label
+                                class="addLifter__label"
+                >
+                                Last Name:
+                </label>
+                <input
+                                type="text"
+                />
+</div>,
+              "tag": 7,
+              "treeBaseDuration": 0,
+              "type": "div",
+              "updateQueue": null,
+            },
+            "stateNode": <div
+              class="addLifter__inputContainer"
+>
+              <label
+                            class="addLifter__label"
+              >
+                            First Name:
+              </label>
+              <input
+                            type="text"
+              />
+</div>,
+            "tag": 7,
+            "treeBaseDuration": 0,
+            "type": "div",
+            "updateQueue": null,
+          },
+          "childExpirationTime": 0,
+          "effectTag": 0,
+          "expirationTime": 0,
+          "firstContextDependency": null,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "children": Array [
+              <div
+                className="addLifter__inputContainer"
+>
+                <label
+                                className="addLifter__label"
+                >
+                                First Name:
+                </label>
+                <input
+                                onChange={[Function]}
+                                type="text"
+                />
+</div>,
+              <div
+                className="addLifter__inputContainer"
+>
+                <label
+                                className="addLifter__label"
+                >
+                                Last Name:
+                </label>
+                <input
+                                onChange={[Function]}
+                                type="text"
+                />
+</div>,
+              <div
+                className="addLifter__inputContainer"
+>
+                <label
+                                className="addLifter__label"
+                >
+                                Gender:
+                </label>
+                <select
+                                className="addLifter__durationDropdown"
+                                onChange={[Function]}
+                >
+                                <option
+                                                className="addLifter__typeOption"
+                                                value=""
+                                >
+                                                Select
+                                </option>
+                                <option
+                                                className="addLifter__typeOption"
+                                                value="women"
+                                >
+                                                Female
+                                </option>
+                                <option
+                                                className="addLifter__typeOption"
+                                                value="men"
+                                >
+                                                Male
+                                </option>
+                </select>
+</div>,
+              <div
+                className="addLifter__buttonContainer"
+>
+                <button
+                                onClick={[Function]}
+                >
+                                Add Lifter
+                </button>
+</div>,
+            ],
+            "className": "addLifter__container",
+          },
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "children": Array [
+              <div
+                className="addLifter__inputContainer"
+>
+                <label
+                                className="addLifter__label"
+                >
+                                First Name:
+                </label>
+                <input
+                                onChange={[Function]}
+                                type="text"
+                />
+</div>,
+              <div
+                className="addLifter__inputContainer"
+>
+                <label
+                                className="addLifter__label"
+                >
+                                Last Name:
+                </label>
+                <input
+                                onChange={[Function]}
+                                type="text"
+                />
+</div>,
+              <div
+                className="addLifter__inputContainer"
+>
+                <label
+                                className="addLifter__label"
+                >
+                                Gender:
+                </label>
+                <select
+                                className="addLifter__durationDropdown"
+                                onChange={[Function]}
+                >
+                                <option
+                                                className="addLifter__typeOption"
+                                                value=""
+                                >
+                                                Select
+                                </option>
+                                <option
+                                                className="addLifter__typeOption"
+                                                value="women"
+                                >
+                                                Female
+                                </option>
+                                <option
+                                                className="addLifter__typeOption"
+                                                value="men"
+                                >
+                                                Male
+                                </option>
+                </select>
+</div>,
+              <div
+                className="addLifter__buttonContainer"
+>
+                <button
+                                onClick={[Function]}
+                >
+                                Add Lifter
+                </button>
+</div>,
+            ],
+            "className": "addLifter__container",
+          },
+          "ref": null,
+          "return": [Circular],
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": <div
+            class="addLifter__container"
+>
+            <div
+                        class="addLifter__inputContainer"
+            >
+                        <label
+                                    class="addLifter__label"
+                        >
+                                    First Name:
+                        </label>
+                        <input
+                                    type="text"
+                        />
+            </div>
+            <div
+                        class="addLifter__inputContainer"
+            >
+                        <label
+                                    class="addLifter__label"
+                        >
+                                    Last Name:
+                        </label>
+                        <input
+                                    type="text"
+                        />
+            </div>
+            <div
+                        class="addLifter__inputContainer"
+            >
+                        <label
+                                    class="addLifter__label"
+                        >
+                                    Gender:
+                        </label>
+                        <select
+                                    class="addLifter__durationDropdown"
+                        >
+                                    <option
+                                                class="addLifter__typeOption"
+                                                value=""
+                                    >
+                                                Select
+                                    </option>
+                                    <option
+                                                class="addLifter__typeOption"
+                                                value="women"
+                                    >
+                                                Female
+                                    </option>
+                                    <option
+                                                class="addLifter__typeOption"
+                                                value="men"
+                                    >
+                                                Male
+                                    </option>
+                        </select>
+            </div>
+            <div
+                        class="addLifter__buttonContainer"
+            >
+                        <button>
+                                    Add Lifter
+                        </button>
+            </div>
+</div>,
+          "tag": 7,
+          "treeBaseDuration": 0,
+          "type": "div",
+          "updateQueue": null,
+        },
+        "childExpirationTime": 0,
+        "effectTag": 1,
+        "expirationTime": 0,
+        "firstContextDependency": null,
+        "firstEffect": null,
+        "index": 0,
+        "key": null,
+        "lastEffect": null,
+        "memoizedProps": Object {},
+        "memoizedState": Object {
+          "firstName": null,
+          "gender": null,
+          "lastName": null,
+        },
+        "mode": 0,
+        "nextEffect": null,
+        "pendingProps": Object {},
+        "ref": null,
+        "return": FiberNode {
+          "_debugID": 49,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": null,
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": [Circular],
+          "childExpirationTime": 0,
+          "effectTag": 1,
+          "expirationTime": 0,
+          "firstContextDependency": null,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {},
+          },
+          "memoizedState": Object {
+            "context": null,
+            "mount": true,
+            "props": Object {},
+          },
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {},
+          },
+          "ref": null,
+          "return": FiberNode {
+            "_debugID": 47,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": FiberNode {
+              "_debugID": 47,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": [Circular],
+              "child": null,
+              "childExpirationTime": 0,
+              "effectTag": 0,
+              "expirationTime": 1,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": null,
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": Object {
+                "containerInfo": <div>
+                  <div
+                                    class="addLifter__container"
+                  >
+                                    <div
+                                                      class="addLifter__inputContainer"
+                                    >
+                                                      <label
+                                                                        class="addLifter__label"
+                                                      >
+                                                                        First Name:
+                                                      </label>
+                                                      <input
+                                                                        type="text"
+                                                      />
+                                    </div>
+                                    <div
+                                                      class="addLifter__inputContainer"
+                                    >
+                                                      <label
+                                                                        class="addLifter__label"
+                                                      >
+                                                                        Last Name:
+                                                      </label>
+                                                      <input
+                                                                        type="text"
+                                                      />
+                                    </div>
+                                    <div
+                                                      class="addLifter__inputContainer"
+                                    >
+                                                      <label
+                                                                        class="addLifter__label"
+                                                      >
+                                                                        Gender:
+                                                      </label>
+                                                      <select
+                                                                        class="addLifter__durationDropdown"
+                                                      >
+                                                                        <option
+                                                                                          class="addLifter__typeOption"
+                                                                                          value=""
+                                                                        >
+                                                                                          Select
+                                                                        </option>
+                                                                        <option
+                                                                                          class="addLifter__typeOption"
+                                                                                          value="women"
+                                                                        >
+                                                                                          Female
+                                                                        </option>
+                                                                        <option
+                                                                                          class="addLifter__typeOption"
+                                                                                          value="men"
+                                                                        >
+                                                                                          Male
+                                                                        </option>
+                                                      </select>
+                                    </div>
+                                    <div
+                                                      class="addLifter__buttonContainer"
+                                    >
+                                                      <button>
+                                                                        Add Lifter
+                                                      </button>
+                                    </div>
+                  </div>
+</div>,
+                "context": Object {},
+                "current": [Circular],
+                "didError": false,
+                "earliestPendingTime": 0,
+                "earliestSuspendedTime": 0,
+                "expirationTime": 0,
+                "finishedWork": null,
+                "firstBatch": null,
+                "hydrate": false,
+                "interactionThreadID": 12,
+                "latestPendingTime": 0,
+                "latestPingedTime": 0,
+                "latestSuspendedTime": 0,
+                "memoizedInteractions": Set {},
+                "nextExpirationTimeToWorkOn": 0,
+                "nextScheduledRoot": null,
+                "pendingChildren": null,
+                "pendingCommitExpirationTime": 0,
+                "pendingContext": null,
+                "pendingInteractionMap": Map {},
+                "timeoutHandle": -1,
+              },
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": null,
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": Object {
+                  "callback": null,
+                  "expirationTime": 1,
+                  "next": null,
+                  "nextEffect": null,
+                  "payload": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={Object {}}
+/>,
+                  },
+                  "tag": 0,
+                },
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": Object {
+                  "callback": null,
+                  "expirationTime": 1,
+                  "next": null,
+                  "nextEffect": null,
+                  "payload": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={Object {}}
+/>,
+                  },
+                  "tag": 0,
+                },
+              },
+            },
+            "child": [Circular],
+            "childExpirationTime": 0,
+            "effectTag": 32,
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": [Circular],
+            "index": 0,
+            "key": null,
+            "lastEffect": [Circular],
+            "memoizedProps": null,
+            "memoizedState": Object {
+              "element": <WrapperComponent
+                Component={[Function]}
+                context={null}
+                props={Object {}}
+/>,
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": null,
+            "ref": null,
+            "return": null,
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": Object {
+              "containerInfo": <div>
+                <div
+                                class="addLifter__container"
+                >
+                                <div
+                                                class="addLifter__inputContainer"
+                                >
+                                                <label
+                                                                class="addLifter__label"
+                                                >
+                                                                First Name:
+                                                </label>
+                                                <input
+                                                                type="text"
+                                                />
+                                </div>
+                                <div
+                                                class="addLifter__inputContainer"
+                                >
+                                                <label
+                                                                class="addLifter__label"
+                                                >
+                                                                Last Name:
+                                                </label>
+                                                <input
+                                                                type="text"
+                                                />
+                                </div>
+                                <div
+                                                class="addLifter__inputContainer"
+                                >
+                                                <label
+                                                                class="addLifter__label"
+                                                >
+                                                                Gender:
+                                                </label>
+                                                <select
+                                                                class="addLifter__durationDropdown"
+                                                >
+                                                                <option
+                                                                                class="addLifter__typeOption"
+                                                                                value=""
+                                                                >
+                                                                                Select
+                                                                </option>
+                                                                <option
+                                                                                class="addLifter__typeOption"
+                                                                                value="women"
+                                                                >
+                                                                                Female
+                                                                </option>
+                                                                <option
+                                                                                class="addLifter__typeOption"
+                                                                                value="men"
+                                                                >
+                                                                                Male
+                                                                </option>
+                                                </select>
+                                </div>
+                                <div
+                                                class="addLifter__buttonContainer"
+                                >
+                                                <button>
+                                                                Add Lifter
+                                                </button>
+                                </div>
+                </div>
+</div>,
+              "context": Object {},
+              "current": [Circular],
+              "didError": false,
+              "earliestPendingTime": 0,
+              "earliestSuspendedTime": 0,
+              "expirationTime": 0,
+              "finishedWork": null,
+              "firstBatch": null,
+              "hydrate": false,
+              "interactionThreadID": 12,
+              "latestPendingTime": 0,
+              "latestPingedTime": 0,
+              "latestSuspendedTime": 0,
+              "memoizedInteractions": Set {},
+              "nextExpirationTimeToWorkOn": 0,
+              "nextScheduledRoot": null,
+              "pendingChildren": null,
+              "pendingCommitExpirationTime": 0,
+              "pendingContext": null,
+              "pendingInteractionMap": Map {},
+              "timeoutHandle": -1,
+            },
+            "tag": 5,
+            "treeBaseDuration": 0,
+            "type": null,
+            "updateQueue": Object {
+              "baseState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={Object {}}
+/>,
+              },
+              "firstCapturedEffect": null,
+              "firstCapturedUpdate": null,
+              "firstEffect": null,
+              "firstUpdate": null,
+              "lastCapturedEffect": null,
+              "lastCapturedUpdate": null,
+              "lastEffect": null,
+              "lastUpdate": null,
+            },
+          },
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": WrapperComponent {
+            "_reactInternalFiber": [Circular],
+            "_reactInternalInstance": Object {},
+            "context": Object {},
+            "props": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {},
+            },
+            "refs": Object {},
+            "state": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {},
+            },
+            "updater": Object {
+              "enqueueForceUpdate": [Function],
+              "enqueueReplaceState": [Function],
+              "enqueueSetState": [Function],
+              "isMounted": [Function],
+            },
+          },
+          "tag": 2,
+          "treeBaseDuration": 0,
+          "type": [Function],
+          "updateQueue": null,
+        },
+        "selfBaseDuration": 0,
+        "sibling": null,
+        "stateNode": [Circular],
+        "tag": 2,
+        "treeBaseDuration": 0,
+        "type": [Function],
+        "updateQueue": null,
+      },
+      "_reactInternalInstance": Object {},
+      "addLifter": [Function],
+      "context": Object {},
+      "handleFirstNameChange": [Function],
+      "handleGenderChange": [Function],
+      "handleLastNameChange": [Function],
+      "props": Object {},
+      "refs": Object {},
+      "state": Object {
+        "firstName": null,
+        "gender": null,
+        "lastName": null,
+      },
+      "updater": Object {
+        "enqueueForceUpdate": [Function],
+        "enqueueReplaceState": [Function],
+        "enqueueSetState": [Function],
+        "isMounted": [Function],
+      },
+    },
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {},
+    "ref": null,
+    "rendered": Object {
+      "instance": <div
+        class="addLifter__container"
+>
+        <div
+                class="addLifter__inputContainer"
+        >
+                <label
+                        class="addLifter__label"
+                >
+                        First Name:
+                </label>
+                <input
+                        type="text"
+                />
+        </div>
+        <div
+                class="addLifter__inputContainer"
+        >
+                <label
+                        class="addLifter__label"
+                >
+                        Last Name:
+                </label>
+                <input
+                        type="text"
+                />
+        </div>
+        <div
+                class="addLifter__inputContainer"
+        >
+                <label
+                        class="addLifter__label"
+                >
+                        Gender:
+                </label>
+                <select
+                        class="addLifter__durationDropdown"
+                >
+                        <option
+                                class="addLifter__typeOption"
+                                value=""
+                        >
+                                Select
+                        </option>
+                        <option
+                                class="addLifter__typeOption"
+                                value="women"
+                        >
+                                Female
+                        </option>
+                        <option
+                                class="addLifter__typeOption"
+                                value="men"
+                        >
+                                Male
+                        </option>
+                </select>
+        </div>
+        <div
+                class="addLifter__buttonContainer"
+        >
+                <button>
+                        Add Lifter
+                </button>
+        </div>
+</div>,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="addLifter__inputContainer"
+>
+            <label
+                        className="addLifter__label"
+            >
+                        First Name:
+            </label>
+            <input
+                        onChange={[Function]}
+                        type="text"
+            />
+</div>,
+          <div
+            className="addLifter__inputContainer"
+>
+            <label
+                        className="addLifter__label"
+            >
+                        Last Name:
+            </label>
+            <input
+                        onChange={[Function]}
+                        type="text"
+            />
+</div>,
+          <div
+            className="addLifter__inputContainer"
+>
+            <label
+                        className="addLifter__label"
+            >
+                        Gender:
+            </label>
+            <select
+                        className="addLifter__durationDropdown"
+                        onChange={[Function]}
+            >
+                        <option
+                                    className="addLifter__typeOption"
+                                    value=""
+                        >
+                                    Select
+                        </option>
+                        <option
+                                    className="addLifter__typeOption"
+                                    value="women"
+                        >
+                                    Female
+                        </option>
+                        <option
+                                    className="addLifter__typeOption"
+                                    value="men"
+                        >
+                                    Male
+                        </option>
+            </select>
+</div>,
+          <div
+            className="addLifter__buttonContainer"
+>
+            <button
+                        onClick={[Function]}
+            >
+                        Add Lifter
+            </button>
+</div>,
+        ],
+        "className": "addLifter__container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": <div
+            class="addLifter__inputContainer"
+>
+            <label
+                        class="addLifter__label"
+            >
+                        First Name:
+            </label>
+            <input
+                        type="text"
+            />
+</div>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <label
+                className="addLifter__label"
+>
+                First Name:
+</label>,
+              <input
+                onChange={[Function]}
+                type="text"
+/>,
+            ],
+            "className": "addLifter__inputContainer",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <label
+                class="addLifter__label"
+>
+                First Name:
+</label>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "First Name:",
+                "className": "addLifter__label",
+              },
+              "ref": null,
+              "rendered": Array [
+                "First Name:",
+              ],
+              "type": "label",
+            },
+            Object {
+              "instance": <input
+                type="text"
+/>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": Array [
+                undefined,
+              ],
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": <div
+            class="addLifter__inputContainer"
+>
+            <label
+                        class="addLifter__label"
+            >
+                        Last Name:
+            </label>
+            <input
+                        type="text"
+            />
+</div>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <label
+                className="addLifter__label"
+>
+                Last Name:
+</label>,
+              <input
+                onChange={[Function]}
+                type="text"
+/>,
+            ],
+            "className": "addLifter__inputContainer",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <label
+                class="addLifter__label"
+>
+                Last Name:
+</label>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Last Name:",
+                "className": "addLifter__label",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Last Name:",
+              ],
+              "type": "label",
+            },
+            Object {
+              "instance": <input
+                type="text"
+/>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": Array [
+                undefined,
+              ],
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": <div
+            class="addLifter__inputContainer"
+>
+            <label
+                        class="addLifter__label"
+            >
+                        Gender:
+            </label>
+            <select
+                        class="addLifter__durationDropdown"
+            >
+                        <option
+                                    class="addLifter__typeOption"
+                                    value=""
+                        >
+                                    Select
+                        </option>
+                        <option
+                                    class="addLifter__typeOption"
+                                    value="women"
+                        >
+                                    Female
+                        </option>
+                        <option
+                                    class="addLifter__typeOption"
+                                    value="men"
+                        >
+                                    Male
+                        </option>
+            </select>
+</div>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <label
+                className="addLifter__label"
+>
+                Gender:
+</label>,
+              <select
+                className="addLifter__durationDropdown"
+                onChange={[Function]}
+>
+                <option
+                                className="addLifter__typeOption"
+                                value=""
+                >
+                                Select
+                </option>
+                <option
+                                className="addLifter__typeOption"
+                                value="women"
+                >
+                                Female
+                </option>
+                <option
+                                className="addLifter__typeOption"
+                                value="men"
+                >
+                                Male
+                </option>
+</select>,
+            ],
+            "className": "addLifter__inputContainer",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <label
+                class="addLifter__label"
+>
+                Gender:
+</label>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Gender:",
+                "className": "addLifter__label",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Gender:",
+              ],
+              "type": "label",
+            },
+            Object {
+              "instance": <select
+                class="addLifter__durationDropdown"
+>
+                <option
+                                class="addLifter__typeOption"
+                                value=""
+                >
+                                Select
+                </option>
+                <option
+                                class="addLifter__typeOption"
+                                value="women"
+                >
+                                Female
+                </option>
+                <option
+                                class="addLifter__typeOption"
+                                value="men"
+                >
+                                Male
+                </option>
+</select>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <option
+                    className="addLifter__typeOption"
+                    value=""
+>
+                    Select
+</option>,
+                  <option
+                    className="addLifter__typeOption"
+                    value="women"
+>
+                    Female
+</option>,
+                  <option
+                    className="addLifter__typeOption"
+                    value="men"
+>
+                    Male
+</option>,
+                ],
+                "className": "addLifter__durationDropdown",
+                "onChange": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": <option
+                    class="addLifter__typeOption"
+                    value=""
+>
+                    Select
+</option>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Select",
+                    "className": "addLifter__typeOption",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Select",
+                  ],
+                  "type": "option",
+                },
+                Object {
+                  "instance": <option
+                    class="addLifter__typeOption"
+                    value="women"
+>
+                    Female
+</option>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Female",
+                    "className": "addLifter__typeOption",
+                    "value": "women",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Female",
+                  ],
+                  "type": "option",
+                },
+                Object {
+                  "instance": <option
+                    class="addLifter__typeOption"
+                    value="men"
+>
+                    Male
+</option>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Male",
+                    "className": "addLifter__typeOption",
+                    "value": "men",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Male",
+                  ],
+                  "type": "option",
+                },
+              ],
+              "type": "select",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": <div
+            class="addLifter__buttonContainer"
+>
+            <button>
+                        Add Lifter
+            </button>
+</div>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <button
+              onClick={[Function]}
+>
+              Add Lifter
+</button>,
+            "className": "addLifter__buttonContainer",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <button>
+                Add Lifter
+</button>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Add Lifter",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Add Lifter",
+              ],
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": AddLifter {
+        "_reactInternalFiber": FiberNode {
+          "_debugID": 50,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": FiberNode {
+            "_debugID": 49,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": [Circular],
+            "childExpirationTime": 0,
+            "effectTag": 1,
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {},
+            },
+            "memoizedState": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {},
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {},
+            },
+            "ref": null,
+            "return": FiberNode {
+              "_debugID": 47,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": FiberNode {
+                "_debugID": 47,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": [Circular],
+                "child": null,
+                "childExpirationTime": 0,
+                "effectTag": 0,
+                "expirationTime": 1,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": null,
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": null,
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": Object {
+                  "containerInfo": <div>
+                    <div
+                                        class="addLifter__container"
+                    >
+                                        <div
+                                                            class="addLifter__inputContainer"
+                                        >
+                                                            <label
+                                                                                class="addLifter__label"
+                                                            >
+                                                                                First Name:
+                                                            </label>
+                                                            <input
+                                                                                type="text"
+                                                            />
+                                        </div>
+                                        <div
+                                                            class="addLifter__inputContainer"
+                                        >
+                                                            <label
+                                                                                class="addLifter__label"
+                                                            >
+                                                                                Last Name:
+                                                            </label>
+                                                            <input
+                                                                                type="text"
+                                                            />
+                                        </div>
+                                        <div
+                                                            class="addLifter__inputContainer"
+                                        >
+                                                            <label
+                                                                                class="addLifter__label"
+                                                            >
+                                                                                Gender:
+                                                            </label>
+                                                            <select
+                                                                                class="addLifter__durationDropdown"
+                                                            >
+                                                                                <option
+                                                                                                    class="addLifter__typeOption"
+                                                                                                    value=""
+                                                                                >
+                                                                                                    Select
+                                                                                </option>
+                                                                                <option
+                                                                                                    class="addLifter__typeOption"
+                                                                                                    value="women"
+                                                                                >
+                                                                                                    Female
+                                                                                </option>
+                                                                                <option
+                                                                                                    class="addLifter__typeOption"
+                                                                                                    value="men"
+                                                                                >
+                                                                                                    Male
+                                                                                </option>
+                                                            </select>
+                                        </div>
+                                        <div
+                                                            class="addLifter__buttonContainer"
+                                        >
+                                                            <button>
+                                                                                Add Lifter
+                                                            </button>
+                                        </div>
+                    </div>
+</div>,
+                  "context": Object {},
+                  "current": [Circular],
+                  "didError": false,
+                  "earliestPendingTime": 0,
+                  "earliestSuspendedTime": 0,
+                  "expirationTime": 0,
+                  "finishedWork": null,
+                  "firstBatch": null,
+                  "hydrate": false,
+                  "interactionThreadID": 12,
+                  "latestPendingTime": 0,
+                  "latestPingedTime": 0,
+                  "latestSuspendedTime": 0,
+                  "memoizedInteractions": Set {},
+                  "nextExpirationTimeToWorkOn": 0,
+                  "nextScheduledRoot": null,
+                  "pendingChildren": null,
+                  "pendingCommitExpirationTime": 0,
+                  "pendingContext": null,
+                  "pendingInteractionMap": Map {},
+                  "timeoutHandle": -1,
+                },
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": null,
+                "updateQueue": Object {
+                  "baseState": null,
+                  "firstCapturedEffect": null,
+                  "firstCapturedUpdate": null,
+                  "firstEffect": null,
+                  "firstUpdate": Object {
+                    "callback": null,
+                    "expirationTime": 1,
+                    "next": null,
+                    "nextEffect": null,
+                    "payload": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={Object {}}
+/>,
+                    },
+                    "tag": 0,
+                  },
+                  "lastCapturedEffect": null,
+                  "lastCapturedUpdate": null,
+                  "lastEffect": null,
+                  "lastUpdate": Object {
+                    "callback": null,
+                    "expirationTime": 1,
+                    "next": null,
+                    "nextEffect": null,
+                    "payload": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={Object {}}
+/>,
+                    },
+                    "tag": 0,
+                  },
+                },
+              },
+              "child": [Circular],
+              "childExpirationTime": 0,
+              "effectTag": 32,
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": [Circular],
+              "index": 0,
+              "key": null,
+              "lastEffect": [Circular],
+              "memoizedProps": null,
+              "memoizedState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={Object {}}
+/>,
+              },
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": Object {
+                "containerInfo": <div>
+                  <div
+                                    class="addLifter__container"
+                  >
+                                    <div
+                                                      class="addLifter__inputContainer"
+                                    >
+                                                      <label
+                                                                        class="addLifter__label"
+                                                      >
+                                                                        First Name:
+                                                      </label>
+                                                      <input
+                                                                        type="text"
+                                                      />
+                                    </div>
+                                    <div
+                                                      class="addLifter__inputContainer"
+                                    >
+                                                      <label
+                                                                        class="addLifter__label"
+                                                      >
+                                                                        Last Name:
+                                                      </label>
+                                                      <input
+                                                                        type="text"
+                                                      />
+                                    </div>
+                                    <div
+                                                      class="addLifter__inputContainer"
+                                    >
+                                                      <label
+                                                                        class="addLifter__label"
+                                                      >
+                                                                        Gender:
+                                                      </label>
+                                                      <select
+                                                                        class="addLifter__durationDropdown"
+                                                      >
+                                                                        <option
+                                                                                          class="addLifter__typeOption"
+                                                                                          value=""
+                                                                        >
+                                                                                          Select
+                                                                        </option>
+                                                                        <option
+                                                                                          class="addLifter__typeOption"
+                                                                                          value="women"
+                                                                        >
+                                                                                          Female
+                                                                        </option>
+                                                                        <option
+                                                                                          class="addLifter__typeOption"
+                                                                                          value="men"
+                                                                        >
+                                                                                          Male
+                                                                        </option>
+                                                      </select>
+                                    </div>
+                                    <div
+                                                      class="addLifter__buttonContainer"
+                                    >
+                                                      <button>
+                                                                        Add Lifter
+                                                      </button>
+                                    </div>
+                  </div>
+</div>,
+                "context": Object {},
+                "current": [Circular],
+                "didError": false,
+                "earliestPendingTime": 0,
+                "earliestSuspendedTime": 0,
+                "expirationTime": 0,
+                "finishedWork": null,
+                "firstBatch": null,
+                "hydrate": false,
+                "interactionThreadID": 12,
+                "latestPendingTime": 0,
+                "latestPingedTime": 0,
+                "latestSuspendedTime": 0,
+                "memoizedInteractions": Set {},
+                "nextExpirationTimeToWorkOn": 0,
+                "nextScheduledRoot": null,
+                "pendingChildren": null,
+                "pendingCommitExpirationTime": 0,
+                "pendingContext": null,
+                "pendingInteractionMap": Map {},
+                "timeoutHandle": -1,
+              },
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": Object {
+                  "element": <WrapperComponent
+                    Component={[Function]}
+                    context={null}
+                    props={Object {}}
+/>,
+                },
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": null,
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": null,
+              },
+            },
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": WrapperComponent {
+              "_reactInternalFiber": [Circular],
+              "_reactInternalInstance": Object {},
+              "context": Object {},
+              "props": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {},
+              },
+              "refs": Object {},
+              "state": Object {
+                "context": null,
+                "mount": true,
+                "props": Object {},
+              },
+              "updater": Object {
+                "enqueueForceUpdate": [Function],
+                "enqueueReplaceState": [Function],
+                "enqueueSetState": [Function],
+                "isMounted": [Function],
+              },
+            },
+            "tag": 2,
+            "treeBaseDuration": 0,
+            "type": [Function],
+            "updateQueue": null,
+          },
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": FiberNode {
+            "_debugID": 51,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": Object {
+              "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddLifter/AddLifter.js",
+              "lineNumber": 27,
+            },
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": FiberNode {
+              "_debugID": 52,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddLifter/AddLifter.js",
+                "lineNumber": 28,
+              },
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": FiberNode {
+                "_debugID": 56,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddLifter/AddLifter.js",
+                  "lineNumber": 29,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "First Name:",
+                  "className": "addLifter__label",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "First Name:",
+                  "className": "addLifter__label",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": FiberNode {
+                  "_debugID": 57,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddLifter/AddLifter.js",
+                    "lineNumber": 30,
+                  },
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 1,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "onChange": [Function],
+                    "type": "text",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "onChange": [Function],
+                    "type": "text",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": <input
+                    type="text"
+/>,
+                  "tag": 7,
+                  "treeBaseDuration": 0,
+                  "type": "input",
+                  "updateQueue": null,
+                },
+                "stateNode": <label
+                  class="addLifter__label"
+>
+                  First Name:
+</label>,
+                "tag": 7,
+                "treeBaseDuration": 0,
+                "type": "label",
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": Array [
+                  <label
+                    className="addLifter__label"
+>
+                    First Name:
+</label>,
+                  <input
+                    onChange={[Function]}
+                    type="text"
+/>,
+                ],
+                "className": "addLifter__inputContainer",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": Array [
+                  <label
+                    className="addLifter__label"
+>
+                    First Name:
+</label>,
+                  <input
+                    onChange={[Function]}
+                    type="text"
+/>,
+                ],
+                "className": "addLifter__inputContainer",
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": FiberNode {
+                "_debugID": 53,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddLifter/AddLifter.js",
+                  "lineNumber": 32,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugID": 58,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddLifter/AddLifter.js",
+                    "lineNumber": 33,
+                  },
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": "Last Name:",
+                    "className": "addLifter__label",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": "Last Name:",
+                    "className": "addLifter__label",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": FiberNode {
+                    "_debugID": 59,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": Object {
+                      "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddLifter/AddLifter.js",
+                      "lineNumber": 34,
+                    },
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 1,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "onChange": [Function],
+                      "type": "text",
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "onChange": [Function],
+                      "type": "text",
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": <input
+                      type="text"
+/>,
+                    "tag": 7,
+                    "treeBaseDuration": 0,
+                    "type": "input",
+                    "updateQueue": null,
+                  },
+                  "stateNode": <label
+                    class="addLifter__label"
+>
+                    Last Name:
+</label>,
+                  "tag": 7,
+                  "treeBaseDuration": 0,
+                  "type": "label",
+                  "updateQueue": null,
+                },
+                "childExpirationTime": 0,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 1,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": Array [
+                    <label
+                      className="addLifter__label"
+>
+                      Last Name:
+</label>,
+                    <input
+                      onChange={[Function]}
+                      type="text"
+/>,
+                  ],
+                  "className": "addLifter__inputContainer",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": Array [
+                    <label
+                      className="addLifter__label"
+>
+                      Last Name:
+</label>,
+                    <input
+                      onChange={[Function]}
+                      type="text"
+/>,
+                  ],
+                  "className": "addLifter__inputContainer",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": FiberNode {
+                  "_debugID": 54,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddLifter/AddLifter.js",
+                    "lineNumber": 36,
+                  },
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": FiberNode {
+                    "_debugID": 60,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": Object {
+                      "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddLifter/AddLifter.js",
+                      "lineNumber": 37,
+                    },
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": "Gender:",
+                      "className": "addLifter__label",
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": "Gender:",
+                      "className": "addLifter__label",
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": FiberNode {
+                      "_debugID": 61,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": Object {
+                        "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddLifter/AddLifter.js",
+                        "lineNumber": 38,
+                      },
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": null,
+                      "child": FiberNode {
+                        "_debugID": 62,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": [Circular],
+                        "_debugSource": Object {
+                          "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddLifter/AddLifter.js",
+                          "lineNumber": 41,
+                        },
+                        "actualDuration": 0,
+                        "actualStartTime": -1,
+                        "alternate": null,
+                        "child": null,
+                        "childExpirationTime": 0,
+                        "effectTag": 0,
+                        "expirationTime": 0,
+                        "firstContextDependency": null,
+                        "firstEffect": null,
+                        "index": 0,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": Object {
+                          "children": "Select",
+                          "className": "addLifter__typeOption",
+                          "value": "",
+                        },
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": Object {
+                          "children": "Select",
+                          "className": "addLifter__typeOption",
+                          "value": "",
+                        },
+                        "ref": null,
+                        "return": [Circular],
+                        "selfBaseDuration": 0,
+                        "sibling": FiberNode {
+                          "_debugID": 63,
+                          "_debugIsCurrentlyTiming": false,
+                          "_debugOwner": [Circular],
+                          "_debugSource": Object {
+                            "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddLifter/AddLifter.js",
+                            "lineNumber": 42,
+                          },
+                          "actualDuration": 0,
+                          "actualStartTime": -1,
+                          "alternate": null,
+                          "child": null,
+                          "childExpirationTime": 0,
+                          "effectTag": 0,
+                          "expirationTime": 0,
+                          "firstContextDependency": null,
+                          "firstEffect": null,
+                          "index": 1,
+                          "key": null,
+                          "lastEffect": null,
+                          "memoizedProps": Object {
+                            "children": "Female",
+                            "className": "addLifter__typeOption",
+                            "value": "women",
+                          },
+                          "memoizedState": null,
+                          "mode": 0,
+                          "nextEffect": null,
+                          "pendingProps": Object {
+                            "children": "Female",
+                            "className": "addLifter__typeOption",
+                            "value": "women",
+                          },
+                          "ref": null,
+                          "return": [Circular],
+                          "selfBaseDuration": 0,
+                          "sibling": FiberNode {
+                            "_debugID": 64,
+                            "_debugIsCurrentlyTiming": false,
+                            "_debugOwner": [Circular],
+                            "_debugSource": Object {
+                              "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddLifter/AddLifter.js",
+                              "lineNumber": 43,
+                            },
+                            "actualDuration": 0,
+                            "actualStartTime": -1,
+                            "alternate": null,
+                            "child": null,
+                            "childExpirationTime": 0,
+                            "effectTag": 0,
+                            "expirationTime": 0,
+                            "firstContextDependency": null,
+                            "firstEffect": null,
+                            "index": 2,
+                            "key": null,
+                            "lastEffect": null,
+                            "memoizedProps": Object {
+                              "children": "Male",
+                              "className": "addLifter__typeOption",
+                              "value": "men",
+                            },
+                            "memoizedState": null,
+                            "mode": 0,
+                            "nextEffect": null,
+                            "pendingProps": Object {
+                              "children": "Male",
+                              "className": "addLifter__typeOption",
+                              "value": "men",
+                            },
+                            "ref": null,
+                            "return": [Circular],
+                            "selfBaseDuration": 0,
+                            "sibling": null,
+                            "stateNode": <option
+                              class="addLifter__typeOption"
+                              value="men"
+>
+                              Male
+</option>,
+                            "tag": 7,
+                            "treeBaseDuration": 0,
+                            "type": "option",
+                            "updateQueue": null,
+                          },
+                          "stateNode": <option
+                            class="addLifter__typeOption"
+                            value="women"
+>
+                            Female
+</option>,
+                          "tag": 7,
+                          "treeBaseDuration": 0,
+                          "type": "option",
+                          "updateQueue": null,
+                        },
+                        "stateNode": <option
+                          class="addLifter__typeOption"
+                          value=""
+>
+                          Select
+</option>,
+                        "tag": 7,
+                        "treeBaseDuration": 0,
+                        "type": "option",
+                        "updateQueue": null,
+                      },
+                      "childExpirationTime": 0,
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstContextDependency": null,
+                      "firstEffect": null,
+                      "index": 1,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": Array [
+                          <option
+                            className="addLifter__typeOption"
+                            value=""
+>
+                            Select
+</option>,
+                          <option
+                            className="addLifter__typeOption"
+                            value="women"
+>
+                            Female
+</option>,
+                          <option
+                            className="addLifter__typeOption"
+                            value="men"
+>
+                            Male
+</option>,
+                        ],
+                        "className": "addLifter__durationDropdown",
+                        "onChange": [Function],
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "children": Array [
+                          <option
+                            className="addLifter__typeOption"
+                            value=""
+>
+                            Select
+</option>,
+                          <option
+                            className="addLifter__typeOption"
+                            value="women"
+>
+                            Female
+</option>,
+                          <option
+                            className="addLifter__typeOption"
+                            value="men"
+>
+                            Male
+</option>,
+                        ],
+                        "className": "addLifter__durationDropdown",
+                        "onChange": [Function],
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "selfBaseDuration": 0,
+                      "sibling": null,
+                      "stateNode": <select
+                        class="addLifter__durationDropdown"
+>
+                        <option
+                                                class="addLifter__typeOption"
+                                                value=""
+                        >
+                                                Select
+                        </option>
+                        <option
+                                                class="addLifter__typeOption"
+                                                value="women"
+                        >
+                                                Female
+                        </option>
+                        <option
+                                                class="addLifter__typeOption"
+                                                value="men"
+                        >
+                                                Male
+                        </option>
+</select>,
+                      "tag": 7,
+                      "treeBaseDuration": 0,
+                      "type": "select",
+                      "updateQueue": null,
+                    },
+                    "stateNode": <label
+                      class="addLifter__label"
+>
+                      Gender:
+</label>,
+                    "tag": 7,
+                    "treeBaseDuration": 0,
+                    "type": "label",
+                    "updateQueue": null,
+                  },
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 2,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": Array [
+                      <label
+                        className="addLifter__label"
+>
+                        Gender:
+</label>,
+                      <select
+                        className="addLifter__durationDropdown"
+                        onChange={[Function]}
+>
+                        <option
+                                                className="addLifter__typeOption"
+                                                value=""
+                        >
+                                                Select
+                        </option>
+                        <option
+                                                className="addLifter__typeOption"
+                                                value="women"
+                        >
+                                                Female
+                        </option>
+                        <option
+                                                className="addLifter__typeOption"
+                                                value="men"
+                        >
+                                                Male
+                        </option>
+</select>,
+                    ],
+                    "className": "addLifter__inputContainer",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": Array [
+                      <label
+                        className="addLifter__label"
+>
+                        Gender:
+</label>,
+                      <select
+                        className="addLifter__durationDropdown"
+                        onChange={[Function]}
+>
+                        <option
+                                                className="addLifter__typeOption"
+                                                value=""
+                        >
+                                                Select
+                        </option>
+                        <option
+                                                className="addLifter__typeOption"
+                                                value="women"
+                        >
+                                                Female
+                        </option>
+                        <option
+                                                className="addLifter__typeOption"
+                                                value="men"
+                        >
+                                                Male
+                        </option>
+</select>,
+                    ],
+                    "className": "addLifter__inputContainer",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": FiberNode {
+                    "_debugID": 55,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": Object {
+                      "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddLifter/AddLifter.js",
+                      "lineNumber": 46,
+                    },
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": FiberNode {
+                      "_debugID": 65,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": Object {
+                        "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/forms/AddLifter/AddLifter.js",
+                        "lineNumber": 47,
+                      },
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": null,
+                      "child": null,
+                      "childExpirationTime": 0,
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstContextDependency": null,
+                      "firstEffect": null,
+                      "index": 0,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": "Add Lifter",
+                        "onClick": [Function],
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "children": "Add Lifter",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "selfBaseDuration": 0,
+                      "sibling": null,
+                      "stateNode": <button>
+                        Add Lifter
+</button>,
+                      "tag": 7,
+                      "treeBaseDuration": 0,
+                      "type": "button",
+                      "updateQueue": null,
+                    },
+                    "childExpirationTime": 0,
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 3,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": <button
+                        onClick={[Function]}
+>
+                        Add Lifter
+</button>,
+                      "className": "addLifter__buttonContainer",
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": <button
+                        onClick={[Function]}
+>
+                        Add Lifter
+</button>,
+                      "className": "addLifter__buttonContainer",
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": <div
+                      class="addLifter__buttonContainer"
+>
+                      <button>
+                                            Add Lifter
+                      </button>
+</div>,
+                    "tag": 7,
+                    "treeBaseDuration": 0,
+                    "type": "div",
+                    "updateQueue": null,
+                  },
+                  "stateNode": <div
+                    class="addLifter__inputContainer"
+>
+                    <label
+                                        class="addLifter__label"
+                    >
+                                        Gender:
+                    </label>
+                    <select
+                                        class="addLifter__durationDropdown"
+                    >
+                                        <option
+                                                            class="addLifter__typeOption"
+                                                            value=""
+                                        >
+                                                            Select
+                                        </option>
+                                        <option
+                                                            class="addLifter__typeOption"
+                                                            value="women"
+                                        >
+                                                            Female
+                                        </option>
+                                        <option
+                                                            class="addLifter__typeOption"
+                                                            value="men"
+                                        >
+                                                            Male
+                                        </option>
+                    </select>
+</div>,
+                  "tag": 7,
+                  "treeBaseDuration": 0,
+                  "type": "div",
+                  "updateQueue": null,
+                },
+                "stateNode": <div
+                  class="addLifter__inputContainer"
+>
+                  <label
+                                    class="addLifter__label"
+                  >
+                                    Last Name:
+                  </label>
+                  <input
+                                    type="text"
+                  />
+</div>,
+                "tag": 7,
+                "treeBaseDuration": 0,
+                "type": "div",
+                "updateQueue": null,
+              },
+              "stateNode": <div
+                class="addLifter__inputContainer"
+>
+                <label
+                                class="addLifter__label"
+                >
+                                First Name:
+                </label>
+                <input
+                                type="text"
+                />
+</div>,
+              "tag": 7,
+              "treeBaseDuration": 0,
+              "type": "div",
+              "updateQueue": null,
+            },
+            "childExpirationTime": 0,
+            "effectTag": 0,
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": Array [
+                <div
+                  className="addLifter__inputContainer"
+>
+                  <label
+                                    className="addLifter__label"
+                  >
+                                    First Name:
+                  </label>
+                  <input
+                                    onChange={[Function]}
+                                    type="text"
+                  />
+</div>,
+                <div
+                  className="addLifter__inputContainer"
+>
+                  <label
+                                    className="addLifter__label"
+                  >
+                                    Last Name:
+                  </label>
+                  <input
+                                    onChange={[Function]}
+                                    type="text"
+                  />
+</div>,
+                <div
+                  className="addLifter__inputContainer"
+>
+                  <label
+                                    className="addLifter__label"
+                  >
+                                    Gender:
+                  </label>
+                  <select
+                                    className="addLifter__durationDropdown"
+                                    onChange={[Function]}
+                  >
+                                    <option
+                                                      className="addLifter__typeOption"
+                                                      value=""
+                                    >
+                                                      Select
+                                    </option>
+                                    <option
+                                                      className="addLifter__typeOption"
+                                                      value="women"
+                                    >
+                                                      Female
+                                    </option>
+                                    <option
+                                                      className="addLifter__typeOption"
+                                                      value="men"
+                                    >
+                                                      Male
+                                    </option>
+                  </select>
+</div>,
+                <div
+                  className="addLifter__buttonContainer"
+>
+                  <button
+                                    onClick={[Function]}
+                  >
+                                    Add Lifter
+                  </button>
+</div>,
+              ],
+              "className": "addLifter__container",
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "children": Array [
+                <div
+                  className="addLifter__inputContainer"
+>
+                  <label
+                                    className="addLifter__label"
+                  >
+                                    First Name:
+                  </label>
+                  <input
+                                    onChange={[Function]}
+                                    type="text"
+                  />
+</div>,
+                <div
+                  className="addLifter__inputContainer"
+>
+                  <label
+                                    className="addLifter__label"
+                  >
+                                    Last Name:
+                  </label>
+                  <input
+                                    onChange={[Function]}
+                                    type="text"
+                  />
+</div>,
+                <div
+                  className="addLifter__inputContainer"
+>
+                  <label
+                                    className="addLifter__label"
+                  >
+                                    Gender:
+                  </label>
+                  <select
+                                    className="addLifter__durationDropdown"
+                                    onChange={[Function]}
+                  >
+                                    <option
+                                                      className="addLifter__typeOption"
+                                                      value=""
+                                    >
+                                                      Select
+                                    </option>
+                                    <option
+                                                      className="addLifter__typeOption"
+                                                      value="women"
+                                    >
+                                                      Female
+                                    </option>
+                                    <option
+                                                      className="addLifter__typeOption"
+                                                      value="men"
+                                    >
+                                                      Male
+                                    </option>
+                  </select>
+</div>,
+                <div
+                  className="addLifter__buttonContainer"
+>
+                  <button
+                                    onClick={[Function]}
+                  >
+                                    Add Lifter
+                  </button>
+</div>,
+              ],
+              "className": "addLifter__container",
+            },
+            "ref": null,
+            "return": [Circular],
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": <div
+              class="addLifter__container"
+>
+              <div
+                            class="addLifter__inputContainer"
+              >
+                            <label
+                                          class="addLifter__label"
+                            >
+                                          First Name:
+                            </label>
+                            <input
+                                          type="text"
+                            />
+              </div>
+              <div
+                            class="addLifter__inputContainer"
+              >
+                            <label
+                                          class="addLifter__label"
+                            >
+                                          Last Name:
+                            </label>
+                            <input
+                                          type="text"
+                            />
+              </div>
+              <div
+                            class="addLifter__inputContainer"
+              >
+                            <label
+                                          class="addLifter__label"
+                            >
+                                          Gender:
+                            </label>
+                            <select
+                                          class="addLifter__durationDropdown"
+                            >
+                                          <option
+                                                        class="addLifter__typeOption"
+                                                        value=""
+                                          >
+                                                        Select
+                                          </option>
+                                          <option
+                                                        class="addLifter__typeOption"
+                                                        value="women"
+                                          >
+                                                        Female
+                                          </option>
+                                          <option
+                                                        class="addLifter__typeOption"
+                                                        value="men"
+                                          >
+                                                        Male
+                                          </option>
+                            </select>
+              </div>
+              <div
+                            class="addLifter__buttonContainer"
+              >
+                            <button>
+                                          Add Lifter
+                            </button>
+              </div>
+</div>,
+            "tag": 7,
+            "treeBaseDuration": 0,
+            "type": "div",
+            "updateQueue": null,
+          },
+          "childExpirationTime": 0,
+          "effectTag": 1,
+          "expirationTime": 0,
+          "firstContextDependency": null,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {},
+          "memoizedState": Object {
+            "firstName": null,
+            "gender": null,
+            "lastName": null,
+          },
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {},
+          "ref": null,
+          "return": FiberNode {
+            "_debugID": 49,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": [Circular],
+            "childExpirationTime": 0,
+            "effectTag": 1,
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {},
+            },
+            "memoizedState": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {},
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {},
+            },
+            "ref": null,
+            "return": FiberNode {
+              "_debugID": 47,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": FiberNode {
+                "_debugID": 47,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": [Circular],
+                "child": null,
+                "childExpirationTime": 0,
+                "effectTag": 0,
+                "expirationTime": 1,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": null,
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": null,
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": Object {
+                  "containerInfo": <div>
+                    <div
+                                        class="addLifter__container"
+                    >
+                                        <div
+                                                            class="addLifter__inputContainer"
+                                        >
+                                                            <label
+                                                                                class="addLifter__label"
+                                                            >
+                                                                                First Name:
+                                                            </label>
+                                                            <input
+                                                                                type="text"
+                                                            />
+                                        </div>
+                                        <div
+                                                            class="addLifter__inputContainer"
+                                        >
+                                                            <label
+                                                                                class="addLifter__label"
+                                                            >
+                                                                                Last Name:
+                                                            </label>
+                                                            <input
+                                                                                type="text"
+                                                            />
+                                        </div>
+                                        <div
+                                                            class="addLifter__inputContainer"
+                                        >
+                                                            <label
+                                                                                class="addLifter__label"
+                                                            >
+                                                                                Gender:
+                                                            </label>
+                                                            <select
+                                                                                class="addLifter__durationDropdown"
+                                                            >
+                                                                                <option
+                                                                                                    class="addLifter__typeOption"
+                                                                                                    value=""
+                                                                                >
+                                                                                                    Select
+                                                                                </option>
+                                                                                <option
+                                                                                                    class="addLifter__typeOption"
+                                                                                                    value="women"
+                                                                                >
+                                                                                                    Female
+                                                                                </option>
+                                                                                <option
+                                                                                                    class="addLifter__typeOption"
+                                                                                                    value="men"
+                                                                                >
+                                                                                                    Male
+                                                                                </option>
+                                                            </select>
+                                        </div>
+                                        <div
+                                                            class="addLifter__buttonContainer"
+                                        >
+                                                            <button>
+                                                                                Add Lifter
+                                                            </button>
+                                        </div>
+                    </div>
+</div>,
+                  "context": Object {},
+                  "current": [Circular],
+                  "didError": false,
+                  "earliestPendingTime": 0,
+                  "earliestSuspendedTime": 0,
+                  "expirationTime": 0,
+                  "finishedWork": null,
+                  "firstBatch": null,
+                  "hydrate": false,
+                  "interactionThreadID": 12,
+                  "latestPendingTime": 0,
+                  "latestPingedTime": 0,
+                  "latestSuspendedTime": 0,
+                  "memoizedInteractions": Set {},
+                  "nextExpirationTimeToWorkOn": 0,
+                  "nextScheduledRoot": null,
+                  "pendingChildren": null,
+                  "pendingCommitExpirationTime": 0,
+                  "pendingContext": null,
+                  "pendingInteractionMap": Map {},
+                  "timeoutHandle": -1,
+                },
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": null,
+                "updateQueue": Object {
+                  "baseState": null,
+                  "firstCapturedEffect": null,
+                  "firstCapturedUpdate": null,
+                  "firstEffect": null,
+                  "firstUpdate": Object {
+                    "callback": null,
+                    "expirationTime": 1,
+                    "next": null,
+                    "nextEffect": null,
+                    "payload": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={Object {}}
+/>,
+                    },
+                    "tag": 0,
+                  },
+                  "lastCapturedEffect": null,
+                  "lastCapturedUpdate": null,
+                  "lastEffect": null,
+                  "lastUpdate": Object {
+                    "callback": null,
+                    "expirationTime": 1,
+                    "next": null,
+                    "nextEffect": null,
+                    "payload": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={Object {}}
+/>,
+                    },
+                    "tag": 0,
+                  },
+                },
+              },
+              "child": [Circular],
+              "childExpirationTime": 0,
+              "effectTag": 32,
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": [Circular],
+              "index": 0,
+              "key": null,
+              "lastEffect": [Circular],
+              "memoizedProps": null,
+              "memoizedState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={Object {}}
+/>,
+              },
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": Object {
+                "containerInfo": <div>
+                  <div
+                                    class="addLifter__container"
+                  >
+                                    <div
+                                                      class="addLifter__inputContainer"
+                                    >
+                                                      <label
+                                                                        class="addLifter__label"
+                                                      >
+                                                                        First Name:
+                                                      </label>
+                                                      <input
+                                                                        type="text"
+                                                      />
+                                    </div>
+                                    <div
+                                                      class="addLifter__inputContainer"
+                                    >
+                                                      <label
+                                                                        class="addLifter__label"
+                                                      >
+                                                                        Last Name:
+                                                      </label>
+                                                      <input
+                                                                        type="text"
+                                                      />
+                                    </div>
+                                    <div
+                                                      class="addLifter__inputContainer"
+                                    >
+                                                      <label
+                                                                        class="addLifter__label"
+                                                      >
+                                                                        Gender:
+                                                      </label>
+                                                      <select
+                                                                        class="addLifter__durationDropdown"
+                                                      >
+                                                                        <option
+                                                                                          class="addLifter__typeOption"
+                                                                                          value=""
+                                                                        >
+                                                                                          Select
+                                                                        </option>
+                                                                        <option
+                                                                                          class="addLifter__typeOption"
+                                                                                          value="women"
+                                                                        >
+                                                                                          Female
+                                                                        </option>
+                                                                        <option
+                                                                                          class="addLifter__typeOption"
+                                                                                          value="men"
+                                                                        >
+                                                                                          Male
+                                                                        </option>
+                                                      </select>
+                                    </div>
+                                    <div
+                                                      class="addLifter__buttonContainer"
+                                    >
+                                                      <button>
+                                                                        Add Lifter
+                                                      </button>
+                                    </div>
+                  </div>
+</div>,
+                "context": Object {},
+                "current": [Circular],
+                "didError": false,
+                "earliestPendingTime": 0,
+                "earliestSuspendedTime": 0,
+                "expirationTime": 0,
+                "finishedWork": null,
+                "firstBatch": null,
+                "hydrate": false,
+                "interactionThreadID": 12,
+                "latestPendingTime": 0,
+                "latestPingedTime": 0,
+                "latestSuspendedTime": 0,
+                "memoizedInteractions": Set {},
+                "nextExpirationTimeToWorkOn": 0,
+                "nextScheduledRoot": null,
+                "pendingChildren": null,
+                "pendingCommitExpirationTime": 0,
+                "pendingContext": null,
+                "pendingInteractionMap": Map {},
+                "timeoutHandle": -1,
+              },
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": Object {
+                  "element": <WrapperComponent
+                    Component={[Function]}
+                    context={null}
+                    props={Object {}}
+/>,
+                },
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": null,
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": null,
+              },
+            },
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": WrapperComponent {
+              "_reactInternalFiber": [Circular],
+              "_reactInternalInstance": Object {},
+              "context": Object {},
+              "props": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {},
+              },
+              "refs": Object {},
+              "state": Object {
+                "context": null,
+                "mount": true,
+                "props": Object {},
+              },
+              "updater": Object {
+                "enqueueForceUpdate": [Function],
+                "enqueueReplaceState": [Function],
+                "enqueueSetState": [Function],
+                "isMounted": [Function],
+              },
+            },
+            "tag": 2,
+            "treeBaseDuration": 0,
+            "type": [Function],
+            "updateQueue": null,
+          },
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": [Circular],
+          "tag": 2,
+          "treeBaseDuration": 0,
+          "type": [Function],
+          "updateQueue": null,
+        },
+        "_reactInternalInstance": Object {},
+        "addLifter": [Function],
+        "context": Object {},
+        "handleFirstNameChange": [Function],
+        "handleGenderChange": [Function],
+        "handleLastNameChange": [Function],
+        "props": Object {},
+        "refs": Object {},
+        "state": Object {
+          "firstName": null,
+          "gender": null,
+          "lastName": null,
+        },
+        "updater": Object {
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+        },
+      },
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {},
+      "ref": null,
+      "rendered": Object {
+        "instance": <div
+          class="addLifter__container"
+>
+          <div
+                    class="addLifter__inputContainer"
+          >
+                    <label
+                              class="addLifter__label"
+                    >
+                              First Name:
+                    </label>
+                    <input
+                              type="text"
+                    />
+          </div>
+          <div
+                    class="addLifter__inputContainer"
+          >
+                    <label
+                              class="addLifter__label"
+                    >
+                              Last Name:
+                    </label>
+                    <input
+                              type="text"
+                    />
+          </div>
+          <div
+                    class="addLifter__inputContainer"
+          >
+                    <label
+                              class="addLifter__label"
+                    >
+                              Gender:
+                    </label>
+                    <select
+                              class="addLifter__durationDropdown"
+                    >
+                              <option
+                                        class="addLifter__typeOption"
+                                        value=""
+                              >
+                                        Select
+                              </option>
+                              <option
+                                        class="addLifter__typeOption"
+                                        value="women"
+                              >
+                                        Female
+                              </option>
+                              <option
+                                        class="addLifter__typeOption"
+                                        value="men"
+                              >
+                                        Male
+                              </option>
+                    </select>
+          </div>
+          <div
+                    class="addLifter__buttonContainer"
+          >
+                    <button>
+                              Add Lifter
+                    </button>
+          </div>
+</div>,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="addLifter__inputContainer"
+>
+              <label
+                            className="addLifter__label"
+              >
+                            First Name:
+              </label>
+              <input
+                            onChange={[Function]}
+                            type="text"
+              />
+</div>,
+            <div
+              className="addLifter__inputContainer"
+>
+              <label
+                            className="addLifter__label"
+              >
+                            Last Name:
+              </label>
+              <input
+                            onChange={[Function]}
+                            type="text"
+              />
+</div>,
+            <div
+              className="addLifter__inputContainer"
+>
+              <label
+                            className="addLifter__label"
+              >
+                            Gender:
+              </label>
+              <select
+                            className="addLifter__durationDropdown"
+                            onChange={[Function]}
+              >
+                            <option
+                                          className="addLifter__typeOption"
+                                          value=""
+                            >
+                                          Select
+                            </option>
+                            <option
+                                          className="addLifter__typeOption"
+                                          value="women"
+                            >
+                                          Female
+                            </option>
+                            <option
+                                          className="addLifter__typeOption"
+                                          value="men"
+                            >
+                                          Male
+                            </option>
+              </select>
+</div>,
+            <div
+              className="addLifter__buttonContainer"
+>
+              <button
+                            onClick={[Function]}
+              >
+                            Add Lifter
+              </button>
+</div>,
+          ],
+          "className": "addLifter__container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": <div
+              class="addLifter__inputContainer"
+>
+              <label
+                            class="addLifter__label"
+              >
+                            First Name:
+              </label>
+              <input
+                            type="text"
+              />
+</div>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <label
+                  className="addLifter__label"
+>
+                  First Name:
+</label>,
+                <input
+                  onChange={[Function]}
+                  type="text"
+/>,
+              ],
+              "className": "addLifter__inputContainer",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <label
+                  class="addLifter__label"
+>
+                  First Name:
+</label>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "First Name:",
+                  "className": "addLifter__label",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "First Name:",
+                ],
+                "type": "label",
+              },
+              Object {
+                "instance": <input
+                  type="text"
+/>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "onChange": [Function],
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": Array [
+                  undefined,
+                ],
+                "type": "input",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": <div
+              class="addLifter__inputContainer"
+>
+              <label
+                            class="addLifter__label"
+              >
+                            Last Name:
+              </label>
+              <input
+                            type="text"
+              />
+</div>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <label
+                  className="addLifter__label"
+>
+                  Last Name:
+</label>,
+                <input
+                  onChange={[Function]}
+                  type="text"
+/>,
+              ],
+              "className": "addLifter__inputContainer",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <label
+                  class="addLifter__label"
+>
+                  Last Name:
+</label>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Last Name:",
+                  "className": "addLifter__label",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Last Name:",
+                ],
+                "type": "label",
+              },
+              Object {
+                "instance": <input
+                  type="text"
+/>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "onChange": [Function],
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": Array [
+                  undefined,
+                ],
+                "type": "input",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": <div
+              class="addLifter__inputContainer"
+>
+              <label
+                            class="addLifter__label"
+              >
+                            Gender:
+              </label>
+              <select
+                            class="addLifter__durationDropdown"
+              >
+                            <option
+                                          class="addLifter__typeOption"
+                                          value=""
+                            >
+                                          Select
+                            </option>
+                            <option
+                                          class="addLifter__typeOption"
+                                          value="women"
+                            >
+                                          Female
+                            </option>
+                            <option
+                                          class="addLifter__typeOption"
+                                          value="men"
+                            >
+                                          Male
+                            </option>
+              </select>
+</div>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <label
+                  className="addLifter__label"
+>
+                  Gender:
+</label>,
+                <select
+                  className="addLifter__durationDropdown"
+                  onChange={[Function]}
+>
+                  <option
+                                    className="addLifter__typeOption"
+                                    value=""
+                  >
+                                    Select
+                  </option>
+                  <option
+                                    className="addLifter__typeOption"
+                                    value="women"
+                  >
+                                    Female
+                  </option>
+                  <option
+                                    className="addLifter__typeOption"
+                                    value="men"
+                  >
+                                    Male
+                  </option>
+</select>,
+              ],
+              "className": "addLifter__inputContainer",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <label
+                  class="addLifter__label"
+>
+                  Gender:
+</label>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Gender:",
+                  "className": "addLifter__label",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Gender:",
+                ],
+                "type": "label",
+              },
+              Object {
+                "instance": <select
+                  class="addLifter__durationDropdown"
+>
+                  <option
+                                    class="addLifter__typeOption"
+                                    value=""
+                  >
+                                    Select
+                  </option>
+                  <option
+                                    class="addLifter__typeOption"
+                                    value="women"
+                  >
+                                    Female
+                  </option>
+                  <option
+                                    class="addLifter__typeOption"
+                                    value="men"
+                  >
+                                    Male
+                  </option>
+</select>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <option
+                      className="addLifter__typeOption"
+                      value=""
+>
+                      Select
+</option>,
+                    <option
+                      className="addLifter__typeOption"
+                      value="women"
+>
+                      Female
+</option>,
+                    <option
+                      className="addLifter__typeOption"
+                      value="men"
+>
+                      Male
+</option>,
+                  ],
+                  "className": "addLifter__durationDropdown",
+                  "onChange": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": <option
+                      class="addLifter__typeOption"
+                      value=""
+>
+                      Select
+</option>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Select",
+                      "className": "addLifter__typeOption",
+                      "value": "",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Select",
+                    ],
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": <option
+                      class="addLifter__typeOption"
+                      value="women"
+>
+                      Female
+</option>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Female",
+                      "className": "addLifter__typeOption",
+                      "value": "women",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Female",
+                    ],
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": <option
+                      class="addLifter__typeOption"
+                      value="men"
+>
+                      Male
+</option>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Male",
+                      "className": "addLifter__typeOption",
+                      "value": "men",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Male",
+                    ],
+                    "type": "option",
+                  },
+                ],
+                "type": "select",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": <div
+              class="addLifter__buttonContainer"
+>
+              <button>
+                            Add Lifter
+              </button>
+</div>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <button
+                onClick={[Function]}
+>
+                Add Lifter
+</button>,
+              "className": "addLifter__buttonContainer",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <button>
+                  Add Lifter
+</button>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Add Lifter",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Add Lifter",
+                ],
+                "type": "button",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

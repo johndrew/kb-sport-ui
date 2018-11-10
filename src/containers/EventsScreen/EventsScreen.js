@@ -10,18 +10,6 @@ import AddEvent from '../../components/forms/AddEvent/AddEvent';
 
 class EventsScreen extends Component {
 
-  constructor(args) {
-
-    super(args);
-
-    this.state = {
-      modalOpen: false,
-    };
-
-    this.openModal = this.openModal.bind(this);
-    this.closeModal = this.closeModal.bind(this);
-  }
-
   render() {
 
     const events = this.props.events.map(event => <EventBox key={event.get('eventId')} event={event} />);
@@ -30,16 +18,11 @@ class EventsScreen extends Component {
       <div className="eventsScreen__boxContainer">
         <BoxCollection>
           {events}
-          <AddBox
-            type="event"
-            addClicked={this.openModal}/>
+          <ModalWrapper
+            triggerComponent={({ open }) => <AddBox addClicked={open}/>}>
+            {({ close }) => <AddEvent addFinish={close}/>}
+          </ModalWrapper>
         </BoxCollection>
-        <ModalWrapper
-          open={this.state.modalOpen}
-          closeModal={this.closeModal}>
-          <AddEvent
-            closeModal={this.closeModal}/>
-        </ModalWrapper>
       </div>
     );
   }
@@ -47,20 +30,6 @@ class EventsScreen extends Component {
   componentDidMount() {
 
     this.props.dispatch(eventActions.fetchEvents());
-  }
-
-  openModal() {
-
-    this.setState({
-      modalOpen: true,
-    });
-  }
-
-  closeModal() {
-
-    this.setState({
-      modalOpen: false,
-    });
   }
 }
 
