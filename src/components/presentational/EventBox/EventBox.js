@@ -20,6 +20,22 @@ export default class EventBox extends Component {
     render() {
 
         return (
+            <Box>
+                <p
+                    className="durationLabel">
+                    {this.durationLabel}
+                </p>
+                <p
+                    className="typeLabel">
+                    {this.props.event.get('type')}
+                </p>
+            </Box>
+        );
+    }
+
+    oldrender() {
+
+        return (
             <Fragment>
                 <Box>
                     <ModalWrapper

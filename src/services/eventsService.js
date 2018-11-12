@@ -4,6 +4,7 @@ export const BASE_PATH = '/dev/events';
 export const GET_ALL_PATH = BASE_PATH;
 export const ADD_PATH = `${BASE_PATH}/event/add`;
 export const getDeletePath = (eventId) => `${BASE_PATH}/event/${eventId}/delete`;
+export const getLifterRegisterPath = (eventId) => `${BASE_PATH}/event/${eventId}/registerLifters`;
 
 class EventsService {
 
@@ -57,6 +58,32 @@ class EventsService {
 
                 console.error('ERROR: Failed to delete event', err);
                 throw new Error('Failed to delete event');
+            });
+    }
+
+    async registerLifter(eventId, lifterId) {
+
+        if (!eventId) throw new Error('eventId is required');
+        if (!lifterId) throw new Error('lifterId is required');
+
+        return this.getFetch()(`${HOST}${getLifterRegisterPath(eventId)}`, {
+            method: 'POST',
+            mode: 'cors',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                lifterId,
+            }),
+        })
+            .then((response) => {
+                console.log('DEBUG: Successfully registered lifter');
+                return response;
+            })
+            .catch((err) => {
+
+                console.error('ERROR: Failed to register lifter', err);
+                throw new Error('Failed to register lifter');
             });
     }
 }

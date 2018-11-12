@@ -109,4 +109,61 @@ describe(__filename, () => {
             });
         });
     });
+
+    describe('method registerLifter', () => {
+
+        const eventId = 'foo';
+        const lifterId = 'bar';
+        
+        describe('Positive Tests', () => {
+
+            beforeEach(() => {
+
+                jest.spyOn(eventsService, 'getFetch')
+                    .mockImplementation(() => () => Promise.resolve('success'));
+            });
+
+            afterEach(() => {
+                
+                eventsService.getFetch.mockRestore();
+            });
+
+            it('should resolves if successful', async () => {
+            
+                await expect(eventsService.registerLifter(eventId, lifterId)).resolves.toBeTruthy();
+            });
+        });
+        
+        describe('Negative Tests', () => {
+
+            it('should error if eventId is missing', async () => {
+                
+                await expect(eventsService.registerLifter(null, lifterId)).rejects.toBeTruthy();
+            });
+
+            it('should error if lifterId is missing', async () => {
+                
+                await expect(eventsService.registerLifter(eventId, null)).rejects.toBeTruthy();
+            });
+
+            describe('when network error occurs', () => {
+
+                beforeEach(() => {
+
+                    jest.spyOn(eventsService, 'getFetch')
+                        .mockImplementation(() => () => Promise.reject(new Error('could not register')));
+                });
+
+                afterEach(() => {
+                    
+                    eventsService.getFetch.mockRestore();
+                });
+
+                it('should error if network error occurs', async () => {
+                
+                    await expect(eventsService.registerLifter(eventId, lifterId)).rejects.toBeTruthy();
+                });
+            });
+        });
+    });
 });

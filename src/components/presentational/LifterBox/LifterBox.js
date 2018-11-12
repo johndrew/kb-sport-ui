@@ -4,6 +4,7 @@ import Box from '../Box/Box';
 import DeleteLifter from '../../forms/DeleteLifter/DeleteLifter';
 import ModalWrapper from '../../wrappers/ModalWrapper/ModalWrapper';
 import liftersService from '../../../services/liftersService';
+import LifterDisplay from '../LifterDisplay/LifterDisplay';
 import './LifterBox.scss';
 
 export default class LifterBox extends Component {
@@ -26,59 +27,37 @@ export default class LifterBox extends Component {
         return (
             <Fragment>
                 <Box className="lifterBox__container">
-                    <ModalWrapper
-                        triggerComponent={({ open }) => (
-                            <Fragment>
-                                <p
-                                    className="lifterBox__label--gender"
-                                    onClick={open}>
-                                    {this.genderLabel}
-                                </p>
-                                <div className="lifterBox__nameContainer">
-                                    <p
-                                        className="lifterBox__label--firstName"
-                                        onClick={open}>
-                                        {this.props.lifter.get('firstName')}
-                                    </p>
-                                    <p
-                                        className="lifterBox__label--lastName"
-                                        onClick={open}>
-                                        {this.props.lifter.get('lastName')}
-                                    </p>
-                                </div>
-                            </Fragment>
-                        )}>
-                        {({ close }) =>
-                            <Fragment>
-                                {this.renderWeightClassDropdown()}
-                                {this.state.lifterUpdated &&
-                                    <button
-                                        onClick={this.submitLifterChanges}>
-                                        Update Lifter
-                                    </button>
-                                }
-                                {!this.state.lifterUpdated &&
-                                    <DeleteLifter
-                                        lifterId={this.props.lifter.get('lifterId')}
-                                        deleteFinish={close} />
-                                }
-                            </Fragment>
-                        }
-                    </ModalWrapper>
+                    {this.props.enableModal &&
+                        <ModalWrapper
+                            triggerComponent={({ open }) => (
+                                <LifterDisplay
+                                        lifter={this.props.lifter}
+                                        lifterSelected={open} />
+                            )}>
+                            {({ close }) =>
+                                <Fragment>
+                                    {this.renderWeightClassDropdown()}
+                                    {this.state.lifterUpdated &&
+                                        <button
+                                            onClick={this.submitLifterChanges}>
+                                            Update Lifter
+                                        </button>
+                                    }
+                                    {!this.state.lifterUpdated &&
+                                        <DeleteLifter
+                                            lifterId={this.props.lifter.get('lifterId')}
+                                            deleteFinish={close} />
+                                    }
+                                </Fragment>
+                            }
+                        </ModalWrapper>
+                    }
+                    {!this.props.enableModal &&
+                        <LifterDisplay lifter={this.props.lifter} />
+                    }
                 </Box>
             </Fragment>
         );
-    }
-
-    get genderLabel() {
-        switch (this.props.lifter.get('gender')) {
-            case 'men':
-                return 'M';
-            case 'women':
-                return 'F';
-            default:
-                return '';
-        }
     }
 
     get weightClassCategories() {

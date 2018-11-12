@@ -8,8 +8,9 @@ export default class LiftersIcon extends Component {
 
         return (
             <Icon
-                className="liftersIcon__container">
+                className={`liftersIcon__container ${this.props.className}`}>
                 <img src="/lifters_icon.png" alt="lifters"/>
+                <h2 className="liftersIcon__label">Lifters</h2>
             </Icon>
         );
     }

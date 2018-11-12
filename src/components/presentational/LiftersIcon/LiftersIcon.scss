@@ -1,5 +1,11 @@
+@import '../../../common.scss';
+
 .liftersIcon__container {
     img {
         width: 45%;
     }
+}
+
+.eventsIcon__label {
+    color: $tan;
 }

@@ -1,0 +1,19 @@
+@import '../../../common.scss';
+
+.maleFemaleToggle__container {
+
+    // This is rendered from react-toggle
+    .react-toggle--checked .react-toggle-track,
+    .react-toggle--checked:hover .react-toggle-track {
+        background-color: $red;
+    }
+
+    .react-toggle--checked .react-toggle-thumb {
+        border-color: $red;
+    }
+}
+
+.maleFemaleToggle__femaleIcon,
+.maleFemaleToggle__maleIcon {
+    color: $tan;
+}

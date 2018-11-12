@@ -1,0 +1,2397 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/presentational/LifterDisplay/LifterDisplay.test.js renders correctly 1`] = `
+ReactWrapper {
+  Symbol(enzyme.__unrendered__): <LifterDisplay
+    lifter={
+        Immutable.Map {
+            gender: "female",
+            firstName: "Sally",
+            lastName: "Ann",
+        }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__node__): Object {
+    "instance": LifterDisplay {
+      "_reactInternalFiber": FiberNode {
+        "_debugID": 50,
+        "_debugIsCurrentlyTiming": false,
+        "_debugOwner": FiberNode {
+          "_debugID": 49,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": null,
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": [Circular],
+          "childExpirationTime": 0,
+          "effectTag": 1,
+          "expirationTime": 0,
+          "firstContextDependency": null,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {
+              "lifter": Immutable.Map {
+                gender: "female",
+                firstName: "Sally",
+                lastName: "Ann",
+},
+            },
+          },
+          "memoizedState": Object {
+            "context": null,
+            "mount": true,
+            "props": Object {
+              "lifter": Immutable.Map {
+                gender: "female",
+                firstName: "Sally",
+                lastName: "Ann",
+},
+            },
+          },
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {
+              "lifter": Immutable.Map {
+                gender: "female",
+                firstName: "Sally",
+                lastName: "Ann",
+},
+            },
+          },
+          "ref": null,
+          "return": FiberNode {
+            "_debugID": 47,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": FiberNode {
+              "_debugID": 47,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": [Circular],
+              "child": null,
+              "childExpirationTime": 0,
+              "effectTag": 0,
+              "expirationTime": 1,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": null,
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": Object {
+                "containerInfo": <div>
+                  <div>
+                                    <p
+                                                      class="lifterDisplay__label--gender"
+                                    />
+                                    <div
+                                                      class="lifterDisplay__nameContainer"
+                                    >
+                                                      <p
+                                                                        class="lifterDisplay__label--firstName"
+                                                      >
+                                                                        Sally
+                                                      </p>
+                                                      <p
+                                                                        class="lifterDisplay__label--lastName"
+                                                      >
+                                                                        Ann
+                                                      </p>
+                                    </div>
+                  </div>
+</div>,
+                "context": Object {},
+                "current": [Circular],
+                "didError": false,
+                "earliestPendingTime": 0,
+                "earliestSuspendedTime": 0,
+                "expirationTime": 0,
+                "finishedWork": null,
+                "firstBatch": null,
+                "hydrate": false,
+                "interactionThreadID": 12,
+                "latestPendingTime": 0,
+                "latestPingedTime": 0,
+                "latestSuspendedTime": 0,
+                "memoizedInteractions": Set {},
+                "nextExpirationTimeToWorkOn": 0,
+                "nextScheduledRoot": null,
+                "pendingChildren": null,
+                "pendingCommitExpirationTime": 0,
+                "pendingContext": null,
+                "pendingInteractionMap": Map {},
+                "timeoutHandle": -1,
+              },
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": null,
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": Object {
+                  "callback": null,
+                  "expirationTime": 1,
+                  "next": null,
+                  "nextEffect": null,
+                  "payload": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                                            Object {
+                                                                  "lifter": Immutable.Map {
+                                                                    gender: "female",
+                                                                    firstName: "Sally",
+                                                                    lastName: "Ann",
+                                            },
+                                                                }
+                      }
+/>,
+                  },
+                  "tag": 0,
+                },
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": Object {
+                  "callback": null,
+                  "expirationTime": 1,
+                  "next": null,
+                  "nextEffect": null,
+                  "payload": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                                            Object {
+                                                                  "lifter": Immutable.Map {
+                                                                    gender: "female",
+                                                                    firstName: "Sally",
+                                                                    lastName: "Ann",
+                                            },
+                                                                }
+                      }
+/>,
+                  },
+                  "tag": 0,
+                },
+              },
+            },
+            "child": [Circular],
+            "childExpirationTime": 0,
+            "effectTag": 32,
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": [Circular],
+            "index": 0,
+            "key": null,
+            "lastEffect": [Circular],
+            "memoizedProps": null,
+            "memoizedState": Object {
+              "element": <WrapperComponent
+                Component={[Function]}
+                context={null}
+                props={
+                                Object {
+                                                "lifter": Immutable.Map {
+                                                  gender: "female",
+                                                  firstName: "Sally",
+                                                  lastName: "Ann",
+                                },
+                                              }
+                }
+/>,
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": null,
+            "ref": null,
+            "return": null,
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": Object {
+              "containerInfo": <div>
+                <div>
+                                <p
+                                                class="lifterDisplay__label--gender"
+                                />
+                                <div
+                                                class="lifterDisplay__nameContainer"
+                                >
+                                                <p
+                                                                class="lifterDisplay__label--firstName"
+                                                >
+                                                                Sally
+                                                </p>
+                                                <p
+                                                                class="lifterDisplay__label--lastName"
+                                                >
+                                                                Ann
+                                                </p>
+                                </div>
+                </div>
+</div>,
+              "context": Object {},
+              "current": [Circular],
+              "didError": false,
+              "earliestPendingTime": 0,
+              "earliestSuspendedTime": 0,
+              "expirationTime": 0,
+              "finishedWork": null,
+              "firstBatch": null,
+              "hydrate": false,
+              "interactionThreadID": 12,
+              "latestPendingTime": 0,
+              "latestPingedTime": 0,
+              "latestSuspendedTime": 0,
+              "memoizedInteractions": Set {},
+              "nextExpirationTimeToWorkOn": 0,
+              "nextScheduledRoot": null,
+              "pendingChildren": null,
+              "pendingCommitExpirationTime": 0,
+              "pendingContext": null,
+              "pendingInteractionMap": Map {},
+              "timeoutHandle": -1,
+            },
+            "tag": 5,
+            "treeBaseDuration": 0,
+            "type": null,
+            "updateQueue": Object {
+              "baseState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                                    Object {
+                                                      "lifter": Immutable.Map {
+                                                        gender: "female",
+                                                        firstName: "Sally",
+                                                        lastName: "Ann",
+                                    },
+                                                    }
+                  }
+/>,
+              },
+              "firstCapturedEffect": null,
+              "firstCapturedUpdate": null,
+              "firstEffect": null,
+              "firstUpdate": null,
+              "lastCapturedEffect": null,
+              "lastCapturedUpdate": null,
+              "lastEffect": null,
+              "lastUpdate": null,
+            },
+          },
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": WrapperComponent {
+            "_reactInternalFiber": [Circular],
+            "_reactInternalInstance": Object {},
+            "context": Object {},
+            "props": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "lifter": Immutable.Map {
+                  gender: "female",
+                  firstName: "Sally",
+                  lastName: "Ann",
+},
+              },
+            },
+            "refs": Object {},
+            "state": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {
+                "lifter": Immutable.Map {
+                  gender: "female",
+                  firstName: "Sally",
+                  lastName: "Ann",
+},
+              },
+            },
+            "updater": Object {
+              "enqueueForceUpdate": [Function],
+              "enqueueReplaceState": [Function],
+              "enqueueSetState": [Function],
+              "isMounted": [Function],
+            },
+          },
+          "tag": 2,
+          "treeBaseDuration": 0,
+          "type": [Function],
+          "updateQueue": null,
+        },
+        "_debugSource": null,
+        "actualDuration": 0,
+        "actualStartTime": -1,
+        "alternate": null,
+        "child": FiberNode {
+          "_debugID": 51,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": [Circular],
+          "_debugSource": Object {
+            "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/presentational/LifterDisplay/LifterDisplay.js",
+            "lineNumber": 8,
+          },
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": FiberNode {
+            "_debugID": 52,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": Object {
+              "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/presentational/LifterDisplay/LifterDisplay.js",
+              "lineNumber": 9,
+            },
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": null,
+            "childExpirationTime": 0,
+            "effectTag": 0,
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": "",
+              "className": "lifterDisplay__label--gender",
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "children": "",
+              "className": "lifterDisplay__label--gender",
+            },
+            "ref": null,
+            "return": [Circular],
+            "selfBaseDuration": 0,
+            "sibling": FiberNode {
+              "_debugID": 53,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/presentational/LifterDisplay/LifterDisplay.js",
+                "lineNumber": 13,
+              },
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": FiberNode {
+                "_debugID": 54,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/presentational/LifterDisplay/LifterDisplay.js",
+                  "lineNumber": 14,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "Sally",
+                  "className": "lifterDisplay__label--firstName",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "Sally",
+                  "className": "lifterDisplay__label--firstName",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": FiberNode {
+                  "_debugID": 55,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/presentational/LifterDisplay/LifterDisplay.js",
+                    "lineNumber": 18,
+                  },
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 1,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": "Ann",
+                    "className": "lifterDisplay__label--lastName",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": "Ann",
+                    "className": "lifterDisplay__label--lastName",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": <p
+                    class="lifterDisplay__label--lastName"
+>
+                    Ann
+</p>,
+                  "tag": 7,
+                  "treeBaseDuration": 0,
+                  "type": "p",
+                  "updateQueue": null,
+                },
+                "stateNode": <p
+                  class="lifterDisplay__label--firstName"
+>
+                  Sally
+</p>,
+                "tag": 7,
+                "treeBaseDuration": 0,
+                "type": "p",
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 1,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": Array [
+                  <p
+                    className="lifterDisplay__label--firstName"
+>
+                    Sally
+</p>,
+                  <p
+                    className="lifterDisplay__label--lastName"
+>
+                    Ann
+</p>,
+                ],
+                "className": "lifterDisplay__nameContainer",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": Array [
+                  <p
+                    className="lifterDisplay__label--firstName"
+>
+                    Sally
+</p>,
+                  <p
+                    className="lifterDisplay__label--lastName"
+>
+                    Ann
+</p>,
+                ],
+                "className": "lifterDisplay__nameContainer",
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": <div
+                class="lifterDisplay__nameContainer"
+>
+                <p
+                                class="lifterDisplay__label--firstName"
+                >
+                                Sally
+                </p>
+                <p
+                                class="lifterDisplay__label--lastName"
+                >
+                                Ann
+                </p>
+</div>,
+              "tag": 7,
+              "treeBaseDuration": 0,
+              "type": "div",
+              "updateQueue": null,
+            },
+            "stateNode": <p
+              class="lifterDisplay__label--gender"
+/>,
+            "tag": 7,
+            "treeBaseDuration": 0,
+            "type": "p",
+            "updateQueue": null,
+          },
+          "childExpirationTime": 0,
+          "effectTag": 0,
+          "expirationTime": 0,
+          "firstContextDependency": null,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "children": Array [
+              <p
+                className="lifterDisplay__label--gender"
+/>,
+              <div
+                className="lifterDisplay__nameContainer"
+>
+                <p
+                                className="lifterDisplay__label--firstName"
+                >
+                                Sally
+                </p>
+                <p
+                                className="lifterDisplay__label--lastName"
+                >
+                                Ann
+                </p>
+</div>,
+            ],
+            "onClick": undefined,
+          },
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "children": Array [
+              <p
+                className="lifterDisplay__label--gender"
+/>,
+              <div
+                className="lifterDisplay__nameContainer"
+>
+                <p
+                                className="lifterDisplay__label--firstName"
+                >
+                                Sally
+                </p>
+                <p
+                                className="lifterDisplay__label--lastName"
+                >
+                                Ann
+                </p>
+</div>,
+            ],
+            "onClick": undefined,
+          },
+          "ref": null,
+          "return": [Circular],
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": <div>
+            <p
+                        class="lifterDisplay__label--gender"
+            />
+            <div
+                        class="lifterDisplay__nameContainer"
+            >
+                        <p
+                                    class="lifterDisplay__label--firstName"
+                        >
+                                    Sally
+                        </p>
+                        <p
+                                    class="lifterDisplay__label--lastName"
+                        >
+                                    Ann
+                        </p>
+            </div>
+</div>,
+          "tag": 7,
+          "treeBaseDuration": 0,
+          "type": "div",
+          "updateQueue": null,
+        },
+        "childExpirationTime": 0,
+        "effectTag": 1,
+        "expirationTime": 0,
+        "firstContextDependency": null,
+        "firstEffect": null,
+        "index": 0,
+        "key": null,
+        "lastEffect": null,
+        "memoizedProps": Object {
+          "lifter": Immutable.Map {
+            gender: "female",
+            firstName: "Sally",
+            lastName: "Ann",
+},
+        },
+        "memoizedState": null,
+        "mode": 0,
+        "nextEffect": null,
+        "pendingProps": Object {
+          "lifter": Immutable.Map {
+            gender: "female",
+            firstName: "Sally",
+            lastName: "Ann",
+},
+        },
+        "ref": null,
+        "return": FiberNode {
+          "_debugID": 49,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": null,
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": [Circular],
+          "childExpirationTime": 0,
+          "effectTag": 1,
+          "expirationTime": 0,
+          "firstContextDependency": null,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {
+              "lifter": Immutable.Map {
+                gender: "female",
+                firstName: "Sally",
+                lastName: "Ann",
+},
+            },
+          },
+          "memoizedState": Object {
+            "context": null,
+            "mount": true,
+            "props": Object {
+              "lifter": Immutable.Map {
+                gender: "female",
+                firstName: "Sally",
+                lastName: "Ann",
+},
+            },
+          },
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {
+              "lifter": Immutable.Map {
+                gender: "female",
+                firstName: "Sally",
+                lastName: "Ann",
+},
+            },
+          },
+          "ref": null,
+          "return": FiberNode {
+            "_debugID": 47,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": FiberNode {
+              "_debugID": 47,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": [Circular],
+              "child": null,
+              "childExpirationTime": 0,
+              "effectTag": 0,
+              "expirationTime": 1,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": null,
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": Object {
+                "containerInfo": <div>
+                  <div>
+                                    <p
+                                                      class="lifterDisplay__label--gender"
+                                    />
+                                    <div
+                                                      class="lifterDisplay__nameContainer"
+                                    >
+                                                      <p
+                                                                        class="lifterDisplay__label--firstName"
+                                                      >
+                                                                        Sally
+                                                      </p>
+                                                      <p
+                                                                        class="lifterDisplay__label--lastName"
+                                                      >
+                                                                        Ann
+                                                      </p>
+                                    </div>
+                  </div>
+</div>,
+                "context": Object {},
+                "current": [Circular],
+                "didError": false,
+                "earliestPendingTime": 0,
+                "earliestSuspendedTime": 0,
+                "expirationTime": 0,
+                "finishedWork": null,
+                "firstBatch": null,
+                "hydrate": false,
+                "interactionThreadID": 12,
+                "latestPendingTime": 0,
+                "latestPingedTime": 0,
+                "latestSuspendedTime": 0,
+                "memoizedInteractions": Set {},
+                "nextExpirationTimeToWorkOn": 0,
+                "nextScheduledRoot": null,
+                "pendingChildren": null,
+                "pendingCommitExpirationTime": 0,
+                "pendingContext": null,
+                "pendingInteractionMap": Map {},
+                "timeoutHandle": -1,
+              },
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": null,
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": Object {
+                  "callback": null,
+                  "expirationTime": 1,
+                  "next": null,
+                  "nextEffect": null,
+                  "payload": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                                            Object {
+                                                                  "lifter": Immutable.Map {
+                                                                    gender: "female",
+                                                                    firstName: "Sally",
+                                                                    lastName: "Ann",
+                                            },
+                                                                }
+                      }
+/>,
+                  },
+                  "tag": 0,
+                },
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": Object {
+                  "callback": null,
+                  "expirationTime": 1,
+                  "next": null,
+                  "nextEffect": null,
+                  "payload": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                                            Object {
+                                                                  "lifter": Immutable.Map {
+                                                                    gender: "female",
+                                                                    firstName: "Sally",
+                                                                    lastName: "Ann",
+                                            },
+                                                                }
+                      }
+/>,
+                  },
+                  "tag": 0,
+                },
+              },
+            },
+            "child": [Circular],
+            "childExpirationTime": 0,
+            "effectTag": 32,
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": [Circular],
+            "index": 0,
+            "key": null,
+            "lastEffect": [Circular],
+            "memoizedProps": null,
+            "memoizedState": Object {
+              "element": <WrapperComponent
+                Component={[Function]}
+                context={null}
+                props={
+                                Object {
+                                                "lifter": Immutable.Map {
+                                                  gender: "female",
+                                                  firstName: "Sally",
+                                                  lastName: "Ann",
+                                },
+                                              }
+                }
+/>,
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": null,
+            "ref": null,
+            "return": null,
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": Object {
+              "containerInfo": <div>
+                <div>
+                                <p
+                                                class="lifterDisplay__label--gender"
+                                />
+                                <div
+                                                class="lifterDisplay__nameContainer"
+                                >
+                                                <p
+                                                                class="lifterDisplay__label--firstName"
+                                                >
+                                                                Sally
+                                                </p>
+                                                <p
+                                                                class="lifterDisplay__label--lastName"
+                                                >
+                                                                Ann
+                                                </p>
+                                </div>
+                </div>
+</div>,
+              "context": Object {},
+              "current": [Circular],
+              "didError": false,
+              "earliestPendingTime": 0,
+              "earliestSuspendedTime": 0,
+              "expirationTime": 0,
+              "finishedWork": null,
+              "firstBatch": null,
+              "hydrate": false,
+              "interactionThreadID": 12,
+              "latestPendingTime": 0,
+              "latestPingedTime": 0,
+              "latestSuspendedTime": 0,
+              "memoizedInteractions": Set {},
+              "nextExpirationTimeToWorkOn": 0,
+              "nextScheduledRoot": null,
+              "pendingChildren": null,
+              "pendingCommitExpirationTime": 0,
+              "pendingContext": null,
+              "pendingInteractionMap": Map {},
+              "timeoutHandle": -1,
+            },
+            "tag": 5,
+            "treeBaseDuration": 0,
+            "type": null,
+            "updateQueue": Object {
+              "baseState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                                    Object {
+                                                      "lifter": Immutable.Map {
+                                                        gender: "female",
+                                                        firstName: "Sally",
+                                                        lastName: "Ann",
+                                    },
+                                                    }
+                  }
+/>,
+              },
+              "firstCapturedEffect": null,
+              "firstCapturedUpdate": null,
+              "firstEffect": null,
+              "firstUpdate": null,
+              "lastCapturedEffect": null,
+              "lastCapturedUpdate": null,
+              "lastEffect": null,
+              "lastUpdate": null,
+            },
+          },
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": WrapperComponent {
+            "_reactInternalFiber": [Circular],
+            "_reactInternalInstance": Object {},
+            "context": Object {},
+            "props": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "lifter": Immutable.Map {
+                  gender: "female",
+                  firstName: "Sally",
+                  lastName: "Ann",
+},
+              },
+            },
+            "refs": Object {},
+            "state": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {
+                "lifter": Immutable.Map {
+                  gender: "female",
+                  firstName: "Sally",
+                  lastName: "Ann",
+},
+              },
+            },
+            "updater": Object {
+              "enqueueForceUpdate": [Function],
+              "enqueueReplaceState": [Function],
+              "enqueueSetState": [Function],
+              "isMounted": [Function],
+            },
+          },
+          "tag": 2,
+          "treeBaseDuration": 0,
+          "type": [Function],
+          "updateQueue": null,
+        },
+        "selfBaseDuration": 0,
+        "sibling": null,
+        "stateNode": [Circular],
+        "tag": 2,
+        "treeBaseDuration": 0,
+        "type": [Function],
+        "updateQueue": null,
+      },
+      "_reactInternalInstance": Object {},
+      "context": Object {},
+      "props": Object {
+        "lifter": Immutable.Map {
+          gender: "female",
+          firstName: "Sally",
+          lastName: "Ann",
+},
+      },
+      "refs": Object {},
+      "state": null,
+      "updater": Object {
+        "enqueueForceUpdate": [Function],
+        "enqueueReplaceState": [Function],
+        "enqueueSetState": [Function],
+        "isMounted": [Function],
+      },
+    },
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "lifter": Immutable.Map {
+        gender: "female",
+        firstName: "Sally",
+        lastName: "Ann",
+},
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": <div>
+        <p
+                class="lifterDisplay__label--gender"
+        />
+        <div
+                class="lifterDisplay__nameContainer"
+        >
+                <p
+                        class="lifterDisplay__label--firstName"
+                >
+                        Sally
+                </p>
+                <p
+                        class="lifterDisplay__label--lastName"
+                >
+                        Ann
+                </p>
+        </div>
+</div>,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <p
+            className="lifterDisplay__label--gender"
+/>,
+          <div
+            className="lifterDisplay__nameContainer"
+>
+            <p
+                        className="lifterDisplay__label--firstName"
+            >
+                        Sally
+            </p>
+            <p
+                        className="lifterDisplay__label--lastName"
+            >
+                        Ann
+            </p>
+</div>,
+        ],
+        "onClick": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": <p
+            class="lifterDisplay__label--gender"
+/>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "",
+            "className": "lifterDisplay__label--gender",
+          },
+          "ref": null,
+          "rendered": Array [
+            "",
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": <div
+            class="lifterDisplay__nameContainer"
+>
+            <p
+                        class="lifterDisplay__label--firstName"
+            >
+                        Sally
+            </p>
+            <p
+                        class="lifterDisplay__label--lastName"
+            >
+                        Ann
+            </p>
+</div>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p
+                className="lifterDisplay__label--firstName"
+>
+                Sally
+</p>,
+              <p
+                className="lifterDisplay__label--lastName"
+>
+                Ann
+</p>,
+            ],
+            "className": "lifterDisplay__nameContainer",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <p
+                class="lifterDisplay__label--firstName"
+>
+                Sally
+</p>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Sally",
+                "className": "lifterDisplay__label--firstName",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Sally",
+              ],
+              "type": "p",
+            },
+            Object {
+              "instance": <p
+                class="lifterDisplay__label--lastName"
+>
+                Ann
+</p>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Ann",
+                "className": "lifterDisplay__label--lastName",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Ann",
+              ],
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": LifterDisplay {
+        "_reactInternalFiber": FiberNode {
+          "_debugID": 50,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": FiberNode {
+            "_debugID": 49,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": [Circular],
+            "childExpirationTime": 0,
+            "effectTag": 1,
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "lifter": Immutable.Map {
+                  gender: "female",
+                  firstName: "Sally",
+                  lastName: "Ann",
+},
+              },
+            },
+            "memoizedState": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {
+                "lifter": Immutable.Map {
+                  gender: "female",
+                  firstName: "Sally",
+                  lastName: "Ann",
+},
+              },
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "lifter": Immutable.Map {
+                  gender: "female",
+                  firstName: "Sally",
+                  lastName: "Ann",
+},
+              },
+            },
+            "ref": null,
+            "return": FiberNode {
+              "_debugID": 47,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": FiberNode {
+                "_debugID": 47,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": [Circular],
+                "child": null,
+                "childExpirationTime": 0,
+                "effectTag": 0,
+                "expirationTime": 1,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": null,
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": null,
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": Object {
+                  "containerInfo": <div>
+                    <div>
+                                        <p
+                                                            class="lifterDisplay__label--gender"
+                                        />
+                                        <div
+                                                            class="lifterDisplay__nameContainer"
+                                        >
+                                                            <p
+                                                                                class="lifterDisplay__label--firstName"
+                                                            >
+                                                                                Sally
+                                                            </p>
+                                                            <p
+                                                                                class="lifterDisplay__label--lastName"
+                                                            >
+                                                                                Ann
+                                                            </p>
+                                        </div>
+                    </div>
+</div>,
+                  "context": Object {},
+                  "current": [Circular],
+                  "didError": false,
+                  "earliestPendingTime": 0,
+                  "earliestSuspendedTime": 0,
+                  "expirationTime": 0,
+                  "finishedWork": null,
+                  "firstBatch": null,
+                  "hydrate": false,
+                  "interactionThreadID": 12,
+                  "latestPendingTime": 0,
+                  "latestPingedTime": 0,
+                  "latestSuspendedTime": 0,
+                  "memoizedInteractions": Set {},
+                  "nextExpirationTimeToWorkOn": 0,
+                  "nextScheduledRoot": null,
+                  "pendingChildren": null,
+                  "pendingCommitExpirationTime": 0,
+                  "pendingContext": null,
+                  "pendingInteractionMap": Map {},
+                  "timeoutHandle": -1,
+                },
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": null,
+                "updateQueue": Object {
+                  "baseState": null,
+                  "firstCapturedEffect": null,
+                  "firstCapturedUpdate": null,
+                  "firstEffect": null,
+                  "firstUpdate": Object {
+                    "callback": null,
+                    "expirationTime": 1,
+                    "next": null,
+                    "nextEffect": null,
+                    "payload": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                                                Object {
+                                                                        "lifter": Immutable.Map {
+                                                                          gender: "female",
+                                                                          firstName: "Sally",
+                                                                          lastName: "Ann",
+                                                },
+                                                                      }
+                        }
+/>,
+                    },
+                    "tag": 0,
+                  },
+                  "lastCapturedEffect": null,
+                  "lastCapturedUpdate": null,
+                  "lastEffect": null,
+                  "lastUpdate": Object {
+                    "callback": null,
+                    "expirationTime": 1,
+                    "next": null,
+                    "nextEffect": null,
+                    "payload": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                                                Object {
+                                                                        "lifter": Immutable.Map {
+                                                                          gender: "female",
+                                                                          firstName: "Sally",
+                                                                          lastName: "Ann",
+                                                },
+                                                                      }
+                        }
+/>,
+                    },
+                    "tag": 0,
+                  },
+                },
+              },
+              "child": [Circular],
+              "childExpirationTime": 0,
+              "effectTag": 32,
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": [Circular],
+              "index": 0,
+              "key": null,
+              "lastEffect": [Circular],
+              "memoizedProps": null,
+              "memoizedState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                                    Object {
+                                                      "lifter": Immutable.Map {
+                                                        gender: "female",
+                                                        firstName: "Sally",
+                                                        lastName: "Ann",
+                                    },
+                                                    }
+                  }
+/>,
+              },
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": Object {
+                "containerInfo": <div>
+                  <div>
+                                    <p
+                                                      class="lifterDisplay__label--gender"
+                                    />
+                                    <div
+                                                      class="lifterDisplay__nameContainer"
+                                    >
+                                                      <p
+                                                                        class="lifterDisplay__label--firstName"
+                                                      >
+                                                                        Sally
+                                                      </p>
+                                                      <p
+                                                                        class="lifterDisplay__label--lastName"
+                                                      >
+                                                                        Ann
+                                                      </p>
+                                    </div>
+                  </div>
+</div>,
+                "context": Object {},
+                "current": [Circular],
+                "didError": false,
+                "earliestPendingTime": 0,
+                "earliestSuspendedTime": 0,
+                "expirationTime": 0,
+                "finishedWork": null,
+                "firstBatch": null,
+                "hydrate": false,
+                "interactionThreadID": 12,
+                "latestPendingTime": 0,
+                "latestPingedTime": 0,
+                "latestSuspendedTime": 0,
+                "memoizedInteractions": Set {},
+                "nextExpirationTimeToWorkOn": 0,
+                "nextScheduledRoot": null,
+                "pendingChildren": null,
+                "pendingCommitExpirationTime": 0,
+                "pendingContext": null,
+                "pendingInteractionMap": Map {},
+                "timeoutHandle": -1,
+              },
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": Object {
+                  "element": <WrapperComponent
+                    Component={[Function]}
+                    context={null}
+                    props={
+                                        Object {
+                                                            "lifter": Immutable.Map {
+                                                              gender: "female",
+                                                              firstName: "Sally",
+                                                              lastName: "Ann",
+                                        },
+                                                          }
+                    }
+/>,
+                },
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": null,
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": null,
+              },
+            },
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": WrapperComponent {
+              "_reactInternalFiber": [Circular],
+              "_reactInternalInstance": Object {},
+              "context": Object {},
+              "props": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {
+                  "lifter": Immutable.Map {
+                    gender: "female",
+                    firstName: "Sally",
+                    lastName: "Ann",
+},
+                },
+              },
+              "refs": Object {},
+              "state": Object {
+                "context": null,
+                "mount": true,
+                "props": Object {
+                  "lifter": Immutable.Map {
+                    gender: "female",
+                    firstName: "Sally",
+                    lastName: "Ann",
+},
+                },
+              },
+              "updater": Object {
+                "enqueueForceUpdate": [Function],
+                "enqueueReplaceState": [Function],
+                "enqueueSetState": [Function],
+                "isMounted": [Function],
+              },
+            },
+            "tag": 2,
+            "treeBaseDuration": 0,
+            "type": [Function],
+            "updateQueue": null,
+          },
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": FiberNode {
+            "_debugID": 51,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": Object {
+              "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/presentational/LifterDisplay/LifterDisplay.js",
+              "lineNumber": 8,
+            },
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": FiberNode {
+              "_debugID": 52,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/presentational/LifterDisplay/LifterDisplay.js",
+                "lineNumber": 9,
+              },
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": null,
+              "childExpirationTime": 0,
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": "",
+                "className": "lifterDisplay__label--gender",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": "",
+                "className": "lifterDisplay__label--gender",
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": FiberNode {
+                "_debugID": 53,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/presentational/LifterDisplay/LifterDisplay.js",
+                  "lineNumber": 13,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugID": 54,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/presentational/LifterDisplay/LifterDisplay.js",
+                    "lineNumber": 14,
+                  },
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": "Sally",
+                    "className": "lifterDisplay__label--firstName",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": "Sally",
+                    "className": "lifterDisplay__label--firstName",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": FiberNode {
+                    "_debugID": 55,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": Object {
+                      "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/presentational/LifterDisplay/LifterDisplay.js",
+                      "lineNumber": 18,
+                    },
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 1,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": "Ann",
+                      "className": "lifterDisplay__label--lastName",
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": "Ann",
+                      "className": "lifterDisplay__label--lastName",
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": <p
+                      class="lifterDisplay__label--lastName"
+>
+                      Ann
+</p>,
+                    "tag": 7,
+                    "treeBaseDuration": 0,
+                    "type": "p",
+                    "updateQueue": null,
+                  },
+                  "stateNode": <p
+                    class="lifterDisplay__label--firstName"
+>
+                    Sally
+</p>,
+                  "tag": 7,
+                  "treeBaseDuration": 0,
+                  "type": "p",
+                  "updateQueue": null,
+                },
+                "childExpirationTime": 0,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 1,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": Array [
+                    <p
+                      className="lifterDisplay__label--firstName"
+>
+                      Sally
+</p>,
+                    <p
+                      className="lifterDisplay__label--lastName"
+>
+                      Ann
+</p>,
+                  ],
+                  "className": "lifterDisplay__nameContainer",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": Array [
+                    <p
+                      className="lifterDisplay__label--firstName"
+>
+                      Sally
+</p>,
+                    <p
+                      className="lifterDisplay__label--lastName"
+>
+                      Ann
+</p>,
+                  ],
+                  "className": "lifterDisplay__nameContainer",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": <div
+                  class="lifterDisplay__nameContainer"
+>
+                  <p
+                                    class="lifterDisplay__label--firstName"
+                  >
+                                    Sally
+                  </p>
+                  <p
+                                    class="lifterDisplay__label--lastName"
+                  >
+                                    Ann
+                  </p>
+</div>,
+                "tag": 7,
+                "treeBaseDuration": 0,
+                "type": "div",
+                "updateQueue": null,
+              },
+              "stateNode": <p
+                class="lifterDisplay__label--gender"
+/>,
+              "tag": 7,
+              "treeBaseDuration": 0,
+              "type": "p",
+              "updateQueue": null,
+            },
+            "childExpirationTime": 0,
+            "effectTag": 0,
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": Array [
+                <p
+                  className="lifterDisplay__label--gender"
+/>,
+                <div
+                  className="lifterDisplay__nameContainer"
+>
+                  <p
+                                    className="lifterDisplay__label--firstName"
+                  >
+                                    Sally
+                  </p>
+                  <p
+                                    className="lifterDisplay__label--lastName"
+                  >
+                                    Ann
+                  </p>
+</div>,
+              ],
+              "onClick": undefined,
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "children": Array [
+                <p
+                  className="lifterDisplay__label--gender"
+/>,
+                <div
+                  className="lifterDisplay__nameContainer"
+>
+                  <p
+                                    className="lifterDisplay__label--firstName"
+                  >
+                                    Sally
+                  </p>
+                  <p
+                                    className="lifterDisplay__label--lastName"
+                  >
+                                    Ann
+                  </p>
+</div>,
+              ],
+              "onClick": undefined,
+            },
+            "ref": null,
+            "return": [Circular],
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": <div>
+              <p
+                            class="lifterDisplay__label--gender"
+              />
+              <div
+                            class="lifterDisplay__nameContainer"
+              >
+                            <p
+                                          class="lifterDisplay__label--firstName"
+                            >
+                                          Sally
+                            </p>
+                            <p
+                                          class="lifterDisplay__label--lastName"
+                            >
+                                          Ann
+                            </p>
+              </div>
+</div>,
+            "tag": 7,
+            "treeBaseDuration": 0,
+            "type": "div",
+            "updateQueue": null,
+          },
+          "childExpirationTime": 0,
+          "effectTag": 1,
+          "expirationTime": 0,
+          "firstContextDependency": null,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "lifter": Immutable.Map {
+              gender: "female",
+              firstName: "Sally",
+              lastName: "Ann",
+},
+          },
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "lifter": Immutable.Map {
+              gender: "female",
+              firstName: "Sally",
+              lastName: "Ann",
+},
+          },
+          "ref": null,
+          "return": FiberNode {
+            "_debugID": 49,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": [Circular],
+            "childExpirationTime": 0,
+            "effectTag": 1,
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "lifter": Immutable.Map {
+                  gender: "female",
+                  firstName: "Sally",
+                  lastName: "Ann",
+},
+              },
+            },
+            "memoizedState": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {
+                "lifter": Immutable.Map {
+                  gender: "female",
+                  firstName: "Sally",
+                  lastName: "Ann",
+},
+              },
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "lifter": Immutable.Map {
+                  gender: "female",
+                  firstName: "Sally",
+                  lastName: "Ann",
+},
+              },
+            },
+            "ref": null,
+            "return": FiberNode {
+              "_debugID": 47,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": FiberNode {
+                "_debugID": 47,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": [Circular],
+                "child": null,
+                "childExpirationTime": 0,
+                "effectTag": 0,
+                "expirationTime": 1,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": null,
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": null,
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": Object {
+                  "containerInfo": <div>
+                    <div>
+                                        <p
+                                                            class="lifterDisplay__label--gender"
+                                        />
+                                        <div
+                                                            class="lifterDisplay__nameContainer"
+                                        >
+                                                            <p
+                                                                                class="lifterDisplay__label--firstName"
+                                                            >
+                                                                                Sally
+                                                            </p>
+                                                            <p
+                                                                                class="lifterDisplay__label--lastName"
+                                                            >
+                                                                                Ann
+                                                            </p>
+                                        </div>
+                    </div>
+</div>,
+                  "context": Object {},
+                  "current": [Circular],
+                  "didError": false,
+                  "earliestPendingTime": 0,
+                  "earliestSuspendedTime": 0,
+                  "expirationTime": 0,
+                  "finishedWork": null,
+                  "firstBatch": null,
+                  "hydrate": false,
+                  "interactionThreadID": 12,
+                  "latestPendingTime": 0,
+                  "latestPingedTime": 0,
+                  "latestSuspendedTime": 0,
+                  "memoizedInteractions": Set {},
+                  "nextExpirationTimeToWorkOn": 0,
+                  "nextScheduledRoot": null,
+                  "pendingChildren": null,
+                  "pendingCommitExpirationTime": 0,
+                  "pendingContext": null,
+                  "pendingInteractionMap": Map {},
+                  "timeoutHandle": -1,
+                },
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": null,
+                "updateQueue": Object {
+                  "baseState": null,
+                  "firstCapturedEffect": null,
+                  "firstCapturedUpdate": null,
+                  "firstEffect": null,
+                  "firstUpdate": Object {
+                    "callback": null,
+                    "expirationTime": 1,
+                    "next": null,
+                    "nextEffect": null,
+                    "payload": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                                                Object {
+                                                                        "lifter": Immutable.Map {
+                                                                          gender: "female",
+                                                                          firstName: "Sally",
+                                                                          lastName: "Ann",
+                                                },
+                                                                      }
+                        }
+/>,
+                    },
+                    "tag": 0,
+                  },
+                  "lastCapturedEffect": null,
+                  "lastCapturedUpdate": null,
+                  "lastEffect": null,
+                  "lastUpdate": Object {
+                    "callback": null,
+                    "expirationTime": 1,
+                    "next": null,
+                    "nextEffect": null,
+                    "payload": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                                                Object {
+                                                                        "lifter": Immutable.Map {
+                                                                          gender: "female",
+                                                                          firstName: "Sally",
+                                                                          lastName: "Ann",
+                                                },
+                                                                      }
+                        }
+/>,
+                    },
+                    "tag": 0,
+                  },
+                },
+              },
+              "child": [Circular],
+              "childExpirationTime": 0,
+              "effectTag": 32,
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": [Circular],
+              "index": 0,
+              "key": null,
+              "lastEffect": [Circular],
+              "memoizedProps": null,
+              "memoizedState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                                    Object {
+                                                      "lifter": Immutable.Map {
+                                                        gender: "female",
+                                                        firstName: "Sally",
+                                                        lastName: "Ann",
+                                    },
+                                                    }
+                  }
+/>,
+              },
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": Object {
+                "containerInfo": <div>
+                  <div>
+                                    <p
+                                                      class="lifterDisplay__label--gender"
+                                    />
+                                    <div
+                                                      class="lifterDisplay__nameContainer"
+                                    >
+                                                      <p
+                                                                        class="lifterDisplay__label--firstName"
+                                                      >
+                                                                        Sally
+                                                      </p>
+                                                      <p
+                                                                        class="lifterDisplay__label--lastName"
+                                                      >
+                                                                        Ann
+                                                      </p>
+                                    </div>
+                  </div>
+</div>,
+                "context": Object {},
+                "current": [Circular],
+                "didError": false,
+                "earliestPendingTime": 0,
+                "earliestSuspendedTime": 0,
+                "expirationTime": 0,
+                "finishedWork": null,
+                "firstBatch": null,
+                "hydrate": false,
+                "interactionThreadID": 12,
+                "latestPendingTime": 0,
+                "latestPingedTime": 0,
+                "latestSuspendedTime": 0,
+                "memoizedInteractions": Set {},
+                "nextExpirationTimeToWorkOn": 0,
+                "nextScheduledRoot": null,
+                "pendingChildren": null,
+                "pendingCommitExpirationTime": 0,
+                "pendingContext": null,
+                "pendingInteractionMap": Map {},
+                "timeoutHandle": -1,
+              },
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": Object {
+                  "element": <WrapperComponent
+                    Component={[Function]}
+                    context={null}
+                    props={
+                                        Object {
+                                                            "lifter": Immutable.Map {
+                                                              gender: "female",
+                                                              firstName: "Sally",
+                                                              lastName: "Ann",
+                                        },
+                                                          }
+                    }
+/>,
+                },
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": null,
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": null,
+              },
+            },
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": WrapperComponent {
+              "_reactInternalFiber": [Circular],
+              "_reactInternalInstance": Object {},
+              "context": Object {},
+              "props": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {
+                  "lifter": Immutable.Map {
+                    gender: "female",
+                    firstName: "Sally",
+                    lastName: "Ann",
+},
+                },
+              },
+              "refs": Object {},
+              "state": Object {
+                "context": null,
+                "mount": true,
+                "props": Object {
+                  "lifter": Immutable.Map {
+                    gender: "female",
+                    firstName: "Sally",
+                    lastName: "Ann",
+},
+                },
+              },
+              "updater": Object {
+                "enqueueForceUpdate": [Function],
+                "enqueueReplaceState": [Function],
+                "enqueueSetState": [Function],
+                "isMounted": [Function],
+              },
+            },
+            "tag": 2,
+            "treeBaseDuration": 0,
+            "type": [Function],
+            "updateQueue": null,
+          },
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": [Circular],
+          "tag": 2,
+          "treeBaseDuration": 0,
+          "type": [Function],
+          "updateQueue": null,
+        },
+        "_reactInternalInstance": Object {},
+        "context": Object {},
+        "props": Object {
+          "lifter": Immutable.Map {
+            gender: "female",
+            firstName: "Sally",
+            lastName: "Ann",
+},
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+        },
+      },
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "lifter": Immutable.Map {
+          gender: "female",
+          firstName: "Sally",
+          lastName: "Ann",
+},
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": <div>
+          <p
+                    class="lifterDisplay__label--gender"
+          />
+          <div
+                    class="lifterDisplay__nameContainer"
+          >
+                    <p
+                              class="lifterDisplay__label--firstName"
+                    >
+                              Sally
+                    </p>
+                    <p
+                              class="lifterDisplay__label--lastName"
+                    >
+                              Ann
+                    </p>
+          </div>
+</div>,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <p
+              className="lifterDisplay__label--gender"
+/>,
+            <div
+              className="lifterDisplay__nameContainer"
+>
+              <p
+                            className="lifterDisplay__label--firstName"
+              >
+                            Sally
+              </p>
+              <p
+                            className="lifterDisplay__label--lastName"
+              >
+                            Ann
+              </p>
+</div>,
+          ],
+          "onClick": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": <p
+              class="lifterDisplay__label--gender"
+/>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "",
+              "className": "lifterDisplay__label--gender",
+            },
+            "ref": null,
+            "rendered": Array [
+              "",
+            ],
+            "type": "p",
+          },
+          Object {
+            "instance": <div
+              class="lifterDisplay__nameContainer"
+>
+              <p
+                            class="lifterDisplay__label--firstName"
+              >
+                            Sally
+              </p>
+              <p
+                            class="lifterDisplay__label--lastName"
+              >
+                            Ann
+              </p>
+</div>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p
+                  className="lifterDisplay__label--firstName"
+>
+                  Sally
+</p>,
+                <p
+                  className="lifterDisplay__label--lastName"
+>
+                  Ann
+</p>,
+              ],
+              "className": "lifterDisplay__nameContainer",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <p
+                  class="lifterDisplay__label--firstName"
+>
+                  Sally
+</p>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Sally",
+                  "className": "lifterDisplay__label--firstName",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Sally",
+                ],
+                "type": "p",
+              },
+              Object {
+                "instance": <p
+                  class="lifterDisplay__label--lastName"
+>
+                  Ann
+</p>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Ann",
+                  "className": "lifterDisplay__label--lastName",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Ann",
+                ],
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

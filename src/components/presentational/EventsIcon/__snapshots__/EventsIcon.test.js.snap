@@ -88,12 +88,17 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                                    class="icon__container eventsIcon__container"
+                                    class="icon__container eventsIcon__container undefined"
                   >
                                     <img
                                                       src="/events_icon.png"
                                                       alt="events"
                                     />
+                                    <h2
+                                                      class="eventsIcon__label"
+                                    >
+                                                      Events
+                                    </h2>
                   </div>
 </div>,
                 "context": Object {},
@@ -186,12 +191,17 @@ ReactWrapper {
             "stateNode": Object {
               "containerInfo": <div>
                 <div
-                                class="icon__container eventsIcon__container"
+                                class="icon__container eventsIcon__container undefined"
                 >
                                 <img
                                                 src="/events_icon.png"
                                                 alt="events"
                                 />
+                                <h2
+                                                class="eventsIcon__label"
+                                >
+                                                Events
+                                </h2>
                 </div>
 </div>,
               "context": Object {},
@@ -326,7 +336,51 @@ ReactWrapper {
               "ref": null,
               "return": [Circular],
               "selfBaseDuration": 0,
-              "sibling": null,
+              "sibling": FiberNode {
+                "_debugID": 54,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/presentational/EventsIcon/EventsIcon.js",
+                  "lineNumber": 11,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 1,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "Events",
+                  "className": "eventsIcon__label",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "Events",
+                  "className": "eventsIcon__label",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": <h2
+                  class="eventsIcon__label"
+>
+                  Events
+</h2>,
+                "tag": 7,
+                "treeBaseDuration": 0,
+                "type": "h2",
+                "updateQueue": null,
+              },
               "stateNode": <img
                 src="/events_icon.png"
                 alt="events"
@@ -345,33 +399,52 @@ ReactWrapper {
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
-              "children": <img
-                alt="events"
-                src="/events_icon.png"
+              "children": Array [
+                <img
+                  alt="events"
+                  src="/events_icon.png"
 />,
-              "className": "icon__container eventsIcon__container",
+                <h2
+                  className="eventsIcon__label"
+>
+                  Events
+</h2>,
+              ],
+              "className": "icon__container eventsIcon__container undefined",
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
-              "children": <img
-                alt="events"
-                src="/events_icon.png"
+              "children": Array [
+                <img
+                  alt="events"
+                  src="/events_icon.png"
 />,
-              "className": "icon__container eventsIcon__container",
+                <h2
+                  className="eventsIcon__label"
+>
+                  Events
+</h2>,
+              ],
+              "className": "icon__container eventsIcon__container undefined",
             },
             "ref": null,
             "return": [Circular],
             "selfBaseDuration": 0,
             "sibling": null,
             "stateNode": <div
-              class="icon__container eventsIcon__container"
+              class="icon__container eventsIcon__container undefined"
 >
               <img
                             src="/events_icon.png"
                             alt="events"
               />
+              <h2
+                            class="eventsIcon__label"
+              >
+                            Events
+              </h2>
 </div>,
             "tag": 7,
             "treeBaseDuration": 0,
@@ -387,21 +460,35 @@ ReactWrapper {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
-            "children": <img
-              alt="events"
-              src="/events_icon.png"
+            "children": Array [
+              <img
+                alt="events"
+                src="/events_icon.png"
 />,
-            "className": "eventsIcon__container",
+              <h2
+                className="eventsIcon__label"
+>
+                Events
+</h2>,
+            ],
+            "className": "eventsIcon__container undefined",
           },
           "memoizedState": null,
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
-            "children": <img
-              alt="events"
-              src="/events_icon.png"
+            "children": Array [
+              <img
+                alt="events"
+                src="/events_icon.png"
 />,
-            "className": "eventsIcon__container",
+              <h2
+                className="eventsIcon__label"
+>
+                Events
+</h2>,
+            ],
+            "className": "eventsIcon__container undefined",
           },
           "ref": null,
           "return": [Circular],
@@ -412,11 +499,18 @@ ReactWrapper {
             "_reactInternalInstance": Object {},
             "context": Object {},
             "props": Object {
-              "children": <img
-                alt="events"
-                src="/events_icon.png"
+              "children": Array [
+                <img
+                  alt="events"
+                  src="/events_icon.png"
 />,
-              "className": "eventsIcon__container",
+                <h2
+                  className="eventsIcon__label"
+>
+                  Events
+</h2>,
+              ],
+              "className": "eventsIcon__container undefined",
             },
             "refs": Object {},
             "state": null,
@@ -517,12 +611,17 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                                    class="icon__container eventsIcon__container"
+                                    class="icon__container eventsIcon__container undefined"
                   >
                                     <img
                                                       src="/events_icon.png"
                                                       alt="events"
                                     />
+                                    <h2
+                                                      class="eventsIcon__label"
+                                    >
+                                                      Events
+                                    </h2>
                   </div>
 </div>,
                 "context": Object {},
@@ -615,12 +714,17 @@ ReactWrapper {
             "stateNode": Object {
               "containerInfo": <div>
                 <div
-                                class="icon__container eventsIcon__container"
+                                class="icon__container eventsIcon__container undefined"
                 >
                                 <img
                                                 src="/events_icon.png"
                                                 alt="events"
                                 />
+                                <h2
+                                                class="eventsIcon__label"
+                                >
+                                                Events
+                                </h2>
                 </div>
 </div>,
               "context": Object {},
@@ -798,12 +902,17 @@ ReactWrapper {
                   "stateNode": Object {
                     "containerInfo": <div>
                       <div
-                                            class="icon__container eventsIcon__container"
+                                            class="icon__container eventsIcon__container undefined"
                       >
                                             <img
                                                                   src="/events_icon.png"
                                                                   alt="events"
                                             />
+                                            <h2
+                                                                  class="eventsIcon__label"
+                                            >
+                                                                  Events
+                                            </h2>
                       </div>
 </div>,
                     "context": Object {},
@@ -896,12 +1005,17 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <div
-                                        class="icon__container eventsIcon__container"
+                                        class="icon__container eventsIcon__container undefined"
                     >
                                         <img
                                                             src="/events_icon.png"
                                                             alt="events"
                                         />
+                                        <h2
+                                                            class="eventsIcon__label"
+                                        >
+                                                            Events
+                                        </h2>
                     </div>
 </div>,
                   "context": Object {},
@@ -1066,12 +1180,17 @@ ReactWrapper {
                   "stateNode": Object {
                     "containerInfo": <div>
                       <div
-                                            class="icon__container eventsIcon__container"
+                                            class="icon__container eventsIcon__container undefined"
                       >
                                             <img
                                                                   src="/events_icon.png"
                                                                   alt="events"
                                             />
+                                            <h2
+                                                                  class="eventsIcon__label"
+                                            >
+                                                                  Events
+                                            </h2>
                       </div>
 </div>,
                     "context": Object {},
@@ -1164,12 +1283,17 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <div
-                                        class="icon__container eventsIcon__container"
+                                        class="icon__container eventsIcon__container undefined"
                     >
                                         <img
                                                             src="/events_icon.png"
                                                             alt="events"
                                         />
+                                        <h2
+                                                            class="eventsIcon__label"
+                                        >
+                                                            Events
+                                        </h2>
                     </div>
 </div>,
                   "context": Object {},
@@ -1360,12 +1484,17 @@ ReactWrapper {
                       "stateNode": Object {
                         "containerInfo": <div>
                           <div
-                                                    class="icon__container eventsIcon__container"
+                                                    class="icon__container eventsIcon__container undefined"
                           >
                                                     <img
                                                                               src="/events_icon.png"
                                                                               alt="events"
                                                     />
+                                                    <h2
+                                                                              class="eventsIcon__label"
+                                                    >
+                                                                              Events
+                                                    </h2>
                           </div>
 </div>,
                         "context": Object {},
@@ -1458,12 +1587,17 @@ ReactWrapper {
                     "stateNode": Object {
                       "containerInfo": <div>
                         <div
-                                                class="icon__container eventsIcon__container"
+                                                class="icon__container eventsIcon__container undefined"
                         >
                                                 <img
                                                                         src="/events_icon.png"
                                                                         alt="events"
                                                 />
+                                                <h2
+                                                                        class="eventsIcon__label"
+                                                >
+                                                                        Events
+                                                </h2>
                         </div>
 </div>,
                       "context": Object {},
@@ -1628,12 +1762,17 @@ ReactWrapper {
                       "stateNode": Object {
                         "containerInfo": <div>
                           <div
-                                                    class="icon__container eventsIcon__container"
+                                                    class="icon__container eventsIcon__container undefined"
                           >
                                                     <img
                                                                               src="/events_icon.png"
                                                                               alt="events"
                                                     />
+                                                    <h2
+                                                                              class="eventsIcon__label"
+                                                    >
+                                                                              Events
+                                                    </h2>
                           </div>
 </div>,
                         "context": Object {},
@@ -1726,12 +1865,17 @@ ReactWrapper {
                     "stateNode": Object {
                       "containerInfo": <div>
                         <div
-                                                class="icon__container eventsIcon__container"
+                                                class="icon__container eventsIcon__container undefined"
                         >
                                                 <img
                                                                         src="/events_icon.png"
                                                                         alt="events"
                                                 />
+                                                <h2
+                                                                        class="eventsIcon__label"
+                                                >
+                                                                        Events
+                                                </h2>
                         </div>
 </div>,
                       "context": Object {},
@@ -1857,7 +2001,611 @@ ReactWrapper {
               "ref": null,
               "return": [Circular],
               "selfBaseDuration": 0,
-              "sibling": null,
+              "sibling": FiberNode {
+                "_debugID": 54,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": FiberNode {
+                  "_debugID": 50,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": FiberNode {
+                    "_debugID": 49,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": null,
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": [Circular],
+                    "childExpirationTime": 0,
+                    "effectTag": 1,
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "Component": [Function],
+                      "context": null,
+                      "props": Object {},
+                    },
+                    "memoizedState": Object {
+                      "context": null,
+                      "mount": true,
+                      "props": Object {},
+                    },
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "Component": [Function],
+                      "context": null,
+                      "props": Object {},
+                    },
+                    "ref": null,
+                    "return": FiberNode {
+                      "_debugID": 47,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": null,
+                      "_debugSource": null,
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": FiberNode {
+                        "_debugID": 47,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": null,
+                        "_debugSource": null,
+                        "actualDuration": 0,
+                        "actualStartTime": -1,
+                        "alternate": [Circular],
+                        "child": null,
+                        "childExpirationTime": 0,
+                        "effectTag": 0,
+                        "expirationTime": 1,
+                        "firstContextDependency": null,
+                        "firstEffect": null,
+                        "index": 0,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": null,
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": null,
+                        "ref": null,
+                        "return": null,
+                        "selfBaseDuration": 0,
+                        "sibling": null,
+                        "stateNode": Object {
+                          "containerInfo": <div>
+                            <div
+                                                        class="icon__container eventsIcon__container undefined"
+                            >
+                                                        <img
+                                                                                    src="/events_icon.png"
+                                                                                    alt="events"
+                                                        />
+                                                        <h2
+                                                                                    class="eventsIcon__label"
+                                                        >
+                                                                                    Events
+                                                        </h2>
+                            </div>
+</div>,
+                          "context": Object {},
+                          "current": [Circular],
+                          "didError": false,
+                          "earliestPendingTime": 0,
+                          "earliestSuspendedTime": 0,
+                          "expirationTime": 0,
+                          "finishedWork": null,
+                          "firstBatch": null,
+                          "hydrate": false,
+                          "interactionThreadID": 12,
+                          "latestPendingTime": 0,
+                          "latestPingedTime": 0,
+                          "latestSuspendedTime": 0,
+                          "memoizedInteractions": Set {},
+                          "nextExpirationTimeToWorkOn": 0,
+                          "nextScheduledRoot": null,
+                          "pendingChildren": null,
+                          "pendingCommitExpirationTime": 0,
+                          "pendingContext": null,
+                          "pendingInteractionMap": Map {},
+                          "timeoutHandle": -1,
+                        },
+                        "tag": 5,
+                        "treeBaseDuration": 0,
+                        "type": null,
+                        "updateQueue": Object {
+                          "baseState": null,
+                          "firstCapturedEffect": null,
+                          "firstCapturedUpdate": null,
+                          "firstEffect": null,
+                          "firstUpdate": Object {
+                            "callback": null,
+                            "expirationTime": 1,
+                            "next": null,
+                            "nextEffect": null,
+                            "payload": Object {
+                              "element": <WrapperComponent
+                                Component={[Function]}
+                                context={null}
+                                props={Object {}}
+/>,
+                            },
+                            "tag": 0,
+                          },
+                          "lastCapturedEffect": null,
+                          "lastCapturedUpdate": null,
+                          "lastEffect": null,
+                          "lastUpdate": Object {
+                            "callback": null,
+                            "expirationTime": 1,
+                            "next": null,
+                            "nextEffect": null,
+                            "payload": Object {
+                              "element": <WrapperComponent
+                                Component={[Function]}
+                                context={null}
+                                props={Object {}}
+/>,
+                            },
+                            "tag": 0,
+                          },
+                        },
+                      },
+                      "child": [Circular],
+                      "childExpirationTime": 0,
+                      "effectTag": 32,
+                      "expirationTime": 0,
+                      "firstContextDependency": null,
+                      "firstEffect": [Circular],
+                      "index": 0,
+                      "key": null,
+                      "lastEffect": [Circular],
+                      "memoizedProps": null,
+                      "memoizedState": Object {
+                        "element": <WrapperComponent
+                          Component={[Function]}
+                          context={null}
+                          props={Object {}}
+/>,
+                      },
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": null,
+                      "ref": null,
+                      "return": null,
+                      "selfBaseDuration": 0,
+                      "sibling": null,
+                      "stateNode": Object {
+                        "containerInfo": <div>
+                          <div
+                                                    class="icon__container eventsIcon__container undefined"
+                          >
+                                                    <img
+                                                                              src="/events_icon.png"
+                                                                              alt="events"
+                                                    />
+                                                    <h2
+                                                                              class="eventsIcon__label"
+                                                    >
+                                                                              Events
+                                                    </h2>
+                          </div>
+</div>,
+                        "context": Object {},
+                        "current": [Circular],
+                        "didError": false,
+                        "earliestPendingTime": 0,
+                        "earliestSuspendedTime": 0,
+                        "expirationTime": 0,
+                        "finishedWork": null,
+                        "firstBatch": null,
+                        "hydrate": false,
+                        "interactionThreadID": 12,
+                        "latestPendingTime": 0,
+                        "latestPingedTime": 0,
+                        "latestSuspendedTime": 0,
+                        "memoizedInteractions": Set {},
+                        "nextExpirationTimeToWorkOn": 0,
+                        "nextScheduledRoot": null,
+                        "pendingChildren": null,
+                        "pendingCommitExpirationTime": 0,
+                        "pendingContext": null,
+                        "pendingInteractionMap": Map {},
+                        "timeoutHandle": -1,
+                      },
+                      "tag": 5,
+                      "treeBaseDuration": 0,
+                      "type": null,
+                      "updateQueue": Object {
+                        "baseState": Object {
+                          "element": <WrapperComponent
+                            Component={[Function]}
+                            context={null}
+                            props={Object {}}
+/>,
+                        },
+                        "firstCapturedEffect": null,
+                        "firstCapturedUpdate": null,
+                        "firstEffect": null,
+                        "firstUpdate": null,
+                        "lastCapturedEffect": null,
+                        "lastCapturedUpdate": null,
+                        "lastEffect": null,
+                        "lastUpdate": null,
+                      },
+                    },
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": WrapperComponent {
+                      "_reactInternalFiber": [Circular],
+                      "_reactInternalInstance": Object {},
+                      "context": Object {},
+                      "props": Object {
+                        "Component": [Function],
+                        "context": null,
+                        "props": Object {},
+                      },
+                      "refs": Object {},
+                      "state": Object {
+                        "context": null,
+                        "mount": true,
+                        "props": Object {},
+                      },
+                      "updater": Object {
+                        "enqueueForceUpdate": [Function],
+                        "enqueueReplaceState": [Function],
+                        "enqueueSetState": [Function],
+                        "isMounted": [Function],
+                      },
+                    },
+                    "tag": 2,
+                    "treeBaseDuration": 0,
+                    "type": [Function],
+                    "updateQueue": null,
+                  },
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": [Circular],
+                  "childExpirationTime": 0,
+                  "effectTag": 1,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {},
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {},
+                  "ref": null,
+                  "return": FiberNode {
+                    "_debugID": 49,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": null,
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": [Circular],
+                    "childExpirationTime": 0,
+                    "effectTag": 1,
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "Component": [Function],
+                      "context": null,
+                      "props": Object {},
+                    },
+                    "memoizedState": Object {
+                      "context": null,
+                      "mount": true,
+                      "props": Object {},
+                    },
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "Component": [Function],
+                      "context": null,
+                      "props": Object {},
+                    },
+                    "ref": null,
+                    "return": FiberNode {
+                      "_debugID": 47,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": null,
+                      "_debugSource": null,
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": FiberNode {
+                        "_debugID": 47,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": null,
+                        "_debugSource": null,
+                        "actualDuration": 0,
+                        "actualStartTime": -1,
+                        "alternate": [Circular],
+                        "child": null,
+                        "childExpirationTime": 0,
+                        "effectTag": 0,
+                        "expirationTime": 1,
+                        "firstContextDependency": null,
+                        "firstEffect": null,
+                        "index": 0,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": null,
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": null,
+                        "ref": null,
+                        "return": null,
+                        "selfBaseDuration": 0,
+                        "sibling": null,
+                        "stateNode": Object {
+                          "containerInfo": <div>
+                            <div
+                                                        class="icon__container eventsIcon__container undefined"
+                            >
+                                                        <img
+                                                                                    src="/events_icon.png"
+                                                                                    alt="events"
+                                                        />
+                                                        <h2
+                                                                                    class="eventsIcon__label"
+                                                        >
+                                                                                    Events
+                                                        </h2>
+                            </div>
+</div>,
+                          "context": Object {},
+                          "current": [Circular],
+                          "didError": false,
+                          "earliestPendingTime": 0,
+                          "earliestSuspendedTime": 0,
+                          "expirationTime": 0,
+                          "finishedWork": null,
+                          "firstBatch": null,
+                          "hydrate": false,
+                          "interactionThreadID": 12,
+                          "latestPendingTime": 0,
+                          "latestPingedTime": 0,
+                          "latestSuspendedTime": 0,
+                          "memoizedInteractions": Set {},
+                          "nextExpirationTimeToWorkOn": 0,
+                          "nextScheduledRoot": null,
+                          "pendingChildren": null,
+                          "pendingCommitExpirationTime": 0,
+                          "pendingContext": null,
+                          "pendingInteractionMap": Map {},
+                          "timeoutHandle": -1,
+                        },
+                        "tag": 5,
+                        "treeBaseDuration": 0,
+                        "type": null,
+                        "updateQueue": Object {
+                          "baseState": null,
+                          "firstCapturedEffect": null,
+                          "firstCapturedUpdate": null,
+                          "firstEffect": null,
+                          "firstUpdate": Object {
+                            "callback": null,
+                            "expirationTime": 1,
+                            "next": null,
+                            "nextEffect": null,
+                            "payload": Object {
+                              "element": <WrapperComponent
+                                Component={[Function]}
+                                context={null}
+                                props={Object {}}
+/>,
+                            },
+                            "tag": 0,
+                          },
+                          "lastCapturedEffect": null,
+                          "lastCapturedUpdate": null,
+                          "lastEffect": null,
+                          "lastUpdate": Object {
+                            "callback": null,
+                            "expirationTime": 1,
+                            "next": null,
+                            "nextEffect": null,
+                            "payload": Object {
+                              "element": <WrapperComponent
+                                Component={[Function]}
+                                context={null}
+                                props={Object {}}
+/>,
+                            },
+                            "tag": 0,
+                          },
+                        },
+                      },
+                      "child": [Circular],
+                      "childExpirationTime": 0,
+                      "effectTag": 32,
+                      "expirationTime": 0,
+                      "firstContextDependency": null,
+                      "firstEffect": [Circular],
+                      "index": 0,
+                      "key": null,
+                      "lastEffect": [Circular],
+                      "memoizedProps": null,
+                      "memoizedState": Object {
+                        "element": <WrapperComponent
+                          Component={[Function]}
+                          context={null}
+                          props={Object {}}
+/>,
+                      },
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": null,
+                      "ref": null,
+                      "return": null,
+                      "selfBaseDuration": 0,
+                      "sibling": null,
+                      "stateNode": Object {
+                        "containerInfo": <div>
+                          <div
+                                                    class="icon__container eventsIcon__container undefined"
+                          >
+                                                    <img
+                                                                              src="/events_icon.png"
+                                                                              alt="events"
+                                                    />
+                                                    <h2
+                                                                              class="eventsIcon__label"
+                                                    >
+                                                                              Events
+                                                    </h2>
+                          </div>
+</div>,
+                        "context": Object {},
+                        "current": [Circular],
+                        "didError": false,
+                        "earliestPendingTime": 0,
+                        "earliestSuspendedTime": 0,
+                        "expirationTime": 0,
+                        "finishedWork": null,
+                        "firstBatch": null,
+                        "hydrate": false,
+                        "interactionThreadID": 12,
+                        "latestPendingTime": 0,
+                        "latestPingedTime": 0,
+                        "latestSuspendedTime": 0,
+                        "memoizedInteractions": Set {},
+                        "nextExpirationTimeToWorkOn": 0,
+                        "nextScheduledRoot": null,
+                        "pendingChildren": null,
+                        "pendingCommitExpirationTime": 0,
+                        "pendingContext": null,
+                        "pendingInteractionMap": Map {},
+                        "timeoutHandle": -1,
+                      },
+                      "tag": 5,
+                      "treeBaseDuration": 0,
+                      "type": null,
+                      "updateQueue": Object {
+                        "baseState": Object {
+                          "element": <WrapperComponent
+                            Component={[Function]}
+                            context={null}
+                            props={Object {}}
+/>,
+                        },
+                        "firstCapturedEffect": null,
+                        "firstCapturedUpdate": null,
+                        "firstEffect": null,
+                        "firstUpdate": null,
+                        "lastCapturedEffect": null,
+                        "lastCapturedUpdate": null,
+                        "lastEffect": null,
+                        "lastUpdate": null,
+                      },
+                    },
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": WrapperComponent {
+                      "_reactInternalFiber": [Circular],
+                      "_reactInternalInstance": Object {},
+                      "context": Object {},
+                      "props": Object {
+                        "Component": [Function],
+                        "context": null,
+                        "props": Object {},
+                      },
+                      "refs": Object {},
+                      "state": Object {
+                        "context": null,
+                        "mount": true,
+                        "props": Object {},
+                      },
+                      "updater": Object {
+                        "enqueueForceUpdate": [Function],
+                        "enqueueReplaceState": [Function],
+                        "enqueueSetState": [Function],
+                        "isMounted": [Function],
+                      },
+                    },
+                    "tag": 2,
+                    "treeBaseDuration": 0,
+                    "type": [Function],
+                    "updateQueue": null,
+                  },
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": EventsIcon {
+                    "_reactInternalFiber": [Circular],
+                    "_reactInternalInstance": Object {},
+                    "context": Object {},
+                    "props": Object {},
+                    "refs": Object {},
+                    "state": null,
+                    "updater": Object {
+                      "enqueueForceUpdate": [Function],
+                      "enqueueReplaceState": [Function],
+                      "enqueueSetState": [Function],
+                      "isMounted": [Function],
+                    },
+                  },
+                  "tag": 2,
+                  "treeBaseDuration": 0,
+                  "type": [Function],
+                  "updateQueue": null,
+                },
+                "_debugSource": Object {
+                  "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/presentational/EventsIcon/EventsIcon.js",
+                  "lineNumber": 11,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 1,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "Events",
+                  "className": "eventsIcon__label",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "Events",
+                  "className": "eventsIcon__label",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": <h2
+                  class="eventsIcon__label"
+>
+                  Events
+</h2>,
+                "tag": 7,
+                "treeBaseDuration": 0,
+                "type": "h2",
+                "updateQueue": null,
+              },
               "stateNode": <img
                 src="/events_icon.png"
                 alt="events"
@@ -1876,33 +2624,52 @@ ReactWrapper {
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
-              "children": <img
-                alt="events"
-                src="/events_icon.png"
+              "children": Array [
+                <img
+                  alt="events"
+                  src="/events_icon.png"
 />,
-              "className": "icon__container eventsIcon__container",
+                <h2
+                  className="eventsIcon__label"
+>
+                  Events
+</h2>,
+              ],
+              "className": "icon__container eventsIcon__container undefined",
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
-              "children": <img
-                alt="events"
-                src="/events_icon.png"
+              "children": Array [
+                <img
+                  alt="events"
+                  src="/events_icon.png"
 />,
-              "className": "icon__container eventsIcon__container",
+                <h2
+                  className="eventsIcon__label"
+>
+                  Events
+</h2>,
+              ],
+              "className": "icon__container eventsIcon__container undefined",
             },
             "ref": null,
             "return": [Circular],
             "selfBaseDuration": 0,
             "sibling": null,
             "stateNode": <div
-              class="icon__container eventsIcon__container"
+              class="icon__container eventsIcon__container undefined"
 >
               <img
                             src="/events_icon.png"
                             alt="events"
               />
+              <h2
+                            class="eventsIcon__label"
+              >
+                            Events
+              </h2>
 </div>,
             "tag": 7,
             "treeBaseDuration": 0,
@@ -1918,21 +2685,35 @@ ReactWrapper {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
-            "children": <img
-              alt="events"
-              src="/events_icon.png"
+            "children": Array [
+              <img
+                alt="events"
+                src="/events_icon.png"
 />,
-            "className": "eventsIcon__container",
+              <h2
+                className="eventsIcon__label"
+>
+                Events
+</h2>,
+            ],
+            "className": "eventsIcon__container undefined",
           },
           "memoizedState": null,
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
-            "children": <img
-              alt="events"
-              src="/events_icon.png"
+            "children": Array [
+              <img
+                alt="events"
+                src="/events_icon.png"
 />,
-            "className": "eventsIcon__container",
+              <h2
+                className="eventsIcon__label"
+>
+                Events
+</h2>,
+            ],
+            "className": "eventsIcon__container undefined",
           },
           "ref": null,
           "return": FiberNode {
@@ -2009,12 +2790,17 @@ ReactWrapper {
                   "stateNode": Object {
                     "containerInfo": <div>
                       <div
-                                            class="icon__container eventsIcon__container"
+                                            class="icon__container eventsIcon__container undefined"
                       >
                                             <img
                                                                   src="/events_icon.png"
                                                                   alt="events"
                                             />
+                                            <h2
+                                                                  class="eventsIcon__label"
+                                            >
+                                                                  Events
+                                            </h2>
                       </div>
 </div>,
                     "context": Object {},
@@ -2107,12 +2893,17 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <div
-                                        class="icon__container eventsIcon__container"
+                                        class="icon__container eventsIcon__container undefined"
                     >
                                         <img
                                                             src="/events_icon.png"
                                                             alt="events"
                                         />
+                                        <h2
+                                                            class="eventsIcon__label"
+                                        >
+                                                            Events
+                                        </h2>
                     </div>
 </div>,
                   "context": Object {},
@@ -2277,12 +3068,17 @@ ReactWrapper {
                   "stateNode": Object {
                     "containerInfo": <div>
                       <div
-                                            class="icon__container eventsIcon__container"
+                                            class="icon__container eventsIcon__container undefined"
                       >
                                             <img
                                                                   src="/events_icon.png"
                                                                   alt="events"
                                             />
+                                            <h2
+                                                                  class="eventsIcon__label"
+                                            >
+                                                                  Events
+                                            </h2>
                       </div>
 </div>,
                     "context": Object {},
@@ -2375,12 +3171,17 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <div
-                                        class="icon__container eventsIcon__container"
+                                        class="icon__container eventsIcon__container undefined"
                     >
                                         <img
                                                             src="/events_icon.png"
                                                             alt="events"
                                         />
+                                        <h2
+                                                            class="eventsIcon__label"
+                                        >
+                                                            Events
+                                        </h2>
                     </div>
 </div>,
                   "context": Object {},
@@ -2487,11 +3288,18 @@ ReactWrapper {
         "_reactInternalInstance": Object {},
         "context": Object {},
         "props": Object {
-          "children": <img
-            alt="events"
-            src="/events_icon.png"
+          "children": Array [
+            <img
+              alt="events"
+              src="/events_icon.png"
 />,
-          "className": "eventsIcon__container",
+            <h2
+              className="eventsIcon__label"
+>
+              Events
+</h2>,
+          ],
+          "className": "eventsIcon__container undefined",
         },
         "refs": Object {},
         "state": null,
@@ -2505,30 +3313,49 @@ ReactWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "children": <img
-          alt="events"
-          src="/events_icon.png"
+        "children": Array [
+          <img
+            alt="events"
+            src="/events_icon.png"
 />,
-        "className": "eventsIcon__container",
+          <h2
+            className="eventsIcon__label"
+>
+            Events
+</h2>,
+        ],
+        "className": "eventsIcon__container undefined",
       },
       "ref": null,
       "rendered": Object {
         "instance": <div
-          class="icon__container eventsIcon__container"
+          class="icon__container eventsIcon__container undefined"
 >
           <img
                     src="/events_icon.png"
                     alt="events"
           />
+          <h2
+                    class="eventsIcon__label"
+          >
+                    Events
+          </h2>
 </div>,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <img
-            alt="events"
-            src="/events_icon.png"
+          "children": Array [
+            <img
+              alt="events"
+              src="/events_icon.png"
 />,
-          "className": "icon__container eventsIcon__container",
+            <h2
+              className="eventsIcon__label"
+>
+              Events
+</h2>,
+          ],
+          "className": "icon__container eventsIcon__container undefined",
         },
         "ref": null,
         "rendered": Array [
@@ -2548,6 +3375,24 @@ ReactWrapper {
               undefined,
             ],
             "type": "img",
+          },
+          Object {
+            "instance": <h2
+              class="eventsIcon__label"
+>
+              Events
+</h2>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Events",
+              "className": "eventsIcon__label",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Events",
+            ],
+            "type": "h2",
           },
         ],
         "type": "div",
@@ -2633,12 +3478,17 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <div
-                                        class="icon__container eventsIcon__container"
+                                        class="icon__container eventsIcon__container undefined"
                     >
                                         <img
                                                             src="/events_icon.png"
                                                             alt="events"
                                         />
+                                        <h2
+                                                            class="eventsIcon__label"
+                                        >
+                                                            Events
+                                        </h2>
                     </div>
 </div>,
                   "context": Object {},
@@ -2731,12 +3581,17 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                                    class="icon__container eventsIcon__container"
+                                    class="icon__container eventsIcon__container undefined"
                   >
                                     <img
                                                       src="/events_icon.png"
                                                       alt="events"
                                     />
+                                    <h2
+                                                      class="eventsIcon__label"
+                                    >
+                                                      Events
+                                    </h2>
                   </div>
 </div>,
                 "context": Object {},
@@ -2871,7 +3726,51 @@ ReactWrapper {
                 "ref": null,
                 "return": [Circular],
                 "selfBaseDuration": 0,
-                "sibling": null,
+                "sibling": FiberNode {
+                  "_debugID": 54,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/presentational/EventsIcon/EventsIcon.js",
+                    "lineNumber": 11,
+                  },
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 1,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": "Events",
+                    "className": "eventsIcon__label",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": "Events",
+                    "className": "eventsIcon__label",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": <h2
+                    class="eventsIcon__label"
+>
+                    Events
+</h2>,
+                  "tag": 7,
+                  "treeBaseDuration": 0,
+                  "type": "h2",
+                  "updateQueue": null,
+                },
                 "stateNode": <img
                   src="/events_icon.png"
                   alt="events"
@@ -2890,33 +3789,52 @@ ReactWrapper {
               "key": null,
               "lastEffect": null,
               "memoizedProps": Object {
-                "children": <img
-                  alt="events"
-                  src="/events_icon.png"
+                "children": Array [
+                  <img
+                    alt="events"
+                    src="/events_icon.png"
 />,
-                "className": "icon__container eventsIcon__container",
+                  <h2
+                    className="eventsIcon__label"
+>
+                    Events
+</h2>,
+                ],
+                "className": "icon__container eventsIcon__container undefined",
               },
               "memoizedState": null,
               "mode": 0,
               "nextEffect": null,
               "pendingProps": Object {
-                "children": <img
-                  alt="events"
-                  src="/events_icon.png"
+                "children": Array [
+                  <img
+                    alt="events"
+                    src="/events_icon.png"
 />,
-                "className": "icon__container eventsIcon__container",
+                  <h2
+                    className="eventsIcon__label"
+>
+                    Events
+</h2>,
+                ],
+                "className": "icon__container eventsIcon__container undefined",
               },
               "ref": null,
               "return": [Circular],
               "selfBaseDuration": 0,
               "sibling": null,
               "stateNode": <div
-                class="icon__container eventsIcon__container"
+                class="icon__container eventsIcon__container undefined"
 >
                 <img
                                 src="/events_icon.png"
                                 alt="events"
                 />
+                <h2
+                                class="eventsIcon__label"
+                >
+                                Events
+                </h2>
 </div>,
               "tag": 7,
               "treeBaseDuration": 0,
@@ -2932,21 +3850,35 @@ ReactWrapper {
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
-              "children": <img
-                alt="events"
-                src="/events_icon.png"
+              "children": Array [
+                <img
+                  alt="events"
+                  src="/events_icon.png"
 />,
-              "className": "eventsIcon__container",
+                <h2
+                  className="eventsIcon__label"
+>
+                  Events
+</h2>,
+              ],
+              "className": "eventsIcon__container undefined",
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
-              "children": <img
-                alt="events"
-                src="/events_icon.png"
+              "children": Array [
+                <img
+                  alt="events"
+                  src="/events_icon.png"
 />,
-              "className": "eventsIcon__container",
+                <h2
+                  className="eventsIcon__label"
+>
+                  Events
+</h2>,
+              ],
+              "className": "eventsIcon__container undefined",
             },
             "ref": null,
             "return": [Circular],
@@ -2957,11 +3889,18 @@ ReactWrapper {
               "_reactInternalInstance": Object {},
               "context": Object {},
               "props": Object {
-                "children": <img
-                  alt="events"
-                  src="/events_icon.png"
+                "children": Array [
+                  <img
+                    alt="events"
+                    src="/events_icon.png"
 />,
-                "className": "eventsIcon__container",
+                  <h2
+                    className="eventsIcon__label"
+>
+                    Events
+</h2>,
+                ],
+                "className": "eventsIcon__container undefined",
               },
               "refs": Object {},
               "state": null,
@@ -3062,12 +4001,17 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <div
-                                        class="icon__container eventsIcon__container"
+                                        class="icon__container eventsIcon__container undefined"
                     >
                                         <img
                                                             src="/events_icon.png"
                                                             alt="events"
                                         />
+                                        <h2
+                                                            class="eventsIcon__label"
+                                        >
+                                                            Events
+                                        </h2>
                     </div>
 </div>,
                   "context": Object {},
@@ -3160,12 +4104,17 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                                    class="icon__container eventsIcon__container"
+                                    class="icon__container eventsIcon__container undefined"
                   >
                                     <img
                                                       src="/events_icon.png"
                                                       alt="events"
                                     />
+                                    <h2
+                                                      class="eventsIcon__label"
+                                    >
+                                                      Events
+                                    </h2>
                   </div>
 </div>,
                 "context": Object {},
@@ -3343,12 +4292,17 @@ ReactWrapper {
                     "stateNode": Object {
                       "containerInfo": <div>
                         <div
-                                                class="icon__container eventsIcon__container"
+                                                class="icon__container eventsIcon__container undefined"
                         >
                                                 <img
                                                                         src="/events_icon.png"
                                                                         alt="events"
                                                 />
+                                                <h2
+                                                                        class="eventsIcon__label"
+                                                >
+                                                                        Events
+                                                </h2>
                         </div>
 </div>,
                       "context": Object {},
@@ -3441,12 +4395,17 @@ ReactWrapper {
                   "stateNode": Object {
                     "containerInfo": <div>
                       <div
-                                            class="icon__container eventsIcon__container"
+                                            class="icon__container eventsIcon__container undefined"
                       >
                                             <img
                                                                   src="/events_icon.png"
                                                                   alt="events"
                                             />
+                                            <h2
+                                                                  class="eventsIcon__label"
+                                            >
+                                                                  Events
+                                            </h2>
                       </div>
 </div>,
                     "context": Object {},
@@ -3611,12 +4570,17 @@ ReactWrapper {
                     "stateNode": Object {
                       "containerInfo": <div>
                         <div
-                                                class="icon__container eventsIcon__container"
+                                                class="icon__container eventsIcon__container undefined"
                         >
                                                 <img
                                                                         src="/events_icon.png"
                                                                         alt="events"
                                                 />
+                                                <h2
+                                                                        class="eventsIcon__label"
+                                                >
+                                                                        Events
+                                                </h2>
                         </div>
 </div>,
                       "context": Object {},
@@ -3709,12 +4673,17 @@ ReactWrapper {
                   "stateNode": Object {
                     "containerInfo": <div>
                       <div
-                                            class="icon__container eventsIcon__container"
+                                            class="icon__container eventsIcon__container undefined"
                       >
                                             <img
                                                                   src="/events_icon.png"
                                                                   alt="events"
                                             />
+                                            <h2
+                                                                  class="eventsIcon__label"
+                                            >
+                                                                  Events
+                                            </h2>
                       </div>
 </div>,
                     "context": Object {},
@@ -3905,12 +4874,17 @@ ReactWrapper {
                         "stateNode": Object {
                           "containerInfo": <div>
                             <div
-                                                        class="icon__container eventsIcon__container"
+                                                        class="icon__container eventsIcon__container undefined"
                             >
                                                         <img
                                                                                     src="/events_icon.png"
                                                                                     alt="events"
                                                         />
+                                                        <h2
+                                                                                    class="eventsIcon__label"
+                                                        >
+                                                                                    Events
+                                                        </h2>
                             </div>
 </div>,
                           "context": Object {},
@@ -4003,12 +4977,17 @@ ReactWrapper {
                       "stateNode": Object {
                         "containerInfo": <div>
                           <div
-                                                    class="icon__container eventsIcon__container"
+                                                    class="icon__container eventsIcon__container undefined"
                           >
                                                     <img
                                                                               src="/events_icon.png"
                                                                               alt="events"
                                                     />
+                                                    <h2
+                                                                              class="eventsIcon__label"
+                                                    >
+                                                                              Events
+                                                    </h2>
                           </div>
 </div>,
                         "context": Object {},
@@ -4173,12 +5152,17 @@ ReactWrapper {
                         "stateNode": Object {
                           "containerInfo": <div>
                             <div
-                                                        class="icon__container eventsIcon__container"
+                                                        class="icon__container eventsIcon__container undefined"
                             >
                                                         <img
                                                                                     src="/events_icon.png"
                                                                                     alt="events"
                                                         />
+                                                        <h2
+                                                                                    class="eventsIcon__label"
+                                                        >
+                                                                                    Events
+                                                        </h2>
                             </div>
 </div>,
                           "context": Object {},
@@ -4271,12 +5255,17 @@ ReactWrapper {
                       "stateNode": Object {
                         "containerInfo": <div>
                           <div
-                                                    class="icon__container eventsIcon__container"
+                                                    class="icon__container eventsIcon__container undefined"
                           >
                                                     <img
                                                                               src="/events_icon.png"
                                                                               alt="events"
                                                     />
+                                                    <h2
+                                                                              class="eventsIcon__label"
+                                                    >
+                                                                              Events
+                                                    </h2>
                           </div>
 </div>,
                         "context": Object {},
@@ -4402,7 +5391,611 @@ ReactWrapper {
                 "ref": null,
                 "return": [Circular],
                 "selfBaseDuration": 0,
-                "sibling": null,
+                "sibling": FiberNode {
+                  "_debugID": 54,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": FiberNode {
+                    "_debugID": 50,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": FiberNode {
+                      "_debugID": 49,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": null,
+                      "_debugSource": null,
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": null,
+                      "child": [Circular],
+                      "childExpirationTime": 0,
+                      "effectTag": 1,
+                      "expirationTime": 0,
+                      "firstContextDependency": null,
+                      "firstEffect": null,
+                      "index": 0,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "Component": [Function],
+                        "context": null,
+                        "props": Object {},
+                      },
+                      "memoizedState": Object {
+                        "context": null,
+                        "mount": true,
+                        "props": Object {},
+                      },
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "Component": [Function],
+                        "context": null,
+                        "props": Object {},
+                      },
+                      "ref": null,
+                      "return": FiberNode {
+                        "_debugID": 47,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": null,
+                        "_debugSource": null,
+                        "actualDuration": 0,
+                        "actualStartTime": -1,
+                        "alternate": FiberNode {
+                          "_debugID": 47,
+                          "_debugIsCurrentlyTiming": false,
+                          "_debugOwner": null,
+                          "_debugSource": null,
+                          "actualDuration": 0,
+                          "actualStartTime": -1,
+                          "alternate": [Circular],
+                          "child": null,
+                          "childExpirationTime": 0,
+                          "effectTag": 0,
+                          "expirationTime": 1,
+                          "firstContextDependency": null,
+                          "firstEffect": null,
+                          "index": 0,
+                          "key": null,
+                          "lastEffect": null,
+                          "memoizedProps": null,
+                          "memoizedState": null,
+                          "mode": 0,
+                          "nextEffect": null,
+                          "pendingProps": null,
+                          "ref": null,
+                          "return": null,
+                          "selfBaseDuration": 0,
+                          "sibling": null,
+                          "stateNode": Object {
+                            "containerInfo": <div>
+                              <div
+                                                            class="icon__container eventsIcon__container undefined"
+                              >
+                                                            <img
+                                                                                          src="/events_icon.png"
+                                                                                          alt="events"
+                                                            />
+                                                            <h2
+                                                                                          class="eventsIcon__label"
+                                                            >
+                                                                                          Events
+                                                            </h2>
+                              </div>
+</div>,
+                            "context": Object {},
+                            "current": [Circular],
+                            "didError": false,
+                            "earliestPendingTime": 0,
+                            "earliestSuspendedTime": 0,
+                            "expirationTime": 0,
+                            "finishedWork": null,
+                            "firstBatch": null,
+                            "hydrate": false,
+                            "interactionThreadID": 12,
+                            "latestPendingTime": 0,
+                            "latestPingedTime": 0,
+                            "latestSuspendedTime": 0,
+                            "memoizedInteractions": Set {},
+                            "nextExpirationTimeToWorkOn": 0,
+                            "nextScheduledRoot": null,
+                            "pendingChildren": null,
+                            "pendingCommitExpirationTime": 0,
+                            "pendingContext": null,
+                            "pendingInteractionMap": Map {},
+                            "timeoutHandle": -1,
+                          },
+                          "tag": 5,
+                          "treeBaseDuration": 0,
+                          "type": null,
+                          "updateQueue": Object {
+                            "baseState": null,
+                            "firstCapturedEffect": null,
+                            "firstCapturedUpdate": null,
+                            "firstEffect": null,
+                            "firstUpdate": Object {
+                              "callback": null,
+                              "expirationTime": 1,
+                              "next": null,
+                              "nextEffect": null,
+                              "payload": Object {
+                                "element": <WrapperComponent
+                                  Component={[Function]}
+                                  context={null}
+                                  props={Object {}}
+/>,
+                              },
+                              "tag": 0,
+                            },
+                            "lastCapturedEffect": null,
+                            "lastCapturedUpdate": null,
+                            "lastEffect": null,
+                            "lastUpdate": Object {
+                              "callback": null,
+                              "expirationTime": 1,
+                              "next": null,
+                              "nextEffect": null,
+                              "payload": Object {
+                                "element": <WrapperComponent
+                                  Component={[Function]}
+                                  context={null}
+                                  props={Object {}}
+/>,
+                              },
+                              "tag": 0,
+                            },
+                          },
+                        },
+                        "child": [Circular],
+                        "childExpirationTime": 0,
+                        "effectTag": 32,
+                        "expirationTime": 0,
+                        "firstContextDependency": null,
+                        "firstEffect": [Circular],
+                        "index": 0,
+                        "key": null,
+                        "lastEffect": [Circular],
+                        "memoizedProps": null,
+                        "memoizedState": Object {
+                          "element": <WrapperComponent
+                            Component={[Function]}
+                            context={null}
+                            props={Object {}}
+/>,
+                        },
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": null,
+                        "ref": null,
+                        "return": null,
+                        "selfBaseDuration": 0,
+                        "sibling": null,
+                        "stateNode": Object {
+                          "containerInfo": <div>
+                            <div
+                                                        class="icon__container eventsIcon__container undefined"
+                            >
+                                                        <img
+                                                                                    src="/events_icon.png"
+                                                                                    alt="events"
+                                                        />
+                                                        <h2
+                                                                                    class="eventsIcon__label"
+                                                        >
+                                                                                    Events
+                                                        </h2>
+                            </div>
+</div>,
+                          "context": Object {},
+                          "current": [Circular],
+                          "didError": false,
+                          "earliestPendingTime": 0,
+                          "earliestSuspendedTime": 0,
+                          "expirationTime": 0,
+                          "finishedWork": null,
+                          "firstBatch": null,
+                          "hydrate": false,
+                          "interactionThreadID": 12,
+                          "latestPendingTime": 0,
+                          "latestPingedTime": 0,
+                          "latestSuspendedTime": 0,
+                          "memoizedInteractions": Set {},
+                          "nextExpirationTimeToWorkOn": 0,
+                          "nextScheduledRoot": null,
+                          "pendingChildren": null,
+                          "pendingCommitExpirationTime": 0,
+                          "pendingContext": null,
+                          "pendingInteractionMap": Map {},
+                          "timeoutHandle": -1,
+                        },
+                        "tag": 5,
+                        "treeBaseDuration": 0,
+                        "type": null,
+                        "updateQueue": Object {
+                          "baseState": Object {
+                            "element": <WrapperComponent
+                              Component={[Function]}
+                              context={null}
+                              props={Object {}}
+/>,
+                          },
+                          "firstCapturedEffect": null,
+                          "firstCapturedUpdate": null,
+                          "firstEffect": null,
+                          "firstUpdate": null,
+                          "lastCapturedEffect": null,
+                          "lastCapturedUpdate": null,
+                          "lastEffect": null,
+                          "lastUpdate": null,
+                        },
+                      },
+                      "selfBaseDuration": 0,
+                      "sibling": null,
+                      "stateNode": WrapperComponent {
+                        "_reactInternalFiber": [Circular],
+                        "_reactInternalInstance": Object {},
+                        "context": Object {},
+                        "props": Object {
+                          "Component": [Function],
+                          "context": null,
+                          "props": Object {},
+                        },
+                        "refs": Object {},
+                        "state": Object {
+                          "context": null,
+                          "mount": true,
+                          "props": Object {},
+                        },
+                        "updater": Object {
+                          "enqueueForceUpdate": [Function],
+                          "enqueueReplaceState": [Function],
+                          "enqueueSetState": [Function],
+                          "isMounted": [Function],
+                        },
+                      },
+                      "tag": 2,
+                      "treeBaseDuration": 0,
+                      "type": [Function],
+                      "updateQueue": null,
+                    },
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": [Circular],
+                    "childExpirationTime": 0,
+                    "effectTag": 1,
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {},
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {},
+                    "ref": null,
+                    "return": FiberNode {
+                      "_debugID": 49,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": null,
+                      "_debugSource": null,
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": null,
+                      "child": [Circular],
+                      "childExpirationTime": 0,
+                      "effectTag": 1,
+                      "expirationTime": 0,
+                      "firstContextDependency": null,
+                      "firstEffect": null,
+                      "index": 0,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "Component": [Function],
+                        "context": null,
+                        "props": Object {},
+                      },
+                      "memoizedState": Object {
+                        "context": null,
+                        "mount": true,
+                        "props": Object {},
+                      },
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "Component": [Function],
+                        "context": null,
+                        "props": Object {},
+                      },
+                      "ref": null,
+                      "return": FiberNode {
+                        "_debugID": 47,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": null,
+                        "_debugSource": null,
+                        "actualDuration": 0,
+                        "actualStartTime": -1,
+                        "alternate": FiberNode {
+                          "_debugID": 47,
+                          "_debugIsCurrentlyTiming": false,
+                          "_debugOwner": null,
+                          "_debugSource": null,
+                          "actualDuration": 0,
+                          "actualStartTime": -1,
+                          "alternate": [Circular],
+                          "child": null,
+                          "childExpirationTime": 0,
+                          "effectTag": 0,
+                          "expirationTime": 1,
+                          "firstContextDependency": null,
+                          "firstEffect": null,
+                          "index": 0,
+                          "key": null,
+                          "lastEffect": null,
+                          "memoizedProps": null,
+                          "memoizedState": null,
+                          "mode": 0,
+                          "nextEffect": null,
+                          "pendingProps": null,
+                          "ref": null,
+                          "return": null,
+                          "selfBaseDuration": 0,
+                          "sibling": null,
+                          "stateNode": Object {
+                            "containerInfo": <div>
+                              <div
+                                                            class="icon__container eventsIcon__container undefined"
+                              >
+                                                            <img
+                                                                                          src="/events_icon.png"
+                                                                                          alt="events"
+                                                            />
+                                                            <h2
+                                                                                          class="eventsIcon__label"
+                                                            >
+                                                                                          Events
+                                                            </h2>
+                              </div>
+</div>,
+                            "context": Object {},
+                            "current": [Circular],
+                            "didError": false,
+                            "earliestPendingTime": 0,
+                            "earliestSuspendedTime": 0,
+                            "expirationTime": 0,
+                            "finishedWork": null,
+                            "firstBatch": null,
+                            "hydrate": false,
+                            "interactionThreadID": 12,
+                            "latestPendingTime": 0,
+                            "latestPingedTime": 0,
+                            "latestSuspendedTime": 0,
+                            "memoizedInteractions": Set {},
+                            "nextExpirationTimeToWorkOn": 0,
+                            "nextScheduledRoot": null,
+                            "pendingChildren": null,
+                            "pendingCommitExpirationTime": 0,
+                            "pendingContext": null,
+                            "pendingInteractionMap": Map {},
+                            "timeoutHandle": -1,
+                          },
+                          "tag": 5,
+                          "treeBaseDuration": 0,
+                          "type": null,
+                          "updateQueue": Object {
+                            "baseState": null,
+                            "firstCapturedEffect": null,
+                            "firstCapturedUpdate": null,
+                            "firstEffect": null,
+                            "firstUpdate": Object {
+                              "callback": null,
+                              "expirationTime": 1,
+                              "next": null,
+                              "nextEffect": null,
+                              "payload": Object {
+                                "element": <WrapperComponent
+                                  Component={[Function]}
+                                  context={null}
+                                  props={Object {}}
+/>,
+                              },
+                              "tag": 0,
+                            },
+                            "lastCapturedEffect": null,
+                            "lastCapturedUpdate": null,
+                            "lastEffect": null,
+                            "lastUpdate": Object {
+                              "callback": null,
+                              "expirationTime": 1,
+                              "next": null,
+                              "nextEffect": null,
+                              "payload": Object {
+                                "element": <WrapperComponent
+                                  Component={[Function]}
+                                  context={null}
+                                  props={Object {}}
+/>,
+                              },
+                              "tag": 0,
+                            },
+                          },
+                        },
+                        "child": [Circular],
+                        "childExpirationTime": 0,
+                        "effectTag": 32,
+                        "expirationTime": 0,
+                        "firstContextDependency": null,
+                        "firstEffect": [Circular],
+                        "index": 0,
+                        "key": null,
+                        "lastEffect": [Circular],
+                        "memoizedProps": null,
+                        "memoizedState": Object {
+                          "element": <WrapperComponent
+                            Component={[Function]}
+                            context={null}
+                            props={Object {}}
+/>,
+                        },
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": null,
+                        "ref": null,
+                        "return": null,
+                        "selfBaseDuration": 0,
+                        "sibling": null,
+                        "stateNode": Object {
+                          "containerInfo": <div>
+                            <div
+                                                        class="icon__container eventsIcon__container undefined"
+                            >
+                                                        <img
+                                                                                    src="/events_icon.png"
+                                                                                    alt="events"
+                                                        />
+                                                        <h2
+                                                                                    class="eventsIcon__label"
+                                                        >
+                                                                                    Events
+                                                        </h2>
+                            </div>
+</div>,
+                          "context": Object {},
+                          "current": [Circular],
+                          "didError": false,
+                          "earliestPendingTime": 0,
+                          "earliestSuspendedTime": 0,
+                          "expirationTime": 0,
+                          "finishedWork": null,
+                          "firstBatch": null,
+                          "hydrate": false,
+                          "interactionThreadID": 12,
+                          "latestPendingTime": 0,
+                          "latestPingedTime": 0,
+                          "latestSuspendedTime": 0,
+                          "memoizedInteractions": Set {},
+                          "nextExpirationTimeToWorkOn": 0,
+                          "nextScheduledRoot": null,
+                          "pendingChildren": null,
+                          "pendingCommitExpirationTime": 0,
+                          "pendingContext": null,
+                          "pendingInteractionMap": Map {},
+                          "timeoutHandle": -1,
+                        },
+                        "tag": 5,
+                        "treeBaseDuration": 0,
+                        "type": null,
+                        "updateQueue": Object {
+                          "baseState": Object {
+                            "element": <WrapperComponent
+                              Component={[Function]}
+                              context={null}
+                              props={Object {}}
+/>,
+                          },
+                          "firstCapturedEffect": null,
+                          "firstCapturedUpdate": null,
+                          "firstEffect": null,
+                          "firstUpdate": null,
+                          "lastCapturedEffect": null,
+                          "lastCapturedUpdate": null,
+                          "lastEffect": null,
+                          "lastUpdate": null,
+                        },
+                      },
+                      "selfBaseDuration": 0,
+                      "sibling": null,
+                      "stateNode": WrapperComponent {
+                        "_reactInternalFiber": [Circular],
+                        "_reactInternalInstance": Object {},
+                        "context": Object {},
+                        "props": Object {
+                          "Component": [Function],
+                          "context": null,
+                          "props": Object {},
+                        },
+                        "refs": Object {},
+                        "state": Object {
+                          "context": null,
+                          "mount": true,
+                          "props": Object {},
+                        },
+                        "updater": Object {
+                          "enqueueForceUpdate": [Function],
+                          "enqueueReplaceState": [Function],
+                          "enqueueSetState": [Function],
+                          "isMounted": [Function],
+                        },
+                      },
+                      "tag": 2,
+                      "treeBaseDuration": 0,
+                      "type": [Function],
+                      "updateQueue": null,
+                    },
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": EventsIcon {
+                      "_reactInternalFiber": [Circular],
+                      "_reactInternalInstance": Object {},
+                      "context": Object {},
+                      "props": Object {},
+                      "refs": Object {},
+                      "state": null,
+                      "updater": Object {
+                        "enqueueForceUpdate": [Function],
+                        "enqueueReplaceState": [Function],
+                        "enqueueSetState": [Function],
+                        "isMounted": [Function],
+                      },
+                    },
+                    "tag": 2,
+                    "treeBaseDuration": 0,
+                    "type": [Function],
+                    "updateQueue": null,
+                  },
+                  "_debugSource": Object {
+                    "fileName": "/Users/taylorjohndrew/Dev/projects/kb-sport-ui/src/components/presentational/EventsIcon/EventsIcon.js",
+                    "lineNumber": 11,
+                  },
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 1,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": "Events",
+                    "className": "eventsIcon__label",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": "Events",
+                    "className": "eventsIcon__label",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": <h2
+                    class="eventsIcon__label"
+>
+                    Events
+</h2>,
+                  "tag": 7,
+                  "treeBaseDuration": 0,
+                  "type": "h2",
+                  "updateQueue": null,
+                },
                 "stateNode": <img
                   src="/events_icon.png"
                   alt="events"
@@ -4421,33 +6014,52 @@ ReactWrapper {
               "key": null,
               "lastEffect": null,
               "memoizedProps": Object {
-                "children": <img
-                  alt="events"
-                  src="/events_icon.png"
+                "children": Array [
+                  <img
+                    alt="events"
+                    src="/events_icon.png"
 />,
-                "className": "icon__container eventsIcon__container",
+                  <h2
+                    className="eventsIcon__label"
+>
+                    Events
+</h2>,
+                ],
+                "className": "icon__container eventsIcon__container undefined",
               },
               "memoizedState": null,
               "mode": 0,
               "nextEffect": null,
               "pendingProps": Object {
-                "children": <img
-                  alt="events"
-                  src="/events_icon.png"
+                "children": Array [
+                  <img
+                    alt="events"
+                    src="/events_icon.png"
 />,
-                "className": "icon__container eventsIcon__container",
+                  <h2
+                    className="eventsIcon__label"
+>
+                    Events
+</h2>,
+                ],
+                "className": "icon__container eventsIcon__container undefined",
               },
               "ref": null,
               "return": [Circular],
               "selfBaseDuration": 0,
               "sibling": null,
               "stateNode": <div
-                class="icon__container eventsIcon__container"
+                class="icon__container eventsIcon__container undefined"
 >
                 <img
                                 src="/events_icon.png"
                                 alt="events"
                 />
+                <h2
+                                class="eventsIcon__label"
+                >
+                                Events
+                </h2>
 </div>,
               "tag": 7,
               "treeBaseDuration": 0,
@@ -4463,21 +6075,35 @@ ReactWrapper {
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
-              "children": <img
-                alt="events"
-                src="/events_icon.png"
+              "children": Array [
+                <img
+                  alt="events"
+                  src="/events_icon.png"
 />,
-              "className": "eventsIcon__container",
+                <h2
+                  className="eventsIcon__label"
+>
+                  Events
+</h2>,
+              ],
+              "className": "eventsIcon__container undefined",
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
-              "children": <img
-                alt="events"
-                src="/events_icon.png"
+              "children": Array [
+                <img
+                  alt="events"
+                  src="/events_icon.png"
 />,
-              "className": "eventsIcon__container",
+                <h2
+                  className="eventsIcon__label"
+>
+                  Events
+</h2>,
+              ],
+              "className": "eventsIcon__container undefined",
             },
             "ref": null,
             "return": FiberNode {
@@ -4554,12 +6180,17 @@ ReactWrapper {
                     "stateNode": Object {
                       "containerInfo": <div>
                         <div
-                                                class="icon__container eventsIcon__container"
+                                                class="icon__container eventsIcon__container undefined"
                         >
                                                 <img
                                                                         src="/events_icon.png"
                                                                         alt="events"
                                                 />
+                                                <h2
+                                                                        class="eventsIcon__label"
+                                                >
+                                                                        Events
+                                                </h2>
                         </div>
 </div>,
                       "context": Object {},
@@ -4652,12 +6283,17 @@ ReactWrapper {
                   "stateNode": Object {
                     "containerInfo": <div>
                       <div
-                                            class="icon__container eventsIcon__container"
+                                            class="icon__container eventsIcon__container undefined"
                       >
                                             <img
                                                                   src="/events_icon.png"
                                                                   alt="events"
                                             />
+                                            <h2
+                                                                  class="eventsIcon__label"
+                                            >
+                                                                  Events
+                                            </h2>
                       </div>
 </div>,
                     "context": Object {},
@@ -4822,12 +6458,17 @@ ReactWrapper {
                     "stateNode": Object {
                       "containerInfo": <div>
                         <div
-                                                class="icon__container eventsIcon__container"
+                                                class="icon__container eventsIcon__container undefined"
                         >
                                                 <img
                                                                         src="/events_icon.png"
                                                                         alt="events"
                                                 />
+                                                <h2
+                                                                        class="eventsIcon__label"
+                                                >
+                                                                        Events
+                                                </h2>
                         </div>
 </div>,
                       "context": Object {},
@@ -4920,12 +6561,17 @@ ReactWrapper {
                   "stateNode": Object {
                     "containerInfo": <div>
                       <div
-                                            class="icon__container eventsIcon__container"
+                                            class="icon__container eventsIcon__container undefined"
                       >
                                             <img
                                                                   src="/events_icon.png"
                                                                   alt="events"
                                             />
+                                            <h2
+                                                                  class="eventsIcon__label"
+                                            >
+                                                                  Events
+                                            </h2>
                       </div>
 </div>,
                     "context": Object {},
@@ -5032,11 +6678,18 @@ ReactWrapper {
           "_reactInternalInstance": Object {},
           "context": Object {},
           "props": Object {
-            "children": <img
-              alt="events"
-              src="/events_icon.png"
+            "children": Array [
+              <img
+                alt="events"
+                src="/events_icon.png"
 />,
-            "className": "eventsIcon__container",
+              <h2
+                className="eventsIcon__label"
+>
+                Events
+</h2>,
+            ],
+            "className": "eventsIcon__container undefined",
           },
           "refs": Object {},
           "state": null,
@@ -5050,30 +6703,49 @@ ReactWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "children": <img
-            alt="events"
-            src="/events_icon.png"
+          "children": Array [
+            <img
+              alt="events"
+              src="/events_icon.png"
 />,
-          "className": "eventsIcon__container",
+            <h2
+              className="eventsIcon__label"
+>
+              Events
+</h2>,
+          ],
+          "className": "eventsIcon__container undefined",
         },
         "ref": null,
         "rendered": Object {
           "instance": <div
-            class="icon__container eventsIcon__container"
+            class="icon__container eventsIcon__container undefined"
 >
             <img
                         src="/events_icon.png"
                         alt="events"
             />
+            <h2
+                        class="eventsIcon__label"
+            >
+                        Events
+            </h2>
 </div>,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <img
-              alt="events"
-              src="/events_icon.png"
+            "children": Array [
+              <img
+                alt="events"
+                src="/events_icon.png"
 />,
-            "className": "icon__container eventsIcon__container",
+              <h2
+                className="eventsIcon__label"
+>
+                Events
+</h2>,
+            ],
+            "className": "icon__container eventsIcon__container undefined",
           },
           "ref": null,
           "rendered": Array [
@@ -5093,6 +6765,24 @@ ReactWrapper {
                 undefined,
               ],
               "type": "img",
+            },
+            Object {
+              "instance": <h2
+                class="eventsIcon__label"
+>
+                Events
+</h2>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Events",
+                "className": "eventsIcon__label",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Events",
+              ],
+              "type": "h2",
             },
           ],
           "type": "div",

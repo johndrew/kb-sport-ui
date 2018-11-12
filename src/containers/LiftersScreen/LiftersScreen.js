@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import { connect } from 'react-redux';
 import * as liftersSelectors from '../../store/lifters/reducer';
 import LifterBox from '../../components/presentational/LifterBox/LifterBox';
@@ -7,24 +7,33 @@ import * as lifterActions from '../../store/lifters/actions';
 import AddBox from '../../components/presentational/AddBox/AddBox';
 import ModalWrapper from '../../components/wrappers/ModalWrapper/ModalWrapper';
 import AddLifter from '../../components/forms/AddLifter/AddLifter';
+import LiftersIcon from '../../components/presentational/LiftersIcon/LiftersIcon';
 import './LiftersScreen.scss';
 
 class LiftersScreen extends Component {
 
     render() {
 
-        const lifters = this.props.lifters.map(lifter => <LifterBox key={lifter.get('lifterId')} lifter={lifter} />);
+        const lifters = this.props.lifters.map(lifter =>
+            <LifterBox
+                key={lifter.get('lifterId')}
+                lifter={lifter}
+                enableModal={true} />
+        );
 
         return (
-            <div className="liftersScreen__container">
-                <BoxCollection>
-                    {lifters}
-                    <ModalWrapper
-                        triggerComponent={({ open }) => <AddBox addClicked={open}/>}>
-                        {({ close }) => <AddLifter addFinish={close}/>}
-                    </ModalWrapper>
-                </BoxCollection>
-            </div>
+            <Fragment>
+                <LiftersIcon className="liftersScreen__liftersIcon" />
+                <div className="liftersScreen__container">
+                    <BoxCollection>
+                        {lifters}
+                        <ModalWrapper
+                            triggerComponent={({ open }) => <AddBox addClicked={open}/>}>
+                            {({ close }) => <AddLifter addFinish={close}/>}
+                        </ModalWrapper>
+                    </BoxCollection>
+                </div>
+            </Fragment>
         );
     }
 
@@ -37,7 +46,7 @@ class LiftersScreen extends Component {
 function mapStateToProps(state) {
 
     return {
-        lifters: liftersSelectors.getLifters(state),
+        lifters: liftersSelectors.getAllLifters(state),
     };
 }
   

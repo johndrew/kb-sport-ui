@@ -1,0 +1,22 @@
+@import '../../common.scss';
+
+.eventViewScreen__container {
+    display: grid;
+    grid-template-columns: 10% auto;
+}
+
+.eventViewScreen__eventsIcon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+    h2 {
+        font-size: $iconMiniLabel;
+    }
+}
+
+.eventViewScreen__eventType,
+.eventViewScreen__eventDuration {
+    color: $tan;
+}
