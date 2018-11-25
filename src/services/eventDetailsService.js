@@ -22,6 +22,7 @@ class EventDetailsService {
             body: JSON.stringify({
                 details: {
                     kettlebellWeight: details.kettlebellWeight,
+                    totalRepetitions: details.totalRepetitions,
                 },
             }),
             headers: {
