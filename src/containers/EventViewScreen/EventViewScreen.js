@@ -3,9 +3,11 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import * as eventSelectors from '../../store/events/reducer';
 import * as liftersSelectors from '../../store/lifters/reducer';
+import * as eventDetailsSelectors from '../../store/eventDetails/reducer';
 import * as routes from '../../routes';
 import * as eventActions from '../../store/events/actions';
 import * as lifterActions from '../../store/lifters/actions';
+import * as eventDetailsActions from '../../store/eventDetails/actions';
 import EventsIcon from '../../components/presentational/EventsIcon/EventsIcon';
 import AddBox from '../../components/presentational/AddBox/AddBox';
 import LifterBox from '../../components/presentational/LifterBox/LifterBox';
@@ -76,6 +78,7 @@ class EventViewScreen extends Component {
   
       this.props.dispatch(eventActions.fetchEvents());
       this.props.dispatch(lifterActions.fetchLifters());
+      this.props.dispatch(eventDetailsActions.fetchDetails());
     }
 
     handleGenderToggle() {
@@ -89,7 +92,7 @@ class EventViewScreen extends Component {
 function mapStateToProps(state, ownProps) {
 
     const event = eventSelectors.getEvent(state, ownProps.eventId);
-    const registeredLifters = liftersSelectors.getLifters(state, eventSelectors.getRegisteredLifters(event));
+    const registeredLifters = liftersSelectors.getLifters(state, eventDetailsSelectors.getRegisteredLifters(state, ownProps.eventId));
 
     return {
         event,

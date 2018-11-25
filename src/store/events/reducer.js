@@ -28,10 +28,3 @@ export function getEvent(state, eventId) {
 
     return getEvents(state).find(event => event.get('eventId') === eventId);
 }
-
-export function getRegisteredLifters(event) {
-
-    if (!event) return [];
-
-    return event.get('lifters', fromJS({ values: [] })).get('values');
-}

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import * as liftersSelectors from '../../../store/lifters/reducer';
 import * as eventSelectors from '../../../store/events/reducer';
+import * as eventDetailsSelectors from '../../../store/eventDetails/reducer';
 import BoxCollection from '../../wrappers/BoxCollection/BoxCollection';
 import LifterBox from '../../presentational/LifterBox/LifterBox';
 import eventsService from '../../../services/eventsService';
@@ -48,7 +49,7 @@ class ChooseLifter extends Component {
 function mapStateToProps(state, ownProps) {
 
     const event = eventSelectors.getEvent(state, ownProps.eventId);
-    const unregisteredLifters = liftersSelectors.getLiftersBesides(state, eventSelectors.getRegisteredLifters(event));
+    const unregisteredLifters = liftersSelectors.getLiftersBesides(state, eventDetailsSelectors.getRegisteredLifters(state, ownProps.eventId));
 
     return {
         event,

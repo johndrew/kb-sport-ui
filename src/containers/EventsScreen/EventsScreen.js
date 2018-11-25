@@ -19,9 +19,11 @@ class EventsScreen extends Component {
     if (!this.props.events) return <p>Loading...</p>;
 
     const events = this.props.events.map(event =>
-      <Link to={routes.getEventRoute(event.get('eventId'))}>
-        <EventBox key={event.get('eventId')} event={event} />
-      </Link>
+      <Fragment key={event.get('eventId')}>
+        <Link to={routes.getEventRoute(event.get('eventId'))}>
+          <EventBox key={event.get('eventId')} event={event} />
+        </Link>
+      </Fragment>
     );
 
     return (
