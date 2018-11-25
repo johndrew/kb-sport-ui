@@ -18,7 +18,8 @@ class LiftersScreen extends Component {
             <LifterBox
                 key={lifter.get('lifterId')}
                 lifter={lifter}
-                enableModal={true} />
+                enableModal={true}
+                lifterView={true} />
         );
 
         return (

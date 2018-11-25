@@ -39,7 +39,14 @@ class EventViewScreen extends Component {
             <LifterBox
                 key={lifter.get('lifterId')}
                 lifter={lifter}
-                enableModal={false} />
+                eventDetails={
+                    this.props.eventDetails.find(detail =>
+                        detail.get('lifterId') === lifter.get('lifterId') &&
+                        detail.get('eventId') === this.props.event.get('eventId')
+                    )
+                }
+                enableModal={true}
+                eventView={true} />
         );
 
         return (
@@ -92,10 +99,12 @@ class EventViewScreen extends Component {
 function mapStateToProps(state, ownProps) {
 
     const event = eventSelectors.getEvent(state, ownProps.eventId);
+    const eventDetails = eventDetailsSelectors.getDetailsForEvent(state, ownProps.eventId);
     const registeredLifters = liftersSelectors.getLifters(state, eventDetailsSelectors.getRegisteredLifters(state, ownProps.eventId));
 
     return {
         event,
+        eventDetails,
         registeredLifters,
         registeredFemaleLifters: liftersSelectors.filterByGender(registeredLifters, 'female'),
         registeredMaleLifters: liftersSelectors.filterByGender(registeredLifters, 'male'),

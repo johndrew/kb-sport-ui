@@ -6,6 +6,7 @@ import ModalWrapper from '../../wrappers/ModalWrapper/ModalWrapper';
 import liftersService from '../../../services/liftersService';
 import LifterDisplay from '../LifterDisplay/LifterDisplay';
 import './LifterBox.scss';
+import eventDetailsService from '../../../services/eventDetailsService';
 
 export default class LifterBox extends Component {
 
@@ -13,12 +14,16 @@ export default class LifterBox extends Component {
         
         super(props);
 
+        // lifterView is used to customize data about a lifter
+        // eventView is used to customize data about a lifter for a specific event
         this.state = {
             lifterUpdated: false,
-            weightClass: this.props.lifter.get('weightClass'),
+            weightClass: this.props.lifterView ? this.props.lifter.get('weightClass') : undefined,
+            kettlebellWeight: this.props.eventView ? this.props.eventDetails.get('kettlebellWeight') : undefined,
         };
 
         this.handleWeightClassChange = this.handleWeightClassChange.bind(this);
+        this.handleKettlebellWeightChange = this.handleKettlebellWeightChange.bind(this);
         this.submitLifterChanges = this.submitLifterChanges.bind(this);
     }
 
@@ -36,14 +41,15 @@ export default class LifterBox extends Component {
                             )}>
                             {({ close }) =>
                                 <Fragment>
-                                    {this.renderWeightClassDropdown()}
+                                    {this.props.lifterView && this.renderWeightClassDropdown()}
+                                    {this.props.eventView && this.renderKettlebellDropdown()}
                                     {this.state.lifterUpdated &&
                                         <button
                                             onClick={this.submitLifterChanges}>
                                             Update Lifter
                                         </button>
                                     }
-                                    {!this.state.lifterUpdated &&
+                                    {this.props.lifterView && !this.state.lifterUpdated &&
                                         <DeleteLifter
                                             lifterId={this.props.lifter.get('lifterId')}
                                             deleteFinish={close} />
@@ -84,6 +90,19 @@ export default class LifterBox extends Component {
         });
     }
 
+    get kettlebellWeights() {
+
+        return [
+            '8',
+            '12',
+            '16',
+            '20',
+            '24',
+            '28',
+            '32',
+        ].filter((weight) => (this.props.lifter.get('gender') === 'men' ? [ '8', '12' ] : [ '28', '32' ]).indexOf(weight) < 0);
+    }
+
     renderWeightClassDropdown() {
 
         return (
@@ -96,6 +115,18 @@ export default class LifterBox extends Component {
         );
     }
 
+    renderKettlebellDropdown() {
+
+        return (
+            <select
+                value={this.state.kettlebellWeight ? this.state.kettlebellWeight : 'Select One'}
+                onChange={this.handleKettlebellWeightChange}>
+                <option key={'Select One'}>Select One</option>
+                {_.map(this.kettlebellWeights, (weight) => <option key={weight}>{weight}</option>)}
+            </select>
+        );
+    }
+
     handleWeightClassChange(event) {
 
         this.setState({
@@ -104,11 +135,28 @@ export default class LifterBox extends Component {
         });
     }
 
+    handleKettlebellWeightChange(event) {
+
+        this.setState({
+            kettlebellWeight: event.target.value,
+            lifterUpdated: true,
+        });
+    }
+
     submitLifterChanges() {
 
-        liftersService.updateLifter(this.props.lifter.get('lifterId'), {
-            weightClass: this.state.weightClass,
-        });
+        if (this.props.lifterView) {
+            liftersService.updateLifter(this.props.lifter.get('lifterId'), {
+                weightClass: this.state.weightClass,
+            });
+        } else if (this.props.eventView) {
+            eventDetailsService.updateLifter(this.props.eventDetails.get('eventId'), this.props.eventDetails.get('lifterId'), {
+                kettlebellWeight: this.state.kettlebellWeight,
+            });
+        } else {
+            console.warn('WARN: no view type set for LifterBox. No submit action taken');
+        }
+
         this.setState({
             lifterUpdated: false,
         })
