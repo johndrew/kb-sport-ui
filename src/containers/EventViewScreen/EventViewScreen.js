@@ -35,10 +35,13 @@ class EventViewScreen extends Component {
         if (!this.props.event) return <p>Loading...</p>;
 
         const liftersToDisplay = this.state.showFemaleLifters ? this.props.registeredFemaleLifters : this.props.registeredMaleLifters;
-        const lifters = liftersToDisplay.map(lifter =>
+        const lifters = liftersToDisplay
+        .sortBy(lifter => lifter.get('firstName'))
+        .map(lifter =>
             <LifterBox
                 key={lifter.get('lifterId')}
                 lifter={lifter}
+                event={this.props.event}
                 eventDetails={
                     this.props.eventDetails.find(detail =>
                         detail.get('lifterId') === lifter.get('lifterId') &&

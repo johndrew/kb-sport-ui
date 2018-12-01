@@ -14,13 +14,15 @@ class LiftersScreen extends Component {
 
     render() {
 
-        const lifters = this.props.lifters.map(lifter =>
-            <LifterBox
-                key={lifter.get('lifterId')}
-                lifter={lifter}
-                enableModal={true}
-                lifterView={true} />
-        );
+        const lifters = this.props.lifters
+            .sortBy(lifter => lifter.get('firstName'))
+            .map(lifter =>
+                <LifterBox
+                    key={lifter.get('lifterId')}
+                    lifter={lifter}
+                    enableModal={true}
+                    lifterView={true} />
+            );
 
         return (
             <Fragment>
