@@ -9,6 +9,11 @@ describe(__filename, () => {
         const details = {
             kettlebellWeight: '20',
         };
+        const contextDetails = {
+            weight: '80.2',
+            eventType: 'Long Cycle',
+            eventDuration: '10min',
+        };
         
         describe('Positive Tests', () => {
 
@@ -20,7 +25,7 @@ describe(__filename, () => {
 
             it('should resolve if successful', async () => {
                 
-                await eventDetailsService.updateLifter(eventId, lifterId, details);
+                await eventDetailsService.updateLifter(eventId, lifterId, details, contextDetails);
             });
         });
         
@@ -28,17 +33,43 @@ describe(__filename, () => {
 
             it('should error if eventId is missing', async () => {
                 
-                await expect(eventDetailsService.updateLifter(null, lifterId, details)).rejects.toBeTruthy();
+                await expect(eventDetailsService.updateLifter(null, lifterId, details, contextDetails)).rejects.toBeTruthy();
             });
 
             it('should error if lifterId is missing', async () => {
                 
-                await expect(eventDetailsService.updateLifter(eventId, null, details)).rejects.toBeTruthy();
+                await expect(eventDetailsService.updateLifter(eventId, null, details, contextDetails)).rejects.toBeTruthy();
             });
 
             it('should error if details are missing', async () => {
                 
-                await expect(eventDetailsService.updateLifter(eventId, lifterId, null)).rejects.toBeTruthy();
+                await expect(eventDetailsService.updateLifter(eventId, lifterId, null, contextDetails)).rejects.toBeTruthy();
+            });
+
+            it('should error if context details are missing', async () => {
+                
+                await expect(eventDetailsService.updateLifter(eventId, lifterId, details, null)).rejects.toBeTruthy();
+            });
+
+            it('should error if weight is missing', async () => {
+
+                const context = Object.assign({}, contextDetails, { weight: undefined });
+                
+                await expect(eventDetailsService.updateLifter(eventId, lifterId, details, context)).rejects.toBeTruthy();
+            });
+
+            it('should error if event type is missing', async () => {
+
+                const context = Object.assign({}, contextDetails, { eventType: undefined });
+                
+                await expect(eventDetailsService.updateLifter(eventId, lifterId, details, context)).rejects.toBeTruthy();
+            });
+
+            it('should error if event duration is missing', async () => {
+
+                const context = Object.assign({}, contextDetails, { eventDuration: undefined });
+                
+                await expect(eventDetailsService.updateLifter(eventId, lifterId, details, context)).rejects.toBeTruthy();
             });
 
             describe('when network error occurs', () => {

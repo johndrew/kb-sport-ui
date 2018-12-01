@@ -10,16 +10,23 @@ class EventDetailsService {
         return fetch;
     }
 
-    async updateLifter(eventId, lifterId, details) {
+    async updateLifter(eventId, lifterId, details, contextDetails) {
 
         if (!eventId) throw new Error('eventId is required');
         if (!lifterId) throw new Error('eventId is required');
         if (!details) throw new Error('details are required');
+        if (!contextDetails) throw new Error('context details are required');
+        if (!contextDetails.weight) throw new Error('weight is required');
+        if (!contextDetails.eventType) throw new Error('eventType is required');
+        if (!contextDetails.eventDuration) throw new Error('eventDuration is required');
 
         return this.getFetch()(`${HOST}${getLifterUpdatePath(eventId, lifterId)}`, {
             method: 'POST',
             mode: 'cors',
             body: JSON.stringify({
+                weight: contextDetails.weight,
+                eventType: contextDetails.eventType,
+                eventDuration: contextDetails.eventDuration,
                 details: {
                     kettlebellWeight: details.kettlebellWeight,
                     totalRepetitions: details.totalRepetitions,

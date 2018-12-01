@@ -47,8 +47,14 @@ export default class LifterBox extends Component {
                                 <Fragment>
                                     {this.props.lifterView && this.renderWeightInput()}
                                     {this.props.lifterView && <p>Weight Class: {this.props.lifter.get('weightClass')}</p>}
+                                    
+                                    {/* TODO: Add validation to ensure all data is set. If not, display error and hide form */}
                                     {this.props.eventView && this.renderKettlebellDropdown()}
                                     {this.props.eventView && this.renderTotalRepetitions()}
+
+                                    {/* TODO: Add tooltip for scoring formula */}
+                                    {this.props.eventView && <p>Score: {this.props.eventDetails.get('score')} </p>}
+                                    
                                     {this.state.lifterUpdated &&
                                         <button
                                             onClick={() => this.submitLifterChanges(close)}>
@@ -98,18 +104,26 @@ export default class LifterBox extends Component {
     renderKettlebellDropdown() {
 
         return (
-            <select
-                value={this.state.kettlebellWeight ? this.state.kettlebellWeight : 'Select One'}
-                onChange={this.handleKettlebellWeightChange}>
-                <option key={'Select One'}>Select One</option>
-                {_.map(this.kettlebellWeights, (weight) => <option key={weight}>{weight}</option>)}
-            </select>
+            <Fragment>
+                <label>Kettlebell Weight:</label>
+                <select
+                    value={this.state.kettlebellWeight ? this.state.kettlebellWeight : 'Select One'}
+                    onChange={this.handleKettlebellWeightChange}>
+                    <option key={'Select One'}>Select One</option>
+                    {_.map(this.kettlebellWeights, (weight) => <option key={weight}>{weight}</option>)}
+                </select>
+            </Fragment>
         );
     }
 
     renderTotalRepetitions() {
 
-        return <input type="number" min="0" max="200" onChange={this.handleTotalRepetitionsChange} value={this.state.totalRepetitions} />;
+        return (
+            <Fragment>
+                <label>Total Repetitions:</label>
+                <input type="number" min="0" max="200" onChange={this.handleTotalRepetitionsChange} value={this.state.totalRepetitions} />
+            </Fragment>
+        );
     }
 
     handleWeightChange(event) {
@@ -146,7 +160,11 @@ export default class LifterBox extends Component {
             eventDetailsService.updateLifter(this.props.eventDetails.get('eventId'), this.props.eventDetails.get('lifterId'), {
                 kettlebellWeight: this.state.kettlebellWeight,
                 totalRepetitions: this.state.totalRepetitions,
-            }, this.props.lifter.get('gender'));
+            }, {
+                weight: this.props.lifter.get('weight'),
+                eventType: this.props.event.get('type'),
+                eventDuration: this.props.event.get('duration'),
+            });
         } else {
             console.warn('WARN: no view type set for LifterBox. No submit action taken');
         }
