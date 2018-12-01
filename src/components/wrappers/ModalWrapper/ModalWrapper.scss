@@ -1,5 +1,11 @@
 @import '../../../common.scss';
 
-.modalWrapper__closeButton {
+.modalWrapper__closeButton,
+.modalWrapper__container {
     color: $tan;
+}
+
+.modalWrapper__container {
+    display: grid;
+    justify-content: center;
 }

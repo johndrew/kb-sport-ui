@@ -1,6 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import Modal from 'react-modal';
 
+import './ModalWrapper.scss';
+
 const styles = {
     content: {
         'backgroundColor': '#3d3d3d',
@@ -35,7 +37,9 @@ export default class ModalWrapper extends Component {
                         onClick={this.closeModal}>
                         X
                     </span>
-                    {this.props.children({ close: this.closeModal })}
+                    <div className="modalWrapper__container">
+                        {this.props.children({ close: this.closeModal })}
+                    </div>
                 </Modal>
             </Fragment>
         );

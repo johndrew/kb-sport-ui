@@ -12,7 +12,7 @@ describe(__filename, () => {
 
         describe('Positive Tests', () => {
 
-            it('should resolve if call is successful');
+            // it('should resolve if call is successful');
         });
         
         describe('Negative Tests', () => {
@@ -38,7 +38,7 @@ describe(__filename, () => {
                 await expect(liftersService.addLifter(lifter)).rejects.toBeTruthy();
             });
 
-            it('should error if network call fails');
+            // it('should error if network call fails');
         });
     });
 
@@ -46,7 +46,7 @@ describe(__filename, () => {
         
         describe('Positive Tests', () => {
 
-            it('should resolve if successful');
+            // it('should resolve if successful');
         });
         
         describe('Negative Tests', () => {
@@ -56,7 +56,7 @@ describe(__filename, () => {
                 await expect(liftersService.deleteLifter(null)).rejects.toBeTruthy();
             });
 
-            it('should error if network call fails');
+            // it('should error if network call fails');
         });
     });
 
@@ -64,8 +64,9 @@ describe(__filename, () => {
 
         const lifterId = 'foo';
         const fieldsToUpdate = {
-            weightClass: 'Heavyweight',
+            weight: '75',
         };
+        const gender = 'women';
         
         describe('Positive Tests', () => {
 
@@ -82,7 +83,7 @@ describe(__filename, () => {
 
             it('should resolve if successful', async () => {
 
-                await expect(liftersService.updateLifter(lifterId, fieldsToUpdate)).resolves.toBeTruthy();
+                await expect(liftersService.updateLifter(lifterId, fieldsToUpdate, gender)).resolves.toBeTruthy();
             });
         });
         
@@ -90,12 +91,17 @@ describe(__filename, () => {
 
             it('should error if lifterId is missing', async () => {
                 
-                await expect(liftersService.updateLifter(null, fieldsToUpdate)).rejects.toBeTruthy();
+                await expect(liftersService.updateLifter(null, fieldsToUpdate, gender)).rejects.toBeTruthy();
             });
 
             it('should error if there are no fields to update', async () => {
 
-                await expect(liftersService.updateLifter(lifterId, null)).rejects.toBeTruthy();
+                await expect(liftersService.updateLifter(lifterId, null, gender)).rejects.toBeTruthy();
+            });
+
+            it('should error if gender is missing', async () => {
+                
+                await expect(liftersService.updateLifter(lifterId, fieldsToUpdate, null)).rejects.toBeTruthy();
             });
 
             describe('when a network error occurs', () => {
@@ -113,7 +119,7 @@ describe(__filename, () => {
                 
                 it('should error', async () => {
                     
-                    await expect(liftersService.updateLifter(lifterId, fieldsToUpdate)).rejects.toBeTruthy();
+                    await expect(liftersService.updateLifter(lifterId, fieldsToUpdate, gender)).rejects.toBeTruthy();
                 });
             });
         });

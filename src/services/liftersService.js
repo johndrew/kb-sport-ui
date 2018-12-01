@@ -67,10 +67,11 @@ class LiftersService {
             });
     }
 
-    async updateLifter(lifterId, fieldsToUpdate) {
+    async updateLifter(lifterId, fieldsToUpdate, gender) {
 
         if (!lifterId) throw new Error('lifterId is required');
         if (!fieldsToUpdate) throw new Error('fields are required');
+        if (!gender) throw new Error('gender is required');
 
         return this.getFetch()(`${HOST}${getUpdatePath(lifterId)}`, {
             method: 'POST',
@@ -79,6 +80,7 @@ class LiftersService {
                 'Content-Type': 'application/json',
             },
             body: JSON.stringify({
+                gender,
                 fields: fieldsToUpdate,
             }),
         })

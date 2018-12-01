@@ -18,14 +18,14 @@ export default class LifterBox extends Component {
             lifterUpdated: false,
 
             // lifterView is used to customize data about a lifter
-            weightClass: this.props.lifterView ? this.props.lifter.get('weightClass') : undefined,
+            weight: this.props.lifterView ? this.props.lifter.get('weight') : undefined,
 
             // eventView is used to customize data about a lifter for a specific event
             kettlebellWeight: this.props.eventView ? this.props.eventDetails.get('kettlebellWeight') : undefined,
             totalRepetitions: this.props.eventView ? this.props.eventDetails.get('totalRepetitions') : undefined,
         };
 
-        this.handleWeightClassChange = this.handleWeightClassChange.bind(this);
+        this.handleWeightChange = this.handleWeightChange.bind(this);
         this.handleKettlebellWeightChange = this.handleKettlebellWeightChange.bind(this);
         this.handleTotalRepetitionsChange = this.handleTotalRepetitionsChange.bind(this);
         this.submitLifterChanges = this.submitLifterChanges.bind(this);
@@ -45,12 +45,13 @@ export default class LifterBox extends Component {
                             )}>
                             {({ close }) =>
                                 <Fragment>
-                                    {this.props.lifterView && this.renderWeightClassDropdown()}
+                                    {this.props.lifterView && this.renderWeightInput()}
+                                    {this.props.lifterView && <p>Weight Class: {this.props.lifter.get('weightClass')}</p>}
                                     {this.props.eventView && this.renderKettlebellDropdown()}
                                     {this.props.eventView && this.renderTotalRepetitions()}
                                     {this.state.lifterUpdated &&
                                         <button
-                                            onClick={this.submitLifterChanges}>
+                                            onClick={() => this.submitLifterChanges(close)}>
                                             Update Lifter
                                         </button>
                                     }
@@ -71,30 +72,6 @@ export default class LifterBox extends Component {
         );
     }
 
-    get weightClassCategories() {
-        return [
-            'Strawweight',
-            'Flyweight',
-            'Bantamweight',
-            'Featherweight',
-            'Lightweight',
-            'Super Lightweight',
-            'Welterweight',
-            'Super Welterweight',
-            'Middleweight',
-            'Super Middleweight',
-            'Cruiserweight',
-            'Heavyweight',
-            'Super Heavyweight',
-        ].filter((category) => {
-            return (
-                this.props.lifter.get('gender') === 'men' ?
-                ['Strawweight', 'Flyweight', 'Super Welterweight'] :
-                ['Middleweight', 'Super Middleweight', 'Cruiserweight', 'Heavyweight', 'Super Heavyweight']
-            ).indexOf(category) < 0;
-        });
-    }
-
     get kettlebellWeights() {
 
         return [
@@ -108,15 +85,13 @@ export default class LifterBox extends Component {
         ].filter((weight) => (this.props.lifter.get('gender') === 'men' ? [ '8', '12' ] : [ '28', '32' ]).indexOf(weight) < 0);
     }
 
-    renderWeightClassDropdown() {
+    renderWeightInput() {
 
         return (
-            <select
-                value={this.state.weightClass ? this.state.weightClass : 'Select One'}
-                onChange={this.handleWeightClassChange}>
-                <option key={'Select One'}>Select One</option>
-                {_.map(this.weightClassCategories, (category) => <option key={category}>{category}</option>)}
-            </select>
+            <Fragment>
+                <label>Weight:</label>
+                <input type="number" value={this.state.weight} onChange={this.handleWeightChange} />
+            </Fragment>
         );
     }
 
@@ -137,10 +112,10 @@ export default class LifterBox extends Component {
         return <input type="number" min="0" max="200" onChange={this.handleTotalRepetitionsChange} value={this.state.totalRepetitions} />;
     }
 
-    handleWeightClassChange(event) {
+    handleWeightChange(event) {
 
         this.setState({
-            weightClass: event.target.value,
+            weight: event.target.value,
             lifterUpdated: true,
         });
     }
@@ -161,23 +136,24 @@ export default class LifterBox extends Component {
         });
     }
 
-    submitLifterChanges() {
+    submitLifterChanges(closeProp) {
 
         if (this.props.lifterView) {
             liftersService.updateLifter(this.props.lifter.get('lifterId'), {
-                weightClass: this.state.weightClass,
-            });
+                weight: this.state.weight,
+            }, this.props.lifter.get('gender'));
         } else if (this.props.eventView) {
             eventDetailsService.updateLifter(this.props.eventDetails.get('eventId'), this.props.eventDetails.get('lifterId'), {
                 kettlebellWeight: this.state.kettlebellWeight,
                 totalRepetitions: this.state.totalRepetitions,
-            });
+            }, this.props.lifter.get('gender'));
         } else {
             console.warn('WARN: no view type set for LifterBox. No submit action taken');
         }
 
         this.setState({
             lifterUpdated: false,
-        })
+        });
+        closeProp();
     }
 }
