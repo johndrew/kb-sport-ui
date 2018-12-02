@@ -13,6 +13,8 @@ describe(__filename, () => {
             weight: '80.2',
             eventType: 'Long Cycle',
             eventDuration: '10min',
+            gender: 'men',
+            weightClass: 'Bantamweight',
         };
         
         describe('Positive Tests', () => {
@@ -68,6 +70,20 @@ describe(__filename, () => {
             it('should error if event duration is missing', async () => {
 
                 const context = Object.assign({}, contextDetails, { eventDuration: undefined });
+                
+                await expect(eventDetailsService.updateLifter(eventId, lifterId, details, context)).rejects.toBeTruthy();
+            });
+
+            it('should error if gender is missing', async () => {
+
+                const context = Object.assign({}, contextDetails, { gender: undefined });
+                
+                await expect(eventDetailsService.updateLifter(eventId, lifterId, details, context)).rejects.toBeTruthy();
+            });
+
+            it('should error if weight class is missing', async () => {
+
+                const context = Object.assign({}, contextDetails, { weightClass: undefined });
                 
                 await expect(eventDetailsService.updateLifter(eventId, lifterId, details, context)).rejects.toBeTruthy();
             });

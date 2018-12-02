@@ -19,6 +19,8 @@ class EventDetailsService {
         if (!contextDetails.weight) throw new Error('weight is required');
         if (!contextDetails.eventType) throw new Error('eventType is required');
         if (!contextDetails.eventDuration) throw new Error('eventDuration is required');
+        if (!contextDetails.gender) throw new Error('gender is required');
+        if (!contextDetails.weightClass) throw new Error('weightClass is required');
 
         return this.getFetch()(`${HOST}${getLifterUpdatePath(eventId, lifterId)}`, {
             method: 'POST',
@@ -27,10 +29,12 @@ class EventDetailsService {
                 weight: contextDetails.weight,
                 eventType: contextDetails.eventType,
                 eventDuration: contextDetails.eventDuration,
+                gender: contextDetails.gender,
+                weightClass: contextDetails.weightClass,
                 details: {
                     kettlebellWeight: details.kettlebellWeight,
                     totalRepetitions: details.totalRepetitions,
-                },
+                }
             }),
             headers: {
                 'Content-Type': 'application/json',
