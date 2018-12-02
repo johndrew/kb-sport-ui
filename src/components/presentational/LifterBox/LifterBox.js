@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import _ from 'lodash';
+import { toast } from 'react-toastify';
 import Box from '../Box/Box';
 import DeleteLifter from '../../forms/DeleteLifter/DeleteLifter';
 import ModalWrapper from '../../wrappers/ModalWrapper/ModalWrapper';
@@ -49,11 +50,15 @@ export default class LifterBox extends Component {
                                     {this.props.lifterView && <p>Weight Class: {this.props.lifter.get('weightClass')}</p>}
                                     
                                     {/* TODO: Add validation to ensure all data is set. If not, display error and hide form */}
+                                    {/* TODO: Add validation to ensure genders select their proper kb weights */}
                                     {this.props.eventView && this.renderKettlebellDropdown()}
                                     {this.props.eventView && this.renderTotalRepetitions()}
 
                                     {/* TODO: Add tooltip for scoring formula */}
                                     {this.props.eventView && <p>Score: {this.props.eventDetails.get('score')} </p>}
+
+                                    {/* TODO: Add download link for ranking table pdf */}
+                                    {this.props.eventView && <p>Rank: {this.props.eventDetails.get('rank')} </p>}
                                     
                                     {this.state.lifterUpdated &&
                                         <button
@@ -155,7 +160,9 @@ export default class LifterBox extends Component {
         if (this.props.lifterView) {
             liftersService.updateLifter(this.props.lifter.get('lifterId'), {
                 weight: this.state.weight,
-            }, this.props.lifter.get('gender'));
+            }, this.props.lifter.get('gender'))
+            .then(() => toast('Lifter updated successfully'))
+            .catch((err) => toast(err.message));
         } else if (this.props.eventView) {
             eventDetailsService.updateLifter(this.props.eventDetails.get('eventId'), this.props.eventDetails.get('lifterId'), {
                 kettlebellWeight: this.state.kettlebellWeight,
@@ -164,7 +171,11 @@ export default class LifterBox extends Component {
                 weight: this.props.lifter.get('weight'),
                 eventType: this.props.event.get('type'),
                 eventDuration: this.props.event.get('duration'),
-            });
+                gender: this.props.lifter.get('gender'),
+                weightClass: this.props.lifter.get('weightClass'),
+            })
+            .then(() => toast('Lifter updated successfully'))
+            .catch((err) => toast(err.message));
         } else {
             console.warn('WARN: no view type set for LifterBox. No submit action taken');
         }
