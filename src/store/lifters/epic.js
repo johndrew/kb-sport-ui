@@ -14,7 +14,7 @@ export function fetchLifters(action$, state$) {
   return action$.pipe(
     ofType(types.FETCH_LIFTERS),
     switchMap(params => {
-      return timer(0, 2500).pipe(
+      return timer(0, 5000).pipe(
         mergeMap(action =>
           ajax.getJSON(`${HOST}${GET_ALL_PATH}`).pipe(
             map(response => fetchLiftersFulfilled(response))
