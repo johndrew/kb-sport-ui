@@ -3,6 +3,7 @@ export const BASE_PATH = '/dev/events';
 export const GET_ALL_PATH = `${BASE_PATH}/event/details`;
 export const getLifterRegisterPath = (eventId) => `${BASE_PATH}/event/${eventId}/registerLifters`;
 export const getLifterUpdatePath = (eventId, lifterId) => `${BASE_PATH}/event/${eventId}/lifter/${lifterId}/details`;
+export const getUnregisterLifterPath = (eventId, lifterId) => `${BASE_PATH}/event/${eventId}/lifter/${lifterId}/unregister`;
 
 class EventDetailsService {
 
@@ -49,6 +50,30 @@ class EventDetailsService {
 
                 console.error('ERROR: Failed to update lifter for event', err);
                 throw new Error('Failed to update lifter for event');
+            });
+    }
+
+    async unregisterLifter(eventId, lifterId) {
+
+        if (!eventId) throw new Error('eventId is required');
+        if (!lifterId) throw new Error('lifterId is required');
+
+        return this.getFetch()(`${HOST}${getUnregisterLifterPath(eventId, lifterId)}`, {
+            method: 'GET',
+            mode: 'cors',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+        })
+            .then((response) => {
+
+                console.log('DEBUG: Successfully unregistered lifter from event');
+                return response;
+            })
+            .catch((err) => {
+
+                console.error('ERROR: Failed to unregister lifter from event', err);
+                throw new Error('Failed to unregister lifter from event');
             });
     }
 }

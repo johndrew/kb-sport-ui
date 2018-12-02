@@ -108,4 +108,56 @@ describe(__filename, () => {
             });
         });
     });
+
+    describe('method unregisterLifter', () => {
+
+        const eventId = 'foo';
+        const lifterId = 'bar';
+        
+        describe('Positive Tests', () => {
+
+            beforeEach(() => {
+
+                jest.spyOn(eventDetailsService, 'getFetch')
+                    .mockImplementation(() => () => Promise.resolve('success'));
+            });
+
+            it('should resolve if successful', async () => {
+                
+                await eventDetailsService.unregisterLifter(eventId, lifterId);
+            });
+        });
+        
+        describe('Negative Tests', () => {
+            
+            it('should error if event id is missing', async () => {
+                
+                await expect(eventDetailsService.unregisterLifter(null, lifterId)).rejects.toBeTruthy();
+            });
+
+            it('should error if lifter id is missing', async () => {
+                
+                await expect(eventDetailsService.unregisterLifter(eventId, null)).rejects.toBeTruthy();
+            });
+
+            describe('when network error occurs', () => {
+
+                beforeEach(() => {
+
+                    jest.spyOn(eventDetailsService, 'getFetch')
+                        .mockImplementation(() => () => Promise.reject(new Error('could not register')));
+                });
+
+                afterEach(() => {
+                    
+                    eventDetailsService.getFetch.mockRestore();
+                });
+
+                it('should error if network error occurs', async () => {
+                
+                    await expect(eventDetailsService.unregisterLifter(eventId, lifterId)).rejects.toBeTruthy();
+                });
+            });
+        });
+    });
 });

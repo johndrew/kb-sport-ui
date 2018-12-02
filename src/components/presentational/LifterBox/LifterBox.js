@@ -30,6 +30,7 @@ export default class LifterBox extends Component {
         this.handleKettlebellWeightChange = this.handleKettlebellWeightChange.bind(this);
         this.handleTotalRepetitionsChange = this.handleTotalRepetitionsChange.bind(this);
         this.submitLifterChanges = this.submitLifterChanges.bind(this);
+        this.handleUnregister = this.handleUnregister.bind(this);
     }
 
     render() {
@@ -49,16 +50,7 @@ export default class LifterBox extends Component {
                                     {this.props.lifterView && this.renderWeightInput()}
                                     {this.props.lifterView && <p>Weight Class: {this.props.lifter.get('weightClass')}</p>}
                                     
-                                    {/* TODO: Add validation to ensure all data is set. If not, display error and hide form */}
-                                    {/* TODO: Add validation to ensure genders select their proper kb weights */}
-                                    {this.props.eventView && this.renderKettlebellDropdown()}
-                                    {this.props.eventView && this.renderTotalRepetitions()}
-
-                                    {/* TODO: Add tooltip for scoring formula */}
-                                    {this.props.eventView && <p>Score: {this.props.eventDetails.get('score')} </p>}
-
-                                    {/* TODO: Add download link for ranking table pdf */}
-                                    {this.props.eventView && <p>Rank: {this.props.eventDetails.get('rank')} </p>}
+                                    {this.props.eventView && this.renderLifterView()}
                                     
                                     {this.state.lifterUpdated &&
                                         <button
@@ -70,6 +62,9 @@ export default class LifterBox extends Component {
                                         <DeleteLifter
                                             lifterId={this.props.lifter.get('lifterId')}
                                             deleteFinish={close} />
+                                    }
+                                    {this.props.eventView && !this.state.lifterUpdated &&
+                                        <button onClick={this.handleUnregister}>Unregister Lifter</button>
                                     }
                                 </Fragment>
                             }
@@ -131,6 +126,23 @@ export default class LifterBox extends Component {
         );
     }
 
+    renderLifterView() {
+
+        if (this.props.lifter.get('weight') == undefined) return <p>Please set lifter weight before adding event details!</p>
+
+        return (
+            <Fragment>
+                {this.renderKettlebellDropdown()}
+                {this.renderTotalRepetitions()}
+
+                {<p>Score: {this.props.eventDetails.get('score')} </p>}
+
+                {/* TODO: Add download link for ranking table pdf */}
+                <p>Rank: {this.props.eventDetails.get('rank')} </p>
+            </Fragment>
+        );
+    }
+
     handleWeightChange(event) {
 
         this.setState({
@@ -153,6 +165,13 @@ export default class LifterBox extends Component {
             totalRepetitions: event.target.value,
             lifterUpdated: true,
         });
+    }
+
+    handleUnregister() {
+
+        eventDetailsService.unregisterLifter(this.props.eventDetails.get('eventId'), this.props.eventDetails.get('lifterId'))
+            .then(() => toast('Lifter unregistered successfully'))
+            .catch((err) => toast(err.message));
     }
 
     submitLifterChanges(closeProp) {
