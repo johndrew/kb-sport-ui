@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
-import liftersService from '../../../services/liftersService';
 import { toast } from 'react-toastify';
+import liftersService from '../../../services/liftersService';
 
 export default class DeleteLifter extends Component {
 
     constructor(args) {
 
         super(args);
+
+        this.state = {
+            disableDelete: this.props.isLifterRegistered,
+        };
 
         this.handleDelete = this.handleDelete.bind(this);
     }
@@ -25,9 +29,13 @@ export default class DeleteLifter extends Component {
 
     handleDelete() {
 
-        liftersService.deleteLifter(this.props.lifterId)
-            .then(() => toast('Successfully deleted lifter'))
-            .catch(err => toast(err.message));
-        this.props.deleteFinish();
+        if (this.state.disableDelete) {
+            toast('Please unregister lifter from all events before deleting');
+        } else {
+            liftersService.deleteLifter(this.props.lifterId)
+                .then(() => this.props.deleteFinish())
+                .then(() => toast('Successfully deleted lifter'))
+                .catch(err => toast(err.message));
+        }
     }
 }

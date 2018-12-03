@@ -1,13 +1,15 @@
 import React, { Component, Fragment } from 'react';
 import _ from 'lodash';
 import { toast } from 'react-toastify';
-import Box from '../Box/Box';
+import { Link } from 'react-router-dom';
+import Box from '../../presentational/Box/Box';
 import DeleteLifter from '../../forms/DeleteLifter/DeleteLifter';
 import ModalWrapper from '../../wrappers/ModalWrapper/ModalWrapper';
 import liftersService from '../../../services/liftersService';
-import LifterDisplay from '../LifterDisplay/LifterDisplay';
-import './LifterBox.scss';
+import LifterDisplay from '../../presentational/LifterDisplay/LifterDisplay';
 import eventDetailsService from '../../../services/eventDetailsService';
+import * as routes from '../../../routes';
+import './LifterBox.scss';
 
 export default class LifterBox extends Component {
 
@@ -49,6 +51,7 @@ export default class LifterBox extends Component {
                                 <Fragment>
                                     {this.props.lifterView && this.renderWeightInput()}
                                     {this.props.lifterView && <p>Weight Class: {this.props.lifter.get('weightClass')}</p>}
+                                    {this.props.lifterView && <p>Total Number of Registered Events: {Number(this.props.totalOfRegisteredEvents)}</p>}
                                     
                                     {this.props.eventView && this.renderLifterView()}
                                     
@@ -61,6 +64,7 @@ export default class LifterBox extends Component {
                                     {this.props.lifterView && !this.state.lifterUpdated &&
                                         <DeleteLifter
                                             lifterId={this.props.lifter.get('lifterId')}
+                                            isLifterRegistered={this.props.isLifterRegistered}
                                             deleteFinish={close} />
                                     }
                                     {this.props.eventView && !this.state.lifterUpdated &&
@@ -128,7 +132,12 @@ export default class LifterBox extends Component {
 
     renderLifterView() {
 
-        if (this.props.lifter.get('weight') == undefined) return <p>Please set lifter weight before adding event details!</p>
+        if (this.props.lifter.get('weight') == undefined) return (
+            <Fragment>
+                <p>Please set lifter weight before adding event details!</p>
+                <Link to={routes.LIFTERS}><p className="lifterBox__link">Go to Lifters Page</p></Link>
+            </Fragment>
+        );
 
         return (
             <Fragment>
@@ -180,8 +189,9 @@ export default class LifterBox extends Component {
             liftersService.updateLifter(this.props.lifter.get('lifterId'), {
                 weight: this.state.weight,
             }, this.props.lifter.get('gender'))
-            .then(() => toast('Lifter updated successfully'))
-            .catch((err) => toast(err.message));
+                .then(() => this.props.lifterUpdated()) // Inform connected component to re-poll for data
+                .then(() => toast('Lifter updated successfully'))
+                .catch((err) => toast(err.message));
         } else if (this.props.eventView) {
             eventDetailsService.updateLifter(this.props.eventDetails.get('eventId'), this.props.eventDetails.get('lifterId'), {
                 kettlebellWeight: this.state.kettlebellWeight,
@@ -193,8 +203,9 @@ export default class LifterBox extends Component {
                 gender: this.props.lifter.get('gender'),
                 weightClass: this.props.lifter.get('weightClass'),
             })
-            .then(() => toast('Lifter updated successfully'))
-            .catch((err) => toast(err.message));
+                .then(() => this.props.lifterUpdated()) // Inform connected component to re-poll for data
+                .then(() => toast('Lifter updated successfully'))
+                .catch((err) => toast(err.message));
         } else {
             console.warn('WARN: no view type set for LifterBox. No submit action taken');
         }

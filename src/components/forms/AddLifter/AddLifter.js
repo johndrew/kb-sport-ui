@@ -77,8 +77,8 @@ export default class AddLifter extends Component {
     addLifter() {
 
         liftersService.addLifter(this.state)
+            .then(() => this.props.addFinish())
             .then(() => toast('Lifter added successfully'))
             .catch((err) => toast(err.message));
-        this.props.addFinish();
     }
 }

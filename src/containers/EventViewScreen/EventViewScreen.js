@@ -10,7 +10,7 @@ import * as lifterActions from '../../store/lifters/actions';
 import * as eventDetailsActions from '../../store/eventDetails/actions';
 import EventsIcon from '../../components/presentational/EventsIcon/EventsIcon';
 import AddBox from '../../components/presentational/AddBox/AddBox';
-import LifterBox from '../../components/presentational/LifterBox/LifterBox';
+import LifterBox from '../../components/forms/LifterBox/LifterBox';
 import BoxCollection from '../../components/wrappers/BoxCollection/BoxCollection';
 import ModalWrapper from '../../components/wrappers/ModalWrapper/ModalWrapper';
 import ChooseLifter from '../../components/forms/ChooseLifter/ChooseLifter';
@@ -28,6 +28,8 @@ class EventViewScreen extends Component {
         }
 
         this.handleGenderToggle = this.handleGenderToggle.bind(this);
+        this.handleLifterRegistered = this.handleLifterRegistered.bind(this);
+        this.handleEventDetailUpdated = this.handleEventDetailUpdated.bind(this);
     }
 
     render() {
@@ -49,7 +51,8 @@ class EventViewScreen extends Component {
                     )
                 }
                 enableModal={true}
-                eventView={true} />
+                eventView={true}
+                lifterUpdated={this.handleEventDetailUpdated} />
         );
 
         return (
@@ -75,7 +78,7 @@ class EventViewScreen extends Component {
                                 <ChooseLifter
                                     eventId={this.props.event.get('eventId')}
                                     gender={this.state.showFemaleLifters ? 'female' : 'male'}
-                                    lifterChosen={close} />
+                                    lifterChosen={() => this.handleLifterRegistered(close)} />
                             }
                         </ModalWrapper>
                     </BoxCollection>
@@ -96,6 +99,19 @@ class EventViewScreen extends Component {
         this.setState({
             showFemaleLifters: !this.state.showFemaleLifters,
         });
+    }
+
+    handleLifterRegistered(close) {
+
+        close();
+        this.props.dispatch(eventActions.cancelFetch());
+        this.props.dispatch(eventActions.fetchEvents());
+    }
+
+    handleEventDetailUpdated() {
+
+        this.props.dispatch(eventDetailsActions.cancelFetch());
+        this.props.dispatch(eventDetailsActions.fetchDetails());
     }
 }
 

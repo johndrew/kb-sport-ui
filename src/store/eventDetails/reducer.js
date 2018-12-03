@@ -33,3 +33,17 @@ export function getRegisteredLifters(state, eventId) {
 
     return getDetailsForEvent(state, eventId).map(event => event.get('lifterId'));
 }
+
+/**
+ * Determines if a lifter is registered to any event
+ * @returns {Boolean}
+ */
+export function isLifterRegistered(details, lifterId) {
+
+    return details.find(detail => detail.get('lifterId') === lifterId) != undefined;
+}
+
+export function getNumberOfRegisteredEvents(details, lifterId) {
+
+    return details.reduce((total, detail) => (detail.get('lifterId') === lifterId ? total + 1 : total), 0);
+}

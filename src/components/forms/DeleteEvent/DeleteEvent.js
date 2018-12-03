@@ -26,8 +26,8 @@ export default class DeleteEvent extends Component {
     handleDelete() {
 
         eventsService.deleteEvent(this.props.eventId)
+            .then(() => this.props.deleteFinish())
             .then(() => toast('Successfully deleted event'))
             .catch(err => toast(err.message));
-        this.props.deleteFinish();
     }
 }

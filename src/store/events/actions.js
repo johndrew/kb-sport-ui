@@ -6,3 +6,10 @@ export function fetchEvents() {
         type: types.FETCH_EVENTS,
     };
 }
+
+export function cancelFetch() {
+
+    return {
+        type: types.FETCH_CANCELLED,
+    }
+}

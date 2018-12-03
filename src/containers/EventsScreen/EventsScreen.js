@@ -14,6 +14,13 @@ import './EventsScreen.scss';
 
 class EventsScreen extends Component {
 
+  constructor(props) {
+
+    super(props);
+
+    this.handleEventAdded = this.handleEventAdded.bind(this);
+  }
+
   render() {
 
     if (!this.props.events) return <p>Loading...</p>;
@@ -36,7 +43,7 @@ class EventsScreen extends Component {
             {events}
             <ModalWrapper
               triggerComponent={({ open }) => <AddBox addClicked={open}/>}>
-              {({ close }) => <AddEvent addFinish={close}/>}
+              {({ close }) => <AddEvent addFinish={() => this.handleEventAdded(close)}/>}
             </ModalWrapper>
           </BoxCollection>
         </div>
@@ -46,6 +53,13 @@ class EventsScreen extends Component {
 
   componentDidMount() {
 
+    this.props.dispatch(eventActions.fetchEvents());
+  }
+
+  handleEventAdded(close) {
+
+    close();
+    this.props.dispatch(eventActions.cancelFetch());
     this.props.dispatch(eventActions.fetchEvents());
   }
 }

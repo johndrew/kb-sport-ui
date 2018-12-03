@@ -4,7 +4,7 @@ import * as liftersSelectors from '../../../store/lifters/reducer';
 import * as eventSelectors from '../../../store/events/reducer';
 import * as eventDetailsSelectors from '../../../store/eventDetails/reducer';
 import BoxCollection from '../../wrappers/BoxCollection/BoxCollection';
-import LifterBox from '../../presentational/LifterBox/LifterBox';
+import LifterBox from '../../forms/LifterBox/LifterBox';
 import eventsService from '../../../services/eventsService';
 
 class ChooseLifter extends Component {
